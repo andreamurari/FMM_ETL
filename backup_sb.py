@@ -22,7 +22,7 @@ SUPABASE_USER = "postgres.vhowswomnwhbfdpslsep"
 SUPABASE_PASSWORD = db_password
 
 # 📁 Cartella principale di output
-BASE_DIR = r"G:\Il mio Drive\MANTRA MANAGERIALE\script_refresh_listone\nuovo_flusso_supabase\backup"
+BASE_DIR = os.path.join(os.getcwd(), "backup")
 
 # 📅 Crea sottocartella con data nel formato yyyy_mm_dd
 today_str = datetime.now().strftime("%Y_%m_%d")
@@ -79,3 +79,4 @@ for table in tables:
 cur.close()
 conn.close()
 print("🎉 Esportazione completata!")
+
