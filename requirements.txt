@@ -1,0 +1,9 @@
+gspread
+gspread-dataframe
+pandas
+numpy
+psycopg2-binary
+requests
+selenium
+openpyxl
+webdriver-manager
