@@ -2,8 +2,8 @@ name: Supabase Backup to GitHub
 
 on:
   schedule:
-    - cron: "0 2 * * *"  # ⏰ Esegui ogni notte alle 2:00 UTC (modifica se vuoi)
-  workflow_dispatch:      # ✅ Permette anche l’avvio manuale
+    - cron: "0 2 * * *"  # ⏰ Esegue ogni notte alle 2:00 UTC
+  workflow_dispatch:      # ✅ Avvio manuale possibile
 
 permissions:
   contents: write         # 🔐 Permesso per fare push nel repo
@@ -36,11 +36,11 @@ jobs:
         run: |
           python backup_sb.py
 
-      # 💾 Commit e push automatico dei CSV
+      # 💾 Commit e push automatico dei CSV solo nella cartella backup/
       - name: Commit and push backup
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
           git add backup/
-          git diff --quiet && git diff --staged --quiet || git commit -m "Backup automatico $(date +'%Y-%m-%d %H:%M:%S')"
+          git diff --quiet backup/ && git diff --staged --quiet backup/ || git commit -m "Backup automatico $(date +'%Y-%m-%d %H:%M:%S')"
           git push
