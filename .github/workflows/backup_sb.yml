@@ -1,0 +1,39 @@
+name: backup_sb
+
+on:
+  workflow_dispatch:        # lancio manuale
+  # schedule:                 # lancio automatico
+  #  - cron: "0 */4 * * *"   # ogni 4 ore
+
+jobs:
+  run-etl:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Esegui backup_sb
+      run: python -u backup_sb.py
+      env:
+        SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
+        GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+        FANTACALCIO_PASSWORD: ${{ secrets.FANTACALCIO_PASSWORD }}
+        CHROME_BIN: /usr/bin/google-chrome
+        CHROMEDRIVER_PATH: /usr/bin/chromedriver
+
+    - name: Upload log artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: backup_sb-log
+        path: ./log.txt
