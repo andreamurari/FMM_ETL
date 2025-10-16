@@ -22,7 +22,8 @@ SUPABASE_USER = "postgres.vhowswomnwhbfdpslsep"
 SUPABASE_PASSWORD = db_password
 
 # 📁 Cartella principale di output
-BASE_DIR = os.path.join(os.getcwd(), "backup")
+REPO_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.join(REPO_DIR, "backup")
 
 # 📅 Crea sottocartella con data nel formato yyyy_mm_dd
 today_str = datetime.now().strftime("%Y_%m_%d")
@@ -79,4 +80,5 @@ for table in tables:
 cur.close()
 conn.close()
 print("🎉 Esportazione completata!")
+
 
