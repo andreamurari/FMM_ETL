@@ -42,8 +42,7 @@ GOOGLE_CREDENTIALS_PATH = os.path.join(os.getcwd(), "google_credentials.json")
 if GOOGLE_CREDENTIALS_JSON:
     with open(GOOGLE_CREDENTIALS_PATH, "w", encoding="utf-8") as f:
         f.write(GOOGLE_CREDENTIALS_JSON)
-    print(f"🔐 Google credentials written to: {GOOGLE_CREDENTIALS_PATH}")
-
+    
 # Controlli minimi sui secrets
 if not SUPABASE_PASSWORD:
     raise RuntimeError("Missing SUPABASE_PASSWORD environment variable (set as GitHub Secret)")
@@ -188,15 +187,15 @@ if __name__ == '__main__':
     print("✅ Trasformazione completata!")
 
     # === OUTPUT LOCALE ===
-    output_path = os.path.join(os.getcwd(), "output_new_sb.xlsx")
-    new_sb.to_excel(output_path, index=False)
-    print(f"📁 File salvato localmente in: {output_path}")
+    #output_path = os.path.join(os.getcwd(), "output_new_sb.xlsx")
+    #new_sb.to_excel(output_path, index=False)
+    #print(f"📁 File salvato localmente in: {output_path}")
 
     # 3️⃣ LOAD SU SUPABASE
     print("⬆️ Caricamento su Supabase in corso...")
     cur = conn.cursor()
     cur.execute("TRUNCATE TABLE giocatore RESTART IDENTITY CASCADE;")
-    print("🧹 Tabella giocatore svuotata.")
+    print("✅ Tabella giocatore svuotata.")
 
     # 🔧 Converte stringhe vuote in None (NULL in Postgres)
     df = new_sb.copy()
@@ -250,9 +249,9 @@ if __name__ == '__main__':
     conn.commit()
     cur.close()
     conn.close()
-    print("✅ Dati reinseriti con successo.")
-    print(f"📊 Totale giocatori caricati: {len(new_sb)}")
-    print("🚀 ETL completato senza errori.")
+    print("✅ Dati reinseriti con successo: ")
+    print(f"Totale giocatori caricati: {len(new_sb)}")
+    #print("ETL completato senza errori.")
 
 
 # -----------------------------------------------------------------------------
@@ -320,3 +319,4 @@ if __name__ == '__main__':
 # psycopg2-binary
 # webdriver-manager
 # -----------------------------------------------------------------------------
+
