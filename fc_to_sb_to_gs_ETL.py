@@ -252,3 +252,33 @@ if __name__ == '__main__':
     print("✅ Dati reinseriti con successo: ")
     print(f"Totale giocatori caricati: {len(new_sb)}")
 
+    gc = gspread.service_account(GOOGLE_CREDENTIALS_JSON)    
+
+        
+    rename_mapping = {
+        "nome": "Calciatore",
+        "ruolo": "Ruolo",
+        "club": "CSA",
+        "detentore_cartellino": "Detentore Cartellino",
+        "squadra_att": "Squadra Attuale",
+        "costo": "Costo",
+        "tipo_contratto": "Tipo Contratto",
+        "quot_att_mantra": "Quotazione Attuale",
+        "id": "ID Calciatore"
+    }
+    
+    spreadsheet = gc.open("Test")
+    worksheet = spreadsheet.worksheet("Listone")
+    
+    df.rename(columns=rename_mapping, inplace=True)
+    df['Ruolo'] = df['Ruolo'].astype(str).str.replace('{', '').str.replace('}', '')
+    df.drop(["priorita"], axis=1, inplace=True)
+    print("✅ Trasformazione completata con successo!")
+    
+    worksheet.clear()
+    set_with_dataframe(worksheet, df)
+    
+    print("✅ Modifiche caricate nel Google Sheet.")
+
+
+
