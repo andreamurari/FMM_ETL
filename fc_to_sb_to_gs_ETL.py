@@ -254,8 +254,11 @@ if __name__ == '__main__':
     print("✅ Dati reinseriti con successo: ")
     print(f"Totale giocatori caricati: {len(new_sb)}")
 
-    gc = gspread.service_account(GOOGLE_CREDENTIALS_JSON)    
-
+    if GOOGLE_CREDENTIALS_PATH:
+        gc = gspread.service_account(GOOGLE_CREDENTIALS_PATH)
+    else:
+    # Aggiungi un messaggio di errore nel caso manchi la variabile d'ambiente
+        raise RuntimeError("GOOGLE_CREDENTIALS_JSON not found in environment or path not created.")
         
     rename_mapping = {
         "nome": "Calciatore",
@@ -281,6 +284,7 @@ if __name__ == '__main__':
     set_with_dataframe(worksheet, df)
     
     print("✅ Modifiche caricate nel Google Sheet.")
+
 
 
 
