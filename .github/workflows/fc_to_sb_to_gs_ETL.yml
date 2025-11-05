@@ -1,4 +1,4 @@
-name: fc_to_sb_ETL
+name: fc_to_sb_to_gs_ETL
 
 on:
   workflow_dispatch:        # lancio manuale
@@ -22,8 +22,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Esegui fc_to_sb_ETL
-      run: python -u fc_to_sb_ETL.py
+    - name: Esegui fc_to_sb_to_gs_ETL
+      run: python -u fc_to_sb_to_gs_ETL.py
       env:
         SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
         GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
