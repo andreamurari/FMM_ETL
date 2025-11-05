@@ -1,4 +1,4 @@
-name: ETL Totale
+name: fc_to_gs_to_sb
 
 on:
   workflow_dispatch:        # lancio manuale
@@ -23,7 +23,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Esegui ETL totale
-      run: python etl_totale.py
+      run: python fc_to_gs_to_sb.py
       env:
         SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
         GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
