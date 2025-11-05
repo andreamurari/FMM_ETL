@@ -13,6 +13,8 @@ import shutil
 import pandas as pd
 import psycopg2
 import requests
+import gspread
+from gspread_dataframe import set_with_dataframe
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -279,6 +281,7 @@ if __name__ == '__main__':
     set_with_dataframe(worksheet, df)
     
     print("✅ Modifiche caricate nel Google Sheet.")
+
 
 
 
