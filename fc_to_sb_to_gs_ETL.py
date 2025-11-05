@@ -278,13 +278,14 @@ if __name__ == '__main__':
     df.rename(columns=rename_mapping, inplace=True)
     df['Ruolo'] = df['Ruolo'].astype(str).str.replace('{', '').str.replace('}', '')
     df.drop(["priorita"], axis=1, inplace=True)
-    df['ID Calciatore'] = []
+    df['ID Calciatore'] = len(df['Calciatore'])*[1]
     print("✅ Trasformazione completata con successo!")
     
     worksheet.clear()
     set_with_dataframe(worksheet, df)
     
     print("✅ Modifiche caricate nel Google Sheet.")
+
 
 
 
