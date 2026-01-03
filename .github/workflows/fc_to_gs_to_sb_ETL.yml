@@ -3,7 +3,7 @@ name: fc_to_gs_to_sb_ETL
 on:
   workflow_dispatch:        # lancio manuale
    schedule:                # lancio automatico
-    - cron: "0 */4 * * *"   # ogni 4 ore
+    - cron: "0 */2 * * *"   # ogni 2 ore
 
 jobs:
   run-etl:
