@@ -32,7 +32,7 @@ SUPABASE_HOST = os.environ.get("SUPABASE_HOST", "aws-1-eu-central-1.pooler.supab
 SUPABASE_PORT = int(os.environ.get("SUPABASE_PORT", 6543))
 SUPABASE_DB = os.environ.get("SUPABASE_DB", "postgres")
 SUPABASE_USER = os.environ.get("SUPABASE_USER", "postgres.vhowswomnwhbfdpslsep")
-SUPABASE_PASSWORD = os.environ.get("SUPABASE_PASSWORD")  # <- SECRET
+SUPABASE_PASSWORD = os.environ.get("SUPABASE_PASSWORD")  
 SUPABASE_TABLE = os.environ.get("SUPABASE_TABLE", "giocatore")
 
 FANTACALCIO_USERNAME = os.environ.get("FANTACALCIO_USERNAME", "mura88")
@@ -285,6 +285,7 @@ if __name__ == '__main__':
     set_with_dataframe(worksheet, df)
     
     print("✅ Modifiche caricate nel Google Sheet.")
+
 
 
 
