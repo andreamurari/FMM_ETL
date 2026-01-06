@@ -1,10 +1,10 @@
 name: fc_to_sb_to_gs_ETL
 
 on:
+  schedule:                 # lancio automatico
+    - cron: "0 */1 * * *"   # ogni 1 ora
   workflow_dispatch:        # lancio manuale
-  # schedule:                 # lancio automatico
-  #  - cron: "0 */4 * * *"   # ogni 4 ore
-
+  
 jobs:
   run-etl:
     runs-on: ubuntu-latest
