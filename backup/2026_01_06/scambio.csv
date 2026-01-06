@@ -1,0 +1,18 @@
+id,squadra_proponente,squadra_destinataria,giocatori_offerti,giocatori_richiesti,crediti_offerti,crediti_richiesti,messaggio,stato,data_proposta,data_risposta
+2,AC Ciaccati,Diablitos FC,"[454, 27]","[176, 258]",3,23,Dai fra,annullato,2025-10-16 10:17:49.470767+00:00,
+4,AC Ciaccati,Diaolo Porco,"[166, 454]","[226, 457]",10,12,,annullato,2025-10-16 16:56:40.023313+00:00,
+6,AC Ciaccati,Diablitos FC,"[352, 220]","[262, 150]",1,10,Frociiii,accettato,2025-11-05 23:22:29.396767+00:00,2025-11-05 23:23:18.984413+00:00
+7,AC Ciaccati,Diablitos FC,"[61, 221]",[],1,1,,accettato,2025-11-05 23:24:12.677722+00:00,2025-11-05 23:24:37.251574+00:00
+8,FC Pontos,AC Ciaccati,[39],[129],1,1,,accettato,2025-11-07 15:45:46.172604+00:00,2025-11-07 15:50:22.238008+00:00
+9,FC Pontos,AC Ciaccati,[39],[129],3,2,,accettato,2025-11-07 15:56:19.434988+00:00,2025-11-07 15:57:13.598473+00:00
+10,FC Pontos,AC Ciaccati,[39],[129],2,4,,accettato,2025-11-07 16:00:37.481099+00:00,2025-11-07 16:01:23.289877+00:00
+11,FC Pontos,AC Ciaccati,[39],[129],10,2,,accettato,2025-11-07 16:46:54.525071+00:00,2025-11-07 17:01:45.290406+00:00
+3,AC Ciaccati,FC Pontos,"[454, 27]","[254, 449]",6,8,dai fra,annullato,2025-10-16 10:20:15.052079+00:00,
+12,FC Pontos,Metodo Monchi FC,[129],[229],2,6,,annullato,2025-11-10 10:47:50.302456+00:00,
+13,AC Ciaccati,Diablitos FC,[431],[262],2,3,,annullato,2025-11-18 22:15:22.195792+00:00,
+14,AC Ciaccati,Metodo Monchi FC,[1],[446],0,7,,rifiutato,2025-12-03 22:40:51.888408+00:00,2025-12-03 22:42:50.642467+00:00
+5,AC Ciaccati,Sborada,[229],[343],1,2,,annullato,2025-10-20 18:11:48.060989+00:00,
+15,AC Ciaccati,CyberDucks,[388],[19],0,0,,accettato,2025-12-03 22:43:48.099529+00:00,2025-12-03 22:44:47.715902+00:00
+16,AC Ciaccati,Diablitos FC,[388],[250],0,0,,accettato,2025-12-03 22:44:20.594158+00:00,2025-12-03 22:45:52.245354+00:00
+18,Diablitos FC,CyberDucks,[175],[505],10,0,opzionalepppppppppppppp,accettato,2025-12-03 22:50:30.112731+00:00,2025-12-03 22:50:47.527646+00:00
+17,AC Ciaccati,CyberDucks,[178],[505],0,0,,rifiutato,2025-12-03 22:49:35.233770+00:00,2025-12-04 00:31:21.159529+00:00
