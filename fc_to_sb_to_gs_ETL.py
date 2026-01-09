@@ -60,7 +60,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S"
 )
-'''
+
 # === FUNZIONE DOWNLOAD LISTONE FANTACALCIO ===
 def scarica_listone():
     """Scarica il listone Fantacalcio tramite Selenium e Requests"""
@@ -280,7 +280,7 @@ if __name__ == '__main__':
     worksheet.clear()
     set_with_dataframe(worksheet, df)
 
-    print("✅ Listone aggiornato nel Google Sheet.")'''
+    print("✅ Listone aggiornato nel Google Sheet.")
 
     # === Aggiorna crediti nel foglio Google Sheet ===
     print("⬆️ Aggiornamento crediti squadre in Google Sheet...")
@@ -300,6 +300,7 @@ if __name__ == '__main__':
     print("✅ Crediti squadre aggiornati nel Google Sheet.")
 
     print("🎉 ETL completato con successo!")
+
 
 
 
