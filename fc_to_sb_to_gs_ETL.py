@@ -292,7 +292,7 @@ if __name__ == '__main__':
         password=SUPABASE_PASSWORD
     )
     sbc = pd.read_sql(f"SELECT * FROM {SUPABASE_TABLE_CREDITI};", conn)
-    sbc = sbc['nome', 'crediti']
+    sbc = sbc[['nome', 'crediti']]
     sbc.rename(columns={'nome': 'Squadra', 'crediti': 'Crediti'}, inplace=True)    
     worksheet_crediti = spreadsheet.worksheet("Nuova_Crediti")    
     worksheet_crediti.clear()
@@ -300,6 +300,7 @@ if __name__ == '__main__':
     print("✅ Crediti squadre aggiornati nel Google Sheet.")
 
     print("🎉 ETL completato con successo!")
+
 
 
 
