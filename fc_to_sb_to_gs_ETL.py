@@ -1,9 +1,4 @@
-# File: etl_github_actions.py
-# RENDI PRONTO PER GITHUB ACTIONS
-# - Legge le password/credenziali da variabili d'ambiente (secrets)
-# - Usa webdriver-manager per ChromeDriver
-# - Salva GOOGLE_CREDENTIALS_JSON su file se fornito
-# - Adatta opzioni Chrome per esecuzione headless su CI
+# ETL listone Fantacalcio + crediti
 
 import os
 import time
@@ -34,6 +29,7 @@ SUPABASE_DB = os.environ.get("SUPABASE_DB", "postgres")
 SUPABASE_USER = os.environ.get("SUPABASE_USER", "postgres.vhowswomnwhbfdpslsep")
 SUPABASE_PASSWORD = os.environ.get("SUPABASE_PASSWORD")  
 SUPABASE_TABLE = os.environ.get("SUPABASE_TABLE", "giocatore")
+SUPABASE_TABLE_CREDITI = os.environ.get("SUPABASE_TABLE_CREDITI", "squadra")
 
 FANTACALCIO_USERNAME = os.environ.get("FANTACALCIO_USERNAME", "mura88")
 FANTACALCIO_PASSWORD = os.environ.get("FANTACALCIO_PASSWORD")  # <- SECRET
@@ -64,7 +60,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S"
 )
-
+'''
 # === FUNZIONE DOWNLOAD LISTONE FANTACALCIO ===
 def scarica_listone():
     """Scarica il listone Fantacalcio tramite Selenium e Requests"""
@@ -283,10 +279,27 @@ if __name__ == '__main__':
     
     worksheet.clear()
     set_with_dataframe(worksheet, df)
-    
-    print("✅ Modifiche caricate nel Google Sheet.")
 
+    print("✅ Listone aggiornato nel Google Sheet.")'''
 
+    # === Aggiorna crediti nel foglio Google Sheet ===
+    print("⬆️ Aggiornamento crediti squadre in Google Sheet...")
+    conn = psycopg2.connect(
+        host=SUPABASE_HOST,
+        port=SUPABASE_PORT,
+        dbname=SUPABASE_DB,
+        user=SUPABASE_USER,
+        password=SUPABASE_PASSWORD
+    )
+    sbc = pd.read_sql(f"SELECT * FROM {SUPABASE_TABLE_CREDITI};", conn)
+    sbc = sbc['nome', 'crediti']
+    sbc.rename(columns={'nome': 'Squadra', 'crediti': 'Crediti'}, inplace=True)    
+    worksheet_crediti = spreadsheet.worksheet("Nuova_Crediti")    
+    worksheet_crediti.clear()
+    set_with_dataframe(worksheet_crediti, sbc)
+    print("✅ Crediti squadre aggiornati nel Google Sheet.")
+
+    print("🎉 ETL completato con successo!")
 
 
 
