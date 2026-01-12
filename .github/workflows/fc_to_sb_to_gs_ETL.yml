@@ -2,7 +2,7 @@ name: fc_to_sb_to_gs_ETL
 
 on:
   schedule:                 # lancio automatico
-    - cron: "0 */1 * * *"   # ogni 1 ora
+#    - cron: "0 */1 * * *"   # ogni 1 ora
   workflow_dispatch:        # lancio manuale
   
 jobs:
