@@ -217,7 +217,6 @@ if __name__ == '__main__':
         cur.execute(
             """
             INSERT INTO giocatore (
-                id,
                 nome,
                 squadra_att,
                 detentore_cartellino,
@@ -228,9 +227,8 @@ if __name__ == '__main__':
                 costo,
                 priorita
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s)
-            ON CONFLICT (id) DO UPDATE SET
-                nome = EXCLUDED.nome,
+            VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s)
+            ON CONFLICT (nome) DO UPDATE SET
                 squadra_att = EXCLUDED.squadra_att,
                 detentore_cartellino = EXCLUDED.detentore_cartellino,
                 club = EXCLUDED.club,
@@ -241,7 +239,6 @@ if __name__ == '__main__':
                 priorita = EXCLUDED.priorita;
             """,
             (
-                row.get("id"),
                 row.get("nome"),
                 row.get("squadra_att"),
                 row.get("detentore_cartellino"),

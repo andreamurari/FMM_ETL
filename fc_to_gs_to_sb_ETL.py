@@ -251,7 +251,6 @@ for _, row in df.iterrows():
     cur.execute(
     """
     INSERT INTO giocatore (
-        id,
         nome,
         squadra_att,
         detentore_cartellino,
@@ -262,9 +261,8 @@ for _, row in df.iterrows():
         costo,
         priorita
     )
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s)
-    ON CONFLICT (id) DO UPDATE SET
-        nome = EXCLUDED.nome,
+    VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s)
+    ON CONFLICT (nome) DO UPDATE SET
         squadra_att = EXCLUDED.squadra_att,
         detentore_cartellino = EXCLUDED.detentore_cartellino,
         club = EXCLUDED.club,
@@ -275,7 +273,6 @@ for _, row in df.iterrows():
         priorita = EXCLUDED.priorita;
     """,
     (
-        row.get("id"),
         row.get("nome"),
         row.get("squadra_att"),
         row.get("detentore_cartellino"),
