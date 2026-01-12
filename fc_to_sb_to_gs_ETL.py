@@ -192,8 +192,6 @@ if __name__ == '__main__':
     # 3️⃣ LOAD SU SUPABASE
     print("⬆️ Caricamento su Supabase in corso...")
     cur = conn.cursor()
-    cur.execute("TRUNCATE TABLE giocatore;")
-    print("✅ Tabella giocatore svuotata.")
 
     # 🔧 Converte stringhe vuote in None (NULL in Postgres)
     df = new_sb.copy()
@@ -229,7 +227,16 @@ if __name__ == '__main__':
                 costo,
                 priorita
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s);
+            VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s)
+            ON CONFLICT (nome) DO UPDATE SET
+                squadra_att = EXCLUDED.squadra_att,
+                detentore_cartellino = EXCLUDED.detentore_cartellino,
+                club = EXCLUDED.club,
+                quot_att_mantra = EXCLUDED.quot_att_mantra,
+                tipo_contratto = EXCLUDED.tipo_contratto,
+                ruolo = EXCLUDED.ruolo,
+                costo = EXCLUDED.costo,
+                priorita = EXCLUDED.priorita;
             """,
             (
                 row.get("nome"),
