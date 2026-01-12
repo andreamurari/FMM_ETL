@@ -192,12 +192,12 @@ if __name__ == '__main__':
     # 3️⃣ LOAD SU SUPABASE
     print("⬆️ Caricamento su Supabase in corso...")
     cur = conn.cursor()
-    cur.execute("TRUNCATE TABLE giocatore RESTART IDENTITY CASCADE;")
+    cur.execute("TRUNCATE TABLE giocatore;")
     print("✅ Tabella giocatore svuotata.")
 
     # 🔧 Converte stringhe vuote in None (NULL in Postgres)
     df = new_sb.copy()
-    df = df.applymap(lambda x: None if x is None or str(x).strip() == "" else x)
+    df = df.map(lambda x: None if x is None or str(x).strip() == "" else x)
 
     for _, row in df.iterrows():
         valore = row.get("ruolo")
@@ -253,7 +253,7 @@ if __name__ == '__main__':
     if GOOGLE_CREDENTIALS_PATH:
         gc = gspread.service_account(GOOGLE_CREDENTIALS_PATH)
     else:
-    # Aggiungi un messaggio di errore nel caso manchi la variabile d'ambiente
+        # Aggiungi un messaggio di errore nel caso manchi la variabile d'ambiente
         raise RuntimeError("GOOGLE_CREDENTIALS_JSON not found in environment or path not created.")
         
     rename_mapping = {
@@ -273,8 +273,8 @@ if __name__ == '__main__':
     
     df.rename(columns=rename_mapping, inplace=True)
     df['Ruolo'] = df['Ruolo'].astype(str).str.replace('{', '').str.replace('}', '')
-    df.drop(["priorita"], axis=1, inplace=True)
-    df['ID Calciatore'] = len(df['Calciatore'])*[1]
+    df.drop(["priorita"], axis=1, inplace=True, errors='ignore')
+    df['ID Calciatore'] = 1
     print("✅ Trasformazione completata con successo!")
     
     worksheet.clear()
