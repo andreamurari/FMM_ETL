@@ -248,32 +248,22 @@ for _, row in df.iterrows():
     else:
         valore = valore.replace("\n", ";")
         ruoli = [v.strip() for v in valore.split(";") if v.strip()]
+    
+    # Prova UPDATE prima
     cur.execute(
     """
-    INSERT INTO giocatore (
-        nome,
-        squadra_att,
-        detentore_cartellino,
-        club,
-        quot_att_mantra,
-        tipo_contratto,
-        ruolo,
-        costo,
-        priorita
-    )
-    VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s)
-    ON CONFLICT (nome) DO UPDATE SET
-        squadra_att = EXCLUDED.squadra_att,
-        detentore_cartellino = EXCLUDED.detentore_cartellino,
-        club = EXCLUDED.club,
-        quot_att_mantra = EXCLUDED.quot_att_mantra,
-        tipo_contratto = EXCLUDED.tipo_contratto,
-        ruolo = EXCLUDED.ruolo,
-        costo = EXCLUDED.costo,
-        priorita = EXCLUDED.priorita;
+    UPDATE giocatore SET
+        squadra_att = %s,
+        detentore_cartellino = %s,
+        club = %s,
+        quot_att_mantra = %s,
+        tipo_contratto = %s,
+        ruolo = %s::ruolo_mantra[],
+        costo = %s,
+        priorita = %s
+    WHERE nome = %s;
     """,
     (
-        row.get("nome"),
         row.get("squadra_att"),
         row.get("detentore_cartellino"),
         row.get("club"),
@@ -281,7 +271,38 @@ for _, row in df.iterrows():
         row.get("tipo_contratto"),
         ruoli,
         row.get("costo"),
-        row.get("priorita")  
+        row.get("priorita"),
+        row.get("nome"),
+    )
+    )
+    
+    # Se nessuna riga aggiornata, INSERT nuovo record
+    if cur.rowcount == 0:
+        cur.execute(
+        """
+        INSERT INTO giocatore (
+            nome,
+            squadra_att,
+            detentore_cartellino,
+            club,
+            quot_att_mantra,
+            tipo_contratto,
+            ruolo,
+            costo,
+            priorita
+        )
+        VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s);
+        """,
+        (
+            row.get("nome"),
+            row.get("squadra_att"),
+            row.get("detentore_cartellino"),
+            row.get("club"),
+            row.get("quot_att_mantra"),
+            row.get("tipo_contratto"),
+            ruoli,
+            row.get("costo"),
+            row.get("priorita")
     )
 )
 conn.commit()
