@@ -128,7 +128,7 @@ def scarica_listone():
             raise ValueError("❌ Formato file sconosciuto")
 
 # ----------------------------
-# Retry loop per scarico listone
+# Retry loop per scaricare listone
 # ----------------------------
 listone_fantacalcio = None
 for attempt in range(1, MAX_RETRIES + 1):
