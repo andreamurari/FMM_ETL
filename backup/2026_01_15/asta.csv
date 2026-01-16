@@ -1,0 +1,2 @@
+id,giocatore,squadra_vincente,ultima_offerta,tempo_fine_asta,tempo_fine_mostra_interesse,stato,partecipanti,gia_elaborata
+1,234,Metodo Monchi FC,23,2026-01-15 22:07:16.106091+00:00,,in_corso,"['Metodo Monchi FC', 'AC Ciaccati', 'Diaolo Porco', 'FC Pontos', 'Sborada', 'ZeroDayz FC']",False
