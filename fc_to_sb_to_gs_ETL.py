@@ -30,6 +30,7 @@ SUPABASE_USER = os.environ.get("SUPABASE_USER", "postgres.vhowswomnwhbfdpslsep")
 SUPABASE_PASSWORD = os.environ.get("SUPABASE_PASSWORD")  
 SUPABASE_TABLE = os.environ.get("SUPABASE_TABLE", "giocatore")
 SUPABASE_TABLE_CREDITI = os.environ.get("SUPABASE_TABLE_CREDITI", "squadra")
+SUPABASE_TABLE_MOVIMENTI = os.environ.get("SUPABASE_TABLE_MOVIMENTI", "movimenti_squadra")
 
 FANTACALCIO_USERNAME = os.environ.get("FANTACALCIO_USERNAME", "mura88")
 FANTACALCIO_PASSWORD = os.environ.get("FANTACALCIO_PASSWORD")  # <- SECRET
@@ -327,6 +328,28 @@ if __name__ == '__main__':
     print("✅ Crediti squadre aggiornati nel Google Sheet.")
 
     print("🎉 ETL completato con successo!")
+
+# === Aggiorna movimenti mercato nel foglio Google Sheet ===
+    print("⬆️ Aggiornamento movimenti mercato in Google Sheet...")
+    conn = psycopg2.connect(
+        host=SUPABASE_HOST,
+        port=SUPABASE_PORT,
+        dbname=SUPABASE_DB,
+        user=SUPABASE_USER,
+        password=SUPABASE_PASSWORD
+    )
+    sbm = pd.read_sql(f"SELECT * FROM {SUPABASE_TABLE_MOVIMENTI};", conn)
+    sbm = sbm[['data', 'evento', 'stagione']]
+    sbm.rename(columns={'data': 'Data', 'evento': 'Evento', 'stagione': 'Stagione'}, inplace=True)    
+    worksheet_movimenti = spreadsheet.worksheet("Mercato")    
+    worksheet_movimenti.clear()
+    set_with_dataframe(worksheet_movimenti, sbm)
+    print("✅ Movimenti mercato aggiornati nel Google Sheet.")
+    
+    print("🎉 ETL completato con successo!")
+
+
+
 
 
 
