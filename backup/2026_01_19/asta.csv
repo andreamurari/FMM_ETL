@@ -1,0 +1,4 @@
+id,giocatore,squadra_vincente,ultima_offerta,tempo_fine_asta,tempo_fine_mostra_interesse,stato,partecipanti,gia_elaborata
+9,872,Sborada,21,2026-01-19 22:11:49.633374+00:00,,in_corso,"['Diaolo Porco', 'AC Ciaccati', 'FC Pontos', 'Metodo Monchi FC', 'Sborada', 'ZeroDayz FC']",False
+8,731,CyberDucks,13,2026-01-19 23:42:50.689517+00:00,,in_corso,"['AC Ciaccati', 'CyberDucks', 'FC Pontos', 'Metodo Monchi FC']",False
+1,234,Diaolo Porco,36,2026-01-17 16:12:59.303281+00:00,,conclusa,['Diaolo Porco'],True

@@ -1,0 +1,11 @@
+id,giocatore,contratto_richiesto,squadra_richiedente,crediti_richiesti,messaggio,data,stato
+6,319,Svincolato,Diablitos FC,0,,2026-01-17 01:43:39.767759+00:00,accettata
+7,319,Prestito Reale,Diablitos FC,0,,2026-01-17 01:58:05.804739+00:00,accettata
+8,319,Svincolato,Diablitos FC,0,,2026-01-17 02:43:50.235761+00:00,accettata
+9,319,Svincolato,Diablitos FC,0,Andato alla Samp,2026-01-17 17:00:29.177907+00:00,accettata
+10,319,Svincolato,Diablitos FC,0,Andato alla Samp,2026-01-17 17:34:14.620482+00:00,accettata
+11,137,Svincolato,Metodo Monchi FC,0,Va al Napoli,2026-01-17 18:04:46.916119+00:00,accettata
+12,496,Hold,Diablitos FC,0,,2026-01-18 19:20:36.786151+00:00,accettata
+13,496,Hold,Diablitos FC,0,,2026-01-18 19:25:07.006895+00:00,accettata
+14,496,Hold,Diablitos FC,0,,2026-01-18 19:28:31.895829+00:00,accettata
+15,524,Svincolato,Diablitos FC,15,Allo united,2026-01-20 18:35:31.556958+00:00,rifiutata
