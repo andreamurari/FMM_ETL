@@ -4,7 +4,7 @@ from psycopg2 import sql
 from psycopg2.extras import execute_values
 
 # Conn string dirette (sovrascrivibili via env). Metti qui i DSN completi.
-SRC_DSN = os.environ.get("SUPABASE_PASSWORD")
+SRC_DSN = os.environ.get("SUPABASE_PASSWORD_PROD")
 DST_DSN = os.environ.get("SUPABASE_PASSWORD_DEV")
 
 if "<dest-connection-string>" in DST_DSN:
