@@ -66,4 +66,4 @@ jobs:
         env:
           SUPABASE_PASSWORD_PROD: ${{ secrets.SUPABASE_PASSWORD_PROD }}
           SUPABASE_PASSWORD_DEV: ${{ secrets.SUPABASE_PASSWORD_DEV }}
-        run: python align_dev_db.py
+        run: python sync_dev_db.py

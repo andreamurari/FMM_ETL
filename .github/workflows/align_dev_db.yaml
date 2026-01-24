@@ -28,4 +28,4 @@ jobs:
           # Qui passiamo i Secret di GitHub come variabili d'ambiente allo script Python
           SUPABASE_PASSWORD_PROD: ${{ secrets.SUPABASE_PASSWORD_PROD }}
           SUPABASE_PASSWORD_DEV: ${{ secrets.SUPABASE_PASSWORD_DEV }}
-        run: python align_dev_db.py # SOSTITUISCI con il nome reale del tuo file
+        run: python sync_dev_db.py # SOSTITUISCI con il nome reale del tuo file
