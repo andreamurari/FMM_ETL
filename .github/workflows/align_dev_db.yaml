@@ -28,4 +28,4 @@ jobs:
           # Qui passiamo i Secret di GitHub come variabili d'ambiente allo script Python
           SRC_SUPABASE_DSN: ${{ secrets.SUPABASE_PASSWORD }}
           DST_SUPABASE_DSN: ${{ secrets.SUPABASE_PASSWORD_DEV }}
-        run: python nome_del_tuo_script.py # SOSTITUISCI con il nome reale del tuo file
+        run: python align_dev_db.py # SOSTITUISCI con il nome reale del tuo file
