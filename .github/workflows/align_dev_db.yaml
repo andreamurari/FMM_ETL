@@ -1,4 +1,4 @@
-name: Supabase DB Sync
+name: align_dev_db
 
 on:
   workflow_dispatch: # Permette di avviare lo script manualmente da GitHub UI
@@ -26,6 +26,6 @@ jobs:
       - name: Run sync script
         env:
           # Qui passiamo i Secret di GitHub come variabili d'ambiente allo script Python
-          SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
-          SUPABASE_PASSWORD_DEV: ${{ secrets.SUPABASE_PASSWORD_DEV }}
-        run: python nome_del_tuo_script.py # SOSTITUISCI con il nome reale del tuo file
+          SRC_SUPABASE_DSN: ${{ secrets.SUPABASE_PASSWORD }}
+          DST_SUPABASE_DSN: ${{ secrets.SUPABASE_PASSWORD_DEV }}
+        run: python align_dev_db.py # SOSTITUISCI con il nome reale del tuo file
