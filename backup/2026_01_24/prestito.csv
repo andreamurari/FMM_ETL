@@ -1,0 +1,3 @@
+id,giocatore,squadra_prestante,squadra_ricevente,stato,data_inizio,data_fine,richiedente_terminazione,note,costo_prestito,tipo_prestito,crediti_riscatto
+1,416,Sborada,Metodo Monchi FC,in_attesa,2026-01-22 16:01:25.180578+00:00,2026-06-30 12:00:00+00:00,,,,,
+2,152,Metodo Monchi FC,FC Sovescio,in_corso,2026-01-22 18:16:11.551559+00:00,2026-06-30 12:00:00+00:00,,,,,
