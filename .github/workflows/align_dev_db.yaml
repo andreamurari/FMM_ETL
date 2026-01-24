@@ -1,4 +1,4 @@
-name: Supabase DB Sync
+name: align_dev_db
 
 on:
   workflow_dispatch: # Permette di avviare lo script manualmente da GitHub UI
