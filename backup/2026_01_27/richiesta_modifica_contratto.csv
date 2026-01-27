@@ -1,0 +1,23 @@
+id,giocatore,contratto_richiesto,squadra_richiedente,crediti_richiesti,messaggio,data,stato
+6,319,Svincolato,Diablitos FC,0,,2026-01-17 01:43:39.767759+00:00,accettata
+7,319,Prestito Reale,Diablitos FC,0,,2026-01-17 01:58:05.804739+00:00,accettata
+8,319,Svincolato,Diablitos FC,0,,2026-01-17 02:43:50.235761+00:00,accettata
+9,319,Svincolato,Diablitos FC,0,Andato alla Samp,2026-01-17 17:00:29.177907+00:00,accettata
+10,319,Svincolato,Diablitos FC,0,Andato alla Samp,2026-01-17 17:34:14.620482+00:00,accettata
+11,137,Svincolato,Metodo Monchi FC,0,Va al Napoli,2026-01-17 18:04:46.916119+00:00,accettata
+12,496,Hold,Diablitos FC,0,,2026-01-18 19:20:36.786151+00:00,accettata
+13,496,Hold,Diablitos FC,0,,2026-01-18 19:25:07.006895+00:00,accettata
+14,496,Hold,Diablitos FC,0,,2026-01-18 19:28:31.895829+00:00,accettata
+15,524,Svincolato,Diablitos FC,15,Allo united,2026-01-20 18:35:31.556958+00:00,rifiutata
+16,533,Svincolato,Diaolo Porco,0,"dzeko, fatta con lo schalke—   È fatta per il trasferimento di Edin Dzeko allo Schalke 04: lascerà l’Italia in giornata, poi visite in Germania. Trasferimento a titolo definitivo e un contratto di sei mesi per lui.",2026-01-21 21:47:17.538748+00:00,accettata
+17,422,Prestito Reale,ZeroDayz FC,0,In prestito Magonza https://www.transfermarkt.it/stefan-posch/profil/spieler/223974,2026-01-22 16:40:33.775530+00:00,accettata
+18,524,Hold,Diablitos FC,0,,2026-01-22 16:56:03.492370+00:00,rifiutata
+19,524,Hold,Diablitos FC,0,Test https://www.transfermarkt.it/lorenzo-lucca/profil/spieler/572265,2026-01-22 16:57:17.314903+00:00,rifiutata
+20,524,Hold,Diablitos FC,0,,2026-01-22 17:09:29.057955+00:00,rifiutata
+21,12,Svincolato,Diablitos FC,35,Riscattato dal napoli per 26 (+9 di prestito oneroso),2026-01-23 19:27:41.477249+00:00,accettata
+22,343,Svincolato,Diaolo Porco,0,https://www.hellas1903.it/calciomercato/ufficiale-nunez-va-al-valencia-i-motivi-della-partenza-dal-verona/?fbclid=Iwb21leAPhhGBjbGNrA-GEPGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHo3FCMpgdJdcZY4qvBzwVwueVe5Ijh7YC8WCD2xPg_CDJls9XE4SNd_yE8Bx_aem_mFemXpCSsecYRAHIldA5DQ=,2026-01-24 11:56:06.497789+00:00,accettata
+26,46,Prestito Reale,FC Pontos,2,Prestito al Galatasaray,2026-01-24 16:57:27.968686+00:00,accettata
+25,46,Prestito Reale,FC Pontos,2,Prestito al Galatasaray,2026-01-24 16:57:26.451161+00:00,rifiutata
+24,714,Svincolato,FC Pontos,2,Trasferimento al Monza,2026-01-24 16:56:40.647671+00:00,rifiutata
+27,861,Svincolato,FC Pontos,2,,2026-01-24 20:56:08.269067+00:00,accettata
+23,861,Svincolato,FC Pontos,3,Trasferimento al Al Hilal,2026-01-24 16:55:53.440745+00:00,rifiutata
