@@ -37,3 +37,12 @@ jobs:
       with:
         name: etl_totale-log
         path: ./log.txt
+
+    # --- NUOVO PASSAGGIO AGGIUNTO QUI SOTTO ---
+    - name: Scarica file Excel finale
+      if: always() # Lo scarica anche se lo script Python dà errore (se il file è stato creato)
+      uses: actions/upload-artifact@v4
+      with:
+        name: file-excel-output
+        # Il percorso ./ equivale a /home/runner/work/FMM_ETL/FMM_ETL/
+        path: ./output_new_sb.xlsx
