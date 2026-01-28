@@ -160,9 +160,11 @@ if __name__ == '__main__':
     if merge_cols:
         new_sb = new_sb.merge(fc[['nome'] + merge_cols], on='nome', how='left', suffixes=('_sb', '_fc'))
         if 'RM' in merge_cols:
-            new_sb['ruolo'] = new_sb['ruolo'].fillna(new_sb['RM'])
+            # 🔧 IMPORTANTE: Aggiorna SEMPRE il ruolo da Fantacalcio, non solo se mancante
+            new_sb['ruolo'] = new_sb['RM']
         if 'Squadra' in merge_cols:
-            new_sb['club'] = new_sb['club'].fillna(new_sb['Squadra'])
+            # 🔧 IMPORTANTE: Aggiorna SEMPRE il club da Fantacalcio, non solo se mancante
+            new_sb['club'] = new_sb['Squadra']
         if 'Qt.A M' in merge_cols:
             # 🔧 IMPORTANTE: Aggiorna SEMPRE la quotazione da Fantacalcio, non solo se mancante
             new_sb['quot_att_mantra'] = new_sb['Qt.A M']
