@@ -186,10 +186,10 @@ if __name__ == '__main__':
 
     print("✅ Trasformazione completata!")
 
-    # === OUTPUT LOCALE ===
-    #output_path = os.path.join(os.getcwd(), "output_new_sb.xlsx")
-    #new_sb.to_excel(output_path, index=False)
-    #print(f"📁 File salvato localmente in: {output_path}")
+    #=== OUTPUT LOCALE ===
+    output_path = os.path.join(os.getcwd(), "output_new_sb.xlsx")
+    new_sb.to_excel(output_path, index=False)
+    print(f"📁 File salvato localmente in: {output_path}")
 
     # 3️⃣ LOAD SU SUPABASE
     print("⬆️ Caricamento su Supabase in corso...")
