@@ -224,32 +224,48 @@ if __name__ == '__main__':
 
             ruoli = [v for v in valore.split(",") if v]
 
-        # Prova UPDATE prima
-        cur.execute(
-            """
-            UPDATE giocatore SET
-                squadra_att = %s,
-                detentore_cartellino = %s,
-                club = %s,
-                quot_att_mantra = %s,
-                tipo_contratto = %s,
-                ruolo = %s::ruolo_mantra[],
-                costo = %s,
-                priorita = %s
-            WHERE nome = %s;
-            """,
-            (
-                row.get("squadra_att"),
-                row.get("detentore_cartellino"),
-                row.get("club"),
-                row.get("quot_att_mantra"),
-                row.get("tipo_contratto"),
-                ruoli,
-                row.get("costo"),
-                row.get("priorita"),
-                row.get("nome"),
-            )
-        )
+        # Prova UPDATE prima (solo i campi con valori)
+        update_fields = []
+        update_values = []
+        
+        # Aggiungi solo i campi che hanno valori
+        if row.get("squadra_att") is not None and not pd.isna(row.get("squadra_att")):
+            update_fields.append("squadra_att = %s")
+            update_values.append(row.get("squadra_att"))
+        
+        if row.get("detentore_cartellino") is not None and not pd.isna(row.get("detentore_cartellino")):
+            update_fields.append("detentore_cartellino = %s")
+            update_values.append(row.get("detentore_cartellino"))
+        
+        if row.get("club") is not None and not pd.isna(row.get("club")):
+            update_fields.append("club = %s")
+            update_values.append(row.get("club"))
+        
+        if row.get("quot_att_mantra") is not None and not pd.isna(row.get("quot_att_mantra")):
+            update_fields.append("quot_att_mantra = %s")
+            update_values.append(row.get("quot_att_mantra"))
+        
+        if row.get("tipo_contratto") is not None and not pd.isna(row.get("tipo_contratto")):
+            update_fields.append("tipo_contratto = %s")
+            update_values.append(row.get("tipo_contratto"))
+        
+        if ruoli is not None:
+            update_fields.append("ruolo = %s::ruolo_mantra[]")
+            update_values.append(ruoli)
+        
+        if row.get("costo") is not None and not pd.isna(row.get("costo")):
+            update_fields.append("costo = %s")
+            update_values.append(row.get("costo"))
+        
+        if row.get("priorita") is not None and not pd.isna(row.get("priorita")):
+            update_fields.append("priorita = %s")
+            update_values.append(row.get("priorita"))
+        
+        # Esegui UPDATE solo se ci sono campi da aggiornare
+        if update_fields:
+            update_query = "UPDATE giocatore SET " + ", ".join(update_fields) + " WHERE nome = %s;"
+            update_values.append(row.get("nome"))
+            cur.execute(update_query, update_values)
         
         # Se nessuna riga aggiornata, INSERT nuovo record
         if cur.rowcount == 0:
