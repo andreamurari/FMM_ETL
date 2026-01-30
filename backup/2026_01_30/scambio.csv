@@ -1,0 +1,4 @@
+id,squadra_proponente,squadra_destinataria,giocatori_offerti,giocatori_richiesti,crediti_offerti,crediti_richiesti,messaggio,stato,data_proposta,data_risposta
+19,Diablitos FC,Metodo Monchi FC,[],[],13,13,,annullato,2026-01-14 17:01:46.588074+00:00,
+20,Metodo Monchi FC,Sborada,[],[65],20,0,,accettato,2026-01-26 10:56:44.111783+00:00,2026-01-26 12:10:37.200561+00:00
+21,AC Ciaccati,FC Pontos,[213],[260],0,0,,annullato,2026-01-29 23:00:12.653125+00:00,
