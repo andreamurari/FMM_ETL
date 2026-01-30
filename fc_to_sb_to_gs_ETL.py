@@ -166,8 +166,14 @@ if __name__ == '__main__':
             # 🔧 IMPORTANTE: Aggiorna SEMPRE il club da Fantacalcio, non solo se mancante
             new_sb['club'] = new_sb['Squadra']
         if 'Qt.A M' in merge_cols:
-            # 🔧 IMPORTANTE: Aggiorna SEMPRE la quotazione da Fantacalcio, non solo se mancante
-            new_sb['quot_att_mantra'] = new_sb['Qt.A M']
+            # 🔧 IMPORTANTE: Aggiorna la quotazione da Fantacalcio SOLO se presente
+            if 'quot_att_mantra' in new_sb.columns:
+                new_sb['quot_att_mantra'] = new_sb['quot_att_mantra'].where(
+                    new_sb['Qt.A M'].isna(),
+                    new_sb['Qt.A M']
+                )
+            else:
+                new_sb['quot_att_mantra'] = new_sb['Qt.A M']
         for c in merge_cols:
             if c in new_sb.columns:
                 new_sb = new_sb.drop(c, axis=1)
@@ -187,7 +193,6 @@ if __name__ == '__main__':
     # 🔧 IMPORTANTE: Converti le quotazioni in numerico e gestisci i valori nulli
     if 'quot_att_mantra' in new_sb.columns:
         new_sb['quot_att_mantra'] = pd.to_numeric(new_sb['quot_att_mantra'], errors='coerce')
-        new_sb['quot_att_mantra'] = new_sb['quot_att_mantra'].fillna(0)
 
     if 'ruolo' in new_sb.columns:
         new_sb['ruolo'] = new_sb['ruolo'].astype(str).str.replace('{', '').str.replace('}', '')
