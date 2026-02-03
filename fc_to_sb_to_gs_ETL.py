@@ -334,7 +334,6 @@ if __name__ == '__main__':
     df['Ruolo'] = df['Ruolo'].astype(str).str.replace('{', '').str.replace('}', '')
     df.drop(["priorita"], axis=1, inplace=True, errors='ignore')
     df['ID Calciatore'] = 1
-    print("✅ Trasformazione completata con successo!")
     
     worksheet.clear()
     set_with_dataframe(worksheet, df)
@@ -357,8 +356,6 @@ if __name__ == '__main__':
     worksheet_crediti.clear()
     set_with_dataframe(worksheet_crediti, sbc)
     print("✅ Crediti squadre aggiornati nel Google Sheet.")
-
-    print("🎉 ETL completato con successo!")
 
 # === Aggiorna movimenti mercato nel foglio Google Sheet ===
     print("⬆️ Aggiornamento movimenti mercato in Google Sheet...")
@@ -396,7 +393,7 @@ if __name__ == '__main__':
     set_with_dataframe(worksheet_aste, aste)
     print("✅ Durata_Aste aggiornata nel Google Sheet.")
     
-    print("🎉 ETL completato con successo!")
+    print("=== ETL completato con successo ===")
 
 
 
