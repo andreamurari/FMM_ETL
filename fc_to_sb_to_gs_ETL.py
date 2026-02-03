@@ -390,7 +390,7 @@ if __name__ == '__main__':
     worksheet_aste = spreadsheet.worksheet("Durata_Aste")    
     worksheet_aste.clear()
     set_with_dataframe(worksheet_aste, aste)
-    print("✅ Movimenti mercato aggiornati nel Google Sheet.")
+    print("✅ Durata_Aste aggiornata nel Google Sheet.")
     
     print("🎉 ETL completato con successo!")
 
