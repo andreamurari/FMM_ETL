@@ -352,6 +352,7 @@ if __name__ == '__main__':
     sbc = pd.read_sql(f"SELECT * FROM {SUPABASE_TABLE_CREDITI};", conn)
     sbc = sbc[['nome', 'crediti']]
     sbc.rename(columns={'nome': 'Squadra', 'crediti': 'Crediti'}, inplace=True)    
+    conn.close()
     worksheet_crediti = spreadsheet.worksheet("Nuova_Crediti")    
     worksheet_crediti.clear()
     set_with_dataframe(worksheet_crediti, sbc)
@@ -369,6 +370,7 @@ if __name__ == '__main__':
     sbm = pd.read_sql(f"SELECT * FROM {SUPABASE_TABLE_MOVIMENTI};", conn)
     sbm = sbm[['data', 'evento', 'stagione']]
     sbm.rename(columns={'data': 'Data', 'evento': 'Evento', 'stagione': 'Stagione'}, inplace=True)    
+    conn.close()
     worksheet_movimenti = spreadsheet.worksheet("Mercato")    
     worksheet_movimenti.clear()
     set_with_dataframe(worksheet_movimenti, sbm)
@@ -388,6 +390,7 @@ if __name__ == '__main__':
         FROM {SUPABASE_TABLE_ASTE} a
         LEFT JOIN giocatore g ON a.giocatore = g.id;
     """, conn)
+    conn.close()
     worksheet_aste = spreadsheet.worksheet("Durata_Aste")    
     worksheet_aste.clear()
     set_with_dataframe(worksheet_aste, aste)
