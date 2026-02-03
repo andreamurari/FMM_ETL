@@ -389,7 +389,7 @@ if __name__ == '__main__':
     aste = pd.read_sql(f"""
         SELECT a.*, g.nome as nome_giocatore
         FROM {SUPABASE_TABLE_ASTE} a
-        LEFT JOIN giocatore g ON a.id_giocatore = g.id;
+        LEFT JOIN giocatore g ON a.giocatore = g.id;
     """, conn)
     worksheet_aste = spreadsheet.worksheet("Durata_Aste")    
     worksheet_aste.clear()
