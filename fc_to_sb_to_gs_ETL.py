@@ -386,7 +386,11 @@ if __name__ == '__main__':
         user=SUPABASE_USER,
         password=SUPABASE_PASSWORD
     )
-    aste = pd.read_sql(f"SELECT * FROM {SUPABASE_TABLE_ASTE};", conn)
+    aste = pd.read_sql(f"""
+        SELECT a.*, g.nome as nome_giocatore
+        FROM {SUPABASE_TABLE_ASTE} a
+        LEFT JOIN giocatore g ON a.id_giocatore = g.id;
+    """, conn)
     worksheet_aste = spreadsheet.worksheet("Durata_Aste")    
     worksheet_aste.clear()
     set_with_dataframe(worksheet_aste, aste)
