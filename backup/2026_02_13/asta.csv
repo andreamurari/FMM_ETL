@@ -1,0 +1,23 @@
+id,giocatore,squadra_vincente,ultima_offerta,tempo_fine_asta,tempo_fine_mostra_interesse,stato,partecipanti,gia_elaborata,data_inizio_asta
+14,218,Metodo Monchi FC,1,2026-01-29 19:38:00.020822+00:00,,conclusa,['Metodo Monchi FC'],True,2026-01-28 18:37:39.736509
+21,173,Diaolo Porco,2,2026-02-06 10:15:19.734698+00:00,,conclusa,['Diaolo Porco'],True,2026-02-03 20:45:49.969083
+28,362,Diablitos FC,1,2026-02-11 21:32:00.021965+00:00,,conclusa,['Diablitos FC'],True,2026-02-10 12:45:49.739434
+15,878,Sborada,1,2026-01-29 22:27:00.019710+00:00,,conclusa,['Sborada'],True,2026-01-28 21:26:59.620784
+22,340,ZeroDayz FC,1,2026-02-06 12:26:00.019316+00:00,,conclusa,['ZeroDayz FC'],True,2026-02-04 11:25:37.692567
+24,56,FC Pontos,14,2026-02-07 22:47:42.979776+00:00,,conclusa,['FC Pontos'],True,2026-02-04 21:56:48.023653
+10,225,Diablitos FC,6,2026-01-28 12:18:41.143087+00:00,,conclusa,"['Metodo Monchi FC', 'Diablitos FC', 'FC Pontos']",True,2026-01-26 10:59:58.827449
+11,514,FC Sovescio,1,2026-01-28 12:29:00.021865+00:00,,conclusa,['FC Sovescio'],True,2026-01-27 11:28:26.534341
+13,80,AC Ciaccati,12,2026-02-03 13:37:23.531114+00:00,,conclusa,"['AC Ciaccati', 'Sborada']",True,2026-01-27 13:50:52.870080
+8,731,CyberDucks,19,2026-01-22 12:49:35.313850+00:00,,conclusa,"['AC Ciaccati', 'CyberDucks', 'FC Pontos', 'Metodo Monchi FC']",True,2026-01-16 10:06:02.206659
+9,872,Sborada,66,2026-01-22 12:57:28.814069+00:00,,conclusa,"['Diaolo Porco', 'AC Ciaccati', 'FC Pontos', 'Metodo Monchi FC', 'Sborada', 'ZeroDayz FC']",True,2026-01-16 05:40:02.206659
+17,367,FC Pontos,5,2026-02-05 22:46:45.698083+00:00,,conclusa,"['Diablitos FC', 'FC Pontos', 'ZeroDayz FC']",True,2026-02-02 23:42:51.779826
+20,893,FC Pontos,2,2026-02-05 22:48:37.076255+00:00,,conclusa,"['AC Ciaccati', 'FC Pontos']",True,2026-02-03 06:03:03.545790
+26,478,Baby Reijnders,1,2026-02-06 16:41:00.020238+00:00,,conclusa,['Baby Reijnders'],True,2026-02-05 15:40:51.396059
+23,892,Baby Reijnders,10,2026-02-06 16:41:08.555999+00:00,,conclusa,"['AC Ciaccati', 'Baby Reijnders']",True,2026-02-04 14:51:36.541798
+19,19,Sborada,4,2026-02-05 22:52:54.844651+00:00,,conclusa,['Sborada'],True,2026-02-03 06:02:03.381613
+1,234,Diaolo Porco,36,2026-01-17 16:12:59.303281+00:00,,conclusa,['Diaolo Porco'],True,2026-01-12 12:18:02.206659
+16,90,FC Sovescio,2,2026-01-31 13:39:08.403458+00:00,,conclusa,"['AC Ciaccati', 'FC Sovescio']",True,2026-01-29 12:26:02.380008
+12,79,Diablitos FC,10,2026-02-01 17:30:36.897990+00:00,,conclusa,"['AC Ciaccati', 'Diablitos FC', 'Diaolo Porco', 'ZeroDayz FC']",True,2026-01-27 13:50:32.762144
+18,442,FC Pontos,6,2026-02-07 10:57:52.534430+00:00,,conclusa,['FC Pontos'],True,2026-02-02 23:43:10.913700
+25,105,Sborada,5,2026-02-08 21:52:00.024308+00:00,,conclusa,"['Sborada', 'FC Pontos']",True,2026-02-05 11:29:03.236075
+27,583,Sborada,4,2026-02-09 12:32:00.023714+00:00,,conclusa,"['AC Ciaccati', 'FC Pontos', 'Sborada']",True,2026-02-06 06:22:56.119079
