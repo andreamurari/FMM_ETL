@@ -1,0 +1,5 @@
+id,giocatore,squadra_prestante,squadra_ricevente,stato,data_inizio,data_fine,richiedente_terminazione,note,costo_prestito,tipo_prestito,crediti_riscatto
+2,152,Metodo Monchi FC,FC Sovescio,in_corso,2026-01-22 18:16:11.551559+00:00,2026-06-30 12:00:00+00:00,,,,,
+1,416,Sborada,Metodo Monchi FC,annullato,2026-01-22 16:01:25.180578+00:00,2026-06-30 12:00:00+00:00,,,,,
+3,416,Sborada,Metodo Monchi FC,in_corso,2026-01-25 11:31:57.764746+00:00,2026-06-30 12:00:00+00:00,,,2.0,diritto_di_riscatto,4.0
+4,215,Diablitos FC,AC Ciaccati,rifiutato,2026-01-29 22:58:23.489259+00:00,2026-07-02 23:59:59+00:00,,,1.0,diritto_di_riscatto,20.0

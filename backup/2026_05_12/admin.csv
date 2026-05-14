@@ -1,0 +1,2 @@
+username,hash_password,id_telegram,id_gruppo_comunicazioni
+admin,scrypt:32768:8:1$KqhmrDiMTjJdn0Lz$198a9ecf5dac6fad180ff1f0ffbbb97286590e2d3c1d49eaf03462cbf2e5b63b2dcc4570993d95c467b5c76930b77ab79080f6ee7f8dfcc997fda32836357878,"[522943090, 881732256]",-1003580368597
