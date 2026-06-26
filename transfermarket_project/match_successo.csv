@@ -1,6 +1,7 @@
 id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 44,Fullkrug,Niclas Füllkrug,Milan,Associazione Calcio Milan,niclas fullkrug,fullkrug
 50,Borrelli,Gennaro Borrelli,Cagliari,Cagliari Calcio,gennaro borrelli,borrelli
+34,Kilicsoy,Semih Kılıçsoy,Cagliari,Cagliari Calcio,semih kilicsoy,kilicsoy
 896,Lahdo,Adrian Lahdo,Como,Calcio Como,adrian lahdo,lahdo
 897,Bakola,Darryl Bakola,Sassuolo,Unione Sportiva Sassuolo Calcio,darryl bakola,bakola
 870,Bozhinov,Rosen Bozhinov,Pisa,Pisa Sporting Club,rosen bozhinov,bozhinov
@@ -68,7 +69,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 411,Mina,Yerry Mina,Cagliari,Cagliari Calcio,yerry mina,mina
 558,Alli,Dele Alli,Como,Calcio Como,dele alli,alli
 630,Kovalenko,Viktor Kovalenko,Empoli,FC Empoli,viktor kovalenko,kovalenko
-400,Heggem,Torbjørn Heggem,Bologna,Bologna Football Club 1909,torbjørn heggem,heggem
+400,Heggem,Torbjørn Heggem,Bologna,Bologna Football Club 1909,torbjorn heggem,heggem
 404,Gabbia,Matteo Gabbia,Milan,Associazione Calcio Milan,matteo gabbia,gabbia
 401,Idzes,Jay Idzes,Sassuolo,Unione Sportiva Sassuolo Calcio,jay idzes,idzes
 390,Tomori,Fikayo Tomori,Milan,Associazione Calcio Milan,fikayo tomori,tomori
@@ -171,7 +172,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 236,Berisha M.,Medon Berisha,Lecce,Unione Sportiva Lecce,medon berisha,berisha m.
 232,Felici,Mattia Felici,Cagliari,Cagliari Calcio,mattia felici,felici
 254,Neres,David Neres,Napoli,Società Sportiva Calcio Napoli,david neres,neres
-226,Loftus-Cheek,Ruben Loftus-Cheek,Milan,Associazione Calcio Milan,ruben loftus cheek,loftus cheek
+226,Loftus-Cheek,Ruben Loftus-Cheek,Milan,Associazione Calcio Milan,ruben loftus-cheek,loftus-cheek
 238,Basic,Toma Bašić,Lazio,Società Sportiva Lazio S.p.A.,toma basic,basic
 228,Cataldi,Danilo Cataldi,Lazio,Società Sportiva Lazio S.p.A.,danilo cataldi,cataldi
 243,Thorsby,Morten Thorsby,Cremonese,Unione Sportiva Cremonese S.p.A.,morten thorsby,thorsby
@@ -199,9 +200,9 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 152,Oristanio,Gaetano Oristanio,Parma,Parma Calcio 1913,gaetano oristanio,oristanio
 195,Akinsanmiro,Ebenezer Akinsanmiro,Pisa,Pisa Sporting Club,ebenezer akinsanmiro,akinsanmiro
 167,Tramoni M.,Matteo Tramoni,Pisa,Pisa Sporting Club,matteo tramoni,tramoni m.
-131,Dele-Bashiru,Fisayo Dele-Bashiru,Lazio,Società Sportiva Lazio S.p.A.,fisayo dele bashiru,dele bashiru
+131,Dele-Bashiru,Fisayo Dele-Bashiru,Lazio,Società Sportiva Lazio S.p.A.,fisayo dele-bashiru,dele-bashiru
 180,Gagliardini,Roberto Gagliardini,Verona,Verona Hellas Football Club,roberto gagliardini,gagliardini
-183,Sorensen O.,Oliver Sørensen,Parma,Parma Calcio 1913,oliver sørensen,sorensen o.
+183,Sorensen O.,Oliver Sørensen,Parma,Parma Calcio 1913,oliver sorensen,sorensen o.
 201,Bernede,Antoine Bernede,Verona,Verona Hellas Football Club,antoine bernede,bernede
 171,Miretti,Fabio Miretti,Juventus,Juventus Football Club,fabio miretti,miretti
 211,Matic,Nemanja Matić,Sassuolo,Unione Sportiva Sassuolo Calcio,nemanja matic,matic
@@ -225,7 +226,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 210,Caqueret,Maxence Caqueret,Como,Calcio Como,maxence caqueret,caqueret
 182,Rowe,Jonathan Rowe,Bologna,Bologna Football Club 1909,jonathan rowe,rowe
 217,Da Cunha,Lucas Da Cunha,Como,Calcio Como,lucas da cunha,da cunha
-354,Bella-Kotchap,Armel Bella-Kotchap,Verona,Verona Hellas Football Club,armel bella kotchap,bella kotchap
+354,Bella-Kotchap,Armel Bella-Kotchap,Verona,Verona Hellas Football Club,armel bella-kotchap,bella-kotchap
 124,Vranckx,Aster Vranckx,Sassuolo,Unione Sportiva Sassuolo Calcio,aster vranckx,vranckx
 181,Lorran,Lorran,Pisa,Pisa Sporting Club,lorran,lorran
 157,Ondrejka,Jacob Ondrejka,Parma,Parma Calcio 1913,jacob ondrejka,ondrejka
@@ -258,7 +259,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 393,Ranieri L.,Luca Ranieri,Fiorentina,Associazione Calcio Fiorentina,luca ranieri,ranieri l.
 108,Adzic,Vasilije Adžić,Juventus,Juventus Football Club,vasilije adzic,adzic
 140,Ilic,Ivan Ilić,Torino,Torino Calcio,ivan ilic,ilic
-138,Al-Musrati,Moatasem Al-Musrati,Verona,Verona Hellas Football Club,moatasem al musrati,al musrati
+138,Al-Musrati,Moatasem Al-Musrati,Verona,Verona Hellas Football Club,moatasem al-musrati,al-musrati
 156,Marin M.,Marius Marin,Pisa,Pisa Sporting Club,marius marin,marin m.
 148,Rovella,Nicolò Rovella,Lazio,Società Sportiva Lazio S.p.A.,nicolo rovella,rovella
 126,Lovric,Sandi Lovrić,Verona,Verona Hellas Football Club,sandi lovric,lovric
@@ -301,6 +302,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 75,Bonazzoli,Federico Bonazzoli,Cremonese,Unione Sportiva Cremonese S.p.A.,federico bonazzoli,bonazzoli
 872,Malen,Donyell Malen,Roma,Associazione Sportiva Roma,donyell malen,malen
 78,Berardi,Domenico Berardi,Sassuolo,Unione Sportiva Sassuolo Calcio,domenico berardi,berardi
+86,Yildiz,Kenan Yıldız,Juventus,Juventus Football Club,kenan yildiz,yildiz
 871,Fofana Sa.,Sadik Fofana,Lecce,Unione Sportiva Lecce,sadik fofana,fofana sa.
 94,Marchwinski,Filip Marchwinski,Lecce,Unione Sportiva Lecce,filip marchwinski,marchwinski
 116,Helgason,Thórir Jóhann Helgason,Lecce,Unione Sportiva Lecce,thorir johann helgason,helgason
@@ -326,11 +328,12 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 51,Nkunku,Christopher Nkunku,Milan,Associazione Calcio Milan,christopher nkunku,nkunku
 82,Soulè,Matías Soulé,Roma,Associazione Sportiva Roma,matias soule,soule
 84,Leao,Rafael Leão,Milan,Associazione Calcio Milan,rafael leao,leao
-53,Bonny,Ange-Yoan Bonny,Inter,Football Club Internazionale Milano S.p.A.,ange yoan bonny,bonny
+53,Bonny,Ange-Yoan Bonny,Inter,Football Club Internazionale Milano S.p.A.,ange-yoan bonny,bonny
 67,Esposito Se.,Sebastiano Esposito,Cagliari,Cagliari Calcio,sebastiano esposito,esposito se.
 77,Scamacca,Gianluca Scamacca,Atalanta,Atalanta Bergamasca Calcio S.p.a.,gianluca scamacca,scamacca
 80,Davis K.,Keinan Davis,Udinese,Udinese Calcio,keinan davis,davis k.
 79,Douvikas,Anastasios Douvikas,Como,Calcio Como,anastasios douvikas,douvikas
+83,Hojlund,Rasmus Højlund,Napoli,Società Sportiva Calcio Napoli,rasmus hojlund,hojlund
 85,Thuram,Marcus Thuram,Inter,Football Club Internazionale Milano S.p.A.,marcus thuram,thuram
 87,Martinez L.,Lautaro Martínez,Inter,Football Club Internazionale Milano S.p.A.,lautaro martinez,martinez l.
 88,Cremaschi,Benja Cremaschi,Parma,Parma Calcio 1913,benja cremaschi,cremaschi
@@ -339,6 +342,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 112,Anjorin,Tino Anjorin,Torino,Torino Calcio,tino anjorin,anjorin
 114,Boloca,Daniel Boloca,Sassuolo,Unione Sportiva Sassuolo Calcio,daniel boloca,boloca
 111,Zarraga,Oier Zarraga,Udinese,Udinese Calcio,oier zarraga,zarraga
+115,Hojholt,Malthe Højholt,Pisa,Pisa Sporting Club,malthe hojholt,hojholt
 868,Ngom,Oumar Ngom,Lecce,Unione Sportiva Lecce,oumar ngom,ngom
 128,Ordonez C.,Christian Ordóñez,Parma,Parma Calcio 1913,christian ordonez,ordonez c.
 107,Ilkhan,Emirhan İlkhan,Torino,Torino Calcio,emirhan ilkhan,ilkhan
@@ -355,7 +359,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 96,Venturino,Lorenzo Venturino,Roma,Associazione Sportiva Roma,lorenzo venturino,venturino
 127,Vural,İsak Vural,Pisa,Pisa Sporting Club,isak vural,vural
 121,Sergi Roberto,Sergi Roberto,Como,Calcio Como,sergi roberto,sergi roberto
-122,Akpa Akpro,Jean-Daniel Akpa Akpro,Verona,Verona Hellas Football Club,jean daniel akpa akpro,akpa akpro
+122,Akpa Akpro,Jean-Daniel Akpa Akpro,Verona,Verona Hellas Football Club,jean-daniel akpa akpro,akpa akpro
 113,Lipani,Luca Lipani,Sassuolo,Unione Sportiva Sassuolo Calcio,luca lipani,lipani
 105,Diouf,Andy Diouf,Inter,Football Club Internazionale Milano S.p.A.,andy diouf,diouf
 90,Vergara,Antonio Vergara,Napoli,Società Sportiva Calcio Napoli,antonio vergara,vergara
@@ -452,7 +456,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 410,Idrissi R.,Riyad Idrissi,Cagliari,Cagliari Calcio,riyad idrissi,idrissi r.
 377,Parisi,Fabiano Parisi,Fiorentina,Associazione Calcio Fiorentina,fabiano parisi,parisi
 388,Angelino,Angeliño,Roma,Associazione Sportiva Roma,angelino,angelino
-392,Norton-Cuffy,Brooke Norton-Cuffy,Genoa,Genoa Cricket and Football Club,brooke norton cuffy,norton cuffy
+392,Norton-Cuffy,Brooke Norton-Cuffy,Genoa,Genoa Cricket and Football Club,brooke norton-cuffy,norton-cuffy
 362,Marcandalli,Alessandro Marcandalli,Genoa,Genoa Cricket and Football Club,alessandro marcandalli,marcandalli
 399,Diego Carlos,Diego Carlos,Como,Calcio Como,diego carlos,diego carlos
 405,Marusic,Adam Marusic,Lazio,Società Sportiva Lazio S.p.A.,adam marusic,marusic
@@ -495,7 +499,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 451,Martin,Aarón Martín,Genoa,Genoa Cricket and Football Club,aaron martin,martin
 460,Bastoni,Alessandro Bastoni,Inter,Football Club Internazionale Milano S.p.A.,alessandro bastoni,bastoni
 457,Wesley,Wesley,Roma,Associazione Sportiva Roma,wesley,wesley
-447,Ostigard,Leo Østigård,Genoa,Genoa Cricket and Football Club,leo østigard,ostigard
+447,Ostigard,Leo Østigård,Genoa,Genoa Cricket and Football Club,leo ostigard,ostigard
 461,Spinazzola,Leonardo Spinazzola,Napoli,Società Sportiva Calcio Napoli,leonardo spinazzola,spinazzola
 452,Kempf,Marc Oliver Kempf,Como,Calcio Como,marc oliver kempf,kempf
 459,Palestra,Marco Palestra,Cagliari,Cagliari Calcio,marco palestra,palestra
@@ -572,7 +576,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 520,Falcone,Wladimiro Falcone,Lecce,Unione Sportiva Lecce,wladimiro falcone,falcone
 521,Di Gregorio,Michele Di Gregorio,Juventus,Juventus Football Club,michele di gregorio,di gregorio
 526,Butez,Jean Butez,Como,Calcio Como,jean butez,butez
-525,Milinkovic-Savic V.,Vanja Milinković-Savić,Napoli,Società Sportiva Calcio Napoli,vanja milinkovic savic,milinkovic savic v.
+525,Milinkovic-Savic V.,Vanja Milinković-Savić,Napoli,Società Sportiva Calcio Napoli,vanja milinkovic-savic,milinkovic-savic v.
 537,Sarr A.,Amin Sarr,Verona,Verona Hellas Football Club,amin sarr,sarr a.
 20,Sanabria,Antonio Sanabria,Cremonese,Unione Sportiva Cremonese S.p.A.,antonio sanabria,sanabria
 540,Kuhn,Nicolas Kühn,Como,Calcio Como,nicolas kuhn,kuhn
@@ -603,7 +607,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 851,Rafia,Hamza Rafia,Lecce,Unione Sportiva Lecce,hamza rafia,rafia
 777,Mario Rui,Mário Rui,Napoli,Società Sportiva Calcio Napoli,mario rui,mario rui
 700,Duncan,Alfred Duncan,Venezia,Venezia FC,alfred duncan,duncan
-672,Iling Junior,Samuel Iling-Junior,Pisa,Pisa Sporting Club,samuel iling junior,iling junior
+672,Iling Junior,Samuel Iling-Junior,Pisa,Pisa Sporting Club,samuel iling-junior,iling junior
 573,Lella,Nunzio Lella,Venezia,Venezia FC,nunzio lella,lella
 786,Perez K.,Kike Pérez,Venezia,Venezia FC,kike perez,perez k.
 721,Marin R.,Mário Rui,Napoli,Società Sportiva Calcio Napoli,mario rui,marin r.

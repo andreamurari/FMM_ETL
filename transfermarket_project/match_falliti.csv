@@ -1,7 +1,6 @@
 id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 907,Mosconi,,Inter,,,mosconi
 902,Vermesan,,Verona,,,vermesan
-34,Kilicsoy,,Cagliari,,,kilicsoy
 901,Giacomone,,Lazio,,,giacomone
 900,Pannozzo,,Lazio,,,pannozzo
 906,Mikolajewski,,Parma,,,mikolajewski
@@ -50,9 +49,6 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 802,Bonifazi,,Lecce,,,bonifazi
 861,Marì,,Fiorentina,,,mari
 730,Leoni,,Parma,,,leoni
-86,Yildiz,,Juventus,,,yildiz
-83,Hojlund,,Napoli,,,hojlund
-115,Hojholt,,Pisa,,,hojholt
 103,Gorter,,Lecce,,,gorter
 782,Pavard,,Inter,,,pavard
 625,Gonzalez N.,,Juventus,,,gonzalez n.
@@ -161,7 +157,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 46,Lang,,Napoli,,,lang
 562,Joao Felix,,Milan,,,joao felix
 800,Erlic,,Bologna,,,erlic
-588,Gourna-Douath,,Roma,,,gourna douath
+588,Gourna-Douath,,Roma,,,gourna-douath
 626,Mutandwa,,Cagliari,,,mutandwa
 755,Moreno M.,,Fiorentina,,,moreno m.
 653,Andersen M.K.,,Venezia,,,andersen m.k.
@@ -223,7 +219,7 @@ id,Giocatore_Supa,Giocatore_TM,Club_Supa,Club_TM,name_clean,nome_clean
 689,Bianco,,Fiorentina,,,bianco
 798,Mbangula,,Juventus,,,mbangula
 693,Alberto Costa,,Juventus,,,alberto costa
-631,Salah-Eddine,,Roma,,,salah eddine
+631,Salah-Eddine,,Roma,,,salah-eddine
 845,Douglas Luiz,,Juventus,,,douglas luiz
 791,Veiga R.,,Juventus,,,veiga r.
 6,Buffon L.,,Pisa,,,buffon l.
