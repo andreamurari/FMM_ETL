@@ -1,0 +1,19 @@
+id,giocatore,squadra_prestante,squadra_ricevente,stato,data_inizio,data_fine,richiedente_terminazione,note,costo_prestito,tipo_prestito,crediti_riscatto
+4,215,Diablitos FC,AC Ciaccati,rifiutato,2026-01-29 22:58:23.489259+00:00,2026-07-02 23:59:59+00:00,,,1.0,diritto_di_riscatto,20.0
+5,131,AC Ciaccati,FC Sovescio,in_corso,2025-08-25 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,Costo prestito: 20cr (già scalati ad inizio anno),,obbligo_di_riscatto,5.0
+6,145,CyberDucks,ZeroDayz FC,in_corso,2025-08-17 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+8,171,Diablitos FC,FC Pontos,in_corso,2025-08-30 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+9,330,Diablitos FC,FC Pontos,in_corso,2025-08-11 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,"- Costo prestito: 9cr (già scalati ad inizio anno)
+- In caso di riscatto, la stagione successiva, Pontos FC dovrà pagare ulteriori 15cr a Diablitos FC",,diritto_di_riscatto,20.0
+10,301,Diaolo Porco,Sborada,in_corso,2025-09-01 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+11,461,Diaolo Porco,Sborada,in_corso,2025-09-01 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+12,394,FC Pontos,Diablitos FC,in_corso,2025-08-30 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+13,348,Metodo Monchi FC,ZeroDayz FC,in_corso,2025-08-23 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,diritto_di_riscatto,2.0
+2,152,Metodo Monchi FC,FC Sovescio,in_corso,2026-01-22 18:16:11.551559+00:00,2026-06-30 12:00:00+00:00,,,,secco,
+1,416,Sborada,Metodo Monchi FC,annullato,2026-01-22 16:01:25.180578+00:00,2026-06-30 12:00:00+00:00,,,,secco,
+14,407,Metodo Monchi FC,CyberDucks,in_corso,2025-09-02 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+16,222,Sborada,Diaolo Porco,in_corso,2025-09-01 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+17,184,ZeroDayz FC,CyberDucks,in_corso,2025-08-17 18:16:11.551559+00:00,2026-07-02 23:59:59+00:00,,,,secco,
+15,434,Metodo Monchi FC,Diablitos FC,terminato,2025-09-02 18:16:11.551559+00:00,2026-06-02 19:51:26.281170+00:00,,,,obbligo_di_riscatto,3.0
+3,416,Sborada,Metodo Monchi FC,terminato,2026-01-25 11:31:57.764746+00:00,2026-06-30 18:29:54.958145+00:00,,,2.0,diritto_di_riscatto,4.0
+7,307,Diablitos FC,Metodo Monchi FC,terminato,2025-09-02 18:16:11.551559+00:00,2026-06-30 18:30:12.091764+00:00,,,,obbligo_di_riscatto,3.0
