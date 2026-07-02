@@ -1,4 +1,5 @@
 id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruolo,costo,priorita
+414,Angori,FC Pontos,FC Pontos,Pisa,9,Hold,"{Ds,E}",1,1
 907,Mosconi,Svincolato,Svincolato,Inter,1,Svincolato,{A},0,1
 902,Vermesan,Svincolato,Svincolato,Verona,1,Svincolato,{Pc},0,1
 44,Fullkrug,Svincolato,Svincolato,Milan,10,Svincolato,{Pc},0,1
@@ -17,7 +18,6 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 423,Kossounou,Baby Reijnders,Baby Reijnders,Atalanta,6,Indeterminato,"{Dd,Dc}",11,1
 398,Hien,CyberDucks,CyberDucks,Atalanta,6,Indeterminato,{Dc},5,1
 417,Circati,AC Ciaccati,AC Ciaccati,Parma,8,Indeterminato,{Dc},0,1
-414,Angori,FC Pontos,FC Pontos,Pisa,9,Indeterminato,"{Ds,E}",1,1
 416,Delprato,Metodo Monchi FC,Metodo Monchi FC,Parma,9,Indeterminato,"{B,Dd,E}",0,1
 412,Zappacosta,ZeroDayz FC,ZeroDayz FC,Atalanta,12,Indeterminato,{E},5,1
 901,Giacomone,Svincolato,Svincolato,Lazio,1,Svincolato,{Por},0,1
@@ -26,6 +26,10 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 906,Mikolajewski,Svincolato,Svincolato,Parma,2,Svincolato,{Pc},0,1
 905,Braschi,Svincolato,Svincolato,Fiorentina,2,Svincolato,{Pc},0,1
 697,Bagnolini,Svincolato,Svincolato,Bologna,0,Svincolato,{Por},0,0
+713,Marin Re.,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0
+819,Paredes,Svincolato,Svincolato,Roma,0,Svincolato,"{M,C}",0,0
+661,Toloi,Svincolato,Svincolato,Atalanta,0,Svincolato,{Dc},0,0
+552,Sverko,Svincolato,Svincolato,Venezia,0,Svincolato,"{B,Ds,E}",0,0
 802,Bonifazi,Svincolato,Svincolato,Lecce,0,Svincolato,{Dc},0,0
 659,Tchaouna,Svincolato,Svincolato,Lazio,0,Svincolato,{W},0,0
 887,Przyborek,Svincolato,Svincolato,Lazio,1,Svincolato,"{W,T}",0,1
@@ -39,28 +43,24 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 384,Kristensen T.,CyberDucks,CyberDucks,Udinese,11,Indeterminato,"{Dd,Dc}",2,1
 899,Siviero,Svincolato,Svincolato,Torino,1,Svincolato,{Por},0,1
 841,Buchanan T.,Svincolato,Svincolato,Inter,0,Svincolato,"{E,W}",0,0
-552,Sverko,Svincolato,Svincolato,Venezia,0,Svincolato,"{B,Ds,E}",0,0
-661,Toloi,Svincolato,Svincolato,Atalanta,0,Svincolato,{Dc},0,0
-819,Paredes,Svincolato,Svincolato,Roma,0,Svincolato,"{M,C}",0,0
-713,Marin Re.,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0
-674,Augello,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,E}",0,0
-782,Pavard,CyberDucks,CyberDucks,Inter,9,Indeterminato,"{Dd,Dc}",36,0
-850,Bonfanti N.,Svincolato,Svincolato,Pisa,0,Svincolato,{Pc},0,0
-865,Esteves G.,Svincolato,Diablitos FC,Udinese,2,Svincolato,"{Dd,Ds,E}",0,0
-857,Alidou,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0
-829,Thauvin,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
-702,Petagna,Svincolato,Svincolato,Monza,0,Svincolato,{Pc},0,0
-736,Correa,Svincolato,Svincolato,Inter,0,Svincolato,{A},0,0
-805,Zanimacchia,Svincolato,Svincolato,Cremonese,0,Svincolato,{W},0,0
-678,Akinsamiro,Svincolato,Svincolato,Pisa,0,Svincolato,"{C,T}",0,0
-596,Amrabat,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
 130,Kaba,Svincolato,Svincolato,Lecce,0,Svincolato,"{M,C}",0,0
-794,Martinez Quarta,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0
-823,Sernicola,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Dd,Ds,E}",0,0
-740,Charpentier,Svincolato,Svincolato,Parma,0,Svincolato,{Pc},0,0
-707,Cassandro,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,Ds,E}",0,0
-744,Raimondo,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
+596,Amrabat,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
+678,Akinsamiro,Svincolato,Svincolato,Pisa,0,Svincolato,"{C,T}",0,0
+805,Zanimacchia,Svincolato,Svincolato,Cremonese,0,Svincolato,{W},0,0
+736,Correa,Svincolato,Svincolato,Inter,0,Svincolato,{A},0,0
 684,Kyriakopoulos,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,E}",0,0
+744,Raimondo,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
+707,Cassandro,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,Ds,E}",0,0
+740,Charpentier,Svincolato,Svincolato,Parma,0,Svincolato,{Pc},0,0
+823,Sernicola,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Dd,Ds,E}",0,0
+794,Martinez Quarta,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0
+702,Petagna,Svincolato,Svincolato,Monza,0,Svincolato,{Pc},0,0
+829,Thauvin,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
+857,Alidou,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0
+865,Esteves G.,Svincolato,Diablitos FC,Udinese,2,Svincolato,"{Dd,Ds,E}",0,0
+850,Bonfanti N.,Svincolato,Svincolato,Pisa,0,Svincolato,{Pc},0,0
+782,Pavard,CyberDucks,CyberDucks,Inter,9,Indeterminato,"{Dd,Dc}",36,0
+674,Augello,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,E}",0,0
 56,Ratkov,FC Pontos,FC Pontos,Lazio,9,Indeterminato,{Pc},14,1
 883,Amorim,Svincolato,Svincolato,Genoa,5,Svincolato,"{M,C}",0,1
 877,Loyola,Svincolato,Svincolato,Pisa,6,Svincolato,"{M,C}",0,1
@@ -90,47 +90,48 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 895,Garcia U.,Svincolato,Svincolato,Sassuolo,8,Svincolato,"{B,Ds,E}",0,1
 409,Zortea,Baby Reijnders,Baby Reijnders,Bologna,7,Indeterminato,{E},16,1
 411,Mina,FC Pontos,FC Pontos,Cagliari,9,Indeterminato,{Dc},9,1
-630,Kovalenko,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0
 558,Alli,Svincolato,Svincolato,Como,0,Svincolato,{T},0,0
-683,Bennacer,Svincolato,Svincolato,Milan,4,Svincolato,"{M,C}",0,0
+630,Kovalenko,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0
 400,Heggem,Metodo Monchi FC,Metodo Monchi FC,Bologna,4,Indeterminato,"{Ds,Dc}",4,1
 404,Gabbia,Diablitos FC,Diablitos FC,Milan,5,Indeterminato,{Dc},3,1
 401,Idzes,Metodo Monchi FC,Metodo Monchi FC,Sassuolo,8,Indeterminato,{Dc},1,1
 390,Tomori,Diablitos FC,Diablitos FC,Milan,8,Indeterminato,{Dc},20,1
 391,Gallo,FC Sovescio,FC Sovescio,Lecce,10,Indeterminato,"{Ds,E}",2,1
 425,Tiago Gabriel,AC Ciaccati,AC Ciaccati,Lecce,10,Indeterminato,{Dc},0,1
-820,Kayode,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{Dd,Ds,E}",0,0
-698,Emerson Royal,Svincolato,Svincolato,Milan,0,Svincolato,"{B,Dd,Ds}",0,0
-633,Haj Mohamed,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0
-739,Oudin,Svincolato,Svincolato,Lecce,0,Svincolato,"{W,T}",0,0
-559,Partipilo,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0
-795,Kolo Muani,Svincolato,Svincolato,Juventus,0,Svincolato,{Pc},0,0
-840,Coman F.,Svincolato,Svincolato,Cagliari,0,Svincolato,{A},0,0
-18,Bravo,Metodo Monchi FC,Metodo Monchi FC,Udinese,4,Primavera,{A},0,0
-637,Braunoder,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
-745,Karamoh,Svincolato,Svincolato,Torino,0,Svincolato,{A},0,0
-759,Russo A.,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Por},0,0
-729,Carboni A.,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,Dc}",0,0
-810,Shomurodov,Svincolato,Svincolato,Roma,0,Svincolato,{Pc},0,0
-581,Osorio,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0
-673,Sambia,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0
-743,Plizzari,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
-839,Kovacik,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0
-585,Degli Innocenti,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0
-833,Verdi,Svincolato,Svincolato,Como,0,Svincolato,"{W,T}",0,0
-811,Wieteska,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0
-595,Kvaratskhelia,Svincolato,Svincolato,Napoli,0,Svincolato,{A},0,0
-787,Vlahovic V.,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0
-723,Baselli,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
 628,Hatzidiakos,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Dd,Dc}",0,0
+723,Baselli,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
+787,Vlahovic V.,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0
+595,Kvaratskhelia,Svincolato,Svincolato,Napoli,0,Svincolato,{A},0,0
+673,Sambia,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0
+581,Osorio,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0
+810,Shomurodov,Svincolato,Svincolato,Roma,0,Svincolato,{Pc},0,0
+729,Carboni A.,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,Dc}",0,0
+585,Degli Innocenti,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0
+759,Russo A.,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Por},0,0
+745,Karamoh,Svincolato,Svincolato,Torino,0,Svincolato,{A},0,0
+637,Braunoder,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
+18,Bravo,Metodo Monchi FC,Metodo Monchi FC,Udinese,4,Primavera,{A},0,0
+840,Coman F.,Svincolato,Svincolato,Cagliari,0,Svincolato,{A},0,0
+795,Kolo Muani,Svincolato,Svincolato,Juventus,0,Svincolato,{Pc},0,0
+559,Partipilo,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0
+683,Bennacer,Svincolato,Svincolato,Milan,4,Svincolato,"{M,C}",0,0
+811,Wieteska,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0
+833,Verdi,Svincolato,Svincolato,Como,0,Svincolato,"{W,T}",0,0
+839,Kovacik,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0
+743,Plizzari,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
+739,Oudin,Svincolato,Svincolato,Lecce,0,Svincolato,"{W,T}",0,0
+633,Haj Mohamed,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0
+698,Emerson Royal,Svincolato,Svincolato,Milan,0,Svincolato,"{B,Dd,Ds}",0,0
+820,Kayode,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{Dd,Ds,E}",0,0
 886,Bowie,Svincolato,Svincolato,Verona,10,Svincolato,{A},0,1
 890,Boga,AC Ciaccati,AC Ciaccati,Juventus,11,Indeterminato,"{W,A}",1,1
 281,Slotsager,Svincolato,Svincolato,Verona,2,Svincolato,{Dc},0,1
 325,Tsimikas,Svincolato,Svincolato,Roma,3,Svincolato,"{Ds,E}",0,1
 364,Comuzzo,FC Pontos,FC Pontos,Fiorentina,4,Indeterminato,{Dc},0,1
 395,Zappa,Diaolo Porco,Diaolo Porco,Cagliari,6,Indeterminato,"{B,Dd,E}",4,1
+694,Gytkjaer,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
 357,Pedersen,Diablitos FC,Diablitos FC,Torino,7,Indeterminato,"{Dd,E}",1,1
-433,Maripan,Sborada,Sborada,Torino,8,Indeterminato,{Dc},2,1
+433,Maripan,Svincolato,Svincolato,Torino,8,Svincolato,{Dc},2,1
 387,Muharemovic,Sborada,Sborada,Sassuolo,8,Indeterminato,{Dc},12,1
 367,Bernasconi,FC Pontos,FC Pontos,Atalanta,9,Indeterminato,{E},5,1
 448,Coco,FC Sovescio,FC Sovescio,Torino,9,Indeterminato,{Dc},5,1
@@ -138,22 +139,21 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 432,Solet,Baby Reijnders,Baby Reijnders,Udinese,14,Indeterminato,{Dc},3,1
 493,Nava,Svincolato,Svincolato,Cremonese,1,Svincolato,{Por},0,1
 524,Carnesecchi,Diablitos FC,Diablitos FC,Atalanta,18,Indeterminato,{Por},35,1
-694,Gytkjaer,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
-640,Dani Silva,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0
-274,Lamptey,Svincolato,Svincolato,Fiorentina,1,Svincolato,"{Dd,Ds,E}",0,0
-817,Kouda,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0
-813,Tessmann,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
-579,Mihaila,Svincolato,Svincolato,Parma,0,Svincolato,"{W,A}",0,0
-756,Bellemo,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
-687,Caputo,Svincolato,Svincolato,Empoli,0,Svincolato,{Pc},0,0
-847,Le Fee,Svincolato,Svincolato,Roma,0,Svincolato,"{C,T}",0,0
-650,Castagnetti,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0
-788,Pizarro,ZeroDayz FC,ZeroDayz FC,Udinese,1,Primavera,{Pc},0,0
-643,Godfrey,Svincolato,CyberDucks,Atalanta,1,Prestito Reale,"{B,Dd,Ds}",0,0
-751,Candela,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,E}",0,0
-616,Rus,Svincolato,Svincolato,Pisa,0,Svincolato,"{Dd,Dc}",0,0
-692,Magnani,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
 666,Marin,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0
+692,Magnani,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
+616,Rus,Svincolato,Svincolato,Pisa,0,Svincolato,"{Dd,Dc}",0,0
+687,Caputo,Svincolato,Svincolato,Empoli,0,Svincolato,{Pc},0,0
+756,Bellemo,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
+579,Mihaila,Svincolato,Svincolato,Parma,0,Svincolato,"{W,A}",0,0
+813,Tessmann,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
+817,Kouda,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0
+274,Lamptey,Svincolato,Svincolato,Fiorentina,1,Svincolato,"{Dd,Ds,E}",0,0
+640,Dani Silva,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0
+751,Candela,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,E}",0,0
+643,Godfrey,Svincolato,CyberDucks,Atalanta,1,Prestito Reale,"{B,Dd,Ds}",0,0
+788,Pizarro,ZeroDayz FC,ZeroDayz FC,Udinese,1,Primavera,{Pc},0,0
+650,Castagnetti,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0
+847,Le Fee,Svincolato,Svincolato,Roma,0,Svincolato,"{C,T}",0,0
 276,Kouadio,Svincolato,Svincolato,Fiorentina,1,Svincolato,{Dc},0,1
 316,Ndaba,Svincolato,Svincolato,Lecce,1,Svincolato,"{Ds,E}",0,1
 298,Gigot,Svincolato,Svincolato,Lazio,1,Svincolato,{Dc},0,1
@@ -182,8 +182,8 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 876,Obrador,Svincolato,Svincolato,Torino,10,Svincolato,"{Ds,E}",0,1
 326,Gutierrez,Diablitos FC,Diablitos FC,Napoli,10,Indeterminato,"{Ds,E}",23,1
 341,Athekame,CyberDucks,CyberDucks,Milan,11,Indeterminato,"{Dd,E}",0,1
-597,Pereiro,Svincolato,Svincolato,Genoa,0,Svincolato,"{W,T}",0,0
 730,Leoni,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0
+597,Pereiro,Svincolato,Svincolato,Genoa,0,Svincolato,"{W,T}",0,0
 233,Samardzic,ZeroDayz FC,ZeroDayz FC,Atalanta,9,Indeterminato,{T},15,1
 185,Lobotka,Sborada,Sborada,Napoli,11,Indeterminato,"{M,C}",0,1
 227,Ricci S.,FC Pontos,FC Pontos,Milan,11,Indeterminato,"{M,C}",17,1
@@ -213,8 +213,8 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 307,Troilo,Metodo Monchi FC,Metodo Monchi FC,Parma,5,Indeterminato,{Dc},1,1
 303,Dossena,Svincolato,Svincolato,Cagliari,5,Svincolato,{Dc},0,1
 366,Kolasinac,Svincolato,Svincolato,Atalanta,7,Svincolato,"{B,Ds,E}",0,1
-284,Schuurs,Svincolato,Svincolato,Torino,1,Svincolato,{Dc},2,0
 861,Marì,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},6,0
+284,Schuurs,Svincolato,Svincolato,Torino,1,Svincolato,{Dc},2,0
 109,Harroui,Baby Reijnders,Baby Reijnders,Verona,4,Indeterminato,"{W,T}",3,1
 207,Tourè I.,Svincolato,Svincolato,Pisa,5,Svincolato,"{E,M}",1,1
 236,Berisha M.,Svincolato,Svincolato,Lecce,7,Svincolato,"{C,T}",0,1
@@ -258,14 +258,14 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 155,El Aynaoui,ZeroDayz FC,ZeroDayz FC,Roma,8,Indeterminato,"{M,C}",16,1
 209,Ellertsson,AC Ciaccati,AC Ciaccati,Genoa,8,Indeterminato,"{C,W}",1,1
 218,Pobega,Svincolato,Svincolato,Bologna,8,Svincolato,"{M,C}",1,1
-178,Freuler,CyberDucks,CyberDucks,Bologna,8,Indeterminato,"{M,C}",7,1
+178,Freuler,CyberDucks,CyberDucks,Bologna,8,Hold,"{M,C}",7,1
 199,Zhegrova,Diablitos FC,Diablitos FC,Juventus,9,Indeterminato,{W},50,1
 202,Karlstrom,AC Ciaccati,AC Ciaccati,Udinese,9,Indeterminato,"{M,C}",1,1
 166,El Shaarawy,Svincolato,Svincolato,Roma,9,Svincolato,{W},0,1
 204,Moro N.,Svincolato,Svincolato,Bologna,9,Svincolato,"{M,C}",0,1
 198,De Roon,Sborada,Sborada,Atalanta,9,Indeterminato,"{M,C}",11,1
 203,Folorunsho,Sborada,Sborada,Cagliari,10,Indeterminato,"{C,T}",4,1
-875,Harrison,AC Ciaccati,AC Ciaccati,Fiorentina,11,Indeterminato,{W},1,1
+875,Harrison,Svincolato,Svincolato,Fiorentina,11,Svincolato,{W},1,1
 231,Sucic P.,Diablitos FC,Diablitos FC,Inter,11,Indeterminato,{C},21,1
 197,Fagioli,Metodo Monchi FC,Metodo Monchi FC,Fiorentina,11,Indeterminato,{C},0,1
 230,Locatelli,Baby Reijnders,Baby Reijnders,Juventus,12,Indeterminato,"{M,C}",3,1
@@ -288,7 +288,7 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 177,Fabbian,CyberDucks,CyberDucks,Fiorentina,6,Indeterminato,"{C,T}",36,1
 162,Aebischer,Svincolato,Svincolato,Pisa,6,Svincolato,{C},5,1
 200,Piotrowski,Svincolato,Svincolato,Udinese,7,Svincolato,{C},0,1
-188,Pierotti,AC Ciaccati,AC Ciaccati,Lecce,7,Indeterminato,"{W,A}",1,1
+188,Pierotti,Svincolato,Svincolato,Lecce,7,Svincolato,"{W,A}",1,1
 190,Prati,Diaolo Porco,Diaolo Porco,Torino,7,Indeterminato,"{M,C}",0,1
 206,Fadera,Svincolato,Svincolato,Sassuolo,8,Svincolato,{W},0,1
 173,Luis Henrique,Diaolo Porco,Diaolo Porco,Inter,8,Indeterminato,"{E,W}",2,1
@@ -308,6 +308,7 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 108,Adzic,Metodo Monchi FC,Metodo Monchi FC,Juventus,1,Primavera,"{C,T}",0,1
 140,Ilic,FC Sovescio,FC Sovescio,Torino,1,Indeterminato,{C},10,1
 138,Al-Musrati,Svincolato,Svincolato,Verona,2,Svincolato,"{M,C}",0,1
+239,Vandeputte,FC Pontos,FC Pontos,Cremonese,11,Hold,"{W,T}",1,1
 156,Marin M.,Svincolato,Svincolato,Pisa,2,Svincolato,"{M,C}",0,1
 148,Rovella,Diaolo Porco,Diaolo Porco,Lazio,2,Indeterminato,"{M,C}",0,1
 126,Lovric,Diaolo Porco,Diaolo Porco,Verona,3,Indeterminato,{C},4,1
@@ -330,7 +331,6 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 216,Kostic,Baby Reijnders,Baby Reijnders,Juventus,9,Indeterminato,"{E,W}",1,1
 208,Fofana Y.,CyberDucks,CyberDucks,Milan,10,Indeterminato,"{M,C}",12,1
 151,Maldini,Diablitos FC,Diablitos FC,Lazio,11,Indeterminato,"{T,A}",13,1
-239,Vandeputte,FC Pontos,FC Pontos,Cremonese,11,Indeterminato,"{W,T}",1,1
 214,Politano,Diaolo Porco,Diaolo Porco,Napoli,13,Indeterminato,{W},25,1
 205,Ederson D.S.,FC Sovescio,FC Sovescio,Atalanta,13,Indeterminato,"{M,C}",0,1
 213,Ekkelenkamp,AC Ciaccati,AC Ciaccati,Udinese,14,Indeterminato,"{C,T}",2,1
@@ -341,6 +341,7 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 60,Lukaku,CyberDucks,CyberDucks,Napoli,15,Indeterminato,{Pc},36,1
 731,Raspadori,CyberDucks,CyberDucks,Atalanta,15,Indeterminato,{A},19,1
 76,Vardy,Svincolato,Svincolato,Cremonese,16,Svincolato,{Pc},1,1
+120,Collocolo,FC Pontos,FC Pontos,Cremonese,2,Hold,"{M,C}",1,1
 57,Pinamonti,FC Pontos,FC Pontos,Sassuolo,16,Indeterminato,{Pc},30,1
 59,Moreo,Svincolato,Svincolato,Pisa,16,Svincolato,{A},0,1
 64,De Ketelaere,Metodo Monchi FC,Metodo Monchi FC,Atalanta,16,Indeterminato,{A},70,1
@@ -355,7 +356,6 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 94,Marchwinski,Svincolato,Svincolato,Lecce,1,Svincolato,{T},0,1
 116,Helgason,Svincolato,Svincolato,Lecce,2,Svincolato,"{C,T}",0,1
 118,Sabiri,Svincolato,Svincolato,Fiorentina,2,Svincolato,{T},0,1
-120,Collocolo,FC Pontos,FC Pontos,Cremonese,2,Indeterminato,"{M,C}",1,1
 100,Sulemana I.,Svincolato,Svincolato,Cagliari,6,Svincolato,"{M,C}",0,1
 137,Nicolussi Caviglia,Svincolato,Svincolato,Parma,8,Svincolato,"{M,C}",1,1
 240,Gaetano,Baby Reijnders,Baby Reijnders,Cagliari,13,Indeterminato,{T},2,1
@@ -366,12 +366,13 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 352,Floriani Mussolini,Svincolato,Svincolato,Cremonese,5,Svincolato,"{Dd,E}",0,1
 373,Tavares N.,Sborada,Sborada,Lazio,6,Indeterminato,"{Ds,E}",5,1
 358,Rensch,FC Sovescio,FC Sovescio,Roma,14,Indeterminato,"{B,Dd,E}",1,1
-61,Ferguson E.,AC Ciaccati,AC Ciaccati,Roma,10,Indeterminato,{Pc},0,1
+115,Hojholt,Svincolato,Svincolato,Pisa,3,Svincolato,"{M,C}",0,1
+61,Ferguson E.,Svincolato,Svincolato,Roma,10,Svincolato,{Pc},0,1
 47,Cancellieri,Svincolato,Svincolato,Lazio,11,Svincolato,"{W,A}",1,1
 65,Giovane,Metodo Monchi FC,Metodo Monchi FC,Napoli,13,Indeterminato,{A},1,1
 43,Colombo,FC Sovescio,FC Sovescio,Genoa,14,Indeterminato,{Pc},30,1
 66,Adams C.,FC Sovescio,FC Sovescio,Torino,16,Indeterminato,{A},30,1
-62,Vlahovic,AC Ciaccati,AC Ciaccati,Juventus,16,Indeterminato,{Pc},190,1
+62,Vlahovic,AC Ciaccati,AC Ciaccati,Juventus,16,Hold,{Pc},190,1
 81,Castro S.,Diablitos FC,Diablitos FC,Bologna,17,Indeterminato,{Pc},0,1
 51,Nkunku,FC Sovescio,FC Sovescio,Milan,18,Indeterminato,{A},53,1
 82,Soulè,Metodo Monchi FC,Metodo Monchi FC,Roma,20,Indeterminato,{A},67,1
@@ -390,7 +391,6 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 112,Anjorin,Svincolato,Svincolato,Torino,2,Svincolato,"{C,T}",1,1
 114,Boloca,Svincolato,Svincolato,Sassuolo,2,Svincolato,"{M,C}",0,1
 111,Zarraga,Svincolato,Svincolato,Udinese,3,Svincolato,"{M,C}",0,1
-115,Hojholt,Svincolato,Svincolato,Pisa,3,Svincolato,"{M,C}",0,1
 868,Ngom,Svincolato,Svincolato,Lecce,5,Svincolato,"{M,C}",0,1
 128,Ordonez C.,Svincolato,Svincolato,Parma,6,Svincolato,"{M,C}",0,1
 107,Ilkhan,Svincolato,Svincolato,Torino,7,Svincolato,"{C,T}",0,1
@@ -415,18 +415,18 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 250,Zaccagni,ZeroDayz FC,ZeroDayz FC,Lazio,12,Indeterminato,"{W,A}",79,1
 229,Thuram K.,Baby Reijnders,Baby Reijnders,Juventus,14,Indeterminato,"{M,C}",20,1
 330,Estupinan,FC Pontos,Diablitos FC,Milan,2,Fanta-Prestito,"{Ds,E}",31,1
-342,Valentini N.,Sborada,Sborada,Verona,3,Indeterminato,{Dc},3,1
+342,Valentini N.,Svincolato,Svincolato,Verona,3,Svincolato,{Dc},3,1
 381,Ahanor,CyberDucks,CyberDucks,Atalanta,4,Primavera,"{B,Ds,E}",0,1
+727,Corazza,Svincolato,Svincolato,Bologna,1,Svincolato,"{Dd,Ds,E}",0,0
 413,Cuadrado,Svincolato,Svincolato,Pisa,5,Svincolato,{E},0,1
 356,Bertola,FC Pontos,FC Pontos,Udinese,5,Indeterminato,{Dc},11,1
 372,Valenti,Svincolato,Svincolato,Parma,5,Svincolato,{Dc},0,1
 349,De Winter,Sborada,Sborada,Milan,6,Indeterminato,"{Dd,Dc}",11,1
-708,Ilic M.,Svincolato,Svincolato,Bologna,0,Svincolato,{Dc},0,0
-818,Joao Costa,Svincolato,Svincolato,Roma,0,Svincolato,{A},0,0
-625,Gonzalez N.,Svincolato,FC Sovescio,Juventus,12,Prestito Reale,"{W,A}",27,0
-835,Grandi,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
-727,Corazza,Svincolato,Svincolato,Bologna,1,Svincolato,"{Dd,Ds,E}",0,0
 553,De Marzi,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0
+835,Grandi,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
+625,Gonzalez N.,Svincolato,FC Sovescio,Juventus,12,Prestito Reale,"{W,A}",27,0
+818,Joao Costa,Svincolato,Svincolato,Roma,0,Svincolato,{A},0,0
+708,Ilic M.,Svincolato,Svincolato,Bologna,0,Svincolato,{Dc},0,0
 58,Dovbyk,Sborada,Sborada,Roma,10,Indeterminato,{Pc},175,1
 154,Tameze,Svincolato,Svincolato,Torino,1,Svincolato,"{M,C}",0,1
 93,Suslov,Svincolato,Svincolato,Verona,4,Svincolato,"{W,T}",0,1
@@ -435,58 +435,58 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 328,Biraghi,Svincolato,Svincolato,Torino,2,Svincolato,"{Ds,E}",10,1
 359,Canestrelli,Svincolato,Svincolato,Pisa,5,Svincolato,{Dc},5,1
 382,Djimsiti,ZeroDayz FC,ZeroDayz FC,Atalanta,7,Indeterminato,{Dc},5,1
-504,Guaita,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0
-812,Cerri,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
-598,Berardi A.,Svincolato,Svincolato,Verona,0,Svincolato,{Por},0,0
-618,Billing,Svincolato,Svincolato,Napoli,0,Svincolato,"{C,T}",0,0
-570,Dellavalle,Svincolato,Svincolato,Torino,0,Svincolato,"{Dd,Dc}",0,0
-821,Rui Patricio,Svincolato,Svincolato,Atalanta,0,Svincolato,{Por},0,0
-608,Sansone,Svincolato,Svincolato,Lecce,0,Svincolato,{A},0,0
-719,Hasa,Svincolato,Svincolato,Napoli,0,Svincolato,"{C,T}",0,0
-632,Maric,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
-106,Fini,Svincolato,Svincolato,Genoa,0,Svincolato,"{E,W}",0,0
-842,Hateboer,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0
-662,Gyasi,Svincolato,Svincolato,Empoli,0,Svincolato,{W},0,0
-806,Ravanelli,Svincolato,Svincolato,Cremonese,0,Svincolato,{Dc},0,0
-866,Walker,Svincolato,Svincolato,Milan,0,Svincolato,"{B,Dd,E}",0,0
-26,Cutrone,CyberDucks,CyberDucks,Parma,6,Indeterminato,{Pc},0,0
-848,Ibrahimovic A.,Svincolato,Svincolato,Lazio,0,Svincolato,"{W,T}",0,0
-627,Bakker,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0
-293,Kouassi,Svincolato,Svincolato,Lecce,1,Svincolato,"{Dd,Dc}",0,0
-724,Pereira P.,Svincolato,Svincolato,Monza,0,Svincolato,"{Dd,E}",0,0
-563,Burnete,Svincolato,Svincolato,Lecce,0,Svincolato,{Pc},0,0
-560,Musso,Svincolato,Svincolato,Atalanta,0,Svincolato,{Por},0,0
-647,Beltran L.,Svincolato,FC Pontos,Fiorentina,7,Prestito Reale,{A},0,0
 655,Kumbulla,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0
+647,Beltran L.,Svincolato,FC Pontos,Fiorentina,7,Prestito Reale,{A},0,0
+560,Musso,Svincolato,Svincolato,Atalanta,0,Svincolato,{Por},0,0
+26,Cutrone,CyberDucks,CyberDucks,Parma,6,Indeterminato,{Pc},0,0
+866,Walker,Svincolato,Svincolato,Milan,0,Svincolato,"{B,Dd,E}",0,0
+806,Ravanelli,Svincolato,Svincolato,Cremonese,0,Svincolato,{Dc},0,0
+662,Gyasi,Svincolato,Svincolato,Empoli,0,Svincolato,{W},0,0
+842,Hateboer,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0
+106,Fini,Svincolato,Svincolato,Genoa,0,Svincolato,"{E,W}",0,0
+632,Maric,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
+719,Hasa,Svincolato,Svincolato,Napoli,0,Svincolato,"{C,T}",0,0
+608,Sansone,Svincolato,Svincolato,Lecce,0,Svincolato,{A},0,0
+821,Rui Patricio,Svincolato,Svincolato,Atalanta,0,Svincolato,{Por},0,0
+570,Dellavalle,Svincolato,Svincolato,Torino,0,Svincolato,"{Dd,Dc}",0,0
+563,Burnete,Svincolato,Svincolato,Lecce,0,Svincolato,{Pc},0,0
+724,Pereira P.,Svincolato,Svincolato,Monza,0,Svincolato,"{Dd,E}",0,0
+293,Kouassi,Svincolato,Svincolato,Lecce,1,Svincolato,"{Dd,Dc}",0,0
+627,Bakker,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0
+848,Ibrahimovic A.,Svincolato,Svincolato,Lazio,0,Svincolato,"{W,T}",0,0
+618,Billing,Svincolato,Svincolato,Napoli,0,Svincolato,"{C,T}",0,0
+598,Berardi A.,Svincolato,Svincolato,Verona,0,Svincolato,{Por},0,0
+812,Cerri,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
+504,Guaita,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0
 36,Rodriguez Je.,Diablitos FC,Diablitos FC,Como,15,Indeterminato,"{W,A}",0,1
+704,Savona,Svincolato,Svincolato,Juventus,0,Svincolato,"{B,Dd,E}",0,0
 223,Leris,Svincolato,Svincolato,Pisa,10,Svincolato,{W},0,1
 456,Holm,CyberDucks,CyberDucks,Juventus,10,Indeterminato,"{Dd,E}",4,1
-449,Celik,AC Ciaccati,AC Ciaccati,Roma,14,Indeterminato,"{B,Dd,E}",1,1
+449,Celik,AC Ciaccati,AC Ciaccati,Roma,14,Hold,"{B,Dd,E}",1,1
 441,Scalvini,Metodo Monchi FC,Metodo Monchi FC,Atalanta,15,Indeterminato,{Dc},0,1
 458,Pavlovic,Baby Reijnders,Baby Reijnders,Milan,17,Indeterminato,{Dc},13,1
 427,Bremer,AC Ciaccati,AC Ciaccati,Juventus,20,Indeterminato,{Dc},27,1
 463,Sherri,Svincolato,Svincolato,Cagliari,1,Svincolato,{Por},0,1
-799,Ganvoula,Svincolato,Svincolato,Monza,0,Svincolato,{Pc},0,0
-704,Savona,Svincolato,Svincolato,Juventus,0,Svincolato,"{B,Dd,E}",0,0
-343,Unai Nunez,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},5,0
-681,Busio,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
-718,Selvik,Svincolato,Svincolato,Udinese,0,Svincolato,{Por},0,0
-728,Piana,Svincolato,Svincolato,Udinese,0,Svincolato,{Por},0,0
-804,Azon,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
-779,Abdulhamid,Svincolato,Svincolato,Roma,0,Svincolato,"{Dd,E}",0,0
-593,Mota,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0
-648,Schingtienne,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,Dc}",0,0
-569,Camara D.,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0
-750,Arthur Melo,Svincolato,Svincolato,Juventus,0,Svincolato,"{M,C}",0,0
-580,Boer,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0
-846,Cruz,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0
-584,Ebuehi,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0
 722,Carboni V.,Metodo Monchi FC,Metodo Monchi FC,Genoa,4,Primavera,"{T,A}",0,0
-682,Stankovic F.,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
-701,Crnigoj,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
-323,Bonfanti,Svincolato,Svincolato,Pisa,0,Svincolato,{Dc},0,0
-771,Thiaw,Svincolato,Svincolato,Milan,0,Svincolato,{Dc},0,0
+584,Ebuehi,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0
+846,Cruz,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0
+580,Boer,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0
+750,Arthur Melo,Svincolato,Svincolato,Juventus,0,Svincolato,"{M,C}",0,0
+569,Camara D.,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0
+648,Schingtienne,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,Dc}",0,0
+593,Mota,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0
+779,Abdulhamid,Svincolato,Svincolato,Roma,0,Svincolato,"{Dd,E}",0,0
+804,Azon,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
+728,Piana,Svincolato,Svincolato,Udinese,0,Svincolato,{Por},0,0
 610,Pedrola,Svincolato,Svincolato,Bologna,0,Svincolato,"{W,A}",0,0
+771,Thiaw,Svincolato,Svincolato,Milan,0,Svincolato,{Dc},0,0
+323,Bonfanti,Svincolato,Svincolato,Pisa,0,Svincolato,{Dc},0,0
+701,Crnigoj,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
+682,Stankovic F.,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
+718,Selvik,Svincolato,Svincolato,Udinese,0,Svincolato,{Por},0,0
+681,Busio,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
+343,Unai Nunez,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},5,0
+799,Ganvoula,Svincolato,Svincolato,Monza,0,Svincolato,{Pc},0,0
 9,Pavoletti,Svincolato,Svincolato,Cagliari,3,Svincolato,{Pc},0,1
 35,N'Dri,Svincolato,Svincolato,Lecce,7,Svincolato,"{W,A}",0,1
 52,Nzola,Svincolato,Svincolato,Sassuolo,10,Svincolato,{Pc},0,1
@@ -496,28 +496,28 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 16,Djuric,Baby Reijnders,Baby Reijnders,Cremonese,5,Indeterminato,{Pc},2,1
 3,Frigan,Svincolato,Svincolato,Parma,1,Svincolato,{Pc},0,1
 7,Milik,Svincolato,Svincolato,Juventus,1,Svincolato,{Pc},0,1
-815,Ebosele,Svincolato,Svincolato,Udinese,0,Svincolato,"{Dd,E}",0,0
-651,Viola,Svincolato,Svincolato,Cagliari,0,Svincolato,"{C,T}",0,0
-685,Azzi,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0
-612,Ryan,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0
-807,Cacace,Svincolato,Svincolato,Empoli,0,Svincolato,"{Ds,E}",0,0
-654,Machin,Svincolato,Svincolato,Monza,0,Svincolato,{C},0,0
-767,Martins K.,Svincolato,Svincolato,Monza,0,Svincolato,"{E,W}",0,0
-814,Jankto,Svincolato,Svincolato,Cagliari,0,Svincolato,"{E,C}",0,0
-619,Kasa,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0
-577,Matturro,Svincolato,Svincolato,Genoa,0,Svincolato,{Dc},0,0
-589,Karlsson,Svincolato,FC Pontos,Bologna,3,Prestito Reale,"{W,A}",2,0
-758,Luan Patrick,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
-774,Jimenez A.,Svincolato,Svincolato,Milan,0,Svincolato,"{Dd,Ds,E}",0,0
-576,Kone B.,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
-783,Man,Svincolato,Svincolato,Parma,0,Svincolato,"{W,A}",0,0
-663,Smalling,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0
-830,Chukwueze,Svincolato,AC Ciaccati,Milan,3,Prestito Reale,{W},0,0
 315,Lovik,Svincolato,Svincolato,Parma,0,Svincolato,"{Ds,E}",0,0
-855,Solbakken,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0
-586,Cacciamani,Svincolato,Svincolato,Torino,0,Svincolato,"{W,A}",0,0
-192,Bailey,Svincolato,Svincolato,Roma,0,Svincolato,"{W,A}",25,0
+830,Chukwueze,Svincolato,AC Ciaccati,Milan,3,Prestito Reale,{W},0,0
+663,Smalling,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0
+783,Man,Svincolato,Svincolato,Parma,0,Svincolato,"{W,A}",0,0
+576,Kone B.,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
+774,Jimenez A.,Svincolato,Svincolato,Milan,0,Svincolato,"{Dd,Ds,E}",0,0
+758,Luan Patrick,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
+589,Karlsson,Svincolato,FC Pontos,Bologna,3,Prestito Reale,"{W,A}",2,0
+577,Matturro,Svincolato,Svincolato,Genoa,0,Svincolato,{Dc},0,0
+619,Kasa,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0
+814,Jankto,Svincolato,Svincolato,Cagliari,0,Svincolato,"{E,C}",0,0
+651,Viola,Svincolato,Svincolato,Cagliari,0,Svincolato,"{C,T}",0,0
+815,Ebosele,Svincolato,Svincolato,Udinese,0,Svincolato,"{Dd,E}",0,0
 2,Kouamè,Svincolato,Svincolato,Fiorentina,1,Svincolato,{A},0,0
+192,Bailey,Svincolato,Svincolato,Roma,0,Svincolato,"{W,A}",25,0
+586,Cacciamani,Svincolato,Svincolato,Torino,0,Svincolato,"{W,A}",0,0
+855,Solbakken,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0
+767,Martins K.,Svincolato,Svincolato,Monza,0,Svincolato,"{E,W}",0,0
+654,Machin,Svincolato,Svincolato,Monza,0,Svincolato,{C},0,0
+807,Cacace,Svincolato,Svincolato,Empoli,0,Svincolato,"{Ds,E}",0,0
+612,Ryan,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0
+685,Azzi,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0
 885,Elphege,Svincolato,Svincolato,Parma,6,Svincolato,{Pc},0,1
 49,Addai,ZeroDayz FC,ZeroDayz FC,Como,6,Primavera,"{W,A}",0,1
 33,Dallinga,Svincolato,Svincolato,Bologna,6,Svincolato,{Pc},24,1
@@ -527,30 +527,31 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 24,Mosquera,Svincolato,Svincolato,Verona,4,Svincolato,{Pc},0,1
 5,Moro L.,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Pc},0,1
 882,Albarracin,Svincolato,Svincolato,Cagliari,2,Svincolato,{A},0,1
-746,Jasim,Svincolato,Svincolato,Como,0,Svincolato,"{W,A}",0,0
-321,Di Pardo,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Dd,E}",0,0
-170,Vecino,Svincolato,Svincolato,Lazio,6,Svincolato,"{M,C}",0,0
-733,Pafundi,Svincolato,Svincolato,Udinese,0,Svincolato,"{T,A}",0,0
 863,El Haddad,Svincolato,Svincolato,Venezia,0,Svincolato,{T},0,0
-110,Kastanos,Svincolato,Baby Reijnders,Verona,1,Prestito Reale,"{C,T}",1,0
-533,Dzeko,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Pc},7,0
+733,Pafundi,Svincolato,Svincolato,Udinese,0,Svincolato,"{T,A}",0,0
+170,Vecino,Svincolato,Svincolato,Lazio,6,Svincolato,"{M,C}",0,0
+321,Di Pardo,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Dd,E}",0,0
+746,Jasim,Svincolato,Svincolato,Como,0,Svincolato,"{W,A}",0,0
 567,Ferreira J.,Svincolato,Svincolato,Udinese,0,Svincolato,"{B,Dd,E}",0,0
-54,Lookman,Svincolato,Svincolato,Atalanta,15,Svincolato,{A},107,0
-706,Pellegri,Svincolato,Svincolato,Empoli,0,Svincolato,{Pc},0,0
-12,Lucca,Svincolato,Svincolato,Napoli,0,Svincolato,{Pc},16,0
-582,Mazza,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
-550,Castellanos,Svincolato,Svincolato,Lazio,0,Svincolato,{Pc},36,0
-649,Adli,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
-803,Lekovic,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0
-614,Zampano,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,Ds,E}",0,0
-784,Mulattieri,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0
-147,Tete Morente,Svincolato,Svincolato,Lecce,3,Svincolato,{W},0,0
-691,Reijnders,Svincolato,Svincolato,Milan,0,Svincolato,{C},0,0
-715,Calabria,Svincolato,Svincolato,Bologna,0,Svincolato,"{Dd,E}",0,0
+533,Dzeko,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Pc},7,0
+110,Kastanos,Svincolato,Baby Reijnders,Verona,1,Prestito Reale,"{C,T}",1,0
 557,Castrovilli,Svincolato,Svincolato,Monza,0,Svincolato,"{C,T}",0,0
+715,Calabria,Svincolato,Svincolato,Bologna,0,Svincolato,"{Dd,E}",0,0
+691,Reijnders,Svincolato,Svincolato,Milan,0,Svincolato,{C},0,0
+147,Tete Morente,Svincolato,Svincolato,Lecce,3,Svincolato,{W},0,0
+784,Mulattieri,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0
+614,Zampano,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,Ds,E}",0,0
+803,Lekovic,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0
+649,Adli,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
+550,Castellanos,Svincolato,Svincolato,Lazio,0,Svincolato,{Pc},36,0
+582,Mazza,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
+12,Lucca,Svincolato,Svincolato,Napoli,0,Svincolato,{Pc},16,0
+706,Pellegri,Svincolato,Svincolato,Empoli,0,Svincolato,{Pc},0,0
+54,Lookman,Svincolato,Svincolato,Atalanta,15,Svincolato,{A},107,0
 38,Openda,FC Sovescio,FC Sovescio,Juventus,4,Indeterminato,{Pc},53,1
 28,Buksa,Svincolato,Svincolato,Udinese,7,Svincolato,{Pc},0,1
 544,Trepy,Svincolato,Svincolato,Cagliari,1,Svincolato,{Pc},0,1
+27,Belotti,Svincolato,Svincolato,Cagliari,4,Svincolato,{Pc},0,1
 869,Vaz,Svincolato,Svincolato,Roma,8,Svincolato,{Pc},0,1
 19,Solomon,Svincolato,Svincolato,Fiorentina,9,Svincolato,"{W,A}",4,1
 541,Stulic,Svincolato,Svincolato,Lecce,8,Svincolato,{Pc},0,1
@@ -576,11 +577,12 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 406,Gila,Diablitos FC,Diablitos FC,Lazio,8,Indeterminato,{Dc},12,1
 403,Beukema,Diaolo Porco,Diaolo Porco,Napoli,10,Indeterminato,{Dc},10,1
 371,N'Dicka,CyberDucks,CyberDucks,Roma,12,Indeterminato,{Dc},13,1
-27,Belotti,FC Pontos,FC Pontos,Cagliari,4,Indeterminato,{Pc},0,1
 538,Meister,Svincolato,Svincolato,Pisa,5,Svincolato,{Pc},0,1
 536,Morata,Baby Reijnders,Baby Reijnders,Como,2,Indeterminato,{Pc},0,1
+442,Belghali,FC Pontos,FC Pontos,Verona,10,Hold,"{Dd,E}",6,1
 418,Zanoli,FC Sovescio,FC Sovescio,Udinese,6,Indeterminato,"{Dd,E}",7,1
 407,Cabal,Svincolato,Svincolato,Juventus,6,Svincolato,"{B,Ds,E}",2,1
+394,Moreno Alb.,Svincolato,Svincolato,Como,9,Svincolato,"{Ds,E}",7,1
 420,Barbieri,Svincolato,Svincolato,Cremonese,5,Svincolato,"{Dd,Ds,E}",1,1
 450,Terracciano F.,Baby Reijnders,Baby Reijnders,Cremonese,7,Indeterminato,"{Dd,Ds,E}",1,1
 437,Buongiorno,Diaolo Porco,Diaolo Porco,Napoli,8,Indeterminato,{Dc},31,1
@@ -588,8 +590,6 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 421,Luperto,Baby Reijnders,Baby Reijnders,Cremonese,8,Indeterminato,{Dc},8,1
 454,Baschirotto,FC Pontos,FC Pontos,Cremonese,9,Indeterminato,{Dc},11,1
 438,Cambiaso,Baby Reijnders,Baby Reijnders,Juventus,9,Indeterminato,{E},17,1
-394,Moreno Alb.,Diablitos FC,FC Pontos,Como,9,Fanta-Prestito,"{Ds,E}",7,1
-442,Belghali,FC Pontos,FC Pontos,Verona,10,Indeterminato,"{Dd,E}",6,1
 446,Ramon,Diaolo Porco,Diaolo Porco,Como,10,Indeterminato,{Dc},0,1
 443,Kabasele,Svincolato,Svincolato,Udinese,10,Svincolato,{Dc},0,1
 435,Di Lorenzo,FC Pontos,FC Pontos,Napoli,10,Indeterminato,"{Dd,E}",33,1
@@ -610,12 +610,12 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 439,Bisseck,Sborada,Sborada,Inter,15,Indeterminato,{Dc},8,1
 455,Carlos Augusto,ZeroDayz FC,ZeroDayz FC,Inter,10,Indeterminato,"{B,Ds,E}",5,1
 451,Martin,AC Ciaccati,AC Ciaccati,Genoa,10,Indeterminato,"{Ds,E}",9,1
+459,Palestra,Svincolato,Svincolato,Cagliari,16,Svincolato,{E},0,1
 460,Bastoni,Diaolo Porco,Diaolo Porco,Inter,13,Indeterminato,{Dc},27,1
 457,Wesley,Metodo Monchi FC,Metodo Monchi FC,Roma,14,Indeterminato,{E},40,1
 447,Ostigard,Metodo Monchi FC,Metodo Monchi FC,Genoa,15,Indeterminato,{Dc},2,1
 461,Spinazzola,Sborada,Diaolo Porco,Napoli,16,Fanta-Prestito,"{Ds,E}",0,1
 452,Kempf,Diaolo Porco,Diaolo Porco,Como,16,Indeterminato,{Dc},1,1
-459,Palestra,FC Pontos,FC Pontos,Cagliari,16,Indeterminato,{E},0,1
 462,Dimarco,Metodo Monchi FC,Metodo Monchi FC,Inter,30,Indeterminato,{E},31,1
 464,Tornqvist,Svincolato,Svincolato,Como,1,Svincolato,{Por},0,1
 465,Calligaris,Svincolato,Svincolato,Inter,1,Svincolato,{Por},0,1
@@ -670,8 +670,8 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 528,Maignan,FC Pontos,FC Pontos,Milan,16,Indeterminato,{Por},35,1
 527,Svilar,ZeroDayz FC,ZeroDayz FC,Roma,17,Indeterminato,{Por},21,1
 531,Gueye,ZeroDayz FC,ZeroDayz FC,Udinese,5,Primavera,{Pc},0,1
-309,Goglichidze,Svincolato,Svincolato,Udinese,2,Svincolato,"{Dd,Dc}",0,0
 539,Camarda,Diablitos FC,Diablitos FC,Lecce,2,Primavera,{Pc},0,1
+17,Bayo V.,Svincolato,Svincolato,Udinese,2,Svincolato,{Pc},0,1
 532,Almqvist,Svincolato,Svincolato,Parma,3,Svincolato,"{W,A}",0,1
 535,Dominguez B.,ZeroDayz FC,ZeroDayz FC,Bologna,3,Indeterminato,"{W,A}",31,1
 888,Kulenovic,Sborada,Sborada,Torino,4,Indeterminato,{Pc},1,1
@@ -686,222 +686,222 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 515,De Gea,Sborada,Sborada,Fiorentina,12,Indeterminato,{Por},35,1
 522,Audero,FC Sovescio,FC Sovescio,Cremonese,12,Indeterminato,{Por},0,1
 517,Caprile,Metodo Monchi FC,Metodo Monchi FC,Cagliari,12,Indeterminato,{Por},8,1
-519,Sommer,AC Ciaccati,AC Ciaccati,Inter,13,Indeterminato,{Por},47,1
+519,Sommer,Svincolato,Svincolato,Inter,13,Svincolato,{Por},47,1
 509,Okoye,FC Sovescio,FC Sovescio,Udinese,14,Indeterminato,{Por},2,1
 520,Falcone,ZeroDayz FC,ZeroDayz FC,Lecce,15,Indeterminato,{Por},11,1
 521,Di Gregorio,CyberDucks,CyberDucks,Juventus,15,Indeterminato,{Por},49,1
+309,Goglichidze,Svincolato,Svincolato,Udinese,2,Svincolato,"{Dd,Dc}",0,0
 526,Butez,Metodo Monchi FC,Metodo Monchi FC,Como,16,Indeterminato,{Por},7,1
 525,Milinkovic-Savic V.,Diaolo Porco,Diaolo Porco,Napoli,17,Indeterminato,{Por},19,1
 537,Sarr A.,Svincolato,Svincolato,Verona,4,Svincolato,{A},0,1
 20,Sanabria,Svincolato,Svincolato,Cremonese,4,Svincolato,{Pc},0,1
 540,Kuhn,Diaolo Porco,Diaolo Porco,Como,5,Indeterminato,"{W,A}",27,1
 546,Aboukhlal,AC Ciaccati,AC Ciaccati,Torino,1,Indeterminato,{A},1,1
-17,Bayo V.,Svincolato,Svincolato,Udinese,2,Svincolato,{Pc},0,1
-747,De Luca,Svincolato,Svincolato,Cremonese,0,Svincolato,{Pc},0,0
-600,Scott,Svincolato,Svincolato,Lecce,0,Svincolato,{Dc},0,0
 283,Dembelè A.,Svincolato,Svincolato,Torino,1,Svincolato,"{Dd,E}",0,0
-583,Strefezza,Sborada,Sborada,Parma,13,Indeterminato,"{W,A}",4,1
-752,Zeroli,FC Sovescio,FC Sovescio,Monza,3,Primavera,"{C,T}",0,0
-311,Rui Modesto,Svincolato,Svincolato,Udinese,1,Svincolato,{E},0,0
-299,Rouhi,Svincolato,Svincolato,Juventus,1,Svincolato,"{Ds,E}",0,0
-314,Mateus Lusuardi,Svincolato,Svincolato,Pisa,2,Svincolato,{Dc},0,0
-776,Okafor,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0
-880,Tchoca,Svincolato,Svincolato,Torino,2,Svincolato,{Dc},0,0
-836,Di Chiara,Svincolato,Svincolato,Parma,0,Svincolato,"{Ds,E}",0,0
-613,Byar,Svincolato,Svincolato,Bologna,0,Svincolato,"{C,T}",0,0
-95,Pierret,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",0,0
-864,Lambourde,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0
-623,Chiesa,Svincolato,Svincolato,Juventus,0,Svincolato,{A},0,0
-738,Palomino,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0
-603,Birindelli,Svincolato,Svincolato,Monza,0,Svincolato,"{Dd,Ds,E}",0,0
-763,Rebic,Svincolato,Svincolato,Lecce,0,Svincolato,{A},0,0
-753,Daniliuc,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,Dc}",0,0
-676,Bani,Svincolato,Svincolato,Genoa,0,Svincolato,{Dc},0,0
-607,Giannetti L.,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0
-785,El Azzouzi,Svincolato,Svincolato,Bologna,0,Svincolato,"{M,C}",0,0
-714,Hernani,Svincolato,Svincolato,Parma,2,Svincolato,{C},1,0
-816,Natan,Svincolato,Svincolato,Napoli,0,Svincolato,{Dc},0,0
-91,Cuenca H.,Svincolato,Svincolato,Genoa,1,Svincolato,"{W,T}",0,0
-629,Bettella,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0
-30,Ngonge,Svincolato,Baby Reijnders,Torino,9,Prestito Reale,{A},3,0
-534,Luvumbo,Svincolato,Diablitos FC,Cagliari,3,Prestito Reale,{A},16,0
-726,Haps,Svincolato,Svincolato,Venezia,0,Svincolato,"{Ds,E}",0,0
-867,Pierini,Svincolato,Svincolato,Sassuolo,2,Svincolato,{A},0,0
+600,Scott,Svincolato,Svincolato,Lecce,0,Svincolato,{Dc},0,0
+747,De Luca,Svincolato,Svincolato,Cremonese,0,Svincolato,{Pc},0,0
+583,Strefezza,Svincolato,Svincolato,Parma,13,Svincolato,"{W,A}",4,1
 834,De Sciglio,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,Ds,E}",0,0
-686,Tourè E.,Svincolato,FC Sovescio,Atalanta,6,Prestito Reale,{Pc},0,0
+836,Di Chiara,Svincolato,Svincolato,Parma,0,Svincolato,"{Ds,E}",0,0
+880,Tchoca,Svincolato,Svincolato,Torino,2,Svincolato,{Dc},0,0
+776,Okafor,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0
+314,Mateus Lusuardi,Svincolato,Svincolato,Pisa,2,Svincolato,{Dc},0,0
+299,Rouhi,Svincolato,Svincolato,Juventus,1,Svincolato,"{Ds,E}",0,0
+311,Rui Modesto,Svincolato,Svincolato,Udinese,1,Svincolato,{E},0,0
+752,Zeroli,FC Sovescio,FC Sovescio,Monza,3,Primavera,"{C,T}",0,0
+30,Ngonge,Svincolato,Baby Reijnders,Torino,9,Prestito Reale,{A},3,0
+629,Bettella,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0
+91,Cuenca H.,Svincolato,Svincolato,Genoa,1,Svincolato,"{W,T}",0,0
+816,Natan,Svincolato,Svincolato,Napoli,0,Svincolato,{Dc},0,0
+714,Hernani,Svincolato,Svincolato,Parma,2,Svincolato,{C},1,0
+785,El Azzouzi,Svincolato,Svincolato,Bologna,0,Svincolato,"{M,C}",0,0
+607,Giannetti L.,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0
+676,Bani,Svincolato,Svincolato,Genoa,0,Svincolato,{Dc},0,0
+753,Daniliuc,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,Dc}",0,0
+763,Rebic,Svincolato,Svincolato,Lecce,0,Svincolato,{A},0,0
+603,Birindelli,Svincolato,Svincolato,Monza,0,Svincolato,"{Dd,Ds,E}",0,0
+738,Palomino,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0
+623,Chiesa,Svincolato,Svincolato,Juventus,0,Svincolato,{A},0,0
+864,Lambourde,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0
+95,Pierret,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",0,0
+613,Byar,Svincolato,Svincolato,Bologna,0,Svincolato,"{C,T}",0,0
 13,Johnsen,Svincolato,Svincolato,Cremonese,7,Svincolato,{A},0,0
-710,Perisan,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0
-133,Asllani,Svincolato,Sborada,Torino,2,Prestito Reale,"{M,C}",4,0
-826,Marcone,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0
-664,Dahl,Svincolato,Svincolato,Roma,0,Svincolato,"{Ds,E}",0,0
-761,Varane,Svincolato,Svincolato,Como,0,Svincolato,{Dc},0,0
-590,Abildgaard,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
-4,Skjellerup,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Pc},0,0
-677,Jajalo,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
-668,Mitrovic S.,Svincolato,Svincolato,Verona,2,Svincolato,{W},0,0
+686,Tourè E.,Svincolato,FC Sovescio,Atalanta,6,Prestito Reale,{Pc},0,0
+867,Pierini,Svincolato,Svincolato,Sassuolo,2,Svincolato,{A},0,0
+726,Haps,Svincolato,Svincolato,Venezia,0,Svincolato,"{Ds,E}",0,0
+534,Luvumbo,Svincolato,Diablitos FC,Cagliari,3,Prestito Reale,{A},16,0
 422,Posch,ZeroDayz FC,ZeroDayz FC,Como,10,Indeterminato,"{Dd,Dc}",15,0
-809,Pelmard,Svincolato,Svincolato,Lecce,0,Svincolato,"{Dd,Ds,Dc}",0,0
-837,Dawidowicz,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
-245,Vazquez,Svincolato,Svincolato,Cremonese,0,Svincolato,"{T,A}",0,0
-712,Hummels,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0
-486,Mandas,Svincolato,Baby Reijnders,Lazio,1,Prestito Reale,{Por},1,0
-671,Bijol,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0
-117,Gronbaek,Svincolato,Svincolato,Genoa,2,Svincolato,"{W,T}",16,0
-288,Odenthal,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Dc},0,0
-555,Haas,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0
-634,Bertinato,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
-609,Retegui,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0
-123,Sarmiento J.,Svincolato,Svincolato,Cremonese,0,Svincolato,"{W,T}",0,0
-271,Palacios T.,Svincolato,Svincolato,Inter,0,Svincolato,{Dc},0,0
-851,Rafia,Svincolato,Svincolato,Lecce,0,Svincolato,"{C,T}",0,0
-286,Paz Y.,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{Dd,E}",0,0
+668,Mitrovic S.,Svincolato,Svincolato,Verona,2,Svincolato,{W},0,0
+677,Jajalo,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
+4,Skjellerup,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Pc},0,0
+590,Abildgaard,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
+761,Varane,Svincolato,Svincolato,Como,0,Svincolato,{Dc},0,0
+664,Dahl,Svincolato,Svincolato,Roma,0,Svincolato,"{Ds,E}",0,0
+826,Marcone,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0
+133,Asllani,Svincolato,Sborada,Torino,2,Prestito Reale,"{M,C}",4,0
+710,Perisan,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0
 831,Tengstedt,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0
-700,Duncan,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
-777,Mario Rui,Svincolato,Svincolato,Napoli,0,Svincolato,{E},0,0
-15,Immobile,Svincolato,Svincolato,Bologna,4,Svincolato,{Pc},8,0
-780,Urbanski,Svincolato,Svincolato,Monza,0,Svincolato,"{C,W,T}",0,0
+286,Paz Y.,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{Dd,E}",0,0
+851,Rafia,Svincolato,Svincolato,Lecce,0,Svincolato,"{C,T}",0,0
+271,Palacios T.,Svincolato,Svincolato,Inter,0,Svincolato,{Dc},0,0
+123,Sarmiento J.,Svincolato,Svincolato,Cremonese,0,Svincolato,"{W,T}",0,0
+609,Retegui,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0
+634,Bertinato,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
+555,Haas,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0
+288,Odenthal,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Dc},0,0
+117,Gronbaek,Svincolato,Svincolato,Genoa,2,Svincolato,"{W,T}",16,0
+671,Bijol,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0
+486,Mandas,Svincolato,Baby Reijnders,Lazio,1,Prestito Reale,{Por},1,0
+712,Hummels,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0
+245,Vazquez,Svincolato,Svincolato,Cremonese,0,Svincolato,"{T,A}",0,0
+837,Dawidowicz,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
+809,Pelmard,Svincolato,Svincolato,Lecce,0,Svincolato,"{Dd,Ds,Dc}",0,0
 695,Pohjanpalo,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
+780,Urbanski,Svincolato,Svincolato,Monza,0,Svincolato,"{C,W,T}",0,0
+15,Immobile,Svincolato,Svincolato,Bologna,4,Svincolato,{Pc},8,0
+777,Mario Rui,Svincolato,Svincolato,Napoli,0,Svincolato,{E},0,0
+700,Duncan,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
 672,Iling Junior,Svincolato,Svincolato,Pisa,3,Svincolato,"{E,W}",0,1
-46,Lang,Svincolato,FC Pontos,Napoli,13,Prestito Reale,{A},66,0
-660,Quagliata,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0
-573,Lella,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
-734,Vogliacco,Svincolato,Svincolato,Genoa,0,Svincolato,"{Dd,Dc}",0,0
-562,Joao Felix,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0
-635,Lind,Svincolato,Svincolato,Pisa,0,Svincolato,{Pc},0,0
-588,Gourna-Douath,Svincolato,Svincolato,Roma,0,Svincolato,"{M,C}",0,0
-611,Joronen,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
-624,Donnarumma An.,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0
 721,Marin R.,ZeroDayz FC,ZeroDayz FC,Napoli,4,Indeterminato,{Dc},6,0
-11,Ambrosino,Svincolato,Svincolato,Napoli,2,Svincolato,{Pc},0,0
-653,Andersen M.K.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
-775,Cissè A.,Svincolato,Svincolato,Verona,0,Svincolato,"{W,T}",0,0
-755,Moreno M.,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0
-656,Lazovic,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0
-770,Cyprien,Svincolato,Svincolato,Parma,0,Svincolato,"{M,C}",0,0
-720,Perez N.,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0
-626,Mutandwa,Svincolato,Svincolato,Cagliari,0,Svincolato,{Pc},0,0
-735,Chichizola,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0
-725,Lapadula,Svincolato,Svincolato,Cagliari,0,Svincolato,{Pc},0,0
-92,Rog,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0
-711,Taremi,Svincolato,Svincolato,Inter,0,Svincolato,{Pc},0,0
-319,Viti,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0
-599,Arnautovic,Svincolato,Svincolato,Inter,0,Svincolato,{Pc},0,0
-786,Perez K.,Svincolato,Svincolato,Venezia,0,Svincolato,"{C,T}",0,0
+624,Donnarumma An.,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0
+611,Joronen,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
+588,Gourna-Douath,Svincolato,Svincolato,Roma,0,Svincolato,"{M,C}",0,0
+635,Lind,Svincolato,Svincolato,Pisa,0,Svincolato,{Pc},0,0
+562,Joao Felix,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0
+734,Vogliacco,Svincolato,Svincolato,Genoa,0,Svincolato,"{Dd,Dc}",0,0
+573,Lella,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0
+660,Quagliata,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0
+46,Lang,Svincolato,FC Pontos,Napoli,13,Prestito Reale,{A},66,0
 657,Chiorra,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0
-290,Mbambi,Svincolato,Svincolato,Pisa,0,Svincolato,{Dc},0,0
-800,Erlic,Svincolato,Svincolato,Bologna,0,Svincolato,{Dc},0,0
-789,Pizzignacco,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
+786,Perez K.,Svincolato,Svincolato,Venezia,0,Svincolato,"{C,T}",0,0
+599,Arnautovic,Svincolato,Svincolato,Inter,0,Svincolato,{Pc},0,0
+319,Viti,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0
+711,Taremi,Svincolato,Svincolato,Inter,0,Svincolato,{Pc},0,0
+92,Rog,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0
+725,Lapadula,Svincolato,Svincolato,Cagliari,0,Svincolato,{Pc},0,0
+735,Chichizola,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0
+626,Mutandwa,Svincolato,Svincolato,Cagliari,0,Svincolato,{Pc},0,0
+720,Perez N.,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0
+770,Cyprien,Svincolato,Svincolato,Parma,0,Svincolato,"{M,C}",0,0
+656,Lazovic,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0
+755,Moreno M.,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0
+775,Cissè A.,Svincolato,Svincolato,Verona,0,Svincolato,"{W,T}",0,0
+653,Andersen M.K.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
+11,Ambrosino,Svincolato,Svincolato,Napoli,2,Svincolato,{Pc},0,0
 862,Ghion,Svincolato,Svincolato,Sassuolo,0,Svincolato,"{M,C}",0,0
-604,Abraham,Svincolato,Baby Reijnders,Milan,10,Prestito Reale,{Pc},8,0
-822,Arena,Svincolato,Svincolato,Pisa,0,Svincolato,"{W,T}",0,0
-825,Stolz,Svincolato,Svincolato,Genoa,0,Svincolato,{Por},0,0
-772,Kowalski,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0
-773,Barba,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0
-119,Richardson,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
-289,Esteves T.,Svincolato,Svincolato,Pisa,0,Svincolato,"{Dd,E}",0,0
-699,Ronaldo,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0
-638,Coppola D.,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
-554,Lucchesi,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0
-615,Liberali,FC Pontos,FC Pontos,Milan,1,Primavera,"{W,T}",0,0
+789,Pizzignacco,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
+800,Erlic,Svincolato,Svincolato,Bologna,0,Svincolato,{Dc},0,0
+290,Mbambi,Svincolato,Svincolato,Pisa,0,Svincolato,{Dc},0,0
 641,Okou,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
-622,Caprari,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0
-705,Salama,Svincolato,Svincolato,Torino,0,Svincolato,{Pc},0,0
-797,Sazonov,Svincolato,Svincolato,Empoli,0,Svincolato,{Dc},0,0
-858,Jack,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0
-547,Success,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
-621,Sala M.,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0
-781,Martinelli T.,Svincolato,Sborada,Fiorentina,1,Prestito Reale,{Por},1,0
-808,Pessina,Svincolato,Svincolato,Monza,0,Svincolato,"{M,C}",0,0
-670,Sorrentino A.,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
-843,Guendouzi,Svincolato,Svincolato,Lazio,0,Svincolato,{C},8,0
-824,Gabrielloni,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
-690,Bove,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
-792,Balogh,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0
-620,Svoboda,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0
-838,Linetty,Svincolato,Svincolato,Torino,0,Svincolato,"{M,C}",0,0
+615,Liberali,FC Pontos,FC Pontos,Milan,1,Primavera,"{W,T}",0,0
+554,Lucchesi,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0
+638,Coppola D.,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0
+699,Ronaldo,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0
+289,Esteves T.,Svincolato,Svincolato,Pisa,0,Svincolato,"{Dd,E}",0,0
+119,Richardson,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
+773,Barba,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0
+772,Kowalski,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0
+825,Stolz,Svincolato,Svincolato,Genoa,0,Svincolato,{Por},0,0
+822,Arena,Svincolato,Svincolato,Pisa,0,Svincolato,"{W,T}",0,0
+604,Abraham,Svincolato,Baby Reijnders,Milan,10,Prestito Reale,{Pc},8,0
 587,Engelhardt,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0
-741,Reina,Svincolato,Svincolato,Como,0,Svincolato,{Por},0,0
-748,Condè,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
+838,Linetty,Svincolato,Svincolato,Torino,0,Svincolato,"{M,C}",0,0
+620,Svoboda,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0
+792,Balogh,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0
+690,Bove,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0
+824,Gabrielloni,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
+843,Guendouzi,Svincolato,Svincolato,Lazio,0,Svincolato,{C},8,0
+670,Sorrentino A.,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
+808,Pessina,Svincolato,Svincolato,Monza,0,Svincolato,"{M,C}",0,0
+781,Martinelli T.,Svincolato,Sborada,Fiorentina,1,Prestito Reale,{Por},1,0
+621,Sala M.,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0
+547,Success,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
+858,Jack,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0
+797,Sazonov,Svincolato,Svincolato,Empoli,0,Svincolato,{Dc},0,0
+705,Salama,Svincolato,Svincolato,Torino,0,Svincolato,{Pc},0,0
+622,Caprari,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0
 574,Vos,Svincolato,Svincolato,Milan,0,Svincolato,"{M,C}",0,0
-844,Cajuste,Svincolato,Svincolato,Napoli,0,Svincolato,"{M,C}",0,0
-766,Missori,Svincolato,Svincolato,Sassuolo,0,Svincolato,"{Dd,E}",0,0
-665,Brancolini,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0
-575,Listkowski,Svincolato,Svincolato,Lecce,0,Svincolato,{W},0,0
-551,Yeboah J.,Svincolato,Svincolato,Venezia,0,Svincolato,"{W,T}",0,0
-709,Nasti,Svincolato,Svincolato,Cremonese,0,Svincolato,{Pc},0,0
-762,Ekong,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0
-594,Dorgu,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0
-769,Badelj,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0
-29,Benedyczak,Svincolato,Svincolato,Parma,8,Svincolato,{A},0,0
-793,Gioacchini,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
-716,Balotelli,Svincolato,Svincolato,Genoa,0,Svincolato,{Pc},0,0
+748,Condè,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
+741,Reina,Svincolato,Svincolato,Como,0,Svincolato,{Por},0,0
 849,Weah,Svincolato,Svincolato,Juventus,7,Svincolato,"{E,W}",2,0
-97,Stanciu,Baby Reijnders,Baby Reijnders,Genoa,2,Indeterminato,"{C,T}",8,0
-737,Seghetti,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0
-765,Keita B.,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0
-790,Ndoye,Svincolato,Svincolato,Bologna,0,Svincolato,{W},0,0
-642,Ruggeri,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0
-658,Cassa,Svincolato,Svincolato,Atalanta,0,Svincolato,{C},0,0
-853,Rocha Livramento,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0
-639,Gendrey,Svincolato,Svincolato,Lecce,0,Svincolato,"{Dd,E}",0,0
-473,Popa,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0
-652,Sagrado,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,E}",0,0
-669,Altare,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0
-859,Osimhen,Svincolato,Svincolato,Napoli,0,Svincolato,{Pc},0,0
-703,Pickel,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0
-757,Henderson L.,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0
-764,Hainaut,Svincolato,Svincolato,Parma,0,Svincolato,"{Dd,E}",0,0
+716,Balotelli,Svincolato,Svincolato,Genoa,0,Svincolato,{Pc},0,0
+793,Gioacchini,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0
+29,Benedyczak,Svincolato,Svincolato,Parma,8,Svincolato,{A},0,0
+769,Badelj,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0
+594,Dorgu,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0
+762,Ekong,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0
+709,Nasti,Svincolato,Svincolato,Cremonese,0,Svincolato,{Pc},0,0
+551,Yeboah J.,Svincolato,Svincolato,Venezia,0,Svincolato,"{W,T}",0,0
+575,Listkowski,Svincolato,Svincolato,Lecce,0,Svincolato,{W},0,0
+665,Brancolini,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0
+766,Missori,Svincolato,Svincolato,Sassuolo,0,Svincolato,"{Dd,E}",0,0
+844,Cajuste,Svincolato,Svincolato,Napoli,0,Svincolato,"{M,C}",0,0
 591,Brorsson,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0
-832,Duda,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0
+764,Hainaut,Svincolato,Svincolato,Parma,0,Svincolato,"{Dd,E}",0,0
+757,Henderson L.,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0
+703,Pickel,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0
+859,Osimhen,Svincolato,Svincolato,Napoli,0,Svincolato,{Pc},0,0
+669,Altare,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0
+652,Sagrado,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,E}",0,0
+473,Popa,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0
+639,Gendrey,Svincolato,Svincolato,Lecce,0,Svincolato,"{Dd,E}",0,0
+853,Rocha Livramento,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0
+658,Cassa,Svincolato,Svincolato,Atalanta,0,Svincolato,{C},0,0
+642,Ruggeri,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0
+790,Ndoye,Svincolato,Svincolato,Bologna,0,Svincolato,{W},0,0
+765,Keita B.,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0
+737,Seghetti,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0
+97,Stanciu,Baby Reijnders,Baby Reijnders,Genoa,2,Indeterminato,"{C,T}",8,0
 852,Tchatchoua,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,E}",0,0
-548,Manzoni,Svincolato,Svincolato,Atalanta,0,Svincolato,"{C,T}",0,0
-667,Zurkowski,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0
-602,Iovine,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0
-717,Ankeye,Svincolato,Svincolato,Genoa,0,Svincolato,{Pc},0,0
-282,Palma,Diablitos FC,Diablitos FC,Udinese,1,Primavera,{Dc},0,0
-675,Sanchez,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
-828,Shpendi S.,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0
-854,Radu I.,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
-605,Sensi,Svincolato,Svincolato,Monza,0,Svincolato,"{C,T}",0,0
-680,Messi,Svincolato,Svincolato,Udinese,0,Svincolato,{Pc},0,0
-827,Jovic,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0
-644,Danilo,Svincolato,Svincolato,Juventus,0,Svincolato,"{B,Dd,Ds}",0,0
-778,Mbappe,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0
+832,Duda,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0
 689,Bianco,Svincolato,Svincolato,Fiorentina,1,Svincolato,"{M,C}",1,0
-742,Brenner,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
-592,Cragno,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
-578,Hernandez T.,Svincolato,Svincolato,Milan,0,Svincolato,"{Ds,E}",0,0
-856,Doumbia I.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
-696,Melegoni,Svincolato,Svincolato,Genoa,0,Svincolato,"{C,T}",0,0
-768,Perciun,Svincolato,Svincolato,Torino,0,Svincolato,{T},0,0
-564,Belardinelli,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0
-693,Alberto Costa,Svincolato,Svincolato,Juventus,0,Svincolato,"{Dd,E}",0,0
-568,Barak,Svincolato,Svincolato,Fiorentina,0,Svincolato,{T},0,0
+778,Mbappe,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0
+644,Danilo,Svincolato,Svincolato,Juventus,0,Svincolato,"{B,Dd,Ds}",0,0
+827,Jovic,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0
+680,Messi,Svincolato,Svincolato,Udinese,0,Svincolato,{Pc},0,0
+605,Sensi,Svincolato,Svincolato,Monza,0,Svincolato,"{C,T}",0,0
+854,Radu I.,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0
+828,Shpendi S.,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0
+675,Sanchez,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
+282,Palma,Diablitos FC,Diablitos FC,Udinese,1,Primavera,{Dc},0,0
+717,Ankeye,Svincolato,Svincolato,Genoa,0,Svincolato,{Pc},0,0
+602,Iovine,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0
+667,Zurkowski,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0
+548,Manzoni,Svincolato,Svincolato,Atalanta,0,Svincolato,"{C,T}",0,0
 798,Mbangula,Svincolato,Svincolato,Juventus,0,Svincolato,{A},0,0
-749,Forson O.,Svincolato,Svincolato,Monza,2,Svincolato,"{W,T}",0,0
-645,Radunovic,Svincolato,Svincolato,Cagliari,0,Svincolato,{Por},0,0
-617,Izzo,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0
-791,Veiga R.,Svincolato,Svincolato,Juventus,0,Svincolato,"{M,C}",0,0
-6,Buffon L.,Svincolato,Svincolato,Pisa,1,Svincolato,{A},0,0
+568,Barak,Svincolato,Svincolato,Fiorentina,0,Svincolato,{T},0,0
+693,Alberto Costa,Svincolato,Svincolato,Juventus,0,Svincolato,"{Dd,E}",0,0
+564,Belardinelli,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0
+768,Perciun,Svincolato,Svincolato,Torino,0,Svincolato,{T},0,0
+696,Melegoni,Svincolato,Svincolato,Genoa,0,Svincolato,"{C,T}",0,0
+856,Doumbia I.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0
+578,Hernandez T.,Svincolato,Svincolato,Milan,0,Svincolato,"{Ds,E}",0,0
+592,Cragno,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0
+742,Brenner,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0
 732,Vignato S.,Svincolato,Svincolato,Monza,1,Svincolato,"{T,A}",0,0
-801,Abankwah,Svincolato,Svincolato,Udinese,0,Svincolato,"{Dd,Dc}",0,0
-549,Guilbert,Svincolato,Svincolato,Lecce,0,Svincolato,"{B,Dd,Ds}",0,0
-561,Sosa B.,Svincolato,Svincolato,Torino,0,Svincolato,{E},0,0
-796,Ciurria,Svincolato,Svincolato,Monza,0,Svincolato,"{E,W}",0,0
-679,Makoumbou,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0
-565,Fila,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
-313,Masina,Svincolato,Svincolato,Torino,2,Svincolato,"{B,Ds,E}",0,0
-636,Tavsan,Svincolato,Svincolato,Verona,4,Svincolato,"{W,A}",0,0
-845,Douglas Luiz,Svincolato,AC Ciaccati,Juventus,3,Prestito Reale,{C},20,0
-688,Faraoni,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,E}",0,0
-98,Valoti,Svincolato,Svincolato,Cremonese,0,Svincolato,"{C,T}",0,0
-754,Colpani,Svincolato,Svincolato,Fiorentina,0,Svincolato,{T},0,0
-631,Salah-Eddine,Svincolato,Svincolato,Roma,0,Svincolato,{E},0,0
-606,Bjarkason,Svincolato,Svincolato,Venezia,0,Svincolato,"{C,W}",0,0
-646,Veroli,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,Dc}",0,0
+6,Buffon L.,Svincolato,Svincolato,Pisa,1,Svincolato,{A},0,0
+791,Veiga R.,Svincolato,Svincolato,Juventus,0,Svincolato,"{M,C}",0,0
+617,Izzo,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0
+645,Radunovic,Svincolato,Svincolato,Cagliari,0,Svincolato,{Por},0,0
+749,Forson O.,Svincolato,Svincolato,Monza,2,Svincolato,"{W,T}",0,0
 566,Santiago,Svincolato,Svincolato,Verona,0,Svincolato,{C},0,0
-572,Bohinen,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0
-571,Caldirola,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,Dc}",0,0
+646,Veroli,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,Dc}",0,0
+606,Bjarkason,Svincolato,Svincolato,Venezia,0,Svincolato,"{C,W}",0,0
+631,Salah-Eddine,Svincolato,Svincolato,Roma,0,Svincolato,{E},0,0
+754,Colpani,Svincolato,Svincolato,Fiorentina,0,Svincolato,{T},0,0
+98,Valoti,Svincolato,Svincolato,Cremonese,0,Svincolato,"{C,T}",0,0
+688,Faraoni,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,E}",0,0
+845,Douglas Luiz,Svincolato,AC Ciaccati,Juventus,3,Prestito Reale,{C},20,0
+636,Tavsan,Svincolato,Svincolato,Verona,4,Svincolato,"{W,A}",0,0
+313,Masina,Svincolato,Svincolato,Torino,2,Svincolato,"{B,Ds,E}",0,0
+565,Fila,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0
+679,Makoumbou,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0
+796,Ciurria,Svincolato,Svincolato,Monza,0,Svincolato,"{E,W}",0,0
+561,Sosa B.,Svincolato,Svincolato,Torino,0,Svincolato,{E},0,0
+549,Guilbert,Svincolato,Svincolato,Lecce,0,Svincolato,"{B,Dd,Ds}",0,0
+801,Abankwah,Svincolato,Svincolato,Udinese,0,Svincolato,"{Dd,Dc}",0,0
 556,Florenzi,Svincolato,Svincolato,Milan,0,Svincolato,"{Dd,Ds,E}",0,0
-601,Alvarez A.,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0
+571,Caldirola,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,Dc}",0,0
+572,Bohinen,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0
 860,Stojanovic,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0
+601,Alvarez A.,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0

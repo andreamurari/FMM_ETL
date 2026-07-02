@@ -78,11 +78,6 @@ id,giocatore,contratto_richiesto,squadra_richiedente,crediti_richiesti,messaggio
 76,668,Svincolato,CyberDucks,0,Serie b,2026-07-01 21:36:21.844691+00:00,accettata
 84,162,Svincolato,ZeroDayz FC,5,Al pisa,2026-07-01 22:12:44.594644+00:00,accettata
 83,162,Svincolato,ZeroDayz FC,5,Al pisa,2026-07-01 22:12:41.653561+00:00,rifiutata
-85,433,Svincolato,Sborada,0,svincolato,2026-07-02 16:45:35.850615+00:00,in_elaborazione
-86,342,Svincolato,Sborada,0,"utilizzo dello svincolo gratuito di questo subumano, grazie a dio il verona non l’ha acquistato",2026-07-02 17:04:41.956383+00:00,in_elaborazione
-87,342,Svincolato,Sborada,0,"utilizzo dello svincolo gratuito di questo subumano, grazie a dio il verona non l’ha acquistato",2026-07-02 17:04:44.056056+00:00,in_elaborazione
-88,583,Prestito Reale,Sborada,0,"ritorno dal prestito,che marcisca in grecia sto nano con la sindrome di napoleone",2026-07-02 17:11:34.419958+00:00,in_elaborazione
-89,178,Hold,CyberDucks,0,,2026-07-02 17:48:05.058254+00:00,in_elaborazione
 94,683,Svincolato,CyberDucks,0,Taglio gratuito 3/3,2026-07-02 21:47:57.895758+00:00,accettata
 93,62,Hold,AC Ciaccati,0,,2026-07-02 20:31:44.143540+00:00,rifiutata
 92,61,Hold,AC Ciaccati,0,,2026-07-02 20:31:24.980693+00:00,rifiutata
@@ -92,4 +87,24 @@ id,giocatore,contratto_richiesto,squadra_richiedente,crediti_richiesti,messaggio
 98,875,Hold,AC Ciaccati,0,,2026-07-02 22:31:00.346566+00:00,rifiutata
 97,62,Hold,AC Ciaccati,0,,2026-07-02 22:30:32.925115+00:00,rifiutata
 96,519,Hold,AC Ciaccati,0,,2026-07-02 22:29:56.495965+00:00,rifiutata
+111,459,Svincolato,FC Pontos,57,Trasferimento al Chelsea,2026-07-02 23:28:36.982543+00:00,accettata
 95,61,Svincolato,AC Ciaccati,0,Taglio gratuito a zero,2026-07-02 22:08:45.452521+00:00,rifiutata
+105,449,Hold,AC Ciaccati,0,,2026-07-02 22:53:22.728492+00:00,accettata
+104,188,Svincolato,AC Ciaccati,0,Taglio gratuito,2026-07-02 22:52:58.516822+00:00,accettata
+103,519,Svincolato,AC Ciaccati,0,Fine contratto,2026-07-02 22:50:45.947084+00:00,accettata
+102,61,Svincolato,AC Ciaccati,0,Fine prestito,2026-07-02 22:50:02.871110+00:00,accettata
+101,875,Svincolato,AC Ciaccati,0,Fine prestito,2026-07-02 22:49:42.598293+00:00,accettata
+100,62,Hold,AC Ciaccati,0,,2026-07-02 22:48:57.619900+00:00,accettata
+89,178,Hold,CyberDucks,0,,2026-07-02 17:48:05.058254+00:00,accettata
+85,433,Svincolato,Sborada,0,svincolato,2026-07-02 16:45:35.850615+00:00,accettata
+87,342,Svincolato,Sborada,0,"utilizzo dello svincolo gratuito di questo subumano, grazie a dio il verona non l’ha acquistato",2026-07-02 17:04:44.056056+00:00,accettata
+86,342,Svincolato,Sborada,0,"utilizzo dello svincolo gratuito di questo subumano, grazie a dio il verona non l’ha acquistato",2026-07-02 17:04:41.956383+00:00,rifiutata
+88,583,Prestito Reale,Sborada,0,"ritorno dal prestito,che marcisca in grecia sto nano con la sindrome di napoleone",2026-07-02 17:11:34.419958+00:00,accettata
+110,414,Hold,FC Pontos,0,,2026-07-02 23:27:49.057561+00:00,accettata
+109,442,Hold,FC Pontos,0,,2026-07-02 23:27:31.223765+00:00,accettata
+108,120,Hold,FC Pontos,0,,2026-07-02 23:26:39.553107+00:00,accettata
+107,239,Hold,FC Pontos,0,,2026-07-02 23:26:18.993644+00:00,accettata
+106,647,Svincolato,FC Pontos,6,Riscatto da parte del River. Si parla di 6 milioni,2026-07-02 23:24:36.280198+00:00,rifiutata
+113,647,Svincolato,FC Pontos,1,Prestito al River Plate,2026-07-02 23:40:48.596897+00:00,rifiutata
+112,394,Svincolato,FC Pontos,0,Taglio gratuito 2/2,2026-07-02 23:34:33.462310+00:00,rifiutata
+114,394,Svincolato,FC Pontos,0,Taglio in quanto svincolato,2026-07-02 23:44:37.716204+00:00,accettata
