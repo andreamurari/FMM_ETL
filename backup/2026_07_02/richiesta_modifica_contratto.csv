@@ -37,7 +37,6 @@ id,giocatore,contratto_richiesto,squadra_richiedente,crediti_richiesti,messaggio
 42,30,Prestito Reale,Baby Reijnders,1,,2026-02-05 13:01:51.451645+00:00,accettata
 41,110,Prestito Reale,Baby Reijnders,0,,2026-02-05 13:01:27.943081+00:00,accettata
 43,508,Hold,Diaolo Porco,0,,2026-06-14 20:04:18.311992+00:00,accettata
-46,402,Svincolato,Diablitos FC,0,Senza contratto,2026-06-29 19:38:24.142600+00:00,in_elaborazione
 61,137,Svincolato,Metodo Monchi FC,6,Riscattato dal Parma per 6 MLN,2026-07-01 16:47:31.169989+00:00,accettata
 60,420,Svincolato,Sborada,0,"giocatore retrocesso, non so perché l’abbiamo comprato…",2026-07-01 15:10:06.117643+00:00,accettata
 58,167,Svincolato,Sborada,0,"squadra retrocessa in serie B, pensavo fosse più forte…",2026-07-01 15:08:54.056744+00:00,accettata
@@ -66,6 +65,7 @@ id,giocatore,contratto_richiesto,squadra_richiedente,crediti_richiesti,messaggio
 64,45,Hold,ZeroDayz FC,0,Hold,2026-07-01 19:19:00.340689+00:00,accettata
 63,347,Svincolato,Diaolo Porco,0,Terminato il contratto con il Napoli,2026-07-01 18:38:10.786745+00:00,accettata
 62,359,Svincolato,Sborada,0,retrocesso col pisa,2026-07-01 16:59:18.740146+00:00,accettata
+46,402,Svincolato,Diablitos FC,0,Senza contratto,2026-06-29 19:38:24.142600+00:00,accettata
 75,241,Hold,FC Sovescio,0,,2026-07-01 21:01:06.256980+00:00,accettata
 74,261,Hold,FC Sovescio,0,,2026-07-01 21:00:35.150773+00:00,accettata
 73,507,Svincolato,FC Sovescio,0,,2026-07-01 20:14:48.238596+00:00,accettata
@@ -78,3 +78,18 @@ id,giocatore,contratto_richiesto,squadra_richiedente,crediti_richiesti,messaggio
 76,668,Svincolato,CyberDucks,0,Serie b,2026-07-01 21:36:21.844691+00:00,accettata
 84,162,Svincolato,ZeroDayz FC,5,Al pisa,2026-07-01 22:12:44.594644+00:00,accettata
 83,162,Svincolato,ZeroDayz FC,5,Al pisa,2026-07-01 22:12:41.653561+00:00,rifiutata
+85,433,Svincolato,Sborada,0,svincolato,2026-07-02 16:45:35.850615+00:00,in_elaborazione
+86,342,Svincolato,Sborada,0,"utilizzo dello svincolo gratuito di questo subumano, grazie a dio il verona non l’ha acquistato",2026-07-02 17:04:41.956383+00:00,in_elaborazione
+87,342,Svincolato,Sborada,0,"utilizzo dello svincolo gratuito di questo subumano, grazie a dio il verona non l’ha acquistato",2026-07-02 17:04:44.056056+00:00,in_elaborazione
+88,583,Prestito Reale,Sborada,0,"ritorno dal prestito,che marcisca in grecia sto nano con la sindrome di napoleone",2026-07-02 17:11:34.419958+00:00,in_elaborazione
+89,178,Hold,CyberDucks,0,,2026-07-02 17:48:05.058254+00:00,in_elaborazione
+94,683,Svincolato,CyberDucks,0,Taglio gratuito 3/3,2026-07-02 21:47:57.895758+00:00,accettata
+93,62,Hold,AC Ciaccati,0,,2026-07-02 20:31:44.143540+00:00,rifiutata
+92,61,Hold,AC Ciaccati,0,,2026-07-02 20:31:24.980693+00:00,rifiutata
+91,875,Hold,AC Ciaccati,0,,2026-07-02 20:30:56.514730+00:00,rifiutata
+90,519,Hold,AC Ciaccati,0,,2026-07-02 20:30:25.882270+00:00,rifiutata
+99,449,Hold,AC Ciaccati,0,,2026-07-02 22:31:17.086980+00:00,rifiutata
+98,875,Hold,AC Ciaccati,0,,2026-07-02 22:31:00.346566+00:00,rifiutata
+97,62,Hold,AC Ciaccati,0,,2026-07-02 22:30:32.925115+00:00,rifiutata
+96,519,Hold,AC Ciaccati,0,,2026-07-02 22:29:56.495965+00:00,rifiutata
+95,61,Svincolato,AC Ciaccati,0,Taglio gratuito a zero,2026-07-02 22:08:45.452521+00:00,rifiutata
