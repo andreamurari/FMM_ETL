@@ -1,0 +1,14 @@
+id,squadra_proponente,squadra_destinataria,giocatori_offerti,giocatori_richiesti,crediti_offerti,crediti_richiesti,messaggio,stato,data_proposta,data_risposta,prestito_associato,pick_offerta,pick_richiesta
+19,Diablitos FC,Metodo Monchi FC,[],[],13,13,,annullato,2026-01-14 17:01:46.588074+00:00,,,,
+20,Metodo Monchi FC,Sborada,[],[65],20,0,,accettato,2026-01-26 10:56:44.111783+00:00,2026-01-26 12:10:37.200561+00:00,,,
+21,AC Ciaccati,FC Pontos,[213],[260],0,0,,annullato,2026-01-29 23:00:12.653125+00:00,,,,
+23,Diaolo Porco,Sborada,[461],[222],0,0,,annullato,2026-07-03 14:48:57.560404+00:00,,,[],[]
+24,Diaolo Porco,Sborada,[461],[222],0,0,,annullato,2026-07-03 14:56:02.676915+00:00,,,[],[]
+25,Diaolo Porco,Sborada,[461],[222],0,0,,accettato,2026-07-03 14:56:10.309030+00:00,2026-07-03 15:06:13.640681+00:00,,[],[]
+22,ZeroDayz FC,AC Ciaccati,[],[],3,1,Pagamento bonus vlasic,accettato,2026-07-01 19:29:38.246416+00:00,2026-07-04 11:57:10.278030+00:00,,,
+28,AC Ciaccati,Sborada,[256],[73],0,0,Grazie e ci sentiamo più avanti per altri scambi💪🏼💪🏼,accettato,2026-07-05 21:51:03.351279+00:00,2026-07-05 21:54:05.364908+00:00,,[],[]
+26,Diablitos FC,Al-Colizzati,[176],[266],0,0,,annullato,2026-07-03 15:44:55.735872+00:00,,,[],[]
+27,Diablitos FC,Al-Colizzati,[176],[246],0,0,,annullato,2026-07-03 15:46:31.899734+00:00,,,[],[]
+29,Diablitos FC,AC Ciaccati,[77],[83],60,0,,in_attesa,2026-07-10 16:51:28.211905+00:00,,,[],[]
+30,Diablitos FC,AC Ciaccati,[77],[83],60,0,,annullato,2026-07-10 16:51:31.607054+00:00,,,[],[]
+31,Diablitos FC,CyberDucks,"[244, 215]",[265],15,0,,rifiutato,2026-07-10 16:56:16.800300+00:00,2026-07-10 18:01:41.103561+00:00,,[],[]
