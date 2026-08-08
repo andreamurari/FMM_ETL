@@ -24,7 +24,7 @@ TABLES = [
     "prestito",
     "scambio",
     "sessions",
-    #"vetrina",
+    "vetrina",
     "draft"
 ]
 
