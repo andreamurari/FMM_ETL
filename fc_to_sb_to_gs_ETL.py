@@ -2,7 +2,7 @@
 ETL: Listone Fantacalcio -> Supabase -> Google Sheets
 
 Flusso:
-  1. Scarica il listone giocatori da fantacalcio.it (Selenium + requests)
+  1. Scarica il listone giocatori da fantacalcio.it (Selenium, click reale + download via CDP)
   2. Legge la tabella `giocatore` da Supabase
   3. Unisce/aggiorna i dati (ruolo, club, quotazione dal listone)
   4. Scrive il risultato in un Excel locale
@@ -16,12 +16,12 @@ import logging
 import os
 import shutil
 import sys
+import time
 from typing import Optional
 
 import gspread
 import pandas as pd
 import psycopg2
-import requests
 from gspread_dataframe import set_with_dataframe
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -56,7 +56,6 @@ CHROME_BIN = os.environ.get("CHROME_BIN")
 CHROMEDRIVER_PATH = os.environ.get("CHROMEDRIVER_PATH")
 
 DOWNLOAD_DIR = os.path.join(os.getcwd(), "downloads")
-TARGET_FILE = os.path.join(DOWNLOAD_DIR, "listone.xlsx")
 
 LOG_FILE = os.path.join(os.getcwd(), "log.txt")
 DEBUG_SCREENSHOT = os.path.join(os.getcwd(), "debug_screenshot.png")
@@ -128,6 +127,16 @@ def _build_chrome_driver() -> webdriver.Chrome:
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     )
+    # Fa scaricare i file direttamente nella cartella target, senza prompt
+    options.add_experimental_option(
+        "prefs",
+        {
+            "download.default_directory": DOWNLOAD_DIR,
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing.enabled": True,
+        },
+    )
 
     chrome_bin = CHROME_BIN or shutil.which("google-chrome") or shutil.which("chromium") or shutil.which("chromium-browser")
     if chrome_bin:
@@ -138,7 +147,14 @@ def _build_chrome_driver() -> webdriver.Chrome:
     # via env (CHROMEDRIVER_PATH), lo si usa comunque, per compatibilita'.
     service = Service(executable_path=CHROMEDRIVER_PATH) if CHROMEDRIVER_PATH else Service()
 
-    return webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(service=service, options=options)
+    # In modalita' headless=new le preferenze di download non bastano da sole:
+    # serve abilitare esplicitamente il download via CDP.
+    driver.execute_cdp_cmd(
+        "Page.setDownloadBehavior",
+        {"behavior": "allow", "downloadPath": DOWNLOAD_DIR},
+    )
+    return driver
 
 
 def _accept_cookie_banner_if_present(driver: webdriver.Chrome) -> None:
@@ -171,6 +187,34 @@ def _accept_cookie_banner_if_present(driver: webdriver.Chrome) -> None:
             continue
 
 
+def _wait_for_download(directory: str, timeout: int = 30) -> str:
+    """Aspetta che compaia un file scaricato (non .crdownload) e che la sua
+    dimensione si stabilizzi, poi ne restituisce il path."""
+    deadline = time.time() + timeout
+    last_size = -1
+    stable_candidate = None
+
+    while time.time() < deadline:
+        files = [
+            f for f in os.listdir(directory)
+            if not f.endswith(".crdownload") and not f.endswith(".tmp")
+        ]
+        if files:
+            candidate = max(
+                (os.path.join(directory, f) for f in files), key=os.path.getmtime
+            )
+            size = os.path.getsize(candidate)
+            if size > 0 and size == last_size:
+                return candidate
+            last_size = size
+            stable_candidate = candidate
+        time.sleep(1)
+
+    if stable_candidate:
+        return stable_candidate
+    raise TimeoutError(f"Download non completato entro {timeout}s in {directory}")
+
+
 def _save_debug_artifacts(driver: webdriver.Chrome) -> None:
     try:
         driver.save_screenshot(DEBUG_SCREENSHOT)
@@ -182,8 +226,19 @@ def _save_debug_artifacts(driver: webdriver.Chrome) -> None:
 
 
 def scarica_listone() -> pd.DataFrame:
-    """Scarica il listone Fantacalcio tramite Selenium e Requests."""
+    """Scarica il listone Fantacalcio tramite Selenium.
+
+    Il link di download e' gestito lato sito da JavaScript (probabilmente con
+    un token di autenticazione in header, non solo cookie): ricostruire la
+    richiesta HTTP a mano con `requests` restituisce 401 Unauthorized.
+    Il modo affidabile e' far cliccare al browser vero il link e lasciare che
+    sia lui a scaricare il file, intercettando il download via CDP.
+    """
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+    # Pulisce eventuali file residui da run precedenti, per non confondere il polling
+    for f in os.listdir(DOWNLOAD_DIR):
+        os.remove(os.path.join(DOWNLOAD_DIR, f))
+
     driver = _build_chrome_driver()
 
     try:
@@ -207,18 +262,13 @@ def scarica_listone() -> pd.DataFrame:
         driver.get("https://www.fantacalcio.it/quotazioni-fantacalcio")
 
         download_link = WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "a.download-players-price-serie-a"))
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "a.download-players-price-serie-a"))
         )
-        href = download_link.get_attribute("href")
+        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", download_link)
+        download_link.click()
 
-        session = requests.Session()
-        for cookie in driver.get_cookies():
-            session.cookies.set(cookie["name"], cookie["value"])
-
-        response = session.get(href)
-        response.raise_for_status()
-        with open(TARGET_FILE, "wb") as f:
-            f.write(response.content)
+        downloaded_path = _wait_for_download(DOWNLOAD_DIR, timeout=30)
+        logger.info("File scaricato dal browser: %s", downloaded_path)
 
     except Exception:
         logger.error("Errore durante il download del listone. Salvo screenshot/HTML per debug.")
@@ -227,7 +277,7 @@ def scarica_listone() -> pd.DataFrame:
     finally:
         driver.quit()
 
-    return pd.read_excel(TARGET_FILE, engine="openpyxl", header=1)
+    return pd.read_excel(downloaded_path, engine="openpyxl", header=1)
 
 
 # ======================================================================
