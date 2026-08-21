@@ -95,6 +95,10 @@ class ConfigError(RuntimeError):
     """Errore di configurazione: manca un secret o una variabile richiesta."""
 
 
+class LoginError(RuntimeError):
+    """Il login su fantacalcio.it non e' andato a buon fine."""
+
+
 def check_config() -> None:
     if not SUPABASE_PASSWORD:
         raise ConfigError("Manca la variabile d'ambiente SUPABASE_PASSWORD (impostala come GitHub Secret).")
@@ -240,6 +244,16 @@ def _click_with_banner_retry(driver: webdriver.Chrome, element, retries: int = 2
             time.sleep(1)
 
 
+def _login_required_prompt_visible(driver: webdriver.Chrome) -> bool:
+    """Rileva il messaggio 'Accedi per utilizzare questa funzionalita!' che il sito
+    mostra quando si tenta di usare una feature riservata senza essere autenticati."""
+    try:
+        driver.find_element(By.XPATH, "//*[contains(text(), 'Accedi per utilizzare')]")
+        return True
+    except Exception:
+        return False
+
+
 def _save_debug_artifacts(driver: webdriver.Chrome) -> None:
     try:
         driver.save_screenshot(DEBUG_SCREENSHOT)
@@ -281,12 +295,42 @@ def scarica_listone() -> pd.DataFrame:
             EC.element_to_be_clickable((By.NAME, "password"))
         )
         password_input.send_keys(FANTACALCIO_PASSWORD)
-        password_input.send_keys(Keys.RETURN)
 
-        WebDriverWait(driver, 20).until(EC.url_contains("fantacalcio.it"))
+        # In molte SPA il submit e' legato al click sul bottone, non al tasto INVIO:
+        # si cerca quindi un bottone di login esplicito prima di ricadere su INVIO.
+        login_button_selectors = [
+            (By.XPATH, "//button[normalize-space()='Login']"),
+            (By.XPATH, "//button[contains(., 'Login')]"),
+            (By.CSS_SELECTOR, "button[type='submit']"),
+        ]
+        login_button = None
+        for by, selector in login_button_selectors:
+            try:
+                login_button = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((by, selector)))
+                break
+            except Exception:
+                continue
+
+        if login_button is not None:
+            _click_with_banner_retry(driver, login_button)
+        else:
+            logger.info("Bottone di login non trovato esplicitamente: invio il form con INVIO.")
+            password_input.send_keys(Keys.RETURN)
+
+        # Attende di uscire dalla pagina di login (un semplice controllo su "fantacalcio.it"
+        # non basta: e' vero anche se il login fallisce e si resta sulla stessa pagina).
+        WebDriverWait(driver, 20).until(lambda d: "/login" not in d.current_url)
+
         driver.get("https://www.fantacalcio.it/quotazioni-fantacalcio")
         # Il modal privacy puo' ricomparire ad ogni navigazione a pagina intera
         _accept_cookie_banner_if_present(driver)
+
+        if _login_required_prompt_visible(driver):
+            raise LoginError(
+                "Login su fantacalcio.it non riuscito: la pagina richiede ancora l'autenticazione "
+                "('Accedi per utilizzare questa funzionalita'). "
+                "Verifica le credenziali FANTACALCIO_USERNAME / FANTACALCIO_PASSWORD."
+            )
 
         download_link = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "a.download-players-price-serie-a"))
