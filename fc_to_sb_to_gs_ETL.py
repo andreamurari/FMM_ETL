@@ -158,14 +158,20 @@ def _build_chrome_driver() -> webdriver.Chrome:
     return driver
 
 
-def _accept_cookie_banner_if_present(driver: webdriver.Chrome) -> None:
-    """Chiude eventuali banner cookie/consenso (Quantcast Choice, OneTrust, ecc.)
-    che potrebbero intercettare i click sul form di login."""
+def _accept_cookie_banner_if_present(driver: webdriver.Chrome, max_layers: int = 3) -> None:
+    """Chiude eventuali banner/modal di consenso che potrebbero intercettare i click.
+
+    Su fantacalcio.it (Quantcast Choice) possono comparire in cascata: prima il
+    modal "Do Not Process My Personal Information", poi un modal di conferma
+    "We have received your choices...". Per questo si ripete la scansione finche'
+    non se ne trova piu' nessuno (entro un tetto massimo di iterazioni)."""
     selectors = [
-        # Quantcast Choice - modal CCPA "Do Not Process My Personal Information"
-        # (quello osservato su fantacalcio.it): la X di chiusura non altera le scelte privacy.
+        # Quantcast Choice - modal CCPA "Do Not Process My Personal Information":
+        # la X di chiusura non altera le scelte privacy.
         (By.CSS_SELECTOR, "button.qc-usp-close-icon"),
         (By.CSS_SELECTOR, "button[aria-label='Close']"),
+        # Modal di conferma successivo ("We have received your choices...")
+        (By.CSS_SELECTOR, "button[aria-label='Close success modal']"),
         # Fallback generico per il layer di consenso Quantcast "classico"
         (By.CSS_SELECTOR, "button.qc-cmp2-summary-buttons button[mode='primary']"),
         # OneTrust, nel caso venga usato in futuro
@@ -174,18 +180,21 @@ def _accept_cookie_banner_if_present(driver: webdriver.Chrome) -> None:
         (By.XPATH, "//button[contains(translate(., 'ACEPT', 'acept'), 'accett')]"),
         (By.XPATH, "//button[contains(translate(., 'ACONSENTO', 'aconsento'), 'consent')]"),
     ]
-    for by, selector in selectors:
-        try:
-            btn = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((by, selector)))
-            btn.click()
-            logger.info("Banner/modal privacy chiuso (%s).", selector)
-            # Piccola attesa per lasciare che il modal si smonti dal DOM prima di proseguire
-            WebDriverWait(driver, 5).until(
-                EC.invisibility_of_element_located((By.ID, "qc-cmp2-container"))
-            )
+
+    for _ in range(max_layers):
+        closed_something = False
+        for by, selector in selectors:
+            try:
+                btn = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((by, selector)))
+                btn.click()
+                logger.info("Banner/modal chiuso (%s).", selector)
+                closed_something = True
+                time.sleep(0.5)  # lascia il tempo al DOM di aggiornarsi/mostrare l'eventuale modal successivo
+                break
+            except Exception:
+                continue
+        if not closed_something:
             return
-        except Exception:
-            continue
 
 
 def _wait_for_download(directory: str, timeout: int = 30) -> str:
