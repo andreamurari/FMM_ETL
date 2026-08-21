@@ -1,5 +1,4 @@
 # ETL listone Fantacalcio + crediti
-# commento di test
 
 import os
 import time
@@ -19,8 +18,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import sys
-sys.stdout.reconfigure(line_buffering=True)
 
+sys.stdout.reconfigure(line_buffering=True)
 warnings.filterwarnings("ignore")
 
 # === CONFIGURAZIONE DA ENV / SECRETS ===
@@ -35,16 +34,15 @@ SUPABASE_TABLE_MOVIMENTI = os.environ.get("SUPABASE_TABLE_MOVIMENTI", "movimenti
 SUPABASE_TABLE_ASTE = os.environ.get("SUPABASE_TABLE_ASTE", "asta")
 
 FANTACALCIO_USERNAME = os.environ.get("FANTACALCIO_USERNAME", "mura88")
-FANTACALCIO_PASSWORD = os.environ.get("FANTACALCIO_PASSWORD")  # <- SECRET
+FANTACALCIO_PASSWORD = os.environ.get("FANTACALCIO_PASSWORD")
 
-# Optional: JSON content for Google credentials (if needed by your pipeline)
-GOOGLE_CREDENTIALS_JSON = os.environ.get("GOOGLE_CREDENTIALS_JSON")  # <- SECRET (raw JSON string)
+# Optional: JSON content for Google credentials
+GOOGLE_CREDENTIALS_JSON = os.environ.get("GOOGLE_CREDENTIALS_JSON")
 GOOGLE_CREDENTIALS_PATH = os.path.join(os.getcwd(), "google_credentials.json")
 if GOOGLE_CREDENTIALS_JSON:
     with open(GOOGLE_CREDENTIALS_PATH, "w", encoding="utf-8") as f:
         f.write(GOOGLE_CREDENTIALS_JSON)
     
-# Controlli minimi sui secrets
 if not SUPABASE_PASSWORD:
     raise RuntimeError("Missing SUPABASE_PASSWORD environment variable (set as GitHub Secret)")
 if not FANTACALCIO_PASSWORD:
@@ -64,6 +62,8 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+
 # === FUNZIONE DOWNLOAD LISTONE FANTACALCIO ===
 def scarica_listone():
     """Scarica il listone Fantacalcio tramite Selenium e Requests"""
@@ -73,8 +73,8 @@ def scarica_listone():
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
+    options.add_argument(f"--user-agent={USER_AGENT}")
 
-    # Se Chromium è installato in CI, proviamo a usarlo
     chromium_path = shutil.which("chromium") or shutil.which("chromium-browser") or shutil.which("google-chrome")
     if chromium_path:
         options.binary_location = chromium_path
@@ -84,20 +84,42 @@ def scarica_listone():
 
     try:
         driver.get("https://www.fantacalcio.it/login")
+        wait = WebDriverWait(driver, 20)
 
-        username_input = WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.NAME, "username"))
-        )
-        password_input = driver.find_element(By.NAME, "password")
+        # 1. Gestione Banner Cookie / Overlay
+        time.sleep(2)
+        cookie_selectors = [
+            (By.ID, "iubenda-cs-accept-btn"),
+            (By.CSS_SELECTOR, "button[class*='accept']"),
+            (By.CSS_SELECTOR, ".iubenda-cs-accept-btn"),
+            (By.XPATH, "//button[contains(translate(., 'ACCETTA', 'accetta'), 'accetta')]"),
+        ]
+        for by, sel in cookie_selectors:
+            try:
+                btn = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((by, sel)))
+                btn.click()
+                time.sleep(1)
+                break
+            except Exception:
+                continue
 
+        # 2. Login
+        username_input = wait.until(EC.element_to_be_clickable((By.NAME, "username")))
+        password_input = wait.until(EC.element_to_be_clickable((By.NAME, "password")))
+
+        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", username_input)
+        
+        username_input.clear()
         username_input.send_keys(FANTACALCIO_USERNAME)
+        password_input.clear()
         password_input.send_keys(FANTACALCIO_PASSWORD)
         password_input.send_keys(Keys.RETURN)
 
-        WebDriverWait(driver, 20).until(EC.url_contains("fantacalcio.it"))
+        # 3. Navigazione e download file
+        time.sleep(3)
         driver.get("https://www.fantacalcio.it/quotazioni-fantacalcio")
 
-        download_link = WebDriverWait(driver, 20).until(
+        download_link = wait.until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "a.download-players-price-serie-a"))
         )
         href = download_link.get_attribute("href")
@@ -107,16 +129,16 @@ def scarica_listone():
         for c in cookies:
             session.cookies.set(c["name"], c["value"])
 
-        response = session.get(href)
+        response = session.get(href, headers={"User-Agent": USER_AGENT})
         response.raise_for_status()
         with open(TARGET_FILE, "wb") as f:
             f.write(response.content)
+            
     finally:
         driver.quit()
 
     df = pd.read_excel(TARGET_FILE, engine="openpyxl", header=1)
     return df
-
 
 # === ETL PROCESS ===
 if __name__ == '__main__':
@@ -144,30 +166,25 @@ if __name__ == '__main__':
     new_sb.sort_values(by=['priorita'], inplace=True, ascending=False)
     new_sb.drop_duplicates(subset=['nome'], inplace=True)
     new_sb = new_sb.merge(sb, on='nome', how='left')
-    # Se la tabella sb non aveva priorita_y, proteggiamo
+    
     if 'priorita_y' in new_sb.columns:
         new_sb = new_sb.drop('priorita_y', axis=1)
     if 'priorita_x' in new_sb.columns:
         new_sb.rename(columns={'priorita_x': 'priorita'}, inplace=True)
     new_sb.reset_index(drop=True, inplace=True)
 
-    # Cerca colonne id_x/id_y e rimuovile se presenti
     for col in ['id_x', 'id_y']:
         if col in new_sb.columns:
             new_sb = new_sb.drop(col, axis=1)
 
-    # Merge di colonne dal fc (se presenti)
     merge_cols = [c for c in ['RM', 'Squadra', 'Qt.A M'] if c in fc.columns]
     if merge_cols:
         new_sb = new_sb.merge(fc[['nome'] + merge_cols], on='nome', how='left', suffixes=('_sb', '_fc'))
         if 'RM' in merge_cols:
-            # 🔧 IMPORTANTE: Aggiorna SEMPRE il ruolo da Fantacalcio, non solo se mancante
             new_sb['ruolo'] = new_sb['RM']
         if 'Squadra' in merge_cols:
-            # 🔧 IMPORTANTE: Aggiorna SEMPRE il club da Fantacalcio, non solo se mancante
             new_sb['club'] = new_sb['Squadra']
         if 'Qt.A M' in merge_cols:
-            # 🔧 IMPORTANTE: Aggiorna la quotazione da Fantacalcio SOLO se presente
             if 'quot_att_mantra' in new_sb.columns:
                 new_sb['quot_att_mantra'] = new_sb['quot_att_mantra'].where(
                     new_sb['Qt.A M'].isna(),
@@ -179,7 +196,6 @@ if __name__ == '__main__':
             if c in new_sb.columns:
                 new_sb = new_sb.drop(c, axis=1)
 
-    # Pulizia valori mancanti / default
     for col, default in [
         ('squadra_att', 'Svincolato'),
         ('detentore_cartellino', 'Svincolato'),
@@ -191,7 +207,6 @@ if __name__ == '__main__':
     if 'costo' in new_sb.columns:
         new_sb['costo'] = new_sb['costo'].fillna(0)
     
-    # 🔧 IMPORTANTE: Converti le quotazioni in numerico e gestisci i valori nulli
     if 'quot_att_mantra' in new_sb.columns:
         new_sb['quot_att_mantra'] = pd.to_numeric(new_sb['quot_att_mantra'], errors='coerce')
 
@@ -200,7 +215,7 @@ if __name__ == '__main__':
 
     print("✅ Trasformazione completata!")
 
-    #=== OUTPUT LOCALE ===
+    # === OUTPUT LOCALE ===
     output_path = os.path.join(os.getcwd(), "output_new_sb.xlsx")
     new_sb.to_excel(output_path, index=False)
     print(f"📁 File salvato localmente in: {output_path}")
@@ -209,7 +224,6 @@ if __name__ == '__main__':
     print("⬆️ Caricamento su Supabase in corso...")
     cur = conn.cursor()
 
-    # 🔧 Converte stringhe vuote in None (NULL in Postgres)
     df = new_sb.copy()
     df = df.map(lambda x: None if x is None or str(x).strip() == "" else x)
 
@@ -227,14 +241,11 @@ if __name__ == '__main__':
                 .replace("\n", ",")
                 .replace(" ", "")
             )
-
             ruoli = [v for v in valore.split(",") if v]
 
-        # Prova UPDATE prima (solo i campi con valori)
         update_fields = []
         update_values = []
         
-        # Aggiungi solo i campi che hanno valori
         if row.get("squadra_att") is not None and not pd.isna(row.get("squadra_att")):
             update_fields.append("squadra_att = %s")
             update_values.append(row.get("squadra_att"))
@@ -267,13 +278,11 @@ if __name__ == '__main__':
             update_fields.append("priorita = %s")
             update_values.append(row.get("priorita"))
         
-        # Esegui UPDATE solo se ci sono campi da aggiornare
         if update_fields:
             update_query = "UPDATE giocatore SET " + ", ".join(update_fields) + " WHERE nome = %s;"
             update_values.append(row.get("nome"))
             cur.execute(update_query, update_values)
         
-        # Se nessuna riga aggiornata, INSERT nuovo record
         if cur.rowcount == 0:
             cur.execute(
                 """
@@ -300,21 +309,20 @@ if __name__ == '__main__':
                     ruoli,
                     row.get("costo"),
                     row.get("priorita"),
+                )
             )
-        )
 
     conn.commit()
     cur.close()
     conn.close()
-    print("✅ Dati reinseriti con successo: ")
+    print("✅ Dati reinseriti con successo su Supabase")
     print(f"Totale giocatori caricati: {len(new_sb)}")
 
-    if GOOGLE_CREDENTIALS_PATH:
-        gc = gspread.service_account(GOOGLE_CREDENTIALS_PATH)
-    else:
-        # Aggiungi un messaggio di errore nel caso manchi la variabile d'ambiente
-        raise RuntimeError("GOOGLE_CREDENTIALS_JSON not found in environment or path not created.")
+    if not GOOGLE_CREDENTIALS_JSON:
+        raise RuntimeError("GOOGLE_CREDENTIALS_JSON non configurato nei secret.")
         
+    gc = gspread.service_account(GOOGLE_CREDENTIALS_PATH)
+    
     rename_mapping = {
         "nome": "Calciatore",
         "ruolo": "Ruolo",
@@ -337,7 +345,6 @@ if __name__ == '__main__':
     
     worksheet.clear()
     set_with_dataframe(worksheet, df)
-
     print("✅ Listone aggiornato nel Google Sheet.")
 
     # === Aggiorna crediti nel foglio Google Sheet ===
@@ -358,7 +365,7 @@ if __name__ == '__main__':
     set_with_dataframe(worksheet_crediti, sbc)
     print("✅ Crediti squadre aggiornati nel Google Sheet.")
 
-# === Aggiorna movimenti mercato nel foglio Google Sheet ===
+    # === Aggiorna movimenti mercato nel foglio Google Sheet ===
     print("⬆️ Aggiornamento movimenti mercato in Google Sheet...")
     conn = psycopg2.connect(
         host=SUPABASE_HOST,
@@ -376,7 +383,7 @@ if __name__ == '__main__':
     set_with_dataframe(worksheet_movimenti, sbm)
     print("✅ Movimenti mercato aggiornati nel Google Sheet.")
     
-    # === Aggiorna movimenti mercato nel foglio Google Sheet ===
+    # === Aggiorna tabella aste in Google Sheet ===
     print("⬆️ Aggiornamento tabella aste in Google Sheet...")
     conn = psycopg2.connect(
         host=SUPABASE_HOST,
@@ -397,14 +404,3 @@ if __name__ == '__main__':
     print("✅ Durata_Aste aggiornata nel Google Sheet.")
     
     print("=== ETL completato con successo ===")
-
-
-
-
-
-
-
-
-
-
-
