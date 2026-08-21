@@ -122,6 +122,7 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 944,Desplanches,Svincolato,Svincolato,Frosinone,2,Svincolato,{Por},0,1
 946,Thiam,Svincolato,Svincolato,Monza,5,Svincolato,{Por},0,1
 970,Adorante,Svincolato,Svincolato,Venezia,4,Svincolato,{Pc},0,1
+1005,Vicario,CyberDucks,CyberDucks,Juventus,16,Indeterminato,{Por},129,1
 967,Varela G.,Svincolato,Svincolato,Monza,3,Svincolato,{Pc},0,1
 890,Boga,AC Ciaccati,AC Ciaccati,Juventus,7,Indeterminato,"{W,A}",1,1
 886,Bowie,Svincolato,Svincolato,Sassuolo,9,Svincolato,{Pc},0,1
@@ -144,7 +145,6 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 448,Coco,FC Sovescio,FC Sovescio,Torino,7,Indeterminato,{Dc},5,1
 363,Dodò,ZeroDayz FC,ZeroDayz FC,Fiorentina,10,Indeterminato,"{Dd,E}",16,1
 432,Solet,Al-Colizzati,Al-Colizzati,Udinese,13,Indeterminato,{Dc},3,1
-1005,Vicario,Svincolato,Svincolato,Juventus,16,Svincolato,{Por},0,1
 524,Carnesecchi,Diablitos FC,Diablitos FC,Atalanta,16,Indeterminato,{Por},35,1
 1004,Lontani,Svincolato,Svincolato,Parma,1,Svincolato,{A},0,1
 961,Lauberbach,Svincolato,Svincolato,Venezia,1,Svincolato,{Pc},0,1
