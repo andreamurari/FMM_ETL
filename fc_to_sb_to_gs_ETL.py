@@ -24,6 +24,7 @@ import pandas as pd
 import psycopg2
 from gspread_dataframe import set_with_dataframe
 from selenium import webdriver
+from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -215,6 +216,21 @@ def _wait_for_download(directory: str, timeout: int = 30) -> str:
     raise TimeoutError(f"Download non completato entro {timeout}s in {directory}")
 
 
+def _click_with_banner_retry(driver: webdriver.Chrome, element, retries: int = 2) -> None:
+    """Clicca un elemento; se il click viene intercettato da un banner/modal
+    (che su questo sito puo' ricomparire ad ogni navigazione), lo chiude e riprova."""
+    for attempt in range(retries + 1):
+        try:
+            element.click()
+            return
+        except ElementClickInterceptedException:
+            if attempt == retries:
+                raise
+            logger.info("Click intercettato (probabile banner privacy): chiudo e riprovo.")
+            _accept_cookie_banner_if_present(driver)
+            time.sleep(1)
+
+
 def _save_debug_artifacts(driver: webdriver.Chrome) -> None:
     try:
         driver.save_screenshot(DEBUG_SCREENSHOT)
@@ -249,7 +265,7 @@ def scarica_listone() -> pd.DataFrame:
             EC.element_to_be_clickable((By.NAME, "username"))
         )
         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", username_input)
-        username_input.click()
+        _click_with_banner_retry(driver, username_input)
         username_input.send_keys(FANTACALCIO_USERNAME)
 
         password_input = WebDriverWait(driver, 20).until(
@@ -260,12 +276,14 @@ def scarica_listone() -> pd.DataFrame:
 
         WebDriverWait(driver, 20).until(EC.url_contains("fantacalcio.it"))
         driver.get("https://www.fantacalcio.it/quotazioni-fantacalcio")
+        # Il modal privacy puo' ricomparire ad ogni navigazione a pagina intera
+        _accept_cookie_banner_if_present(driver)
 
         download_link = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "a.download-players-price-serie-a"))
         )
         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", download_link)
-        download_link.click()
+        _click_with_banner_retry(driver, download_link)
 
         downloaded_path = _wait_for_download(DOWNLOAD_DIR, timeout=30)
         logger.info("File scaricato dal browser: %s", downloaded_path)
