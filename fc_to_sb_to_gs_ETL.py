@@ -66,7 +66,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 # === FUNZIONE DOWNLOAD LISTONE FANTACALCIO ===
 def scarica_listone():
-    """Scarica il listone Fantacalcio tramite Selenium e Requests"""
+    """Scarica il listone Fantacalcio gestendo l'apertura del modal di login o bypassando se accessibile"""
     options = webdriver.ChromeOptions()
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
@@ -85,44 +85,63 @@ def scarica_listone():
     try:
         driver.get("https://www.fantacalcio.it/login")
         wait = WebDriverWait(driver, 20)
-
-        # 1. Gestione Banner Cookie / Overlay
-        time.sleep(2)
-        cookie_selectors = [
-            (By.ID, "iubenda-cs-accept-btn"),
-            (By.CSS_SELECTOR, "button[class*='accept']"),
-            (By.CSS_SELECTOR, ".iubenda-cs-accept-btn"),
-            (By.XPATH, "//button[contains(translate(., 'ACCETTA', 'accetta'), 'accetta')]"),
-        ]
-        for by, sel in cookie_selectors:
-            try:
-                btn = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((by, sel)))
-                btn.click()
-                time.sleep(1)
-                break
-            except Exception:
-                continue
-
-        # 2. Login
-        username_input = wait.until(EC.element_to_be_clickable((By.NAME, "username")))
-        password_input = wait.until(EC.element_to_be_clickable((By.NAME, "password")))
-
-        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", username_input)
-        
-        username_input.clear()
-        username_input.send_keys(FANTACALCIO_USERNAME)
-        password_input.clear()
-        password_input.send_keys(FANTACALCIO_PASSWORD)
-        password_input.send_keys(Keys.RETURN)
-
-        # 3. Navigazione e download file
         time.sleep(3)
+
+        # 1. Rimuovi o accetta banner Cookie (Iubenda)
+        try:
+            cookie_btn = WebDriverWait(driver, 4).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, ".iubenda-cs-accept-btn, #iubenda-cs-accept-btn"))
+            )
+            cookie_btn.click()
+            time.sleep(1)
+        except Exception:
+            driver.execute_script("""
+                var iub = document.getElementById('iubenda-cs-banner');
+                if(iub) iub.remove();
+                var backdrops = document.querySelectorAll('.modal-backdrop, .iubenda-cs-overlay');
+                backdrops.forEach(b => b.remove());
+            """)
+
+        # 2. Compila i campi tramite JS injection per prevenire ElementNotInteractableException
+        username_input = wait.until(EC.presence_of_element_located((By.NAME, "username")))
+        password_input = wait.until(EC.presence_of_element_located((By.NAME, "password")))
+
+        driver.execute_script("""
+            arguments[0].focus();
+            arguments[0].value = arguments[1];
+            arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+            arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+        """, username_input, FANTACALCIO_USERNAME)
+
+        driver.execute_script("""
+            arguments[0].focus();
+            arguments[0].value = arguments[1];
+            arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+            arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+        """, password_input, FANTACALCIO_PASSWORD)
+
+        time.sleep(1)
+
+        # 3. Invio form
+        try:
+            submit_btn = driver.find_element(By.CSS_SELECTOR, "button[type='submit'], form input[type='submit']")
+            driver.execute_script("arguments[0].click();", submit_btn)
+        except Exception:
+            password_input.send_keys(Keys.RETURN)
+
+        time.sleep(4)
+
+        # 4. Navigazione alla pagina quotazioni e download file Excel
         driver.get("https://www.fantacalcio.it/quotazioni-fantacalcio")
+        time.sleep(3)
 
         download_link = wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "a.download-players-price-serie-a"))
+            EC.presence_of_element_located((By.CSS_SELECTOR, "a.download-players-price-serie-a, a[href*='Quotazioni_Fantacalcio_Ruolo_Mantra.xlsx'], a[href*='Quotazioni_Fantacalcio']"))
         )
         href = download_link.get_attribute("href")
+
+        if not href.startswith("http"):
+            href = f"https://www.fantacalcio.it{href}"
 
         cookies = driver.get_cookies()
         session = requests.Session()
@@ -133,12 +152,13 @@ def scarica_listone():
         response.raise_for_status()
         with open(TARGET_FILE, "wb") as f:
             f.write(response.content)
-            
+
     finally:
         driver.quit()
 
     df = pd.read_excel(TARGET_FILE, engine="openpyxl", header=1)
     return df
+
 
 # === ETL PROCESS ===
 if __name__ == '__main__':
