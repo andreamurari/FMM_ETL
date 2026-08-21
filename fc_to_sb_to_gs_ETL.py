@@ -142,9 +142,18 @@ def _build_chrome_driver() -> webdriver.Chrome:
 
 
 def _accept_cookie_banner_if_present(driver: webdriver.Chrome) -> None:
-    """Chiude eventuali banner cookie/consenso che potrebbero bloccare i click sul form."""
+    """Chiude eventuali banner cookie/consenso (Quantcast Choice, OneTrust, ecc.)
+    che potrebbero intercettare i click sul form di login."""
     selectors = [
+        # Quantcast Choice - modal CCPA "Do Not Process My Personal Information"
+        # (quello osservato su fantacalcio.it): la X di chiusura non altera le scelte privacy.
+        (By.CSS_SELECTOR, "button.qc-usp-close-icon"),
+        (By.CSS_SELECTOR, "button[aria-label='Close']"),
+        # Fallback generico per il layer di consenso Quantcast "classico"
+        (By.CSS_SELECTOR, "button.qc-cmp2-summary-buttons button[mode='primary']"),
+        # OneTrust, nel caso venga usato in futuro
         (By.ID, "onetrust-accept-btn-handler"),
+        # Fallback testuale generico (varie lingue/varianti)
         (By.XPATH, "//button[contains(translate(., 'ACEPT', 'acept'), 'accett')]"),
         (By.XPATH, "//button[contains(translate(., 'ACONSENTO', 'aconsento'), 'consent')]"),
     ]
@@ -152,7 +161,11 @@ def _accept_cookie_banner_if_present(driver: webdriver.Chrome) -> None:
         try:
             btn = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((by, selector)))
             btn.click()
-            logger.info("Banner cookie chiuso (%s).", selector)
+            logger.info("Banner/modal privacy chiuso (%s).", selector)
+            # Piccola attesa per lasciare che il modal si smonti dal DOM prima di proseguire
+            WebDriverWait(driver, 5).until(
+                EC.invisibility_of_element_located((By.ID, "qc-cmp2-container"))
+            )
             return
         except Exception:
             continue
