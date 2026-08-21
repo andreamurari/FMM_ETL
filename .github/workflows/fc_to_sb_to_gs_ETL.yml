@@ -1,50 +1,76 @@
 name: fc_to_sb_to_gs_ETL
 
 on:
-  schedule:                 # lancio automatico
-    - cron: "23 */1 * * *"   # ogni 1 ora
+  schedule:
+    - cron: "23 * * * *"   # ogni ora, al minuto 23
   workflow_dispatch:        # lancio manuale
-  
+
+concurrency:
+  group: fc_to_sb_to_gs_ETL
+  cancel-in-progress: false
+
 jobs:
   run-etl:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    - name: Esegui fc_to_sb_to_gs_ETL
-      run: python -u fc_to_sb_to_gs_ETL.py
-      env:
-        SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
-        GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-        FANTACALCIO_PASSWORD: ${{ secrets.FANTACALCIO_PASSWORD }}
-        CHROME_BIN: /usr/bin/google-chrome
-        CHROMEDRIVER_PATH: /usr/bin/chromedriver
+      - name: Setup Chrome
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
 
-    # Scarica il LOG (conservato per 3 giorni)
-    - name: Upload log artifact
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: etl_totale-log
-        path: ./log.txt
-        retention-days: 3
+      - name: Esegui fc_to_sb_to_gs_ETL
+        run: python -u fc_to_sb_to_gs_ETL.py
+        env:
+          SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          FANTACALCIO_PASSWORD: ${{ secrets.FANTACALCIO_PASSWORD }}
+          CHROME_BIN: ${{ steps.setup-chrome.outputs.chrome-path }}
 
-    # Scarica l'EXCEL (conservato per 3 giorni)
-    - name: Scarica file Excel finale
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: file-excel-output
-        path: ./output_new_sb.xlsx
-        retention-days: 1
+      # Scarica il LOG (conservato per 3 giorni)
+      - name: Upload log artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: etl-log
+          path: ./log.txt
+          retention-days: 3
+          if-no-files-found: ignore
+
+      # Scarica l'EXCEL finale (conservato per 1 giorno)
+      - name: Upload Excel output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: file-excel-output
+          path: ./output_new_sb.xlsx
+          retention-days: 1
+          if-no-files-found: ignore
+
+      # Screenshot + HTML della pagina, solo se il job fallisce (debug login/Selenium)
+      - name: Upload debug artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-files
+          path: |
+            ./debug_screenshot.png
+            ./debug_page.html
+          retention-days: 3
+          if-no-files-found: ignore
