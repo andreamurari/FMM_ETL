@@ -45,10 +45,16 @@ jobs:
       - name: Scarica la rosa Serie A da Transfermarkt
         run: |
           python -m tfmkt confederations > confederations.json
+          echo "confederations: $(wc -l < confederations.json) righe"
           python -m tfmkt competitions -p confederations.json > competitions.json
+          echo "competitions: $(wc -l < competitions.json) righe"
           grep '"competition_type": "first_tier"' competitions.json \
             | grep '"country_code": "IT1"' > serie_a.json
+          echo "serie_a: $(wc -l < serie_a.json) righe"
+          cat serie_a.json
           python -m tfmkt clubs -p serie_a.json -s ${{ steps.stagione.outputs.valore }} > clubs.json
+          echo "clubs: $(wc -l < clubs.json) righe"
+          cat clubs.json
 
           # Sanity check: la Serie A ha sempre esattamente 20 club. Se lo scraping
           # è fallito/incompleto, meglio fermarsi qui che passare dati a metà al
