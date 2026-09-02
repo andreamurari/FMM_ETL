@@ -1,0 +1,5 @@
+# Dipendenza separata da requirements.txt: serve solo al job
+# transfermarkt_matching_job.py, non va a gonfiare gli altri job del repo.
+# Pinnata a un commit preciso (testato) invece che a "main", per non far rompere
+# il job giornaliero se il progetto a monte cambia qualcosa senza preavviso.
+transfermarkt-scraper @ git+https://github.com/dcaribou/transfermarkt-scraper.git@6c1eb59a59349f6869155164808e17c617b0e80d
