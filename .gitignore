@@ -1,0 +1,16 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+
+# Artefatti locali generati dagli script ETL
+downloads/
+log.txt
+output_new_sb.xlsx
+debug_screenshot.png
+debug_page.html
+google_credentials.json
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
