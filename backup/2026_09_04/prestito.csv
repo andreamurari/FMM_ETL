@@ -38,3 +38,6 @@ id,giocatore,squadra_prestante,squadra_ricevente,stato,data_inizio,data_fine,ric
 36,517,Metodo Monchi FC,Diaolo Porco,in_corso,2026-09-01 21:12:12.103183+00:00,2027-07-01 23:59:59+00:00,,,0.0,secco,0.0
 37,525,Diaolo Porco,Metodo Monchi FC,in_corso,2026-09-01 21:12:12.103183+00:00,2027-07-01 23:59:59+00:00,,,0.0,secco,0.0
 38,152,Metodo Monchi FC,CyberDucks,in_corso,2026-09-02 14:22:10.832565+00:00,2027-07-01 23:59:59+00:00,,,0.0,diritto_di_riscatto,10.0
+41,1008,Diablitos FC,FC Sovescio,in_corso,2026-09-04 17:35:01.523131+00:00,2027-07-01 23:59:59+00:00,,,0.0,secco,0.0
+39,375,ZeroDayz FC,CyberDucks,in_corso,2026-09-04 10:16:01.368962+00:00,2027-07-01 23:59:59+00:00,,,0.0,secco,0.0
+40,169,FC Sovescio,Diablitos FC,in_corso,2026-09-04 17:35:01.523131+00:00,2027-07-01 23:59:59+00:00,,,0.0,secco,0.0

@@ -54,23 +54,24 @@ id,giocatore,squadra_vincente,ultima_offerta,tempo_fine_asta,tempo_fine_mostra_i
 66,946,CyberDucks,1.0,2026-08-25 10:20:00.064756+00:00,,conclusa,['CyberDucks'],True,2026-08-24 08:19:43.447099
 62,1015,Metodo Monchi FC,37.0,2026-08-26 12:05:00.068864+00:00,,conclusa,"['Sborada', 'Diablitos FC', 'Diaolo Porco', 'FC Pontos', 'FC Sovescio', 'Metodo Monchi FC', 'ZeroDayz FC']",True,2026-08-22 05:37:56.042014
 57,950,Al-Colizzati,1.0,2026-08-19 19:01:00.275241+00:00,,conclusa,"['Al-Colizzati', 'AC Ciaccati', 'FC Pontos']",True,2026-08-17 17:00:24.630950
+69,1033,FC Pontos,31.0,2026-09-05 10:19:39.318122+00:00,,in_corso,"['Diaolo Porco', 'AC Ciaccati', 'FC Pontos', 'Metodo Monchi FC', 'ZeroDayz FC']",False,2026-08-30 04:47:06.330312
 59,876,FC Sovescio,9.0,2026-08-22 08:02:00.073160+00:00,,conclusa,"['FC Sovescio', 'AC Ciaccati', 'Diablitos FC', 'Diaolo Porco']",True,2026-08-18 19:50:44.468116
 63,682,AC Ciaccati,10.0,2026-08-30 08:37:00.075869+00:00,,conclusa,"['Diaolo Porco', 'AC Ciaccati', 'Diablitos FC']",True,2026-08-22 13:30:35.458085
 60,1010,FC Pontos,91.0,2026-08-23 14:46:00.061716+00:00,,conclusa,"['AC Ciaccati', 'Diablitos FC', 'FC Pontos', 'Metodo Monchi FC']",True,2026-08-20 07:29:38.783851
-74,1051,Diaolo Porco,35.0,2026-09-04 14:47:25.543492+00:00,,in_corso,"['AC Ciaccati', 'Diablitos FC', 'Diaolo Porco', 'FC Pontos', 'Metodo Monchi FC']",False,2026-09-01 19:23:33.369412
 76,1023,CyberDucks,1.0,2026-09-02 22:03:00.082375+00:00,,conclusa,['CyberDucks'],True,2026-09-01 20:02:57.058406
 70,1008,Diablitos FC,1.0,2026-08-31 13:58:00.073579+00:00,,conclusa,['Diablitos FC'],True,2026-08-30 10:37:26.831083
 78,1036,Sborada,1.0,2026-09-03 00:54:00.067685+00:00,,conclusa,['Sborada'],True,2026-09-01 22:53:19.409749
-73,1052,FC Sovescio,17.0,2026-09-04 20:05:54.248889+00:00,,in_corso,"['AC Ciaccati', 'Al-Colizzati', 'Diaolo Porco', 'FC Sovescio', 'Metodo Monchi FC']",False,2026-09-01 19:23:22.921375
+74,1051,Diaolo Porco,37.0,2026-09-05 16:16:36.959397+00:00,,in_corso,"['AC Ciaccati', 'Diaolo Porco', 'FC Pontos', 'Metodo Monchi FC']",False,2026-09-01 19:23:33.369412
+73,1052,FC Sovescio,30.0,2026-09-05 16:42:07.719464+00:00,,in_corso,"['AC Ciaccati', 'Al-Colizzati', 'Diaolo Porco', 'FC Sovescio', 'Metodo Monchi FC']",False,2026-09-01 19:23:22.921375
 72,979,CyberDucks,7.0,2026-09-01 18:26:00.047173+00:00,,conclusa,"['CyberDucks', 'AC Ciaccati', 'ZeroDayz FC']",True,2026-08-30 12:10:54.502370
-82,801,Diaolo Porco,,,2026-09-05 07:58:00.618010+00:00,mostra_interesse,['Diaolo Porco'],False,2026-09-04 05:58:00.618010
-80,1040,Sborada,5.0,2026-09-05 08:04:42.019481+00:00,,in_corso,"['Sborada', 'AC Ciaccati', 'Diablitos FC']",False,2026-09-02 20:19:01.301770
-69,1033,FC Pontos,29.0,2026-09-05 08:36:17.071970+00:00,,in_corso,"['Diaolo Porco', 'AC Ciaccati', 'FC Pontos', 'Metodo Monchi FC', 'ZeroDayz FC']",False,2026-08-30 04:47:06.330312
+80,1040,Sborada,11.0,2026-09-05 18:41:33.436670+00:00,,in_corso,"['Sborada', 'AC Ciaccati', 'Diablitos FC']",False,2026-09-02 20:19:01.301770
+82,801,Diaolo Porco,,,2026-09-05 07:58:00.618010+00:00,mostra_interesse,"['Diaolo Porco', 'Metodo Monchi FC']",False,2026-09-04 05:58:00.618010
+79,1037,Diablitos FC,17.0,2026-09-05 15:40:02.693408+00:00,,in_corso,"['Diaolo Porco', 'AC Ciaccati', 'Diablitos FC', 'FC Pontos', 'ZeroDayz FC']",False,2026-09-02 06:21:57.656846
 68,1034,FC Sovescio,13.0,2026-09-02 12:13:00.065698+00:00,,conclusa,"['Diaolo Porco', 'FC Sovescio']",True,2026-08-30 04:46:49.185256
-77,1043,Sborada,6.0,2026-09-04 10:18:05.436386+00:00,,in_corso,"['Sborada', 'AC Ciaccati', 'Diaolo Porco', 'FC Pontos', 'ZeroDayz FC']",False,2026-09-01 21:15:51.622422
-79,1037,Diablitos FC,12.0,2026-09-04 12:33:33.309180+00:00,,in_corso,"['Diaolo Porco', 'AC Ciaccati', 'Diablitos FC', 'FC Pontos', 'ZeroDayz FC']",False,2026-09-02 06:21:57.656846
+75,1048,Sborada,57.0,2026-09-05 18:41:37.512921+00:00,,in_corso,"['AC Ciaccati', 'Diaolo Porco', 'Metodo Monchi FC', 'Sborada']",False,2026-09-01 19:33:44.122415
+83,976,ZeroDayz FC,,,2026-09-05 09:18:39.374120+00:00,mostra_interesse,"['ZeroDayz FC', 'AC Ciaccati', 'Al-Colizzati', 'Diablitos FC', 'Metodo Monchi FC']",False,2026-09-04 07:18:39.374120
 65,949,CyberDucks,1.0,2026-08-26 10:21:00.054301+00:00,,conclusa,"['CyberDucks', 'ZeroDayz FC']",True,2026-08-24 08:19:34.568838
 71,603,Diablitos FC,1.0,2026-09-01 12:38:00.084430+00:00,,conclusa,"['Diablitos FC', 'ZeroDayz FC']",True,2026-08-30 10:37:37.982262
-75,1048,AC Ciaccati,51.0,2026-09-04 20:51:38.060255+00:00,,in_corso,"['AC Ciaccati', 'Diaolo Porco', 'Metodo Monchi FC', 'Sborada']",False,2026-09-01 19:33:44.122415
 67,235,FC Sovescio,15.0,2026-09-04 22:55:30.085658+00:00,,in_corso,"['FC Sovescio', 'Al-Colizzati']",False,2026-08-26 20:53:59.137925
 81,1016,Diaolo Porco,,,2026-09-05 07:57:52.032008+00:00,mostra_interesse,['Diaolo Porco'],False,2026-09-04 05:57:52.032008
+77,1043,Sborada,6.0,2026-09-04 10:19:00.057757+00:00,,conclusa,"['Sborada', 'AC Ciaccati', 'Diaolo Porco', 'FC Pontos', 'ZeroDayz FC']",True,2026-09-01 21:15:51.622422
