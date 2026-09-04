@@ -1,29 +1,29 @@
 id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruolo,costo,priorita,id_transfermarkt,data_nascita,scadenza_contratto
 1022,Tchato,Svincolato,Svincolato,Frosinone,3,Svincolato,"{Dd,E}",0,1,842338.0,2002-11-23,2030-06-30
 1059,Rodriguez R.,Svincolato,Svincolato,Torino,6,Svincolato,"{B,Ds,E}",0,1,,,
-1058,Enem,Svincolato,Svincolato,Bologna,2,Svincolato,{Pc},0,1,,,
-935,Gelli J.,Svincolato,Svincolato,Frosinone,1,Svincolato,{Dc},0,0,,,
 934,Oyono J.,Svincolato,Svincolato,Frosinone,1,Svincolato,"{Dd,E}",0,0,,,
-933,Corrado,Svincolato,Svincolato,Frosinone,1,Svincolato,"{Ds,E}",0,0,,,
-663,Smalling,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0,,,
+1058,Enem,Svincolato,Svincolato,Bologna,2,Svincolato,{Pc},0,1,,,
 1012,Laerke,Svincolato,Svincolato,Lecce,1,Svincolato,"{W,A}",0,1,,,
+933,Corrado,Svincolato,Svincolato,Frosinone,1,Svincolato,"{Ds,E}",0,0,,,
 922,Delli Carri,Svincolato,Svincolato,Monza,4,Svincolato,{Dc},0,0,,,
 1030,Macchioni,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Dc},0,0,,,
+663,Smalling,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0,,,
+935,Gelli J.,Svincolato,Svincolato,Frosinone,1,Svincolato,{Dc},0,0,,,
+1029,Bobcek,Svincolato,Svincolato,Frosinone,9,Svincolato,{Pc},0,1,510103.0,2001-09-08,2031-06-30
+1019,Osmajic,Svincolato,Svincolato,Genoa,7,Svincolato,{Pc},0,1,542819.0,1999-07-25,2029-06-30
+1024,Mout,Svincolato,Svincolato,Monza,1,Svincolato,{C},0,1,1167990.0,2007-08-06,
 260,Zambo Anguissa,FC Pontos,FC Pontos,Napoli,10,Indeterminato,{C},27,1,354361.0,1995-11-16,2027-06-30
 925,Gomes,Svincolato,Svincolato,Venezia,1,Svincolato,"{Ds,Dc}",0,1,1371198.0,2008-02-14,2031-06-30
-931,Antov,Svincolato,Svincolato,Monza,1,Svincolato,{Dc},0,1,227347.0,2000-11-09,2027-06-30
-1019,Osmajic,Svincolato,Svincolato,Genoa,7,Svincolato,{Pc},0,1,542819.0,1999-07-25,2029-06-30
-1029,Bobcek,Svincolato,Svincolato,Frosinone,9,Svincolato,{Pc},0,1,510103.0,2001-09-08,2031-06-30
-1024,Mout,Svincolato,Svincolato,Monza,1,Svincolato,{C},0,1,1167990.0,2007-08-06,
-936,Amey,Svincolato,Svincolato,Frosinone,1,Svincolato,{Dc},0,1,818878.0,2005-08-11,2027-06-30
 1020,Lulli,Svincolato,Svincolato,Roma,2,Svincolato,{E},0,1,1175298.0,2007-08-17,2027-06-30
+936,Amey,Svincolato,Svincolato,Frosinone,1,Svincolato,{Dc},0,1,818878.0,2005-08-11,2027-06-30
+931,Antov,Svincolato,Svincolato,Monza,1,Svincolato,{Dc},0,1,227347.0,2000-11-09,2027-06-30
 928,Diawara S.,Svincolato,Svincolato,Milan,2,Svincolato,"{Ds,Dc}",0,1,1179195.0,2006-01-13,2031-06-30
-929,Franjic,Svincolato,Svincolato,Venezia,3,Svincolato,"{B,Ds,E}",0,1,370998.0,2000-01-14,
 913,Halhal,Svincolato,Svincolato,Venezia,3,Svincolato,{Dc},0,1,913660.0,2003-03-05,2030-06-30
-923,Mitaj,Sborada,Sborada,Genoa,4,Indeterminato,"{Ds,E}",1,1,726114.0,2003-08-06,2027-06-30
+929,Franjic,Svincolato,Svincolato,Venezia,3,Svincolato,"{B,Ds,E}",0,1,370998.0,2000-01-14,
 337,Vitik,ZeroDayz FC,ZeroDayz FC,Bologna,4,Indeterminato,{Dc},24,1,652054.0,2003-01-21,2029-06-30
-1036,Balerdi,Sborada,Sborada,Roma,6,Indeterminato,{Dc},1,1,575998.0,1999-01-26,2027-06-30
+923,Mitaj,Sborada,Sborada,Genoa,4,Indeterminato,"{Ds,E}",1,1,726114.0,2003-08-06,2027-06-30
 921,Pedraza,Svincolato,Svincolato,Lazio,6,Svincolato,"{Ds,E}",0,1,356197.0,1996-04-09,2029-06-30
+1036,Balerdi,Sborada,Sborada,Roma,6,Indeterminato,{Dc},1,1,575998.0,1999-01-26,2027-06-30
 1017,Sutalo J.,Svincolato,Svincolato,Lazio,7,Svincolato,{Dc},0,1,371001.0,2000-02-28,2027-06-30
 1037,Theate,Svincolato,Svincolato,Bologna,9,Svincolato,"{Ds,Dc}",0,1,368891.0,2000-05-25,2027-06-30
 993,Chalobah T.,Diaolo Porco,Diaolo Porco,Como,11,Indeterminato,"{Dd,Dc}",33,1,346314.0,1999-07-05,2031-06-30
@@ -31,787 +31,772 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 1057,Pompei,Svincolato,Svincolato,Atalanta,1,Svincolato,{Por},0,1,962246.0,2006-07-04,
 759,Russo A.,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Por},0,1,,,
 417,Circati,Svincolato,Svincolato,Parma,6,Svincolato,{Dc},0,0,,,
+1028,Birligea,Svincolato,Svincolato,Frosinone,5,Svincolato,{Pc},0,1,468192.0,2000-04-19,2027-06-30
 1032,Ciervo,Svincolato,Svincolato,Cagliari,1,Svincolato,{W},0,1,628558.0,2002-04-01,2027-06-30
-1042,Jovanovic,Svincolato,Svincolato,Udinese,2,Svincolato,"{W,T}",0,1,897505.0,2006-11-30,2031-06-30
 1025,Foe Ondoa,Svincolato,Svincolato,Monza,2,Svincolato,{C},0,1,1143375.0,2005-12-12,2030-06-30
-926,Alajbegovic,Svincolato,Svincolato,Juventus,11,Svincolato,"{W,T}",0,1,929994.0,2007-09-21,2031-06-30
-1033,Kessiè,Svincolato,Svincolato,Atalanta,12,Svincolato,{C},0,1,294808.0,1996-12-19,2029-06-30
-1021,Maye,Svincolato,Svincolato,Monza,1,Svincolato,"{Ds,Dc}",0,1,1041129.0,2006-03-21,2027-06-30
-1035,Drobnic,Svincolato,Svincolato,Parma,2,Svincolato,{Dc},0,1,1009616.0,2007-04-05,
-930,Bakoune,Svincolato,Svincolato,Monza,2,Svincolato,"{Dd,E}",0,1,1010150.0,2006-02-06,2027-06-30
-927,Puczka,Svincolato,Svincolato,Genoa,2,Svincolato,"{Ds,E}",0,1,715894.0,2005-01-26,2031-06-30
-917,Alhassane,Svincolato,Svincolato,Bologna,2,Svincolato,"{Ds,E}",0,1,929899.0,2002-01-01,2030-06-30
+1042,Jovanovic,Svincolato,Svincolato,Udinese,2,Svincolato,"{W,T}",0,1,897505.0,2006-11-30,2031-06-30
 996,Grillitsch,Svincolato,Svincolato,Frosinone,4,Svincolato,"{M,C}",0,1,195736.0,1995-08-07,2027-06-30
 1056,Braganca,Svincolato,Svincolato,Torino,6,Svincolato,{C},0,1,461943.0,1999-05-27,2027-06-30
-1039,Monteiro J.,Svincolato,Svincolato,Lecce,6,Svincolato,"{W,A}",0,1,410787.0,1999-08-05,2029-06-30
 989,Sow,Svincolato,Svincolato,Genoa,8,Svincolato,"{M,C}",0,1,212723.0,1997-02-06,2030-06-30
+1039,Monteiro J.,Svincolato,Svincolato,Lecce,6,Svincolato,"{W,A}",0,1,410787.0,1999-08-05,2029-06-30
 997,Schmid,Svincolato,Svincolato,Frosinone,8,Svincolato,"{W,T}",0,1,346853.0,2000-01-27,2030-06-30
+1033,Kessiè,Svincolato,Svincolato,Atalanta,12,Svincolato,{C},0,1,294808.0,1996-12-19,2029-06-30
+926,Alajbegovic,Svincolato,Svincolato,Juventus,11,Svincolato,"{W,T}",0,1,929994.0,2007-09-21,2031-06-30
+1021,Maye,Svincolato,Svincolato,Monza,1,Svincolato,"{Ds,Dc}",0,1,1041129.0,2006-03-21,2027-06-30
+1035,Drobnic,Svincolato,Svincolato,Parma,2,Svincolato,{Dc},0,1,1009616.0,2007-04-05,
 1026,Kambwala,Svincolato,Svincolato,Como,4,Svincolato,"{Dd,Dc}",0,1,780630.0,2004-08-25,2027-06-30
+917,Alhassane,Svincolato,Svincolato,Bologna,2,Svincolato,"{Ds,E}",0,1,929899.0,2002-01-01,2030-06-30
+927,Puczka,Svincolato,Svincolato,Genoa,2,Svincolato,"{Ds,E}",0,1,715894.0,2005-01-26,2031-06-30
+930,Bakoune,Svincolato,Svincolato,Monza,2,Svincolato,"{Dd,E}",0,1,1010150.0,2006-02-06,2027-06-30
 915,Akpoguma,Svincolato,Svincolato,Frosinone,3,Svincolato,{Dc},0,1,160241.0,1995-04-19,2028-06-30
 912,Comert,Svincolato,Svincolato,Torino,4,Svincolato,{Dc},0,1,298583.0,1998-02-04,2028-06-30
 916,Cittadini,Svincolato,Svincolato,Frosinone,4,Svincolato,{Dc},0,1,616628.0,2002-04-18,2027-06-30
-914,Correia T.,Svincolato,Svincolato,Venezia,5,Svincolato,"{Dd,Ds,E}",0,1,367466.0,1999-03-09,2027-06-30
 918,Kofler,Svincolato,Svincolato,Cagliari,5,Svincolato,{Dc},0,1,1039342.0,2005-04-26,2027-06-30
+914,Correia T.,Svincolato,Svincolato,Venezia,5,Svincolato,"{Dd,Ds,E}",0,1,367466.0,1999-03-09,2027-06-30
 1016,Leysen F.,Svincolato,Svincolato,Sassuolo,7,Svincolato,"{Ds,Dc}",0,1,660746.0,2003-07-09,2027-06-30
 1018,Badiashile,Svincolato,Svincolato,Napoli,7,Svincolato,{Dc},0,1,463603.0,2001-03-26,2027-06-30
 1023,Grabara,CyberDucks,CyberDucks,Juventus,1,Indeterminato,{Por},1,1,346551.0,1999-01-08,2027-06-30
-1028,Birligea,Svincolato,Svincolato,Frosinone,5,Svincolato,{Pc},0,1,468192.0,2000-04-19,2027-06-30
-898,Mlacic,Svincolato,Svincolato,Udinese,1,Svincolato,{Dc},0,0,,,
 959,Camara A.,Svincolato,Svincolato,Udinese,1,Svincolato,"{M,C}",0,0,,,
+898,Mlacic,Svincolato,Svincolato,Udinese,1,Svincolato,{Dc},0,0,,,
 56,Ratkov,Svincolato,FC Pontos,Lazio,8,Prestito Reale,{Pc},14,0,,,
-992,Mastantuono,Svincolato,Svincolato,Fiorentina,11,Svincolato,"{W,T}",0,1,1057316.0,2007-08-14,2027-06-30
-908,Ramos G.,Metodo Monchi FC,Metodo Monchi FC,Milan,27,Indeterminato,{Pc},111,1,550550.0,2001-06-20,2031-06-30
 1013,Comotto,Svincolato,Svincolato,Milan,1,Svincolato,"{M,C}",0,1,1058363.0,2008-04-25,2031-06-30
-1038,Massolin,Svincolato,Svincolato,Cagliari,4,Svincolato,"{C,T}",0,1,915849.0,2002-09-20,2027-06-30
-973,Oulai,Svincolato,Svincolato,Fiorentina,7,Svincolato,"{M,C}",0,1,1279526.0,2006-04-06,
-1043,Sarr P.,Svincolato,Svincolato,Juventus,8,Svincolato,"{M,C}",0,1,568693.0,2002-09-14,2027-06-30
-971,Unai Gomez,Svincolato,Svincolato,Udinese,6,Svincolato,{T},0,1,834752.0,2003-05-25,2031-06-30
-1040,Hutchinson,Svincolato,Svincolato,Milan,7,Svincolato,"{W,A}",0,1,741238.0,2003-10-30,2027-06-30
-1015,Jones C.,Metodo Monchi FC,Metodo Monchi FC,Inter,12,Indeterminato,{C},37,1,433188.0,2001-01-30,2031-06-30
-261,Modric,FC Sovescio,FC Sovescio,Milan,13,Indeterminato,"{M,C}",9,1,27992.0,1985-09-09,2027-06-30
-924,Calvani,Svincolato,Svincolato,Frosinone,5,Svincolato,{Dc},0,1,745778.0,2004-01-12,2027-06-30
-1046,Sugawara,Svincolato,Svincolato,Cagliari,6,Svincolato,"{Dd,E}",0,1,405385.0,2000-06-28,2027-06-30
-384,Kristensen T.,CyberDucks,CyberDucks,Atalanta,7,Indeterminato,"{Dd,Dc}",2,1,698259.0,2002-01-17,2027-06-30
-920,Oyono A.,Svincolato,Svincolato,Frosinone,6,Svincolato,"{Dd,E}",0,1,804812.0,2001-04-12,2027-06-30
-950,Monterisi,Al-Colizzati,Al-Colizzati,Frosinone,6,Indeterminato,{Dc},1,1,550116.0,2001-12-19,2027-06-30
-951,Viery,Svincolato,Svincolato,Fiorentina,7,Svincolato,"{Ds,Dc}",0,1,950393.0,2005-01-02,2031-06-30
-947,Kaiki,ZeroDayz FC,ZeroDayz FC,Como,6,Indeterminato,"{Ds,E}",22,1,879217.0,2003-03-08,2027-06-30
-949,Mangas,CyberDucks,CyberDucks,Monza,7,Indeterminato,"{Ds,E}",1,1,314944.0,1998-03-19,2027-06-30
-416,Delprato,Metodo Monchi FC,Metodo Monchi FC,Parma,8,Indeterminato,"{B,Dd,E}",0,1,392956.0,1999-11-10,2027-06-30
-1044,Ghidotti,Svincolato,Svincolato,Parma,1,Svincolato,{Por},0,1,357983.0,2000-03-19,
-1031,Mrozek,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},0,1,345452.0,2000-02-23,2030-06-30
-1003,Pisseri,Svincolato,Svincolato,Frosinone,1,Svincolato,{Por},0,1,168444.0,1991-11-21,
-940,Pozzi,Svincolato,Svincolato,Venezia,1,Svincolato,{Por},0,1,494805.0,2000-12-14,2030-06-30
-835,Grandi,Svincolato,Svincolato,Venezia,1,Svincolato,{Por},0,1,155038.0,1992-10-12,2028-06-30
-939,Strajnar,Svincolato,Svincolato,Monza,1,Svincolato,{Por},0,1,1009618.0,2007-08-16,2029-06-30
-938,Renzetti,Svincolato,Svincolato,Lazio,1,Svincolato,{Por},0,1,918957.0,2006-06-09,2027-06-30
 1034,Perri,FC Sovescio,FC Sovescio,Torino,9,Indeterminato,{Por},13,1,352041.0,1997-12-10,2027-06-30
 1027,Fatah,Svincolato,Svincolato,Lecce,5,Svincolato,"{W,A}",0,1,931841.0,2004-02-19,2029-06-30
-1048,Goncalves P.,Svincolato,Svincolato,Fiorentina,12,Svincolato,"{W,T}",0,1,426620.0,1998-06-28,2027-06-30
-268,Paz N.,FC Sovescio,FC Sovescio,Como,27,Indeterminato,"{T,A}",0,1,948294.0,2004-09-08,2028-06-30
-1014,Cinquegrano,Svincolato,Svincolato,Sassuolo,2,Svincolato,"{Dd,E}",0,1,919669.0,2004-06-25,2027-06-30
-948,Doekhi,Sborada,Sborada,Lazio,8,Indeterminato,{Dc},15,1,387047.0,1998-06-30,2029-06-30
+908,Ramos G.,Metodo Monchi FC,Metodo Monchi FC,Milan,27,Indeterminato,{Pc},111,1,550550.0,2001-06-20,2031-06-30
+1038,Massolin,Svincolato,Svincolato,Cagliari,4,Svincolato,"{C,T}",0,1,915849.0,2002-09-20,2027-06-30
+973,Oulai,Svincolato,Svincolato,Fiorentina,7,Svincolato,"{M,C}",0,1,1279526.0,2006-04-06,
+971,Unai Gomez,Svincolato,Svincolato,Udinese,6,Svincolato,{T},0,1,834752.0,2003-05-25,2031-06-30
+1043,Sarr P.,Sborada,Sborada,Juventus,8,Indeterminato,"{M,C}",6,1,568693.0,2002-09-14,2027-06-30
+1040,Hutchinson,Svincolato,Svincolato,Milan,7,Svincolato,"{W,A}",0,1,741238.0,2003-10-30,2027-06-30
+1015,Jones C.,Metodo Monchi FC,Metodo Monchi FC,Inter,12,Indeterminato,{C},37,1,433188.0,2001-01-30,2031-06-30
+992,Mastantuono,Svincolato,Svincolato,Fiorentina,11,Svincolato,"{W,T}",0,1,1057316.0,2007-08-14,2027-06-30
+261,Modric,FC Sovescio,FC Sovescio,Milan,13,Indeterminato,"{M,C}",9,1,27992.0,1985-09-09,2027-06-30
+1046,Sugawara,Svincolato,Svincolato,Cagliari,6,Svincolato,"{Dd,E}",0,1,405385.0,2000-06-28,2027-06-30
+924,Calvani,Svincolato,Svincolato,Frosinone,5,Svincolato,{Dc},0,1,745778.0,2004-01-12,2027-06-30
+384,Kristensen T.,CyberDucks,CyberDucks,Atalanta,7,Indeterminato,"{Dd,Dc}",2,1,698259.0,2002-01-17,2027-06-30
+947,Kaiki,ZeroDayz FC,ZeroDayz FC,Como,6,Indeterminato,"{Ds,E}",22,1,879217.0,2003-03-08,2027-06-30
+951,Viery,Svincolato,Svincolato,Fiorentina,7,Svincolato,"{Ds,Dc}",0,1,950393.0,2005-01-02,2031-06-30
+950,Monterisi,Al-Colizzati,Al-Colizzati,Frosinone,6,Indeterminato,{Dc},1,1,550116.0,2001-12-19,2027-06-30
+920,Oyono A.,Svincolato,Svincolato,Frosinone,6,Svincolato,"{Dd,E}",0,1,804812.0,2001-04-12,2027-06-30
+949,Mangas,CyberDucks,CyberDucks,Monza,7,Indeterminato,"{Ds,E}",1,1,314944.0,1998-03-19,2027-06-30
+416,Delprato,Metodo Monchi FC,Metodo Monchi FC,Parma,8,Indeterminato,"{B,Dd,E}",0,1,392956.0,1999-11-10,2027-06-30
+835,Grandi,Svincolato,Svincolato,Venezia,1,Svincolato,{Por},0,1,155038.0,1992-10-12,2028-06-30
+940,Pozzi,Svincolato,Svincolato,Venezia,1,Svincolato,{Por},0,1,494805.0,2000-12-14,2030-06-30
+1003,Pisseri,Svincolato,Svincolato,Frosinone,1,Svincolato,{Por},0,1,168444.0,1991-11-21,
+1031,Mrozek,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},0,1,345452.0,2000-02-23,2030-06-30
+1044,Ghidotti,Svincolato,Svincolato,Parma,1,Svincolato,{Por},0,1,357983.0,2000-03-19,
+938,Renzetti,Svincolato,Svincolato,Lazio,1,Svincolato,{Por},0,1,918957.0,2006-06-09,2027-06-30
+939,Strajnar,Svincolato,Svincolato,Monza,1,Svincolato,{Por},0,1,1009618.0,2007-08-16,2029-06-30
 412,Zappacosta,ZeroDayz FC,ZeroDayz FC,Atalanta,8,Indeterminato,"{Dd,E}",5,1,173859.0,1992-06-11,2028-06-30
-994,Aurelio,Svincolato,Svincolato,Cagliari,2,Svincolato,"{Ds,E}",0,1,457444.0,2000-03-22,2029-06-30
+948,Doekhi,Sborada,Sborada,Lazio,8,Indeterminato,{Dc},15,1,387047.0,1998-06-30,2029-06-30
 953,Stones,FC Pontos,FC Pontos,Inter,12,Indeterminato,{Dc},30,1,186590.0,1994-05-28,2028-06-30
 998,Molina N.,Diaolo Porco,Diaolo Porco,Roma,18,Indeterminato,{E},37,1,424042.0,1998-04-06,2030-06-30
-941,Mascardi,Svincolato,Svincolato,Torino,1,Svincolato,{Por},0,1,981998.0,2006-09-26,2031-06-30
 553,De Marzi,Svincolato,Svincolato,Roma,1,Svincolato,{Por},0,1,942004.0,2007-04-18,2027-06-30
+941,Mascardi,Svincolato,Svincolato,Torino,1,Svincolato,{Por},0,1,981998.0,2006-09-26,2031-06-30
+357,Pedersen,Svincolato,Svincolato,Torino,5,Svincolato,"{Dd,E}",1,0,,,
+395,Zappa,Svincolato,Diaolo Porco,Cagliari,4,Prestito Reale,"{B,Dd,E}",4,0,,,
+1048,Goncalves P.,Svincolato,Svincolato,Fiorentina,12,Svincolato,"{W,T}",0,1,426620.0,1998-06-28,2027-06-30
+702,Petagna,Svincolato,Svincolato,Monza,2,Svincolato,{Pc},0,0,,,
+268,Paz N.,FC Sovescio,FC Sovescio,Como,27,Indeterminato,"{T,A}",0,1,948294.0,2004-09-08,2028-06-30
+994,Aurelio,Svincolato,Svincolato,Cagliari,2,Svincolato,"{Ds,E}",0,1,457444.0,2000-03-22,2029-06-30
+1014,Cinquegrano,Svincolato,Svincolato,Sassuolo,2,Svincolato,"{Dd,E}",0,1,919669.0,2004-06-25,2027-06-30
 1049,Drameh,Svincolato,Svincolato,Genoa,4,Svincolato,"{Dd,Ds,E}",0,1,531957.0,2001-12-08,
+685,Azzi,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0,,,
+468,Toniolo,Svincolato,Svincolato,Verona,1,Svincolato,{Por},0,0,,,
 552,Sverko,Svincolato,Svincolato,Venezia,3,Svincolato,"{Ds,Dc}",0,1,282169.0,1998-02-04,2028-06-30
 344,Ehizibue,Svincolato,Svincolato,Genoa,4,Svincolato,"{Dd,E}",0,1,,,
 423,Kossounou,Al-Colizzati,Al-Colizzati,Atalanta,4,Indeterminato,"{Dd,Dc}",11,1,644771.0,2001-01-04,2029-06-30
 1045,Zeballos,Svincolato,Svincolato,Monza,6,Svincolato,{A},0,1,661132.0,2002-04-24,2030-06-30
-685,Azzi,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0,,,
-702,Petagna,Svincolato,Svincolato,Monza,2,Svincolato,{Pc},0,0,,,
-1047,Patterson,Svincolato,Svincolato,Torino,5,Svincolato,"{Dd,E}",0,1,424015.0,2001-10-16,2029-06-30
-395,Zappa,Svincolato,Diaolo Porco,Cagliari,4,Prestito Reale,"{B,Dd,E}",4,0,,,
 963,Rrahmani Al.,Svincolato,Svincolato,Venezia,6,Svincolato,{Pc},0,1,903706.0,2000-08-31,2029-06-30
-962,Adams A.,Svincolato,Svincolato,Venezia,10,Svincolato,{Pc},0,1,607034.0,2000-01-29,2030-06-30
-995,Kevin Carlos,Svincolato,Svincolato,Cagliari,11,Svincolato,{Pc},0,1,718201.0,2001-04-10,2027-06-30
 1052,Beto,Svincolato,Svincolato,Fiorentina,14,Svincolato,{Pc},0,1,595809.0,1998-01-31,2030-06-30
-370,Doig,Svincolato,Svincolato,Sassuolo,5,Svincolato,"{Ds,E}",1,1,567129.0,2002-05-18,2028-06-30
+995,Kevin Carlos,Svincolato,Svincolato,Cagliari,11,Svincolato,{Pc},0,1,718201.0,2001-04-10,2027-06-30
+962,Adams A.,Svincolato,Svincolato,Venezia,10,Svincolato,{Pc},0,1,607034.0,2000-01-29,2030-06-30
 952,Valdepenas,Svincolato,Svincolato,Fiorentina,6,Svincolato,"{Ds,Dc}",0,1,1186245.0,2006-10-20,
+370,Doig,Svincolato,Svincolato,Sassuolo,5,Svincolato,"{Ds,E}",1,1,567129.0,2002-05-18,2028-06-30
+1047,Patterson,Svincolato,Svincolato,Torino,5,Svincolato,"{Dd,E}",0,1,424015.0,2001-10-16,2029-06-30
 1041,Caleta-Car,Svincolato,Svincolato,Sassuolo,6,Svincolato,{Dc},0,1,238266.0,1996-09-17,2028-06-30
-397,Bellanova,ZeroDayz FC,ZeroDayz FC,Atalanta,6,Indeterminato,"{Dd,E}",28,1,357992.0,2000-05-17,2029-06-30
 385,Ismajli,Metodo Monchi FC,Metodo Monchi FC,Torino,7,Indeterminato,{Dc},2,1,435228.0,1996-09-30,2027-06-30
-919,Bracaglia,Svincolato,Svincolato,Frosinone,7,Svincolato,"{Ds,Dc}",0,1,571600.0,2003-07-19,2028-06-30
-398,Hien,CyberDucks,CyberDucks,Atalanta,7,Indeterminato,{Dc},5,1,503075.0,1999-01-13,2028-06-30
-990,Couto,Diablitos FC,Diablitos FC,Como,8,Indeterminato,"{Dd,E}",31,1,627228.0,2002-06-03,2027-06-30
+397,Bellanova,ZeroDayz FC,ZeroDayz FC,Atalanta,6,Indeterminato,"{Dd,E}",28,1,357992.0,2000-05-17,2029-06-30
 954,Koulierakis,ZeroDayz FC,ZeroDayz FC,Roma,8,Indeterminato,{Dc},18,1,669380.0,2003-11-28,2031-06-30
-357,Pedersen,Svincolato,Svincolato,Torino,5,Svincolato,"{Dd,E}",1,0,,,
-468,Toniolo,Svincolato,Svincolato,Verona,1,Svincolato,{Por},0,0,,,
-739,Oudin,Svincolato,Svincolato,Lecce,0,Svincolato,"{W,T}",0,0,,,
-811,Wieteska,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0,,,
-892,Zaragoza,Svincolato,Svincolato,Roma,4,Svincolato,"{W,A}",10,0,,,
-339,Ziolkowski,Diaolo Porco,Diaolo Porco,Monza,1,Primavera,{Dc},0,1,1046867.0,2005-06-05,2027-06-30
-334,Van Der Brempt,CyberDucks,CyberDucks,Sassuolo,2,Indeterminato,"{Dd,E}",0,1,490423.0,2002-04-01,2027-06-30
-341,Athekame,Svincolato,CyberDucks,Milan,3,Prestito Reale,"{Dd,E}",0,0,,,
-758,Luan Patrick,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
-563,Burnete,Svincolato,Svincolato,Lecce,0,Svincolato,{Pc},0,0,,,
-893,Santos A.,FC Pontos,FC Pontos,Napoli,15,Indeterminato,"{W,A}",2,1,830365.0,2002-09-27,2030-06-30
-280,Ebosse,Svincolato,Svincolato,Udinese,3,Svincolato,"{Ds,Dc}",0,1,342877.0,1999-03-11,2027-06-30
-873,Helland,Svincolato,Svincolato,Bologna,3,Svincolato,"{Dd,Dc}",0,1,1129198.0,2005-04-25,2030-06-30
-386,Walukiewicz,FC Sovescio,FC Sovescio,Sassuolo,4,Indeterminato,"{Dd,Dc}",5,1,345458.0,2000-04-05,
-404,Gabbia,Diablitos FC,Diablitos FC,Milan,7,Indeterminato,{Dc},3,1,323167.0,1999-10-21,2029-06-30
-411,Mina,FC Pontos,FC Pontos,Cagliari,7,Indeterminato,{Dc},9,1,289446.0,1994-09-23,2028-06-30
-409,Zortea,Al-Colizzati,Al-Colizzati,Bologna,7,Indeterminato,"{Dd,E}",16,1,392966.0,1999-06-19,2029-06-30
-556,Florenzi,Svincolato,Svincolato,Milan,0,Svincolato,"{Dd,Ds,E}",0,0,,,
-1051,Woltemade,Svincolato,Svincolato,Juventus,23,Svincolato,{A},0,1,455661.0,2002-02-14,2027-06-30
+990,Couto,Diablitos FC,Diablitos FC,Como,8,Indeterminato,"{Dd,E}",31,1,627228.0,2002-06-03,2027-06-30
+398,Hien,CyberDucks,CyberDucks,Atalanta,7,Indeterminato,{Dc},5,1,503075.0,1999-01-13,2028-06-30
+919,Bracaglia,Svincolato,Svincolato,Frosinone,7,Svincolato,"{Ds,Dc}",0,1,571600.0,2003-07-19,2028-06-30
 396,Lucumì,FC Sovescio,FC Sovescio,Juventus,7,Indeterminato,{Dc},9,1,413565.0,1998-06-26,2030-06-30
+1051,Woltemade,Svincolato,Svincolato,Juventus,23,Svincolato,{A},0,1,455661.0,2002-02-14,2027-06-30
+893,Santos A.,FC Pontos,FC Pontos,Napoli,15,Indeterminato,"{W,A}",2,1,830365.0,2002-09-27,2030-06-30
+130,Kaba,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",0,1,911328.0,2001-10-27,2027-06-30
+409,Zortea,Al-Colizzati,Al-Colizzati,Bologna,7,Indeterminato,"{Dd,E}",16,1,392966.0,1999-06-19,2029-06-30
+696,Melegoni,Svincolato,Svincolato,Genoa,0,Svincolato,"{C,T}",0,0,,,
+411,Mina,FC Pontos,FC Pontos,Cagliari,7,Indeterminato,{Dc},9,1,289446.0,1994-09-23,2028-06-30
+955,Dagasso,Svincolato,Svincolato,Venezia,1,Svincolato,{C},0,1,744621.0,2004-04-01,2030-06-30
+957,Chakvetadze,Svincolato,Svincolato,Udinese,2,Svincolato,"{W,T}",0,1,412616.0,1999-08-29,2030-06-30
+896,Lahdo,Svincolato,Svincolato,Como,1,Svincolato,"{C,T}",0,1,1231993.0,2007-12-26,2031-06-30
+339,Ziolkowski,Diaolo Porco,Diaolo Porco,Monza,1,Primavera,{Dc},0,1,1046867.0,2005-06-05,2027-06-30
+529,Isaac,Svincolato,Svincolato,Verona,1,Svincolato,{Pc},0,0,,,
+308,Cham,Svincolato,Svincolato,Verona,2,Svincolato,"{Dd,Ds,E}",0,0,,,
+404,Gabbia,Diablitos FC,Diablitos FC,Milan,7,Indeterminato,{Dc},3,1,323167.0,1999-10-21,2029-06-30
+556,Florenzi,Svincolato,Svincolato,Milan,0,Svincolato,"{Dd,Ds,E}",0,0,,,
+334,Van Der Brempt,CyberDucks,CyberDucks,Sassuolo,2,Indeterminato,"{Dd,E}",0,1,490423.0,2002-04-01,2027-06-30
+280,Ebosse,Svincolato,Svincolato,Udinese,3,Svincolato,"{Ds,Dc}",0,1,342877.0,1999-03-11,2027-06-30
+386,Walukiewicz,FC Sovescio,FC Sovescio,Sassuolo,4,Indeterminato,"{Dd,Dc}",5,1,345458.0,2000-04-05,
+958,El Azzouzi A.,Svincolato,Svincolato,Frosinone,1,Svincolato,"{M,C}",0,1,593774.0,2001-05-29,2029-06-30
+873,Helland,Svincolato,Svincolato,Bologna,3,Svincolato,"{Dd,Dc}",0,1,1129198.0,2005-04-25,2030-06-30
+338,Rodriguez Ju.,Svincolato,Svincolato,Cagliari,5,Svincolato,"{Ds,Dc}",0,1,1228231.0,2005-05-30,2030-06-30
 899,Siviero,Svincolato,Svincolato,Torino,1,Svincolato,{Por},0,1,942103.0,2006-11-23,2029-06-30
 937,Lolic,Svincolato,Svincolato,Frosinone,1,Svincolato,{Por},0,1,740517.0,2004-05-15,2027-06-30
-1050,Sanchez Ro.,Svincolato,Svincolato,Como,8,Svincolato,{Por},0,1,403151.0,1997-11-18,2027-06-30
-308,Cham,Svincolato,Svincolato,Verona,2,Svincolato,"{Dd,Ds,E}",0,0,,,
-529,Isaac,Svincolato,Svincolato,Verona,1,Svincolato,{Pc},0,0,,,
-696,Melegoni,Svincolato,Svincolato,Genoa,0,Svincolato,"{C,T}",0,0,,,
-275,Siebert,Svincolato,Svincolato,Lecce,4,Svincolato,{Dc},0,1,604113.0,2002-04-02,2028-06-30
 353,Smolcic I.,Svincolato,Svincolato,Como,4,Svincolato,"{Dd,E}",0,1,571271.0,2000-08-17,2031-06-30
-338,Rodriguez Ju.,Svincolato,Svincolato,Cagliari,5,Svincolato,"{Ds,Dc}",0,1,1228231.0,2005-05-30,2030-06-30
-390,Tomori,Diablitos FC,Diablitos FC,Milan,6,Indeterminato,{Dc},20,1,303254.0,1997-12-19,2027-06-30
-391,Gallo,FC Sovescio,FC Sovescio,Lecce,6,Indeterminato,"{Ds,E}",2,1,392516.0,2000-01-05,2027-06-30
-401,Idzes,ZeroDayz FC,ZeroDayz FC,Sassuolo,7,Indeterminato,{Dc},1,1,546926.0,2000-06-02,2029-06-30
-683,Bennacer,Svincolato,Svincolato,Milan,4,Svincolato,"{M,C}",0,0,,,
-813,Tessmann,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
-955,Dagasso,Svincolato,Svincolato,Venezia,1,Svincolato,{C},0,1,744621.0,2004-04-01,2030-06-30
-130,Kaba,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",0,1,911328.0,2001-10-27,2027-06-30
 887,Przyborek,Svincolato,Svincolato,Lazio,1,Svincolato,"{W,T}",0,1,1018395.0,2007-01-01,2030-06-30
-958,El Azzouzi A.,Svincolato,Svincolato,Frosinone,1,Svincolato,"{M,C}",0,1,593774.0,2001-05-29,2029-06-30
-896,Lahdo,Svincolato,Svincolato,Como,1,Svincolato,"{C,T}",0,1,1231993.0,2007-12-26,2031-06-30
-957,Chakvetadze,Svincolato,Svincolato,Udinese,2,Svincolato,"{W,T}",0,1,412616.0,1999-08-29,2030-06-30
-956,El Azzouzi O.,Svincolato,Svincolato,Bologna,2,Svincolato,"{M,C}",0,1,531065.0,2001-05-29,2027-06-30
 1053,Fernandez T.,Svincolato,Svincolato,Venezia,2,Svincolato,"{T,A}",0,1,1066206.0,2008-07-15,2027-06-30
+956,El Azzouzi O.,Svincolato,Svincolato,Bologna,2,Svincolato,"{M,C}",0,1,531065.0,2001-05-29,2027-06-30
+1050,Sanchez Ro.,Svincolato,Svincolato,Como,8,Svincolato,{Por},0,1,403151.0,1997-11-18,2027-06-30
+739,Oudin,Svincolato,Svincolato,Lecce,0,Svincolato,"{W,T}",0,0,,,
+892,Zaragoza,Svincolato,Svincolato,Roma,4,Svincolato,"{W,A}",10,0,,,
+811,Wieteska,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0,,,
+275,Siebert,Svincolato,Svincolato,Lecce,4,Svincolato,{Dc},0,1,604113.0,2002-04-02,2028-06-30
+391,Gallo,FC Sovescio,FC Sovescio,Lecce,6,Indeterminato,"{Ds,E}",2,1,392516.0,2000-01-05,2027-06-30
+390,Tomori,Diablitos FC,Diablitos FC,Milan,6,Indeterminato,{Dc},20,1,303254.0,1997-12-19,2027-06-30
+401,Idzes,ZeroDayz FC,ZeroDayz FC,Sassuolo,7,Indeterminato,{Dc},1,1,546926.0,2000-06-02,2029-06-30
+813,Tessmann,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
+683,Bennacer,Svincolato,Svincolato,Milan,4,Svincolato,"{M,C}",0,0,,,
 487,Furlanetto,Svincolato,Svincolato,Lazio,3,Svincolato,{Por},0,0,,,
-975,Romano,Svincolato,Svincolato,Cagliari,8,Svincolato,"{M,C}",0,1,911224.0,2006-06-17,2027-06-30
-979,Calò,CyberDucks,CyberDucks,Frosinone,9,Indeterminato,"{M,C}",7,1,301235.0,1997-02-05,2029-06-30
-256,Odgaard,Sborada,Sborada,Bologna,7,Indeterminato,{T},3,1,345590.0,1999-03-31,2029-06-30
-294,Perez M.,Svincolato,Svincolato,Lecce,1,Svincolato,"{Dd,Dc}",0,0,,,
-729,Carboni A.,Svincolato,Svincolato,Monza,4,Svincolato,"{Ds,Dc}",0,1,481834.0,2001-02-04,2029-06-30
-351,Pezzella Giu.,Svincolato,Svincolato,Cremonese,4,Svincolato,"{Ds,E}",8,0,,,
-782,Pavard,CyberDucks,CyberDucks,Inter,7,Indeterminato,"{Dd,Dc}",36,1,353366.0,1996-03-28,2028-06-30
-969,Kvernadze,Svincolato,Svincolato,Frosinone,7,Svincolato,"{W,A}",0,1,412758.0,2003-02-07,2028-06-30
-400,Heggem,Metodo Monchi FC,Metodo Monchi FC,Bologna,6,Indeterminato,"{Ds,Dc}",4,1,464469.0,1999-01-12,2029-06-30
-425,Tiago Gabriel,Diaolo Porco,Diaolo Porco,Lecce,8,Indeterminato,{Dc},0,1,1112449.0,2004-12-26,2027-06-30
-943,Happonen,Svincolato,Svincolato,Bologna,1,Svincolato,{Por},0,1,1018026.0,2007-03-13,
-944,Desplanches,Svincolato,Svincolato,Frosinone,2,Svincolato,{Por},0,1,567465.0,2003-03-11,2027-06-30
-1054,Gnonto,Svincolato,Svincolato,Fiorentina,8,Svincolato,"{W,A}",0,1,627626.0,2003-11-05,2027-06-30
+563,Burnete,Svincolato,Svincolato,Lecce,0,Svincolato,{Pc},0,0,,,
+758,Luan Patrick,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
+341,Athekame,Svincolato,CyberDucks,Milan,3,Prestito Reale,"{Dd,E}",0,0,,,
+942,Daffara,FC Pontos,FC Pontos,Parma,6,Indeterminato,{Por},1,1,814473.0,2004-12-05,2031-06-30
+972,Winks,Svincolato,Svincolato,Cagliari,7,Svincolato,"{M,C}",0,1,249126.0,1996-02-02,2028-06-30
+976,Milla,Svincolato,Svincolato,Como,6,Svincolato,"{M,C}",0,1,281989.0,1994-10-07,2029-06-30
 964,Geubbels,Al-Colizzati,Al-Colizzati,Lecce,7,Indeterminato,{Pc},4,1,463620.0,2001-08-16,2030-06-30
-946,Thiam,CyberDucks,CyberDucks,Monza,4,Indeterminato,{Por},1,1,435406.0,1998-03-05,2028-06-30
-736,Correa,Svincolato,Svincolato,Inter,0,Svincolato,{A},0,0,,,
-558,Alli,Svincolato,Svincolato,Como,0,Svincolato,{T},0,0,,,
-547,Success,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0,,,
-960,Ghedjemis,Al-Colizzati,Al-Colizzati,Frosinone,9,Indeterminato,"{W,A}",1,1,888738.0,2002-09-06,2028-06-30
 304,Coulibaly W.,Svincolato,Svincolato,Sassuolo,4,Svincolato,"{Dd,Ds,E}",0,0,,,
-697,Bagnolini,Svincolato,Svincolato,Bologna,0,Svincolato,{Por},0,0,,,
+1054,Gnonto,Svincolato,Svincolato,Fiorentina,8,Svincolato,"{W,A}",0,1,627626.0,2003-11-05,2027-06-30
+547,Success,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0,,,
+970,Adorante,Svincolato,Svincolato,Venezia,4,Svincolato,{Pc},0,1,364206.0,2000-02-05,2028-06-30
+969,Kvernadze,Svincolato,Svincolato,Frosinone,7,Svincolato,"{W,A}",0,1,412758.0,2003-02-07,2028-06-30
+991,Robinson J.,Svincolato,Svincolato,Monza,4,Svincolato,{A},0,1,1045124.0,2007-03-15,2027-06-30
+256,Odgaard,Sborada,Sborada,Bologna,7,Indeterminato,{T},3,1,345590.0,1999-03-31,2029-06-30
+979,Calò,CyberDucks,CyberDucks,Frosinone,9,Indeterminato,"{M,C}",7,1,301235.0,1997-02-05,2029-06-30
+975,Romano,Svincolato,Svincolato,Cagliari,8,Svincolato,"{M,C}",0,1,911224.0,2006-06-17,2027-06-30
+729,Carboni A.,Svincolato,Svincolato,Monza,4,Svincolato,"{Ds,Dc}",0,1,481834.0,2001-02-04,2029-06-30
+980,Koutsoupias,Svincolato,Svincolato,Frosinone,4,Svincolato,{C},0,0,534161.0,2001-05-10,2027-06-30
+660,Quagliata,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0,,,
 744,Raimondo,Svincolato,Svincolato,Frosinone,8,Svincolato,{Pc},0,1,818888.0,2004-03-18,2027-06-30
 795,Kolo Muani,Diablitos FC,Diablitos FC,Juventus,25,Indeterminato,{Pc},133,1,487969.0,1998-12-05,2031-06-30
 978,Traorè Hj.,Svincolato,Svincolato,Genoa,4,Svincolato,"{W,T}",0,1,391065.0,2000-02-16,2027-06-30
-980,Koutsoupias,Svincolato,Svincolato,Frosinone,4,Svincolato,{C},0,1,534161.0,2001-05-10,2027-06-30
-942,Daffara,FC Pontos,FC Pontos,Parma,6,Indeterminato,{Por},1,1,814473.0,2004-12-05,2031-06-30
-650,Castagnetti,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0,,,
-977,Meichtry,Svincolato,Svincolato,Genoa,5,Svincolato,"{W,T}",0,1,1172166.0,2005-07-08,2030-06-30
-903,Mendy P.,Svincolato,Svincolato,Cagliari,4,Svincolato,{Pc},0,1,1371793.0,2007-01-13,2031-06-30
-50,Borrelli,Svincolato,Svincolato,Cagliari,3,Svincolato,{Pc},0,1,459988.0,2000-03-10,2029-06-30
-991,Robinson J.,Svincolato,Svincolato,Monza,4,Svincolato,{A},0,1,1045124.0,2007-03-15,2027-06-30
 974,Amondarain,Svincolato,Svincolato,Bologna,6,Svincolato,"{M,C}",0,1,1283311.0,2005-01-06,2031-06-30
-976,Milla,Svincolato,Svincolato,Como,6,Svincolato,"{M,C}",0,1,281989.0,1994-10-07,2029-06-30
-640,Dani Silva,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0,,,
-972,Winks,Svincolato,Svincolato,Cagliari,7,Svincolato,"{M,C}",0,1,249126.0,1996-02-02,2028-06-30
-674,Augello,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,E}",0,0,,,
-243,Thorsby,Svincolato,Svincolato,Cremonese,12,Svincolato,"{C,T}",0,0,,,
-660,Quagliata,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Ds,E}",0,0,,,
+977,Meichtry,Svincolato,Svincolato,Genoa,5,Svincolato,"{W,T}",0,1,1172166.0,2005-07-08,2030-06-30
+50,Borrelli,Svincolato,Svincolato,Cagliari,3,Svincolato,{Pc},0,1,459988.0,2000-03-10,2029-06-30
+903,Mendy P.,Svincolato,Svincolato,Cagliari,4,Svincolato,{Pc},0,1,1371793.0,2007-01-13,2031-06-30
 1055,Robinho Junior,Svincolato,Svincolato,Genoa,1,Svincolato,{A},0,1,1355385.0,2007-12-17,2027-06-30
-970,Adorante,Svincolato,Svincolato,Venezia,4,Svincolato,{Pc},0,1,364206.0,2000-02-05,2028-06-30
-861,Marì,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},6,0,,,
-773,Barba,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0,,,
-712,Hummels,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0,,,
-967,Varela G.,Svincolato,Svincolato,Monza,7,Svincolato,{Pc},0,1,931900.0,2005-01-30,2030-06-30
-890,Boga,AC Ciaccati,AC Ciaccati,Juventus,7,Indeterminato,"{W,A}",1,1,216569.0,1997-01-03,2029-06-30
-886,Bowie,Svincolato,Svincolato,Sassuolo,8,Svincolato,{Pc},0,1,647280.0,2002-09-21,2027-06-30
-982,Diallo O.,Svincolato,Svincolato,Parma,2,Svincolato,"{W,A}",0,1,962149.0,2007-06-12,2031-06-30
-983,Colombo L.,Svincolato,Svincolato,Monza,3,Svincolato,"{M,C}",0,1,891869.0,2005-06-04,2029-06-30
-984,Stankovic A.,Svincolato,Svincolato,Inter,3,Svincolato,"{M,C}",0,1,780136.0,2005-08-03,2031-06-30
-987,Gelli F.,Svincolato,Svincolato,Frosinone,3,Svincolato,"{C,T}",0,1,337811.0,1996-10-15,
-258,Saelemaekers,Metodo Monchi FC,Metodo Monchi FC,Milan,12,Indeterminato,"{E,W}",7,1,381950.0,1999-06-27,2031-06-30
-252,Zielinski,FC Pontos,FC Pontos,Inter,12,Indeterminato,{C},12,1,181136.0,1994-05-20,2028-06-30
-292,Mazzocchi,Svincolato,Svincolato,Venezia,1,Svincolato,"{Dd,Ds,E}",0,1,250153.0,1995-07-27,2027-06-30
-329,Marianucci,Svincolato,Svincolato,Napoli,1,Svincolato,{Dc},0,1,814446.0,2004-07-23,2030-06-30
-318,Rugani,Svincolato,Svincolato,Juventus,1,Svincolato,{Dc},0,1,162959.0,1994-07-29,2028-06-30
-883,Amorim,Svincolato,Svincolato,Genoa,5,Svincolato,"{M,C}",0,1,1082774.0,2005-05-18,2030-06-30
-985,Fini ,Svincolato,Svincolato,Frosinone,3,Svincolato,{W},0,1,866250.0,2006-06-02,2027-06-30
-981,Cichella,Svincolato,Svincolato,Frosinone,4,Svincolato,"{M,C}",0,1,927905.0,2005-10-04,
+351,Pezzella Giu.,Svincolato,Svincolato,Cremonese,4,Svincolato,"{Ds,E}",8,0,,,
+243,Thorsby,Svincolato,Svincolato,Cremonese,12,Svincolato,"{C,T}",0,0,,,
+674,Augello,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,E}",0,0,,,
+640,Dani Silva,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0,,,
+558,Alli,Svincolato,Svincolato,Como,0,Svincolato,{T},0,0,,,
+782,Pavard,CyberDucks,CyberDucks,Inter,7,Indeterminato,"{Dd,Dc}",36,1,353366.0,1996-03-28,2028-06-30
+736,Correa,Svincolato,Svincolato,Inter,0,Svincolato,{A},0,0,,,
+400,Heggem,Metodo Monchi FC,Metodo Monchi FC,Bologna,6,Indeterminato,"{Ds,Dc}",4,1,464469.0,1999-01-12,2029-06-30
+294,Perez M.,Svincolato,Svincolato,Lecce,1,Svincolato,"{Dd,Dc}",0,0,,,
+650,Castagnetti,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0,,,
+425,Tiago Gabriel,Diaolo Porco,Diaolo Porco,Lecce,8,Indeterminato,{Dc},0,1,1112449.0,2004-12-26,2027-06-30
+946,Thiam,CyberDucks,CyberDucks,Monza,4,Indeterminato,{Por},1,1,435406.0,1998-03-05,2028-06-30
+944,Desplanches,Svincolato,Svincolato,Frosinone,2,Svincolato,{Por},0,1,567465.0,2003-03-11,2027-06-30
+943,Happonen,Svincolato,Svincolato,Bologna,1,Svincolato,{Por},0,1,1018026.0,2007-03-13,
+697,Bagnolini,Svincolato,Svincolato,Bologna,0,Svincolato,{Por},0,0,,,
+960,Ghedjemis,Al-Colizzati,Al-Colizzati,Frosinone,9,Indeterminato,"{W,A}",1,1,888738.0,2002-09-06,2028-06-30
+126,Lovric,Diaolo Porco,Diaolo Porco,Verona,3,Indeterminato,{C},4,0,,,
+534,Luvumbo,Svincolato,Diablitos FC,Cagliari,3,Prestito Reale,{A},16,0,,,
 986,Fitz-Jim,Sborada,Sborada,Torino,6,Indeterminato,"{M,C}",1,1,559333.0,2003-07-05,2029-06-30
 897,Bakola,Svincolato,Svincolato,Sassuolo,6,Svincolato,"{C,T}",0,1,1170286.0,2007-11-30,2030-06-30
+258,Saelemaekers,Metodo Monchi FC,Metodo Monchi FC,Milan,12,Indeterminato,"{E,W}",7,1,381950.0,1999-06-27,2031-06-30
+252,Zielinski,FC Pontos,FC Pontos,Inter,12,Indeterminato,{C},12,1,181136.0,1994-05-20,2028-06-30
+329,Marianucci,Svincolato,Svincolato,Napoli,1,Svincolato,{Dc},0,1,814446.0,2004-07-23,2030-06-30
+292,Mazzocchi,Svincolato,Svincolato,Venezia,1,Svincolato,"{Dd,Ds,E}",0,1,250153.0,1995-07-27,2027-06-30
+318,Rugani,Svincolato,Svincolato,Juventus,1,Svincolato,{Dc},0,1,162959.0,1994-07-29,2028-06-30
 360,Veiga D.,Svincolato,Svincolato,Lecce,6,Svincolato,"{Dd,E}",0,1,728485.0,2002-09-25,2027-06-30
-367,Bernasconi,FC Pontos,FC Pontos,Atalanta,6,Indeterminato,"{Ds,E}",5,1,708635.0,2003-11-16,2030-06-30
 448,Coco,FC Sovescio,FC Sovescio,Torino,7,Indeterminato,{Dc},5,1,588426.0,1999-02-09,2029-06-30
+367,Bernasconi,FC Pontos,FC Pontos,Atalanta,6,Indeterminato,"{Ds,E}",5,1,708635.0,2003-11-16,2030-06-30
 364,Comuzzo,FC Pontos,FC Pontos,Torino,8,Indeterminato,{Dc},0,1,746712.0,2005-02-20,2027-06-30
 363,Dodò,ZeroDayz FC,ZeroDayz FC,Fiorentina,9,Indeterminato,"{Dd,E}",16,1,401529.0,1998-11-17,2027-06-30
 432,Solet,Al-Colizzati,Al-Colizzati,Udinese,13,Indeterminato,{Dc},3,1,463665.0,2000-02-07,2027-06-30
-1005,Vicario,CyberDucks,CyberDucks,Juventus,17,Indeterminato,{Por},129,1,286047.0,1996-10-07,2027-06-30
 524,Carnesecchi,Diablitos FC,Diablitos FC,Atalanta,17,Indeterminato,{Por},35,1,459763.0,2000-07-01,2028-06-30
-961,Lauberbach,Svincolato,Svincolato,Venezia,1,Svincolato,{Pc},0,1,307800.0,1998-02-15,2029-06-30
-965,Lisman,Svincolato,Svincolato,Venezia,1,Svincolato,"{W,A}",0,1,1148082.0,2006-02-20,2030-06-30
+1005,Vicario,CyberDucks,CyberDucks,Juventus,17,Indeterminato,{Por},129,1,286047.0,1996-10-07,2027-06-30
+861,Marì,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},6,0,,,
 1004,Lontani,Svincolato,Svincolato,Parma,3,Svincolato,{A},0,1,1058366.0,2008-01-18,2030-06-30
+965,Lisman,Svincolato,Svincolato,Venezia,1,Svincolato,"{W,A}",0,1,1148082.0,2006-02-20,2030-06-30
+961,Lauberbach,Svincolato,Svincolato,Venezia,1,Svincolato,{Pc},0,1,307800.0,1998-02-15,2029-06-30
+890,Boga,AC Ciaccati,AC Ciaccati,Juventus,7,Indeterminato,"{W,A}",1,1,216569.0,1997-01-03,2029-06-30
+967,Varela G.,Svincolato,Svincolato,Monza,7,Svincolato,{Pc},0,1,931900.0,2005-01-30,2030-06-30
+886,Bowie,Svincolato,Svincolato,Sassuolo,8,Svincolato,{Pc},0,1,647280.0,2002-09-21,2027-06-30
+984,Stankovic A.,Svincolato,Svincolato,Inter,3,Svincolato,"{M,C}",0,1,780136.0,2005-08-03,2031-06-30
+983,Colombo L.,Svincolato,Svincolato,Monza,3,Svincolato,"{M,C}",0,1,891869.0,2005-06-04,2029-06-30
+982,Diallo O.,Svincolato,Svincolato,Parma,2,Svincolato,"{W,A}",0,1,962149.0,2007-06-12,2031-06-30
+987,Gelli F.,Svincolato,Svincolato,Frosinone,3,Svincolato,"{C,T}",0,1,337811.0,1996-10-15,
+981,Cichella,Svincolato,Svincolato,Frosinone,4,Svincolato,"{M,C}",0,1,927905.0,2005-10-04,
+985,Fini ,Svincolato,Svincolato,Frosinone,3,Svincolato,{W},0,1,866250.0,2006-06-02,2027-06-30
+883,Amorim,Svincolato,Svincolato,Genoa,5,Svincolato,"{M,C}",0,1,1082774.0,2005-05-18,2030-06-30
+712,Hummels,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0,,,
+773,Barba,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0,,,
 902,Vermesan,Svincolato,Svincolato,Verona,1,Svincolato,{Pc},0,0,,,
-534,Luvumbo,Svincolato,Diablitos FC,Cagliari,3,Prestito Reale,{A},16,0,,,
-126,Lovric,Diaolo Porco,Diaolo Porco,Verona,3,Indeterminato,{C},4,0,,,
-221,Thorstvedt,AC Ciaccati,AC Ciaccati,Sassuolo,10,Indeterminato,"{C,T}",15,1,564785.0,1999-03-13,2027-06-30
-317,Joao Mario,AC Ciaccati,AC Ciaccati,Fiorentina,3,Indeterminato,"{Dd,E}",1,1,537602.0,2000-01-03,2027-06-30
-233,Samardzic,Metodo Monchi FC,Metodo Monchi FC,Atalanta,13,Indeterminato,"{C,T}",15,1,528833.0,2002-02-24,2029-06-30
-332,Provstgaard,Metodo Monchi FC,Metodo Monchi FC,Lazio,4,Indeterminato,{Dc},1,1,644408.0,2003-06-04,2029-06-30
-375,Gatti,ZeroDayz FC,ZeroDayz FC,Juventus,4,Indeterminato,{Dc},6,1,509022.0,1998-06-24,2030-06-30
-769,Badelj,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0,,,
-582,Mazza,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0,,,
-807,Cacace,Svincolato,Svincolato,Empoli,0,Svincolato,"{Ds,E}",0,0,,,
-264,De Bruyne,Al-Colizzati,Al-Colizzati,Napoli,16,Indeterminato,{T},49,1,88755.0,1991-06-28,2027-06-30
-932,Cuenca A.,Svincolato,Svincolato,Como,1,Svincolato,"{Ds,Dc}",0,0,,,
-215,McKennie,Diablitos FC,Diablitos FC,Juventus,17,Indeterminato,"{C,T}",1,1,332697.0,1998-08-28,2030-06-30
-350,Pongracic,Al-Colizzati,Al-Colizzati,Fiorentina,4,Indeterminato,{Dc},10,1,282144.0,1997-09-11,2029-06-30
-346,Olivera,Diaolo Porco,Diaolo Porco,Napoli,5,Indeterminato,"{B,Ds,E}",10,1,376514.0,1997-10-31,2030-06-30
-366,Kolasinac,Svincolato,Svincolato,Atalanta,7,Svincolato,"{Ds,Dc}",0,1,94005.0,1993-06-20,2027-06-30
-227,Ricci S.,FC Pontos,FC Pontos,Como,4,Indeterminato,"{M,C}",17,1,467992.0,2001-08-21,2027-06-30
-185,Lobotka,Sborada,Sborada,Napoli,9,Indeterminato,"{M,C}",0,1,192735.0,1994-11-25,2027-06-30
-262,Zaniolo,Metodo Monchi FC,Metodo Monchi FC,Udinese,17,Indeterminato,"{T,A}",23,1,392085.0,1999-07-02,2029-06-30
-365,Obert,FC Pontos,FC Pontos,Cagliari,7,Indeterminato,"{B,Ds,E}",1,1,568333.0,2002-08-23,2030-06-30
-255,Mandragora,FC Pontos,FC Pontos,Torino,8,Indeterminato,{C},6,1,308279.0,1997-06-29,2029-06-30
-285,Pieragnolo,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{Ds,E}",0,1,691825.0,2003-01-03,2029-06-30
-369,Kamara H.,Sborada,Sborada,Udinese,9,Indeterminato,"{Ds,E}",5,1,290017.0,1994-03-05,2028-06-30
-297,Patric,Svincolato,Svincolato,Lazio,1,Svincolato,"{Dd,Dc}",1,1,126729.0,1993-04-17,2027-06-30
-302,Goldaniga,Svincolato,Svincolato,Como,1,Svincolato,{Dc},0,1,242940.0,1993-11-02,2028-06-30
-309,Goglichidze,Svincolato,Svincolato,Monza,3,Svincolato,"{Dd,Dc}",0,1,906160.0,2004-06-25,2027-06-30
 277,Ndiaye,Svincolato,Svincolato,Parma,2,Svincolato,{Dc},0,1,673514.0,2002-04-10,2029-06-30
-945,Palmisani,Diablitos FC,Diablitos FC,Frosinone,5,Indeterminato,{Por},1,1,705355.0,2004-06-12,2029-06-30
-968,Havel,Svincolato,Svincolato,Genoa,3,Svincolato,{Pc},0,1,566626.0,2003-04-16,2030-06-30
+317,Joao Mario,AC Ciaccati,AC Ciaccati,Fiorentina,3,Indeterminato,"{Dd,E}",1,1,537602.0,2000-01-03,2027-06-30
+276,Kouadio,Svincolato,Svincolato,Monza,3,Svincolato,"{Dd,Dc}",0,1,957822.0,2006-05-07,2027-06-30
+350,Pongracic,Al-Colizzati,Al-Colizzati,Fiorentina,4,Indeterminato,{Dc},10,1,282144.0,1997-09-11,2029-06-30
+255,Mandragora,FC Pontos,FC Pontos,Torino,8,Indeterminato,{C},6,1,308279.0,1997-06-29,2029-06-30
+185,Lobotka,Sborada,Sborada,Napoli,9,Indeterminato,"{M,C}",0,1,192735.0,1994-11-25,2027-06-30
+221,Thorstvedt,AC Ciaccati,AC Ciaccati,Sassuolo,10,Indeterminato,"{C,T}",15,1,564785.0,1999-03-13,2027-06-30
+171,Miretti,Svincolato,Diablitos FC,Juventus,3,Prestito Reale,"{C,T}",0,0,,,
+262,Zaniolo,Metodo Monchi FC,Metodo Monchi FC,Udinese,17,Indeterminato,"{T,A}",23,1,392085.0,1999-07-02,2029-06-30
+688,Faraoni,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,E}",0,0,,,
 183,Sorensen O.,Svincolato,Svincolato,Parma,3,Svincolato,{C},0,0,,,
 155,El Aynaoui,Svincolato,ZeroDayz FC,Roma,4,Prestito Reale,"{M,C}",16,0,,,
-316,Ndaba,Svincolato,Svincolato,Lecce,2,Svincolato,"{Ds,E}",0,1,433329.0,1999-12-25,2028-06-30
-374,Pellegrini Lu.,Svincolato,Svincolato,Lazio,2,Svincolato,"{Ds,E}",0,1,346567.0,1999-03-07,2027-06-30
-301,Sabelli,Diaolo Porco,Diaolo Porco,Genoa,2,Indeterminato,"{Dd,Ds,E}",1,1,167491.0,1993-01-13,2028-06-30
-333,Otoa,Svincolato,Svincolato,Genoa,2,Svincolato,{Dc},0,1,890385.0,2004-05-13,2028-06-30
-276,Kouadio,Svincolato,Svincolato,Monza,3,Svincolato,"{Dd,Dc}",0,1,957822.0,2006-05-07,2027-06-30
-688,Faraoni,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,E}",0,0,,,
-171,Miretti,Svincolato,Diablitos FC,Juventus,3,Prestito Reale,"{C,T}",0,0,,,
+807,Cacace,Svincolato,Svincolato,Empoli,0,Svincolato,"{Ds,E}",0,0,,,
+932,Cuenca A.,Svincolato,Svincolato,Como,1,Svincolato,"{Ds,Dc}",0,0,,,
+332,Provstgaard,Metodo Monchi FC,Metodo Monchi FC,Lazio,4,Indeterminato,{Dc},1,1,644408.0,2003-06-04,2029-06-30
+346,Olivera,Diaolo Porco,Diaolo Porco,Napoli,5,Indeterminato,"{B,Ds,E}",10,1,376514.0,1997-10-31,2030-06-30
+366,Kolasinac,Svincolato,Svincolato,Atalanta,7,Svincolato,"{Ds,Dc}",0,1,94005.0,1993-06-20,2027-06-30
+365,Obert,FC Pontos,FC Pontos,Cagliari,7,Indeterminato,"{B,Ds,E}",1,1,568333.0,2002-08-23,2030-06-30
+369,Kamara H.,Sborada,Sborada,Udinese,9,Indeterminato,"{Ds,E}",5,1,290017.0,1994-03-05,2028-06-30
+375,Gatti,CyberDucks,ZeroDayz FC,Juventus,4,Fanta-Prestito,{Dc},6,1,509022.0,1998-06-24,2030-06-30
+945,Palmisani,Diablitos FC,Diablitos FC,Frosinone,5,Indeterminato,{Por},1,1,705355.0,2004-06-12,2029-06-30
+968,Havel,Svincolato,Svincolato,Genoa,3,Svincolato,{Pc},0,1,566626.0,2003-04-16,2030-06-30
 718,Selvik,Svincolato,Svincolato,Udinese,0,Svincolato,{Por},0,0,,,
-247,Konè I.,Diablitos FC,Diablitos FC,Sassuolo,8,Indeterminato,{C},1,1,921655.0,2002-06-16,2030-06-30
-219,Pasalic,ZeroDayz FC,ZeroDayz FC,Atalanta,8,Indeterminato,"{C,T}",25,1,205938.0,1995-02-09,2028-06-30
-295,Jean,Svincolato,Svincolato,Lecce,2,Svincolato,{Dc},0,1,805886.0,2000-02-19,2027-06-30
-331,Lazzari,FC Pontos,FC Pontos,Lazio,2,Indeterminato,"{Dd,E}",10,1,331401.0,1993-11-29,2027-06-30
-307,Troilo,Sborada,Sborada,Parma,3,Indeterminato,{Dc},1,1,1159864.0,2003-06-28,2030-06-30
-361,Gaspar K.,Svincolato,Svincolato,Lecce,5,Svincolato,{Dc},5,1,836441.0,1997-09-27,2027-06-30
-272,Zè Pedro,Svincolato,Svincolato,Cagliari,6,Svincolato,"{Dd,Dc}",0,1,406151.0,1997-06-06,2028-06-30
-235,Volpato,Svincolato,Svincolato,Sassuolo,9,Svincolato,"{W,T}",0,1,746891.0,2003-11-15,2028-06-30
-222,Cristante,Diaolo Porco,Diaolo Porco,Roma,10,Indeterminato,"{M,C}",1,1,199248.0,1995-03-03,2028-06-30
-237,Isaksen,Diaolo Porco,Diaolo Porco,Lazio,8,Indeterminato,"{W,A}",1,1,462823.0,2001-04-19,2028-06-30
-248,Konè M.,AC Ciaccati,AC Ciaccati,Roma,11,Indeterminato,"{M,C}",18,1,624690.0,2001-05-17,2029-06-30
-253,Perrone,Sborada,Sborada,Como,11,Indeterminato,"{M,C}",20,1,668547.0,2003-01-07,2029-06-30
-244,Gudmundsson A.,Diablitos FC,Diablitos FC,Lazio,11,Indeterminato,"{T,A}",72,1,305947.0,1997-06-15,2027-06-30
-306,Nkounkou,Svincolato,Svincolato,Torino,2,Svincolato,"{Ds,E}",0,0,,,
-162,Aebischer,Svincolato,Svincolato,Pisa,6,Svincolato,{C},5,0,,,
-181,Lorran,FC Pontos,FC Pontos,Pisa,3,Primavera,{T},0,0,,,
-190,Prati,Svincolato,Diaolo Porco,Cagliari,4,Prestito Reale,"{M,C}",0,0,,,
-193,Payero,Svincolato,Svincolato,Cremonese,5,Svincolato,{C},0,0,,,
-157,Ondrejka,Svincolato,Svincolato,Parma,4,Svincolato,"{W,A}",0,0,,,
-169,Bondo,FC Sovescio,FC Sovescio,Cremonese,5,Indeterminato,"{M,C}",0,0,,,
-164,Mazzitelli,Svincolato,Svincolato,Cagliari,10,Svincolato,"{M,C}",0,0,,,
-340,Nelsson,Svincolato,Svincolato,Verona,5,Svincolato,{Dc},1,0,,,
-254,Neres,FC Pontos,FC Pontos,Napoli,6,Indeterminato,"{W,A}",30,1,469822.0,1997-03-03,2028-06-30
-257,Vlasic,ZeroDayz FC,ZeroDayz FC,Torino,12,Indeterminato,{T},1,1,293200.0,1997-10-04,2027-06-30
-226,Loftus-Cheek,Sborada,Sborada,Milan,4,Indeterminato,"{C,T}",41,1,202886.0,1996-01-23,2027-06-30
-236,Berisha M.,Svincolato,Svincolato,Lecce,4,Svincolato,"{C,T}",0,1,583046.0,2003-10-21,2028-06-30
-228,Cataldi,Diaolo Porco,Diaolo Porco,Lazio,4,Indeterminato,"{M,C}",1,1,199733.0,1994-08-06,2027-06-30
-232,Felici,Svincolato,Svincolato,Cagliari,4,Svincolato,{W},0,1,600041.0,2001-04-17,2027-06-30
-238,Basic,Svincolato,Svincolato,Venezia,7,Svincolato,"{M,C}",0,1,334835.0,1996-11-25,2029-06-30
-249,Bernabè,Metodo Monchi FC,Metodo Monchi FC,Parma,7,Indeterminato,{C},28,1,466802.0,2001-05-26,2027-06-30
-234,Taylor K.,Diaolo Porco,Diaolo Porco,Lazio,13,Indeterminato,"{C,T}",36,1,470394.0,2002-05-16,2030-06-30
-246,Atta,Al-Colizzati,Al-Colizzati,Fiorentina,15,Indeterminato,"{C,T}",12,1,855308.0,2003-01-14,2031-06-30
-259,Barella,Al-Colizzati,Al-Colizzati,Inter,18,Indeterminato,{C},51,1,255942.0,1997-02-07,2029-06-30
-263,Rabiot,AC Ciaccati,AC Ciaccati,Milan,23,Indeterminato,"{C,T}",41,1,182913.0,1995-04-03,2028-06-30
+227,Ricci S.,FC Pontos,FC Pontos,Como,4,Indeterminato,"{M,C}",17,1,467992.0,2001-08-21,2027-06-30
+582,Mazza,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0,,,
+215,McKennie,Diablitos FC,Diablitos FC,Juventus,17,Indeterminato,"{C,T}",1,1,332697.0,1998-08-28,2030-06-30
+264,De Bruyne,Al-Colizzati,Al-Colizzati,Napoli,16,Indeterminato,{T},49,1,88755.0,1991-06-28,2027-06-30
+233,Samardzic,Metodo Monchi FC,Metodo Monchi FC,Atalanta,13,Indeterminato,"{C,T}",15,1,528833.0,2002-02-24,2029-06-30
+285,Pieragnolo,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{Ds,E}",0,1,691825.0,2003-01-03,2029-06-30
+769,Badelj,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0,,,
+309,Goglichidze,Svincolato,Svincolato,Monza,3,Svincolato,"{Dd,Dc}",0,1,906160.0,2004-06-25,2027-06-30
+302,Goldaniga,Svincolato,Svincolato,Como,1,Svincolato,{Dc},0,1,242940.0,1993-11-02,2028-06-30
+297,Patric,Svincolato,Svincolato,Lazio,1,Svincolato,"{Dd,Dc}",1,1,126729.0,1993-04-17,2027-06-30
+333,Otoa,Svincolato,Svincolato,Genoa,2,Svincolato,{Dc},0,1,890385.0,2004-05-13,2028-06-30
+301,Sabelli,Diaolo Porco,Diaolo Porco,Genoa,2,Indeterminato,"{Dd,Ds,E}",1,1,167491.0,1993-01-13,2028-06-30
+374,Pellegrini Lu.,Svincolato,Svincolato,Lazio,2,Svincolato,"{Ds,E}",0,1,346567.0,1999-03-07,2027-06-30
+316,Ndaba,Svincolato,Svincolato,Lecce,2,Svincolato,"{Ds,E}",0,1,433329.0,1999-12-25,2028-06-30
+169,Bondo,Diablitos FC,FC Sovescio,Cremonese,5,Fanta-Prestito,"{M,C}",0,0,,,
 266,Orsolini,Al-Colizzati,Al-Colizzati,Bologna,24,Indeterminato,"{W,A}",67,1,368482.0,1997-01-24,2031-06-30
-265,McTominay,CyberDucks,CyberDucks,Napoli,27,Indeterminato,"{C,T}",25,1,315969.0,1996-12-08,2028-06-30
+263,Rabiot,AC Ciaccati,AC Ciaccati,Milan,23,Indeterminato,"{C,T}",41,1,182913.0,1995-04-03,2028-06-30
+331,Lazzari,FC Pontos,FC Pontos,Lazio,2,Indeterminato,"{Dd,E}",10,1,331401.0,1993-11-29,2027-06-30
+295,Jean,Svincolato,Svincolato,Lecce,2,Svincolato,{Dc},0,1,805886.0,2000-02-19,2027-06-30
+307,Troilo,Sborada,Sborada,Parma,3,Indeterminato,{Dc},1,1,1159864.0,2003-06-28,2030-06-30
+272,Zè Pedro,Svincolato,Svincolato,Cagliari,6,Svincolato,"{Dd,Dc}",0,1,406151.0,1997-06-06,2028-06-30
+361,Gaspar K.,Svincolato,Svincolato,Lecce,5,Svincolato,{Dc},5,1,836441.0,1997-09-27,2027-06-30
+306,Nkounkou,Svincolato,Svincolato,Torino,2,Svincolato,"{Ds,E}",0,0,,,
+181,Lorran,FC Pontos,FC Pontos,Pisa,3,Primavera,{T},0,0,,,
+249,Bernabè,Metodo Monchi FC,Metodo Monchi FC,Parma,7,Indeterminato,{C},28,1,466802.0,2001-05-26,2027-06-30
+164,Mazzitelli,Svincolato,Svincolato,Cagliari,10,Svincolato,"{M,C}",0,0,,,
+247,Konè I.,Diablitos FC,Diablitos FC,Sassuolo,8,Indeterminato,{C},1,1,921655.0,2002-06-16,2030-06-30
+248,Konè M.,AC Ciaccati,AC Ciaccati,Roma,11,Indeterminato,"{M,C}",18,1,624690.0,2001-05-17,2029-06-30
+237,Isaksen,Diaolo Porco,Diaolo Porco,Lazio,8,Indeterminato,"{W,A}",1,1,462823.0,2001-04-19,2028-06-30
+157,Ondrejka,Svincolato,Svincolato,Parma,4,Svincolato,"{W,A}",0,0,,,
+222,Cristante,Diaolo Porco,Diaolo Porco,Roma,10,Indeterminato,"{M,C}",1,1,199248.0,1995-03-03,2028-06-30
+235,Volpato,Svincolato,Svincolato,Sassuolo,9,Svincolato,"{W,T}",0,1,746891.0,2003-11-15,2028-06-30
+219,Pasalic,ZeroDayz FC,ZeroDayz FC,Atalanta,8,Indeterminato,"{C,T}",25,1,205938.0,1995-02-09,2028-06-30
+253,Perrone,Sborada,Sborada,Como,11,Indeterminato,"{M,C}",20,1,668547.0,2003-01-07,2029-06-30
+259,Barella,Al-Colizzati,Al-Colizzati,Inter,18,Indeterminato,{C},51,1,255942.0,1997-02-07,2029-06-30
+193,Payero,Svincolato,Svincolato,Cremonese,5,Svincolato,{C},0,0,,,
+190,Prati,Svincolato,Diaolo Porco,Cagliari,4,Prestito Reale,"{M,C}",0,0,,,
+162,Aebischer,Svincolato,Svincolato,Pisa,6,Svincolato,{C},5,0,,,
+246,Atta,Al-Colizzati,Al-Colizzati,Fiorentina,15,Indeterminato,"{C,T}",12,1,855308.0,2003-01-14,2031-06-30
+254,Neres,FC Pontos,FC Pontos,Napoli,6,Indeterminato,"{W,A}",30,1,469822.0,1997-03-03,2028-06-30
+236,Berisha M.,Svincolato,Svincolato,Lecce,4,Svincolato,"{C,T}",0,1,583046.0,2003-10-21,2028-06-30
+226,Loftus-Cheek,Sborada,Sborada,Milan,4,Indeterminato,"{C,T}",41,1,202886.0,1996-01-23,2027-06-30
+228,Cataldi,Diaolo Porco,Diaolo Porco,Lazio,4,Indeterminato,"{M,C}",1,1,199733.0,1994-08-06,2027-06-30
+234,Taylor K.,Diaolo Porco,Diaolo Porco,Lazio,13,Indeterminato,"{C,T}",36,1,470394.0,2002-05-16,2030-06-30
+257,Vlasic,ZeroDayz FC,ZeroDayz FC,Torino,12,Indeterminato,{T},1,1,293200.0,1997-10-04,2027-06-30
+244,Gudmundsson A.,Diablitos FC,Diablitos FC,Lazio,11,Indeterminato,"{T,A}",72,1,305947.0,1997-06-15,2027-06-30
 267,Calhanoglu,Diablitos FC,Diablitos FC,Inter,29,Indeterminato,"{M,C}",65,1,126414.0,1994-02-08,2027-06-30
-194,Casadei,ZeroDayz FC,ZeroDayz FC,Torino,9,Indeterminato,"{C,T}",23,1,622380.0,2003-01-10,2029-06-30
-230,Locatelli,Al-Colizzati,Al-Colizzati,Juventus,10,Indeterminato,"{M,C}",3,1,265088.0,1998-01-08,2030-06-30
-231,Sucic P.,Diablitos FC,Diablitos FC,Inter,9,Indeterminato,{C},21,1,668207.0,2003-10-25,2030-06-30
-132,Belahyane,Svincolato,Svincolato,Lazio,2,Svincolato,"{M,C}",0,1,982855.0,2004-06-01,2029-06-30
-211,Matic,Svincolato,Svincolato,Sassuolo,6,Svincolato,"{M,C}",0,1,74683.0,1988-08-01,2027-06-30
-220,Serdar,Svincolato,Svincolato,Verona,6,Svincolato,{C},0,0,,,
-199,Zhegrova,Diablitos FC,Diablitos FC,Juventus,5,Indeterminato,{W},50,1,496857.0,1999-03-31,2030-06-30
-182,Rowe,Diablitos FC,Diablitos FC,Atalanta,10,Indeterminato,"{W,T}",35,1,672381.0,2003-04-30,2027-06-30
+265,McTominay,CyberDucks,CyberDucks,Napoli,27,Indeterminato,"{C,T}",25,1,315969.0,1996-12-08,2028-06-30
+238,Basic,Svincolato,Svincolato,Venezia,7,Svincolato,"{M,C}",0,1,334835.0,1996-11-25,2029-06-30
+232,Felici,Svincolato,Svincolato,Cagliari,4,Svincolato,{W},0,1,600041.0,2001-04-17,2027-06-30
+340,Nelsson,Svincolato,Svincolato,Verona,5,Svincolato,{Dc},1,0,,,
 907,Mosconi,Svincolato,Svincolato,Inter,1,Svincolato,{A},0,0,,,
-206,Fadera,Svincolato,Svincolato,Cagliari,2,Svincolato,{W},0,1,749552.0,2001-11-03,2027-06-30
-168,Musah,Svincolato,Svincolato,Milan,3,Svincolato,"{C,W}",0,1,503991.0,2002-11-29,2028-06-30
-175,Deiola,Svincolato,Svincolato,Cagliari,3,Svincolato,"{M,C}",0,1,235931.0,1995-08-01,2029-06-30
-217,Da Cunha,AC Ciaccati,AC Ciaccati,Como,18,Indeterminato,"{C,T}",14,1,495667.0,2001-06-09,2031-06-30
+220,Serdar,Svincolato,Svincolato,Verona,6,Svincolato,{C},0,0,,,
+389,Caracciolo A.,Svincolato,Svincolato,Pisa,6,Svincolato,{Dc},0,0,,,
+210,Caqueret,AC Ciaccati,Diaolo Porco,Como,6,Fanta-Prestito,"{C,T}",6,1,395237.0,2000-02-15,2029-06-30
 209,Ellertsson,AC Ciaccati,AC Ciaccati,Genoa,7,Indeterminato,"{E,C}",1,1,566615.0,2002-03-11,2029-06-30
+199,Zhegrova,Diablitos FC,Diablitos FC,Juventus,5,Indeterminato,{W},50,1,496857.0,1999-03-31,2030-06-30
+860,Stojanovic,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0,,,
+194,Casadei,ZeroDayz FC,ZeroDayz FC,Torino,9,Indeterminato,"{C,T}",23,1,622380.0,2003-01-10,2029-06-30
+211,Matic,Svincolato,Svincolato,Sassuolo,6,Svincolato,"{M,C}",0,1,74683.0,1988-08-01,2027-06-30
+817,Kouda,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0,,,
+224,Coulibaly L.,Svincolato,Svincolato,Lecce,8,Svincolato,"{M,C}",0,1,386552.0,1996-04-10,2027-06-30
+195,Akinsanmiro,Svincolato,Svincolato,Monza,7,Svincolato,{C},0,1,969192.0,2004-11-25,2027-06-30
+202,Karlstrom,AC Ciaccati,AC Ciaccati,Udinese,8,Indeterminato,"{M,C}",1,1,222855.0,1995-06-21,2028-06-30
+218,Pobega,Svincolato,Svincolato,Bologna,7,Svincolato,"{M,C}",1,1,392538.0,1999-07-15,2028-06-30
+132,Belahyane,Svincolato,Svincolato,Lazio,2,Svincolato,"{M,C}",0,1,982855.0,2004-06-01,2029-06-30
+182,Rowe,Diablitos FC,Diablitos FC,Atalanta,10,Indeterminato,"{W,T}",35,1,672381.0,2003-04-30,2027-06-30
+217,Da Cunha,AC Ciaccati,AC Ciaccati,Como,18,Indeterminato,"{C,T}",14,1,495667.0,2001-06-09,2031-06-30
+216,Kostic,Svincolato,Svincolato,Juventus,9,Svincolato,"{E,W}",1,0,,,
 450,Terracciano F.,Al-Colizzati,Al-Colizzati,Milan,3,Indeterminato,"{B,Dd,Ds}",1,1,631007.0,2003-02-08,2028-06-30
 327,Candè,Svincolato,Svincolato,Sassuolo,3,Svincolato,"{Ds,Dc}",0,1,520530.0,1998-01-24,2029-06-30
-203,Folorunsho,ZeroDayz FC,Sborada,Monza,4,Fanta-Prestito,"{C,T}",4,1,377042.0,1998-02-07,2027-06-30
-146,Estevez,Svincolato,Svincolato,Parma,5,Svincolato,"{M,C}",0,0,,,
-208,Fofana Y.,CyberDucks,CyberDucks,Milan,6,Indeterminato,"{M,C}",12,0,,,
-192,Bailey,Svincolato,Svincolato,Roma,0,Svincolato,"{W,A}",25,0,,,
+168,Musah,Svincolato,Svincolato,Milan,3,Svincolato,"{C,W}",0,1,503991.0,2002-11-29,2028-06-30
+206,Fadera,Svincolato,Svincolato,Cagliari,2,Svincolato,{W},0,1,749552.0,2001-11-03,2027-06-30
 163,Gandelman,Svincolato,Svincolato,Lecce,4,Svincolato,"{C,T}",1,1,780548.0,2000-05-16,2029-06-30
-270,Arizala,Svincolato,Svincolato,Udinese,4,Svincolato,"{Ds,E}",0,1,1118347.0,2005-10-10,2030-06-30
-354,Bella-Kotchap,ZeroDayz FC,ZeroDayz FC,Venezia,5,Indeterminato,{Dc},4,1,467563.0,2001-12-11,2030-06-30
-210,Caqueret,AC Ciaccati,Diaolo Porco,Como,6,Fanta-Prestito,"{C,T}",6,1,395237.0,2000-02-15,2029-06-30
-218,Pobega,Svincolato,Svincolato,Bologna,7,Svincolato,"{M,C}",1,1,392538.0,1999-07-15,2028-06-30
-44,Fullkrug,Svincolato,Svincolato,Milan,10,Svincolato,{Pc},0,0,,,
-202,Karlstrom,AC Ciaccati,AC Ciaccati,Udinese,8,Indeterminato,"{M,C}",1,1,222855.0,1995-06-21,2028-06-30
 905,Braschi,Svincolato,Svincolato,Fiorentina,2,Svincolato,{Pc},0,0,,,
-195,Akinsanmiro,Svincolato,Svincolato,Monza,7,Svincolato,{C},0,1,969192.0,2004-11-25,2027-06-30
-224,Coulibaly L.,Svincolato,Svincolato,Lecce,8,Svincolato,"{M,C}",0,1,386552.0,1996-04-10,2027-06-30
+270,Arizala,Svincolato,Svincolato,Udinese,4,Svincolato,"{Ds,E}",0,1,1118347.0,2005-10-10,2030-06-30
+203,Folorunsho,ZeroDayz FC,Sborada,Monza,4,Fanta-Prestito,"{C,T}",4,1,377042.0,1998-02-07,2027-06-30
+354,Bella-Kotchap,ZeroDayz FC,ZeroDayz FC,Venezia,5,Indeterminato,{Dc},4,1,467563.0,2001-12-11,2030-06-30
+175,Deiola,Svincolato,Svincolato,Cagliari,3,Svincolato,"{M,C}",0,1,235931.0,1995-08-01,2029-06-30
+192,Bailey,Svincolato,Svincolato,Roma,0,Svincolato,"{W,A}",25,0,,,
 197,Fagioli,Metodo Monchi FC,Metodo Monchi FC,Fiorentina,8,Indeterminato,"{M,C}",0,1,432090.0,2001-02-12,2028-06-30
-216,Kostic,Svincolato,Svincolato,Juventus,9,Svincolato,"{E,W}",1,0,,,
-817,Kouda,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0,,,
-860,Stojanovic,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0,,,
-389,Caracciolo A.,Svincolato,Svincolato,Pisa,6,Svincolato,{Dc},0,0,,,
-204,Moro N.,Svincolato,Svincolato,Bologna,4,Svincolato,"{M,C}",0,1,316934.0,1998-03-12,2027-06-30
 198,De Roon,Sborada,Sborada,Roma,4,Indeterminato,"{M,C}",11,1,133179.0,1991-03-29,2028-06-30
-131,Dele-Bashiru,FC Sovescio,FC Sovescio,Lazio,5,Indeterminato,"{C,T}",1,1,530742.0,2001-02-06,2028-06-30
+204,Moro N.,Svincolato,Svincolato,Bologna,4,Svincolato,"{M,C}",0,1,316934.0,1998-03-12,2027-06-30
 152,Oristanio,CyberDucks,Metodo Monchi FC,Torino,6,Fanta-Prestito,"{W,T}",0,1,613393.0,2002-09-28,2027-06-30
+131,Dele-Bashiru,FC Sovescio,FC Sovescio,Lazio,5,Indeterminato,"{C,T}",1,1,530742.0,2001-02-06,2028-06-30
+231,Sucic P.,Diablitos FC,Diablitos FC,Inter,9,Indeterminato,{C},21,1,668207.0,2003-10-25,2030-06-30
 305,Faye,Svincolato,Svincolato,Cremonese,1,Svincolato,{Dc},0,0,,,
+208,Fofana Y.,Svincolato,CyberDucks,Milan,6,Prestito Reale,"{M,C}",12,0,,,
+44,Fullkrug,Svincolato,Svincolato,Milan,10,Svincolato,{Pc},0,0,,,
+146,Estevez,Svincolato,Svincolato,Parma,5,Svincolato,"{M,C}",0,0,,,
+230,Locatelli,Al-Colizzati,Al-Colizzati,Juventus,10,Indeterminato,"{M,C}",3,1,265088.0,1998-01-08,2030-06-30
 142,Iannoni,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{M,C}",0,0,,,
 176,Bernardeschi,Diablitos FC,Diablitos FC,Bologna,10,Indeterminato,"{W,T}",1,1,197300.0,1994-02-16,2027-06-30
-141,Gineitis,CyberDucks,CyberDucks,Torino,6,Indeterminato,"{M,C}",0,1,798929.0,2004-04-15,2029-06-30
-165,Baldanzi,FC Sovescio,FC Sovescio,Genoa,10,Indeterminato,{T},0,1,641537.0,2003-03-23,2027-06-30
 1007,Mora,Svincolato,Svincolato,Roma,19,Svincolato,{T},0,1,957653.0,2007-05-05,2031-06-30
-393,Ranieri L.,Svincolato,Svincolato,Fiorentina,3,Svincolato,"{Ds,Dc}",1,1,346561.0,1999-04-23,2028-06-30
-1008,Favasuli,Diablitos FC,Diablitos FC,Napoli,4,Indeterminato,"{Dd,Ds,E}",1,1,820635.0,2004-04-26,2027-06-30
-151,Maldini,Diablitos FC,Diablitos FC,Cagliari,6,Indeterminato,"{T,A}",13,1,539134.0,2001-10-11,2027-06-30
-812,Cerri,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0,,,
-120,Collocolo,Svincolato,Svincolato,Cremonese,2,Svincolato,"{M,C}",1,0,,,
-59,Moreo,Svincolato,Svincolato,Pisa,16,Svincolato,{A},0,0,,,
 184,Keita M.,ZeroDayz FC,ZeroDayz FC,Parma,6,Indeterminato,"{M,C}",1,1,707844.0,2002-05-10,2029-06-30
-139,Jashari,FC Sovescio,FC Sovescio,Milan,5,Indeterminato,"{M,C}",32,1,608172.0,2002-07-30,2030-06-30
-173,Luis Henrique,Diaolo Porco,Diaolo Porco,Inter,6,Indeterminato,"{E,W}",2,1,691316.0,2001-12-14,2030-06-30
+393,Ranieri L.,Svincolato,Svincolato,Fiorentina,3,Svincolato,"{Ds,Dc}",1,1,346561.0,1999-04-23,2028-06-30
+141,Gineitis,CyberDucks,CyberDucks,Torino,6,Indeterminato,"{M,C}",0,1,798929.0,2004-04-15,2029-06-30
 200,Piotrowski,Svincolato,Svincolato,Udinese,7,Svincolato,"{M,C}",0,1,377243.0,1997-10-04,2029-06-30
-108,Adzic,Metodo Monchi FC,Metodo Monchi FC,Sassuolo,6,Primavera,"{C,T}",0,1,944570.0,2006-05-12,2027-06-30
-188,Pierotti,Svincolato,Svincolato,Lecce,5,Svincolato,{W},1,1,674806.0,2001-04-03,2027-06-30
-187,Zerbin,Svincolato,Svincolato,Frosinone,5,Svincolato,{W},0,1,433584.0,1999-03-03,2029-06-30
-75,Bonazzoli,Svincolato,Svincolato,Cremonese,22,Svincolato,{A},0,0,,,
-135,Fazzini,CyberDucks,CyberDucks,Cagliari,7,Indeterminato,"{C,T}",0,1,691482.0,2003-03-16,2027-06-30
-148,Rovella,Diaolo Porco,Diaolo Porco,Lazio,8,Indeterminato,"{M,C}",0,1,525704.0,2001-12-04,2028-06-30
-159,Koopmeiners,CyberDucks,CyberDucks,Juventus,7,Indeterminato,"{C,T}",55,1,360518.0,1998-02-28,2029-06-30
-196,Frendrup,ZeroDayz FC,ZeroDayz FC,Genoa,8,Indeterminato,"{M,C}",17,1,503871.0,2001-04-07,2028-06-30
-174,Ndour,Sborada,Sborada,Fiorentina,7,Indeterminato,{C},0,1,651005.0,2004-07-27,2029-06-30
-191,Adopo,Svincolato,Svincolato,Cagliari,8,Svincolato,"{M,C}",0,1,564305.0,2000-07-19,2029-06-30
-140,Ilic,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",10,1,470794.0,2001-03-17,2027-06-30
-271,Palacios T.,Svincolato,Svincolato,Inter,0,Svincolato,{Dc},0,0,,,
-601,Alvarez A.,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0,,,
-313,Masina,Svincolato,Svincolato,Torino,2,Svincolato,"{B,Ds,E}",0,0,,,
-76,Vardy,Svincolato,Svincolato,Cremonese,16,Svincolato,{Pc},1,0,,,
-129,Maleh,Svincolato,Svincolato,Lecce,3,Svincolato,"{M,C}",0,1,324377.0,1998-08-22,2027-06-30
-160,Masini,Svincolato,Svincolato,Frosinone,3,Svincolato,"{M,C}",1,1,459665.0,2001-01-27,2027-06-30
-179,Brescianini,Svincolato,Svincolato,Fiorentina,3,Svincolato,"{C,T}",0,1,459128.0,2000-01-20,2030-06-30
-125,Miller L.,Sborada,Sborada,Udinese,4,Indeterminato,"{M,C}",0,1,924857.0,2006-08-25,2030-06-30
-172,Mkhitaryan,Diaolo Porco,Diaolo Porco,Inter,4,Indeterminato,{C},11,1,55735.0,1989-01-21,2027-06-30
-177,Fabbian,CyberDucks,CyberDucks,Parma,4,Indeterminato,"{C,T}",36,1,633668.0,2003-01-14,2027-06-30
+120,Collocolo,Svincolato,Svincolato,Cremonese,2,Svincolato,"{M,C}",1,0,,,
+173,Luis Henrique,Diaolo Porco,Diaolo Porco,Inter,6,Indeterminato,"{E,W}",2,1,691316.0,2001-12-14,2030-06-30
+139,Jashari,FC Sovescio,FC Sovescio,Milan,5,Indeterminato,"{M,C}",32,1,608172.0,2002-07-30,2030-06-30
 145,Sohm,CyberDucks,CyberDucks,Venezia,5,Indeterminato,{C},2,1,507486.0,2001-04-11,2027-06-30
+812,Cerri,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0,,,
+135,Fazzini,CyberDucks,CyberDucks,Cagliari,7,Indeterminato,"{C,T}",0,1,691482.0,2003-03-16,2027-06-30
+187,Zerbin,Svincolato,Svincolato,Frosinone,5,Svincolato,{W},0,1,433584.0,1999-03-03,2029-06-30
+313,Masina,Svincolato,Svincolato,Torino,2,Svincolato,"{B,Ds,E}",0,0,,,
+601,Alvarez A.,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0,,,
+271,Palacios T.,Svincolato,Svincolato,Inter,0,Svincolato,{Dc},0,0,,,
+75,Bonazzoli,Svincolato,Svincolato,Cremonese,22,Svincolato,{A},0,0,,,
+59,Moreo,Svincolato,Svincolato,Pisa,16,Svincolato,{A},0,0,,,
+76,Vardy,Svincolato,Svincolato,Cremonese,16,Svincolato,{Pc},1,0,,,
+188,Pierotti,Svincolato,Svincolato,Lecce,5,Svincolato,{W},1,1,674806.0,2001-04-03,2027-06-30
+1008,Favasuli,FC Sovescio,Diablitos FC,Napoli,4,Fanta-Prestito,"{Dd,Ds,E}",1,1,820635.0,2004-04-26,2027-06-30
+108,Adzic,Metodo Monchi FC,Metodo Monchi FC,Sassuolo,6,Primavera,"{C,T}",0,1,944570.0,2006-05-12,2027-06-30
+174,Ndour,Sborada,Sborada,Fiorentina,7,Indeterminato,{C},0,1,651005.0,2004-07-27,2029-06-30
+196,Frendrup,ZeroDayz FC,ZeroDayz FC,Genoa,8,Indeterminato,"{M,C}",17,1,503871.0,2001-04-07,2028-06-30
+159,Koopmeiners,CyberDucks,CyberDucks,Juventus,7,Indeterminato,"{C,T}",55,1,360518.0,1998-02-28,2029-06-30
+148,Rovella,Diaolo Porco,Diaolo Porco,Lazio,8,Indeterminato,"{M,C}",0,1,525704.0,2001-12-04,2028-06-30
 161,Ferguson,Diablitos FC,Diablitos FC,Bologna,8,Indeterminato,"{M,C}",11,1,428563.0,1999-08-24,2028-06-30
-214,Politano,AC Ciaccati,AC Ciaccati,Napoli,8,Indeterminato,{W},25,1,165895.0,1993-08-03,2028-06-30
-57,Pinamonti,FC Pontos,FC Pontos,Lazio,11,Indeterminato,{Pc},30,1,315865.0,1999-05-19,2031-06-30
-74,Simeone,Diaolo Porco,Diaolo Porco,Torino,14,Indeterminato,{Pc},3,1,282388.0,1995-07-05,2028-06-30
-242,Zalewski,Al-Colizzati,Al-Colizzati,Atalanta,6,Indeterminato,{W},23,1,550108.0,2002-01-23,2029-06-30
-149,Frattesi,Metodo Monchi FC,Metodo Monchi FC,Lazio,10,Indeterminato,"{C,T}",16,1,394300.0,1999-09-22,2027-06-30
-73,Pellegrino M.,Al-Colizzati,AC Ciaccati,Fiorentina,14,Fanta-Prestito,{Pc},1,1,856530.0,2001-10-22,2031-06-30
-731,Raspadori,AC Ciaccati,CyberDucks,Atalanta,15,Fanta-Prestito,{A},19,1,405885.0,2000-02-18,2030-06-30
-240,Gaetano,Al-Colizzati,Al-Colizzati,Atalanta,8,Indeterminato,"{M,C}",2,1,358008.0,2000-05-05,2031-06-30
+191,Adopo,Svincolato,Svincolato,Cagliari,8,Svincolato,"{M,C}",0,1,564305.0,2000-07-19,2029-06-30
+165,Baldanzi,FC Sovescio,FC Sovescio,Genoa,10,Indeterminato,{T},0,1,641537.0,2003-03-23,2027-06-30
+151,Maldini,Diablitos FC,Diablitos FC,Cagliari,6,Indeterminato,"{T,A}",13,1,539134.0,2001-10-11,2027-06-30
+140,Ilic,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",10,1,470794.0,2001-03-17,2027-06-30
+129,Maleh,Svincolato,Svincolato,Lecce,3,Svincolato,"{M,C}",0,1,324377.0,1998-08-22,2027-06-30
+125,Miller L.,Sborada,Sborada,Udinese,4,Indeterminato,"{M,C}",0,1,924857.0,2006-08-25,2030-06-30
+179,Brescianini,Svincolato,Svincolato,Fiorentina,3,Svincolato,"{C,T}",0,1,459128.0,2000-01-20,2030-06-30
+160,Masini,Svincolato,Svincolato,Frosinone,3,Svincolato,"{M,C}",1,1,459665.0,2001-01-27,2027-06-30
+177,Fabbian,CyberDucks,CyberDucks,Parma,4,Indeterminato,"{C,T}",36,1,633668.0,2003-01-14,2027-06-30
+172,Mkhitaryan,Diaolo Porco,Diaolo Porco,Inter,4,Indeterminato,{C},11,1,55735.0,1989-01-21,2027-06-30
+137,Nicolussi Caviglia,Svincolato,Svincolato,Parma,6,Svincolato,"{M,C}",1,1,430280.0,2000-06-18,2030-06-30
+143,Pisilli,FC Sovescio,FC Sovescio,Roma,7,Indeterminato,{C},0,1,813137.0,2004-09-23,2029-06-30
+136,Elmas,ZeroDayz FC,ZeroDayz FC,Atalanta,7,Indeterminato,"{W,T}",9,1,400489.0,1999-09-24,2027-06-30
 68,Cambiaghi,ZeroDayz FC,ZeroDayz FC,Bologna,7,Indeterminato,"{W,A}",0,1,459151.0,2000-12-28,2029-06-30
-213,Ekkelenkamp,AC Ciaccati,AC Ciaccati,Udinese,12,Indeterminato,"{C,T}",2,1,361068.0,2000-04-05,2029-06-30
-205,Ederson D.S.,FC Sovescio,FC Sovescio,Atalanta,13,Indeterminato,"{M,C}",0,1,607854.0,1999-07-07,2031-06-30
-189,Baturina,ZeroDayz FC,ZeroDayz FC,Como,19,Indeterminato,{T},33,1,580451.0,2003-02-16,2030-06-30
-322,Casale,Svincolato,Svincolato,Bologna,3,Svincolato,{Dc},0,1,389837.0,1998-02-14,2028-06-30
-358,Rensch,FC Sovescio,FC Sovescio,Roma,6,Indeterminato,"{B,Dd,E}",1,1,557407.0,2003-01-18,2029-06-30
-352,Floriani Mussolini,Svincolato,Svincolato,Lazio,4,Svincolato,"{Dd,E}",0,1,708086.0,2003-01-27,2028-06-30
-63,Esposito F.P.,Sborada,Sborada,Inter,17,Indeterminato,{Pc},0,1,930781.0,2005-06-28,2030-06-30
-64,De Ketelaere,Metodo Monchi FC,Metodo Monchi FC,Atalanta,18,Indeterminato,{A},70,1,435772.0,2001-03-10,2028-06-30
-78,Berardi,Metodo Monchi FC,Metodo Monchi FC,Sassuolo,20,Indeterminato,{A},56,1,177843.0,1994-08-01,2029-06-30
+240,Gaetano,Al-Colizzati,Al-Colizzati,Atalanta,8,Indeterminato,"{M,C}",2,1,358008.0,2000-05-05,2031-06-30
+242,Zalewski,Al-Colizzati,Al-Colizzati,Atalanta,6,Indeterminato,{W},23,1,550108.0,2002-01-23,2029-06-30
+74,Simeone,Diaolo Porco,Diaolo Porco,Torino,14,Indeterminato,{Pc},3,1,282388.0,1995-07-05,2028-06-30
+57,Pinamonti,FC Pontos,FC Pontos,Lazio,11,Indeterminato,{Pc},30,1,315865.0,1999-05-19,2031-06-30
 86,Yildiz,Diablitos FC,Diablitos FC,Juventus,23,Indeterminato,{A},46,1,845654.0,2005-05-04,2030-06-30
-872,Malen,Sborada,Sborada,Roma,38,Indeterminato,{Pc},66,1,326029.0,1999-01-19,2030-06-30
+214,Politano,AC Ciaccati,AC Ciaccati,Napoli,8,Indeterminato,{W},25,1,165895.0,1993-08-03,2028-06-30
+213,Ekkelenkamp,AC Ciaccati,AC Ciaccati,Udinese,12,Indeterminato,"{C,T}",2,1,361068.0,2000-04-05,2029-06-30
+78,Berardi,Metodo Monchi FC,Metodo Monchi FC,Sassuolo,20,Indeterminato,{A},56,1,177843.0,1994-08-01,2029-06-30
+64,De Ketelaere,Metodo Monchi FC,Metodo Monchi FC,Atalanta,18,Indeterminato,{A},70,1,435772.0,2001-03-10,2028-06-30
+63,Esposito F.P.,Sborada,Sborada,Inter,17,Indeterminato,{Pc},0,1,930781.0,2005-06-28,2030-06-30
+731,Raspadori,AC Ciaccati,CyberDucks,Atalanta,15,Fanta-Prestito,{A},19,1,405885.0,2000-02-18,2030-06-30
+73,Pellegrino M.,Al-Colizzati,AC Ciaccati,Fiorentina,14,Fanta-Prestito,{Pc},1,1,856530.0,2001-10-22,2031-06-30
 871,Fofana Sa.,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",0,1,644613.0,2003-05-16,2029-06-30
+872,Malen,Sborada,Sborada,Roma,38,Indeterminato,{Pc},66,1,326029.0,1999-01-19,2030-06-30
 116,Helgason,Svincolato,Svincolato,Venezia,3,Svincolato,"{C,T}",0,1,488996.0,2000-09-28,2029-06-30
 100,Sulemana I.,Svincolato,Svincolato,Sassuolo,3,Svincolato,"{M,C}",0,1,982267.0,2003-05-22,2027-06-30
 134,Messias,Svincolato,Svincolato,Genoa,4,Svincolato,"{W,T}",0,1,449151.0,1991-05-13,2027-06-30
-137,Nicolussi Caviglia,Svincolato,Svincolato,Parma,6,Svincolato,"{M,C}",1,1,430280.0,2000-06-18,2030-06-30
-136,Elmas,ZeroDayz FC,ZeroDayz FC,Atalanta,7,Indeterminato,"{W,T}",9,1,400489.0,1999-09-24,2027-06-30
-143,Pisilli,FC Sovescio,FC Sovescio,Roma,7,Indeterminato,{C},0,1,813137.0,2004-09-23,2029-06-30
+149,Frattesi,Metodo Monchi FC,Metodo Monchi FC,Lazio,10,Indeterminato,"{C,T}",16,1,394300.0,1999-09-22,2027-06-30
+205,Ederson D.S.,FC Sovescio,FC Sovescio,Atalanta,13,Indeterminato,"{M,C}",0,1,607854.0,1999-07-07,2031-06-30
+189,Baturina,ZeroDayz FC,ZeroDayz FC,Como,19,Indeterminato,{T},33,1,580451.0,2003-02-16,2030-06-30
+322,Casale,Svincolato,Svincolato,Bologna,3,Svincolato,{Dc},0,1,389837.0,1998-02-14,2028-06-30
+352,Floriani Mussolini,Svincolato,Svincolato,Lazio,4,Svincolato,"{Dd,E}",0,1,708086.0,2003-01-27,2028-06-30
+358,Rensch,FC Sovescio,FC Sovescio,Roma,6,Indeterminato,"{B,Dd,E}",1,1,557407.0,2003-01-18,2029-06-30
 373,Tavares N.,Sborada,Sborada,Lazio,7,Indeterminato,"{Ds,E}",5,1,535955.0,2000-01-26,2029-06-30
 28,Buksa,Svincolato,Svincolato,Udinese,2,Svincolato,{Pc},0,0,,,
-863,El Haddad,Svincolato,Svincolato,Venezia,0,Svincolato,{T},0,0,,,
-51,Nkunku,Svincolato,FC Sovescio,Milan,14,Prestito Reale,{A},53,0,,,
 84,Leao,Svincolato,Svincolato,Milan,19,Svincolato,{A},107,0,,,
-20,Sanabria,Svincolato,Svincolato,Cremonese,4,Svincolato,{Pc},0,0,,,
-756,Bellemo,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
-111,Zarraga,Svincolato,Svincolato,Udinese,2,Svincolato,"{M,C}",0,1,524010.0,1999-01-04,2027-06-30
-459,Palestra,Svincolato,Svincolato,Cagliari,16,Svincolato,{E},0,0,,,
-114,Boloca,Svincolato,Svincolato,Sassuolo,2,Svincolato,"{M,C}",0,1,441515.0,1998-12-22,2028-06-30
-88,Cremaschi,Svincolato,Svincolato,Parma,2,Svincolato,"{E,C}",0,1,999127.0,2005-03-02,2031-06-30
-128,Ordonez C.,Svincolato,Svincolato,Parma,3,Svincolato,"{M,C}",0,1,1043646.0,2004-07-24,2030-06-30
-421,Luperto,Svincolato,Svincolato,Cremonese,8,Svincolato,{Dc},8,0,,,
-47,Cancellieri,Svincolato,Svincolato,Lazio,8,Svincolato,"{W,A}",1,1,550106.0,2002-02-12,2027-06-30
-150,Grassi,Svincolato,Svincolato,Cremonese,5,Svincolato,"{M,C}",0,0,,,
-1010,Moreira,FC Pontos,FC Pontos,Milan,11,Indeterminato,"{E,W}",91,1,655006.0,2004-08-06,2031-06-30
+51,Nkunku,Svincolato,FC Sovescio,Milan,14,Prestito Reale,{A},53,0,,,
+863,El Haddad,Svincolato,Svincolato,Venezia,0,Svincolato,{T},0,0,,,
 381,Ahanor,Svincolato,CyberDucks,Atalanta,6,Prestito Reale,"{B,Ds,E}",0,0,,,
-251,Conceicao,AC Ciaccati,AC Ciaccati,Juventus,12,Indeterminato,"{W,A}",3,1,487474.0,2002-12-14,2030-06-30
-510,Semper,Svincolato,Svincolato,Pisa,7,Svincolato,{Por},1,0,,,
-81,Castro S.,Diablitos FC,Diablitos FC,Roma,13,Indeterminato,{Pc},0,1,849520.0,2004-09-18,2031-06-30
-107,Ilkhan,Svincolato,Svincolato,Torino,5,Svincolato,"{M,C}",0,1,743091.0,2004-06-01,2027-06-30
-80,Davis K.,AC Ciaccati,AC Ciaccati,Udinese,19,Indeterminato,{Pc},12,1,412660.0,1998-02-13,2031-06-30
-77,Scamacca,CyberDucks,CyberDucks,Atalanta,18,Indeterminato,{Pc},11,1,315867.0,1999-01-01,2028-06-30
-336,De Silvestri,Svincolato,Svincolato,Bologna,1,Svincolato,"{Dd,E}",0,1,33571.0,1988-05-23,2027-06-30
-310,Ghilardi,CyberDucks,CyberDucks,Roma,5,Indeterminato,{Dc},6,1,701819.0,2003-01-06,2030-06-30
-911,Dragusin,Sborada,Sborada,Fiorentina,7,Indeterminato,{Dc},42,1,568559.0,2002-02-03,2027-06-30
-581,Osorio,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0,,,
-79,Douvikas,Al-Colizzati,Al-Colizzati,Como,22,Indeterminato,{Pc},10,1,523318.0,1999-08-02,2029-06-30
-71,Kean,Diaolo Porco,Diaolo Porco,Como,24,Indeterminato,{Pc},70,1,364135.0,2000-02-28,2027-06-30
-83,Hojlund,AC Ciaccati,AC Ciaccati,Napoli,28,Indeterminato,{Pc},70,1,610442.0,2003-02-04,2030-06-30
-85,Thuram,ZeroDayz FC,ZeroDayz FC,Inter,28,Indeterminato,{Pc},111,1,318528.0,1997-08-06,2028-06-30
-868,Ngom,Svincolato,Svincolato,Lecce,5,Svincolato,"{M,C}",0,1,980575.0,2004-03-09,2029-06-30
-691,Reijnders,Svincolato,Svincolato,Milan,0,Svincolato,{C},0,0,,,
-1011,Bleve,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,1,215167.0,1995-10-18,2028-06-30
-999,Penev,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,1,1084756.0,2008-04-22,2027-06-30
-65,Giovane,Metodo Monchi FC,Metodo Monchi FC,Napoli,4,Indeterminato,{A},1,1,1005165.0,2003-11-24,2030-06-30
-87,Martinez L.,FC Sovescio,FC Sovescio,Inter,33,Indeterminato,{Pc},127,1,406625.0,1997-08-22,2029-06-30
-225,Malinovskyi,Svincolato,Svincolato,Genoa,15,Svincolato,"{C,T}",6,0,,,
-112,Anjorin,Svincolato,Svincolato,Torino,1,Svincolato,"{C,T}",1,1,433181.0,2001-11-23,2028-06-30
 478,Scuffet,Svincolato,Svincolato,Pisa,1,Svincolato,{Por},1,0,,,
-745,Karamoh,Svincolato,Svincolato,Torino,0,Svincolato,{A},0,0,,,
-678,Akinsamiro,Svincolato,Svincolato,Pisa,0,Svincolato,"{C,T}",0,0,,,
-743,Plizzari,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0,,,
-740,Charpentier,Svincolato,Svincolato,Parma,0,Svincolato,{Pc},0,0,,,
+150,Grassi,Svincolato,Svincolato,Cremonese,5,Svincolato,"{M,C}",0,0,,,
+47,Cancellieri,Svincolato,Svincolato,Lazio,8,Svincolato,"{W,A}",1,1,550106.0,2002-02-12,2027-06-30
+421,Luperto,Svincolato,Svincolato,Cremonese,8,Svincolato,{Dc},8,0,,,
+1010,Moreira,FC Pontos,FC Pontos,Milan,11,Indeterminato,"{E,W}",91,1,655006.0,2004-08-06,2031-06-30
+79,Douvikas,Al-Colizzati,Al-Colizzati,Como,22,Indeterminato,{Pc},10,1,523318.0,1999-08-02,2029-06-30
+77,Scamacca,CyberDucks,CyberDucks,Atalanta,18,Indeterminato,{Pc},11,1,315867.0,1999-01-01,2028-06-30
+459,Palestra,Svincolato,Svincolato,Cagliari,16,Svincolato,{E},0,0,,,
+251,Conceicao,AC Ciaccati,AC Ciaccati,Juventus,12,Indeterminato,"{W,A}",3,1,487474.0,2002-12-14,2030-06-30
 53,Bonny,AC Ciaccati,AC Ciaccati,Inter,6,Indeterminato,{Pc},0,1,827734.0,2003-10-25,2030-06-30
-66,Adams C.,FC Sovescio,FC Sovescio,Torino,11,Indeterminato,{A},30,1,346779.0,1996-07-13,2027-06-30
-43,Colombo,FC Sovescio,FC Sovescio,Genoa,10,Indeterminato,{Pc},30,1,487843.0,2002-03-08,2029-06-30
-67,Esposito Se.,ZeroDayz FC,ZeroDayz FC,Sassuolo,13,Indeterminato,{A},1,1,538918.0,2002-07-02,2027-06-30
+88,Cremaschi,Svincolato,Svincolato,Parma,2,Svincolato,"{E,C}",0,1,999127.0,2005-03-02,2031-06-30
 82,Soulè,Metodo Monchi FC,Metodo Monchi FC,Roma,14,Indeterminato,{A},67,1,668951.0,2003-04-15,2029-06-30
-229,Thuram K.,Al-Colizzati,Al-Colizzati,Juventus,9,Indeterminato,{C},20,1,463618.0,2001-03-26,2029-06-30
-105,Diouf,Sborada,Sborada,Inter,10,Indeterminato,"{E,C}",5,1,711976.0,2003-05-17,2030-06-30
-70,Krstovic,Metodo Monchi FC,Metodo Monchi FC,Atalanta,17,Indeterminato,{Pc},3,1,434433.0,2000-04-05,2030-06-30
-90,Vergara,FC Sovescio,FC Sovescio,Napoli,10,Indeterminato,"{W,T}",2,1,703245.0,2003-01-16,2031-06-30
-372,Valenti,Svincolato,Svincolato,Parma,4,Svincolato,{Dc},0,1,625202.0,1999-01-14,2027-06-30
-34,Kilicsoy,Diablitos FC,Diablitos FC,Cagliari,13,Primavera,{A},0,0,,,
-312,Zemura,Svincolato,Svincolato,Udinese,3,Svincolato,"{Ds,E}",0,0,,,
-99,Liteta,Svincolato,Svincolato,Cagliari,1,Svincolato,"{M,C}",0,1,1134304.0,2006-02-22,2030-06-30
-113,Lipani,Al-Colizzati,Al-Colizzati,Sassuolo,2,Primavera,"{M,C}",0,1,724106.0,2005-05-18,2028-06-30
-96,Venturino,Svincolato,Svincolato,Genoa,2,Svincolato,{W},0,1,1061820.0,2006-06-22,2029-06-30
-719,Hasa,Svincolato,Svincolato,Frosinone,2,Svincolato,"{C,T}",0,1,724178.0,2004-01-06,2030-06-30
-250,Zaccagni,ZeroDayz FC,ZeroDayz FC,Lazio,15,Indeterminato,"{W,A}",79,1,283735.0,1995-06-16,2029-06-30
-269,Pulisic,Diablitos FC,Diablitos FC,Milan,22,Indeterminato,"{T,A}",80,1,315779.0,1998-09-18,2027-06-30
-283,Dembelè A.,Svincolato,Svincolato,Lecce,1,Svincolato,"{Dd,E}",0,1,1004344.0,2004-01-05,2027-06-30
-867,Pierini,Svincolato,Svincolato,Sassuolo,2,Svincolato,{A},0,0,,,
-806,Ravanelli,Svincolato,Svincolato,Cremonese,0,Svincolato,{Dc},0,0,,,
-186,Gilmour,Svincolato,Svincolato,Napoli,3,Svincolato,"{M,C}",0,1,423744.0,2001-06-11,2029-06-30
-828,Shpendi S.,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0,,,
-477,Zelezny,Svincolato,Svincolato,Roma,1,Svincolato,{Por},0,0,,,
-823,Sernicola,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Dd,Ds,E}",0,0,,,
-26,Cutrone,CyberDucks,CyberDucks,Monza,8,Indeterminato,{Pc},0,1,265078.0,1998-01-03,2029-06-30
+80,Davis K.,AC Ciaccati,AC Ciaccati,Udinese,19,Indeterminato,{Pc},12,1,412660.0,1998-02-13,2031-06-30
+225,Malinovskyi,Svincolato,Svincolato,Genoa,15,Svincolato,"{C,T}",6,0,,,
+81,Castro S.,Diablitos FC,Diablitos FC,Roma,13,Indeterminato,{Pc},0,1,849520.0,2004-09-18,2031-06-30
+112,Anjorin,Svincolato,Svincolato,Torino,1,Svincolato,"{C,T}",1,1,433181.0,2001-11-23,2028-06-30
+114,Boloca,Svincolato,Svincolato,Sassuolo,2,Svincolato,"{M,C}",0,1,441515.0,1998-12-22,2028-06-30
+111,Zarraga,Svincolato,Svincolato,Udinese,2,Svincolato,"{M,C}",0,1,524010.0,1999-01-04,2027-06-30
+128,Ordonez C.,Svincolato,Svincolato,Parma,3,Svincolato,"{M,C}",0,1,1043646.0,2004-07-24,2030-06-30
+67,Esposito Se.,ZeroDayz FC,ZeroDayz FC,Sassuolo,13,Indeterminato,{A},1,1,538918.0,2002-07-02,2027-06-30
+510,Semper,Svincolato,Svincolato,Pisa,7,Svincolato,{Por},1,0,,,
+743,Plizzari,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0,,,
+678,Akinsamiro,Svincolato,Svincolato,Pisa,0,Svincolato,"{C,T}",0,0,,,
+107,Ilkhan,Svincolato,Svincolato,Torino,5,Svincolato,"{M,C}",0,1,743091.0,2004-06-01,2027-06-30
+691,Reijnders,Svincolato,Svincolato,Milan,0,Svincolato,{C},0,0,,,
+87,Martinez L.,FC Sovescio,FC Sovescio,Inter,33,Indeterminato,{Pc},127,1,406625.0,1997-08-22,2029-06-30
+868,Ngom,Svincolato,Svincolato,Lecce,5,Svincolato,"{M,C}",0,1,980575.0,2004-03-09,2029-06-30
+336,De Silvestri,Svincolato,Svincolato,Bologna,1,Svincolato,"{Dd,E}",0,1,33571.0,1988-05-23,2027-06-30
+756,Bellemo,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
+581,Osorio,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0,,,
+310,Ghilardi,CyberDucks,CyberDucks,Roma,5,Indeterminato,{Dc},6,1,701819.0,2003-01-06,2030-06-30
+740,Charpentier,Svincolato,Svincolato,Parma,0,Svincolato,{Pc},0,0,,,
+911,Dragusin,Sborada,Sborada,Fiorentina,7,Indeterminato,{Dc},42,1,568559.0,2002-02-03,2027-06-30
+999,Penev,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,1,1084756.0,2008-04-22,2027-06-30
+85,Thuram,ZeroDayz FC,ZeroDayz FC,Inter,28,Indeterminato,{Pc},111,1,318528.0,1997-08-06,2028-06-30
+1011,Bleve,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,1,215167.0,1995-10-18,2028-06-30
+83,Hojlund,AC Ciaccati,AC Ciaccati,Napoli,28,Indeterminato,{Pc},70,1,610442.0,2003-02-04,2030-06-30
+71,Kean,Diaolo Porco,Diaolo Porco,Como,24,Indeterminato,{Pc},70,1,364135.0,2000-02-28,2027-06-30
+43,Colombo,FC Sovescio,FC Sovescio,Genoa,10,Indeterminato,{Pc},30,1,487843.0,2002-03-08,2029-06-30
+66,Adams C.,FC Sovescio,FC Sovescio,Torino,11,Indeterminato,{A},30,1,346779.0,1996-07-13,2027-06-30
+65,Giovane,Metodo Monchi FC,Metodo Monchi FC,Napoli,4,Indeterminato,{A},1,1,1005165.0,2003-11-24,2030-06-30
+745,Karamoh,Svincolato,Svincolato,Torino,0,Svincolato,{A},0,0,,,
+20,Sanabria,Svincolato,Svincolato,Cremonese,4,Svincolato,{Pc},0,0,,,
 72,Laurientè,CyberDucks,CyberDucks,Sassuolo,16,Indeterminato,{A},23,1,579930.0,1998-12-04,2029-06-30
-58,Dovbyk,Sborada,Sborada,Bologna,15,Indeterminato,{Pc},175,1,343537.0,1997-06-21,2027-06-30
-103,Gorter,Svincolato,Svincolato,Lecce,3,Svincolato,"{M,C}",0,1,748679.0,2005-01-31,2029-06-30
-328,Biraghi,Svincolato,Svincolato,Torino,2,Svincolato,"{B,Ds,E}",10,1,124555.0,1992-09-01,2027-06-30
-330,Estupinan,FC Pontos,Diablitos FC,Milan,3,Fanta-Prestito,"{Ds,E}",31,1,349599.0,1998-01-21,2030-06-30
-376,Acerbi,Svincolato,Svincolato,Inter,5,Svincolato,{Dc},0,0,,,
-884,Stojilkovic,Svincolato,Svincolato,Pisa,4,Svincolato,{Pc},0,0,,,
-117,Gronbaek,Svincolato,Svincolato,Genoa,2,Svincolato,"{W,T}",16,0,,,
-356,Bertola,FC Pontos,FC Pontos,Udinese,6,Indeterminato,"{Dd,Ds,Dc}",11,1,632831.0,2003-03-23,2030-06-30
-61,Ferguson E.,Svincolato,Svincolato,Roma,10,Svincolato,{Pc},0,0,,,
-900,Pannozzo,Svincolato,Svincolato,Lazio,1,Svincolato,{Por},0,0,,,
+372,Valenti,Svincolato,Svincolato,Parma,4,Svincolato,{Dc},0,1,625202.0,1999-01-14,2027-06-30
+90,Vergara,FC Sovescio,FC Sovescio,Napoli,10,Indeterminato,"{W,T}",2,1,703245.0,2003-01-16,2031-06-30
+113,Lipani,Al-Colizzati,Al-Colizzati,Sassuolo,2,Primavera,"{M,C}",0,1,724106.0,2005-05-18,2028-06-30
 349,De Winter,Sborada,Sborada,Milan,6,Indeterminato,"{Dd,Dc}",11,1,490384.0,2002-06-12,2030-06-30
-727,Corazza,Svincolato,Svincolato,Bologna,1,Svincolato,"{Dd,Ds,E}",0,0,,,
-91,Cuenca H.,Svincolato,Svincolato,Genoa,1,Svincolato,"{W,T}",0,0,,,
 144,Piccinini G.,Svincolato,Svincolato,Pisa,4,Svincolato,"{E,M}",0,0,,,
-382,Djimsiti,Svincolato,Svincolato,Atalanta,7,Svincolato,{Dc},5,0,,,
-38,Openda,Svincolato,FC Sovescio,Juventus,4,Prestito Reale,{Pc},53,0,,,
-816,Natan,Svincolato,Svincolato,Napoli,0,Svincolato,{Dc},0,0,,,
-699,Ronaldo,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0,,,
+99,Liteta,Svincolato,Svincolato,Cagliari,1,Svincolato,"{M,C}",0,1,1134304.0,2006-02-22,2030-06-30
+900,Pannozzo,Svincolato,Svincolato,Lazio,1,Svincolato,{Por},0,0,,,
 906,Mikolajewski,Svincolato,Svincolato,Parma,2,Svincolato,{Pc},0,0,,,
-279,Oyegoke,Svincolato,Svincolato,Verona,4,Svincolato,"{B,Dd,E}",0,0,,,
+105,Diouf,Sborada,Sborada,Inter,10,Indeterminato,"{E,C}",5,1,711976.0,2003-05-17,2030-06-30
+61,Ferguson E.,Svincolato,Svincolato,Roma,10,Svincolato,{Pc},0,0,,,
+91,Cuenca H.,Svincolato,Svincolato,Genoa,1,Svincolato,"{W,T}",0,0,,,
+727,Corazza,Svincolato,Svincolato,Bologna,1,Svincolato,"{Dd,Ds,E}",0,0,,,
+229,Thuram K.,Al-Colizzati,Al-Colizzati,Juventus,9,Indeterminato,{C},20,1,463618.0,2001-03-26,2029-06-30
+250,Zaccagni,ZeroDayz FC,ZeroDayz FC,Lazio,15,Indeterminato,"{W,A}",79,1,283735.0,1995-06-16,2029-06-30
+283,Dembelè A.,Svincolato,Svincolato,Lecce,1,Svincolato,"{Dd,E}",0,1,1004344.0,2004-01-05,2027-06-30
 894,Pedro Felipe,Svincolato,Svincolato,Sassuolo,3,Svincolato,{Dc},0,0,,,
+816,Natan,Svincolato,Svincolato,Napoli,0,Svincolato,{Dc},0,0,,,
+312,Zemura,Svincolato,Svincolato,Udinese,3,Svincolato,"{Ds,E}",0,0,,,
+38,Openda,Svincolato,FC Sovescio,Juventus,4,Prestito Reale,{Pc},53,0,,,
+382,Djimsiti,Svincolato,Svincolato,Atalanta,7,Svincolato,{Dc},5,0,,,
+828,Shpendi S.,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0,,,
+376,Acerbi,Svincolato,Svincolato,Inter,5,Svincolato,{Dc},0,0,,,
+823,Sernicola,Svincolato,Svincolato,Cremonese,0,Svincolato,"{Dd,Ds,E}",0,0,,,
 345,Calabresi,Svincolato,Svincolato,Pisa,3,Svincolato,"{B,Dd,E}",0,0,,,
+117,Gronbaek,Svincolato,Svincolato,Genoa,2,Svincolato,"{W,T}",16,0,,,
+884,Stojilkovic,Svincolato,Svincolato,Pisa,4,Svincolato,{Pc},0,0,,,
+269,Pulisic,Diablitos FC,Diablitos FC,Milan,22,Indeterminato,"{T,A}",80,1,315779.0,1998-09-18,2027-06-30
+328,Biraghi,Svincolato,Svincolato,Torino,2,Svincolato,"{B,Ds,E}",10,1,124555.0,1992-09-01,2027-06-30
+103,Gorter,Svincolato,Svincolato,Lecce,3,Svincolato,"{M,C}",0,1,748679.0,2005-01-31,2029-06-30
+186,Gilmour,Svincolato,Svincolato,Napoli,3,Svincolato,"{M,C}",0,1,423744.0,2001-06-11,2029-06-30
+279,Oyegoke,Svincolato,Svincolato,Verona,4,Svincolato,"{B,Dd,E}",0,0,,,
+719,Hasa,Svincolato,Svincolato,Frosinone,2,Svincolato,"{C,T}",0,1,724178.0,2004-01-06,2030-06-30
+34,Kilicsoy,Diablitos FC,Diablitos FC,Cagliari,13,Primavera,{A},0,0,,,
+96,Venturino,Svincolato,Svincolato,Genoa,2,Svincolato,{W},0,1,1061820.0,2006-06-22,2029-06-30
+330,Estupinan,FC Pontos,Diablitos FC,Milan,3,Fanta-Prestito,"{Ds,E}",31,1,349599.0,1998-01-21,2030-06-30
+699,Ronaldo,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0,,,
+806,Ravanelli,Svincolato,Svincolato,Cremonese,0,Svincolato,{Dc},0,0,,,
+867,Pierini,Svincolato,Svincolato,Sassuolo,2,Svincolato,{A},0,0,,,
+477,Zelezny,Svincolato,Svincolato,Roma,1,Svincolato,{Por},0,0,,,
 355,Bradaric,Svincolato,Svincolato,Verona,6,Svincolato,"{Ds,E}",0,0,,,
-875,Harrison,Svincolato,Svincolato,Fiorentina,11,Svincolato,{W},1,0,,,
-122,Akpa Akpro,Svincolato,Svincolato,Verona,5,Svincolato,"{M,C}",0,0,,,
-473,Popa,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0,,,
+26,Cutrone,CyberDucks,CyberDucks,Monza,8,Indeterminato,{Pc},0,1,265078.0,1998-01-03,2029-06-30
+70,Krstovic,Metodo Monchi FC,Metodo Monchi FC,Atalanta,17,Indeterminato,{Pc},3,1,434433.0,2000-04-05,2030-06-30
+356,Bertola,FC Pontos,FC Pontos,Udinese,6,Indeterminato,"{Dd,Ds,Dc}",11,1,632831.0,2003-03-23,2030-06-30
+58,Dovbyk,Sborada,Sborada,Bologna,15,Indeterminato,{Pc},175,1,343537.0,1997-06-21,2027-06-30
+681,Busio,Svincolato,Svincolato,Venezia,6,Svincolato,"{M,C}",0,1,504209.0,2002-05-28,2028-06-30
 36,Rodriguez Je.,Diablitos FC,Diablitos FC,Como,10,Indeterminato,"{W,A}",0,1,1190411.0,2005-11-21,2030-06-30
-751,Candela,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,E}",0,0,,,
-342,Valentini N.,Svincolato,Svincolato,Verona,3,Svincolato,{Dc},3,0,,,
 648,Schingtienne,Svincolato,Svincolato,Venezia,3,Svincolato,{Dc},0,1,707809.0,2002-08-14,2029-06-30
 456,Holm,CyberDucks,CyberDucks,Bologna,6,Indeterminato,"{Dd,E}",4,1,496745.0,2000-05-13,2028-06-30
 449,Celik,AC Ciaccati,AC Ciaccati,Juventus,9,Indeterminato,"{B,Dd,E}",1,1,251075.0,1997-02-17,2029-06-30
-441,Scalvini,Metodo Monchi FC,Metodo Monchi FC,Atalanta,10,Indeterminato,{Dc},0,1,571604.0,2003-12-11,2028-06-30
-167,Tramoni M.,Svincolato,Svincolato,Pisa,6,Svincolato,"{W,T}",10,0,,,
-303,Dossena,Svincolato,Svincolato,Cagliari,5,Svincolato,{Dc},0,0,,,
 458,Pavlovic,Al-Colizzati,Al-Colizzati,Milan,14,Indeterminato,{Dc},13,1,574671.0,2001-05-24,2028-06-30
-427,Bremer,AC Ciaccati,AC Ciaccati,Juventus,16,Indeterminato,{Dc},27,1,516716.0,1997-03-18,2029-06-30
+441,Scalvini,Metodo Monchi FC,Metodo Monchi FC,Atalanta,10,Indeterminato,{Dc},0,1,571604.0,2003-12-11,2028-06-30
+118,Sabiri,Svincolato,Svincolato,Fiorentina,2,Svincolato,{T},0,0,,,
+722,Carboni V.,Metodo Monchi FC,Metodo Monchi FC,Genoa,4,Primavera,"{T,A}",0,0,,,
+342,Valentini N.,Svincolato,Svincolato,Verona,3,Svincolato,{Dc},3,0,,,
+751,Candela,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,E}",0,0,,,
+473,Popa,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0,,,
+122,Akpa Akpro,Svincolato,Svincolato,Verona,5,Svincolato,"{M,C}",0,0,,,
+875,Harrison,Svincolato,Svincolato,Fiorentina,11,Svincolato,{W},1,0,,,
+714,Hernani,Svincolato,Svincolato,Parma,2,Svincolato,{C},1,0,,,
 508,Montipò,Svincolato,Svincolato,Venezia,1,Svincolato,{Por},2,1,241923.0,1996-02-20,2028-06-30
+427,Bremer,AC Ciaccati,AC Ciaccati,Juventus,16,Indeterminato,{Dc},27,1,516716.0,1997-03-18,2029-06-30
 728,Piana,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},0,1,612059.0,2003-09-29,
 463,Sherri,Svincolato,Svincolato,Cagliari,1,Svincolato,{Por},0,1,304144.0,1997-12-15,2028-06-30
 682,Stankovic F.,AC Ciaccati,AC Ciaccati,Venezia,6,Indeterminato,{Por},10,1,552223.0,2002-02-25,2030-06-30
 593,Mota,Svincolato,Svincolato,Monza,4,Svincolato,{A},0,1,347253.0,1998-05-02,2027-06-30
-681,Busio,Svincolato,Svincolato,Venezia,6,Svincolato,"{M,C}",0,1,504209.0,2002-05-28,2028-06-30
-714,Hernani,Svincolato,Svincolato,Parma,2,Svincolato,{C},1,0,,,
-291,Coppola F.,Svincolato,Svincolato,Pisa,1,Svincolato,{Dc},0,0,,,
-570,Dellavalle,Svincolato,Svincolato,Torino,0,Svincolato,"{Dd,Dc}",0,0,,,
-834,De Sciglio,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,Ds,E}",0,0,,,
-60,Lukaku,Svincolato,Svincolato,Napoli,9,Svincolato,{Pc},36,0,,,
 804,Azon,Svincolato,Svincolato,Como,1,Svincolato,{Pc},0,0,,,
-722,Carboni V.,Metodo Monchi FC,Metodo Monchi FC,Genoa,4,Primavera,"{T,A}",0,0,,,
-118,Sabiri,Svincolato,Svincolato,Fiorentina,2,Svincolato,{T},0,0,,,
-55,Durosinmi,Svincolato,Svincolato,Pisa,10,Svincolato,{Pc},0,0,,,
-522,Audero,Svincolato,FC Sovescio,Cremonese,12,Prestito Reale,{Por},0,0,,,
+60,Lukaku,Svincolato,Svincolato,Napoli,9,Svincolato,{Pc},36,0,,,
+834,De Sciglio,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,Ds,E}",0,0,,,
+570,Dellavalle,Svincolato,Svincolato,Torino,0,Svincolato,"{Dd,Dc}",0,0,,,
+303,Dossena,Svincolato,Svincolato,Cagliari,5,Svincolato,{Dc},0,0,,,
+167,Tramoni M.,Svincolato,Svincolato,Pisa,6,Svincolato,"{W,T}",10,0,,,
+291,Coppola F.,Svincolato,Svincolato,Pisa,1,Svincolato,{Dc},0,0,,,
 94,Marchwinski,Svincolato,Svincolato,Lecce,1,Svincolato,{T},0,0,,,
-138,Al-Musrati,Svincolato,Svincolato,Verona,2,Svincolato,"{M,C}",0,0,,,
-602,Iovine,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0,,,
-774,Jimenez A.,Svincolato,Svincolato,Fiorentina,8,Svincolato,"{Dd,Ds,E}",0,1,741257.0,2005-05-08,2027-06-30
-3,Frigan,Svincolato,Svincolato,Parma,4,Svincolato,{A},0,1,840149.0,2003-02-11,2030-06-30
+522,Audero,Svincolato,FC Sovescio,Cremonese,12,Prestito Reale,{Por},0,0,,,
+55,Durosinmi,Svincolato,Svincolato,Pisa,10,Svincolato,{Pc},0,0,,,
 576,Kone B.,Svincolato,Svincolato,Frosinone,1,Svincolato,{C},0,1,522681.0,2000-03-14,2029-06-30
 586,Cacciamani,Svincolato,Svincolato,Torino,7,Svincolato,"{E,W}",0,1,1188619.0,2007-06-29,2029-06-30
-830,Chukwueze,AC Ciaccati,AC Ciaccati,Milan,7,Indeterminato,"{E,W}",0,1,401922.0,1999-05-22,2028-06-30
-35,N'Dri,Svincolato,Svincolato,Lecce,4,Svincolato,"{W,A}",0,1,649490.0,2000-10-27,2027-06-30
-32,Ekhator,Svincolato,Svincolato,Juventus,3,Svincolato,{A},0,1,934878.0,2006-11-11,2031-06-30
-119,Richardson,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0,,,
-577,Matturro,Svincolato,Svincolato,Genoa,1,Svincolato,"{Ds,Dc}",0,0,,,
-273,Odogu,Al-Colizzati,Al-Colizzati,Milan,1,Primavera,{Dc},0,0,,,
 147,Tete Morente,Svincolato,Svincolato,Lecce,3,Svincolato,{W},0,0,,,
-69,Orban G.,Svincolato,Svincolato,Verona,14,Svincolato,{Pc},5,0,,,
-784,Mulattieri,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0,,,
-597,Pereiro,Svincolato,Svincolato,Genoa,0,Svincolato,"{W,T}",0,0,,,
-851,Rafia,Svincolato,Svincolato,Lecce,0,Svincolato,"{C,T}",0,0,,,
-485,Fruchtl,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,0,,,
-178,Freuler,Svincolato,Svincolato,Bologna,8,Svincolato,"{M,C}",7,0,,,
-348,De Vrij,Svincolato,Svincolato,Inter,3,Svincolato,{Dc},1,0,,,
-402,Lazaro,Svincolato,Svincolato,Torino,4,Svincolato,"{Dd,E}",1,0,,,
-779,Abdulhamid,Svincolato,Svincolato,Roma,0,Svincolato,"{Dd,E}",0,0,,,
-594,Dorgu,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0,,,
-568,Barak,Svincolato,Svincolato,Fiorentina,0,Svincolato,{T},0,0,,,
-299,Rouhi,Svincolato,Svincolato,Juventus,1,Svincolato,"{Ds,E}",0,0,,,
-802,Bonifazi,Svincolato,Svincolato,Lecce,0,Svincolato,{Dc},0,0,,,
-321,Di Pardo,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Dd,E}",0,0,,,
-768,Perciun,Svincolato,Svincolato,Torino,0,Svincolato,{T},0,0,,,
-513,Ravaglia F.,Svincolato,Svincolato,Bologna,4,Svincolato,{Por},1,0,,,
-966,Buksa ,Svincolato,Svincolato,Udinese,2,Svincolato,{Pc},0,0,,,
+830,Chukwueze,AC Ciaccati,AC Ciaccati,Milan,7,Indeterminato,"{E,W}",0,1,401922.0,1999-05-22,2028-06-30
+273,Odogu,Al-Colizzati,Al-Colizzati,Milan,1,Primavera,{Dc},0,0,,,
+774,Jimenez A.,Svincolato,Svincolato,Fiorentina,8,Svincolato,"{Dd,Ds,E}",0,1,741257.0,2005-05-08,2027-06-30
 815,Ebosele,Svincolato,Svincolato,Udinese,0,Svincolato,"{Dd,E}",0,0,,,
-630,Kovalenko,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0,,,
-414,Angori,Svincolato,Svincolato,Pisa,9,Svincolato,"{Ds,E}",1,0,,,
-885,Elphege,Svincolato,Svincolato,Parma,3,Svincolato,{Pc},0,1,862606.0,2001-01-09,2030-06-30
-239,Vandeputte,Svincolato,Svincolato,Cremonese,11,Svincolato,"{W,T}",1,0,,,
-803,Lekovic,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
-12,Lucca,Svincolato,Svincolato,Napoli,4,Svincolato,{Pc},16,1,572265.0,2000-09-10,2030-06-30
-49,Addai,ZeroDayz FC,ZeroDayz FC,Como,4,Primavera,"{W,A}",0,1,747720.0,2005-08-26,2030-06-30
-798,Mbangula,Svincolato,Svincolato,Bologna,8,Svincolato,"{W,A}",0,1,654991.0,2004-01-16,2027-06-30
-772,Kowalski,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0,,,
-703,Pickel,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0,,,
-5,Moro L.,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Pc},0,0,,,
-154,Tameze,Svincolato,Svincolato,Torino,1,Svincolato,"{M,C}",0,0,,,
-814,Jankto,Svincolato,Svincolato,Cagliari,0,Svincolato,"{E,C}",0,0,,,
-882,Albarracin,Svincolato,Svincolato,Cagliari,1,Svincolato,{A},0,0,,,
-638,Coppola D.,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
-785,El Azzouzi,Svincolato,Svincolato,Bologna,0,Svincolato,"{M,C}",0,0,,,
-326,Gutierrez,Svincolato,Svincolato,Napoli,8,Svincolato,"{Ds,E}",23,0,,,
-655,Kumbulla,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0,,,
-662,Gyasi,Svincolato,Svincolato,Empoli,0,Svincolato,{W},0,0,,,
-296,Hysaj,Svincolato,Svincolato,Lazio,1,Svincolato,"{Dd,Ds,E}",0,0,,,
-33,Dallinga,Svincolato,Svincolato,Bologna,7,Svincolato,{Pc},24,0,,,
-578,Hernandez T.,Svincolato,Svincolato,Milan,0,Svincolato,"{Ds,E}",0,0,,,
-889,Raterink,Svincolato,Svincolato,Cagliari,1,Svincolato,"{Dd,E}",0,0,,,
-667,Zurkowski,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0,,,
-359,Canestrelli,Svincolato,Svincolato,Pisa,5,Svincolato,{Dc},5,0,,,
-428,Dumfries,Svincolato,Svincolato,Inter,12,Svincolato,{E},28,0,,,
-790,Ndoye,Svincolato,Svincolato,Bologna,0,Svincolato,{W},0,0,,,
+966,Buksa ,Svincolato,Svincolato,Udinese,2,Svincolato,{Pc},0,0,,,
+35,N'Dri,Svincolato,Svincolato,Lecce,4,Svincolato,"{W,A}",0,1,649490.0,2000-10-27,2027-06-30
+3,Frigan,Svincolato,Svincolato,Parma,4,Svincolato,{A},0,1,840149.0,2003-02-11,2030-06-30
+768,Perciun,Svincolato,Svincolato,Torino,0,Svincolato,{T},0,0,,,
+321,Di Pardo,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Dd,E}",0,0,,,
+802,Bonifazi,Svincolato,Svincolato,Lecce,0,Svincolato,{Dc},0,0,,,
+299,Rouhi,Svincolato,Svincolato,Juventus,1,Svincolato,"{Ds,E}",0,0,,,
+568,Barak,Svincolato,Svincolato,Fiorentina,0,Svincolato,{T},0,0,,,
+594,Dorgu,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0,,,
+779,Abdulhamid,Svincolato,Svincolato,Roma,0,Svincolato,"{Dd,E}",0,0,,,
+402,Lazaro,Svincolato,Svincolato,Torino,4,Svincolato,"{Dd,E}",1,0,,,
+348,De Vrij,Svincolato,Svincolato,Inter,3,Svincolato,{Dc},1,0,,,
+178,Freuler,Svincolato,Svincolato,Bologna,8,Svincolato,"{M,C}",7,0,,,
+485,Fruchtl,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,0,,,
+851,Rafia,Svincolato,Svincolato,Lecce,0,Svincolato,"{C,T}",0,0,,,
+577,Matturro,Svincolato,Svincolato,Genoa,1,Svincolato,"{Ds,Dc}",0,0,,,
+119,Richardson,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0,,,
+597,Pereiro,Svincolato,Svincolato,Genoa,0,Svincolato,"{W,T}",0,0,,,
+513,Ravaglia F.,Svincolato,Svincolato,Bologna,4,Svincolato,{Por},1,0,,,
+602,Iovine,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0,,,
+138,Al-Musrati,Svincolato,Svincolato,Verona,2,Svincolato,"{M,C}",0,0,,,
+784,Mulattieri,Svincolato,Svincolato,Sassuolo,0,Svincolato,{Pc},0,0,,,
+32,Ekhator,Svincolato,Svincolato,Juventus,3,Svincolato,{A},0,1,934878.0,2006-11-11,2031-06-30
+69,Orban G.,Svincolato,Svincolato,Verona,14,Svincolato,{Pc},5,0,,,
 819,Paredes,Svincolato,Svincolato,Roma,0,Svincolato,"{M,C}",0,0,,,
-605,Sensi,Svincolato,Svincolato,Monza,0,Svincolato,"{C,T}",0,0,,,
-530,Arena A.,Svincolato,Svincolato,Roma,1,Svincolato,{Pc},0,0,,,
+885,Elphege,Svincolato,Svincolato,Parma,3,Svincolato,{Pc},0,1,862606.0,2001-01-09,2030-06-30
+798,Mbangula,Svincolato,Svincolato,Bologna,8,Svincolato,"{W,A}",0,1,654991.0,2004-01-16,2027-06-30
+790,Ndoye,Svincolato,Svincolato,Bologna,0,Svincolato,{W},0,0,,,
+428,Dumfries,Svincolato,Svincolato,Inter,12,Svincolato,{E},28,0,,,
+12,Lucca,Svincolato,Svincolato,Napoli,4,Svincolato,{Pc},16,1,572265.0,2000-09-10,2030-06-30
+359,Canestrelli,Svincolato,Svincolato,Pisa,5,Svincolato,{Dc},5,0,,,
+49,Addai,ZeroDayz FC,ZeroDayz FC,Como,4,Primavera,"{W,A}",0,1,747720.0,2005-08-26,2030-06-30
+578,Hernandez T.,Svincolato,Svincolato,Milan,0,Svincolato,"{Ds,E}",0,0,,,
+296,Hysaj,Svincolato,Svincolato,Lazio,1,Svincolato,"{Dd,Ds,E}",0,0,,,
+662,Gyasi,Svincolato,Svincolato,Empoli,0,Svincolato,{W},0,0,,,
+655,Kumbulla,Svincolato,Svincolato,Roma,0,Svincolato,{Dc},0,0,,,
+326,Gutierrez,Svincolato,Svincolato,Napoli,8,Svincolato,"{Ds,E}",23,0,,,
+154,Tameze,Svincolato,Svincolato,Torino,1,Svincolato,"{M,C}",0,0,,,
+5,Moro L.,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Pc},0,0,,,
+703,Pickel,Svincolato,Svincolato,Cremonese,0,Svincolato,"{M,C}",0,0,,,
+803,Lekovic,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
+239,Vandeputte,Svincolato,Svincolato,Cremonese,11,Svincolato,"{W,T}",1,0,,,
+414,Angori,Svincolato,Svincolato,Pisa,9,Svincolato,"{Ds,E}",1,0,,,
+630,Kovalenko,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0,,,
+772,Kowalski,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0,,,
+33,Dallinga,Svincolato,Svincolato,Bologna,7,Svincolato,{Pc},24,0,,,
 693,Alberto Costa,Svincolato,Svincolato,Juventus,0,Svincolato,"{Dd,E}",0,0,,,
-536,Morata,Svincolato,Svincolato,Como,3,Svincolato,{Pc},0,0,,,
+530,Arena A.,Svincolato,Svincolato,Roma,1,Svincolato,{Pc},0,0,,,
+605,Sensi,Svincolato,Svincolato,Monza,0,Svincolato,"{C,T}",0,0,,,
+667,Zurkowski,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0,,,
+889,Raterink,Svincolato,Svincolato,Cagliari,1,Svincolato,"{Dd,E}",0,0,,,
+785,El Azzouzi,Svincolato,Svincolato,Bologna,0,Svincolato,"{M,C}",0,0,,,
+638,Coppola D.,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
+882,Albarracin,Svincolato,Svincolato,Cagliari,1,Svincolato,{A},0,0,,,
+814,Jankto,Svincolato,Svincolato,Cagliari,0,Svincolato,"{E,C}",0,0,,,
 383,Britschgi,Svincolato,Svincolato,Parma,4,Svincolato,"{Dd,Ds,E}",0,1,932187.0,2006-08-27,2030-06-30
 410,Idrissi R.,Svincolato,Svincolato,Cagliari,3,Svincolato,"{Ds,E}",0,1,885226.0,2005-06-13,2030-06-30
 377,Parisi,Svincolato,Svincolato,Fiorentina,4,Svincolato,"{Ds,E}",16,1,547985.0,2000-11-09,2029-06-30
-403,Beukema,Diaolo Porco,Diaolo Porco,Napoli,6,Indeterminato,{Dc},10,1,433984.0,1998-11-17,2030-06-30
-405,Marusic,FC Pontos,FC Pontos,Lazio,6,Indeterminato,"{Dd,Ds,E}",1,1,239802.0,1992-10-17,2028-06-30
 362,Marcandalli,Diablitos FC,Diablitos FC,Genoa,6,Indeterminato,{Dc},1,1,818448.0,2002-10-25,2029-06-30
+405,Marusic,FC Pontos,FC Pontos,Lazio,6,Indeterminato,"{Dd,Ds,E}",1,1,239802.0,1992-10-17,2028-06-30
+403,Beukema,Diaolo Porco,Diaolo Porco,Napoli,6,Indeterminato,{Dc},10,1,433984.0,1998-11-17,2030-06-30
 399,Diego Carlos,Svincolato,Svincolato,Parma,8,Svincolato,{Dc},0,1,329145.0,1993-03-15,2027-06-30
-371,N'Dicka,CyberDucks,CyberDucks,Roma,13,Indeterminato,{Dc},13,1,371149.0,1999-08-20,2028-06-30
 406,Gila,Diablitos FC,Diablitos FC,Milan,13,Indeterminato,{Dc},12,1,618341.0,2000-08-29,2031-06-30
-544,Trepy,Svincolato,Svincolato,Cagliari,1,Svincolato,{Pc},0,1,1099924.0,2006-05-20,2030-06-30
-19,Solomon,Svincolato,Svincolato,Fiorentina,9,Svincolato,"{W,A}",4,0,,,
-869,Vaz,Svincolato,Svincolato,Roma,1,Svincolato,{Pc},0,0,,,
-854,Radu I.,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0,,,
-62,Vlahovic,Svincolato,Svincolato,Juventus,16,Svincolato,{Pc},190,0,,,
-39,Gimenez,Svincolato,Metodo Monchi FC,Milan,5,Prestito Reale,{Pc},45,0,,,
-48,David,Svincolato,Svincolato,Juventus,7,Svincolato,{Pc},74,0,,,
-988,Vismara,Svincolato,Svincolato,Atalanta,1,Svincolato,{Por},0,0,,,
-895,Garcia U.,Svincolato,Svincolato,Sassuolo,8,Svincolato,"{B,Ds,E}",0,0,,,
-595,Kvaratskhelia,Svincolato,Svincolato,Napoli,0,Svincolato,{A},0,0,,,
-379,Folino,Svincolato,Svincolato,Cremonese,4,Svincolato,{Dc},0,0,,,
-413,Cuadrado,Svincolato,Svincolato,Pisa,5,Svincolato,{E},0,0,,,
-31,Ekuban,Svincolato,Svincolato,Genoa,12,Svincolato,{A},0,0,,,
-541,Stulic,Svincolato,Svincolato,Lecce,6,Svincolato,{Pc},0,1,595650.0,2001-09-08,2029-06-30
-41,Noslin,Al-Colizzati,Al-Colizzati,Lazio,6,Indeterminato,{A},1,1,457736.0,1999-07-07,2029-06-30
-37,Sulemana K.,FC Pontos,FC Pontos,Atalanta,6,Indeterminato,{A},9,1,746695.0,2002-02-15,2029-06-30
-42,Vitinha O.,Svincolato,Svincolato,Genoa,8,Svincolato,{A},0,1,586853.0,2000-03-15,2028-06-30
-23,Piccoli,CyberDucks,CyberDucks,Bologna,7,Indeterminato,{Pc},0,1,432092.0,2001-01-27,2027-06-30
-45,Dybala,ZeroDayz FC,ZeroDayz FC,Roma,17,Indeterminato,{A},110,1,206050.0,1993-11-15,2027-06-30
-392,Norton-Cuffy,Svincolato,Svincolato,Genoa,8,Svincolato,"{Dd,E}",0,0,,,
+371,N'Dicka,CyberDucks,CyberDucks,Roma,13,Indeterminato,{Dc},13,1,371149.0,1999-08-20,2028-06-30
 708,Ilic M.,Svincolato,Svincolato,Bologna,0,Svincolato,{Dc},0,0,,,
-618,Billing,Svincolato,Svincolato,Napoli,0,Svincolato,"{C,T}",0,0,,,
-591,Brorsson,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
-27,Belotti,Svincolato,Svincolato,Cagliari,4,Svincolato,{Pc},0,0,,,
-454,Baschirotto,Svincolato,Svincolato,Cremonese,9,Svincolato,{Dc},11,0,,,
-750,Arthur Melo,Svincolato,Svincolato,Juventus,0,Svincolato,"{M,C}",0,0,,,
+392,Norton-Cuffy,Svincolato,Svincolato,Genoa,8,Svincolato,"{Dd,E}",0,0,,,
+31,Ekuban,Svincolato,Svincolato,Genoa,12,Svincolato,{A},0,0,,,
+413,Cuadrado,Svincolato,Svincolato,Pisa,5,Svincolato,{E},0,0,,,
+379,Folino,Svincolato,Svincolato,Cremonese,4,Svincolato,{Dc},0,0,,,
+595,Kvaratskhelia,Svincolato,Svincolato,Napoli,0,Svincolato,{A},0,0,,,
+895,Garcia U.,Svincolato,Svincolato,Sassuolo,8,Svincolato,"{B,Ds,E}",0,0,,,
+988,Vismara,Svincolato,Svincolato,Atalanta,1,Svincolato,{Por},0,0,,,
+48,David,Svincolato,Svincolato,Juventus,7,Svincolato,{Pc},74,0,,,
+39,Gimenez,Svincolato,Metodo Monchi FC,Milan,5,Prestito Reale,{Pc},45,0,,,
+536,Morata,Svincolato,Svincolato,Como,3,Svincolato,{Pc},0,0,,,
+544,Trepy,Svincolato,Svincolato,Cagliari,1,Svincolato,{Pc},0,1,1099924.0,2006-05-20,2030-06-30
+23,Piccoli,CyberDucks,CyberDucks,Bologna,7,Indeterminato,{Pc},0,1,432092.0,2001-01-27,2027-06-30
+42,Vitinha O.,Svincolato,Svincolato,Genoa,8,Svincolato,{A},0,1,586853.0,2000-03-15,2028-06-30
+37,Sulemana K.,FC Pontos,FC Pontos,Atalanta,6,Indeterminato,{A},9,1,746695.0,2002-02-15,2029-06-30
+41,Noslin,Al-Colizzati,Al-Colizzati,Lazio,6,Indeterminato,{A},1,1,457736.0,1999-07-07,2029-06-30
+541,Stulic,Svincolato,Svincolato,Lecce,6,Svincolato,{Pc},0,1,595650.0,2001-09-08,2029-06-30
+45,Dybala,ZeroDayz FC,ZeroDayz FC,Roma,17,Indeterminato,{A},110,1,206050.0,1993-11-15,2027-06-30
+62,Vlahovic,Svincolato,Svincolato,Juventus,16,Svincolato,{Pc},190,0,,,
+854,Radu I.,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0,,,
+869,Vaz,Svincolato,Svincolato,Roma,1,Svincolato,{Pc},0,0,,,
+19,Solomon,Svincolato,Svincolato,Fiorentina,9,Svincolato,"{W,A}",4,0,,,
 407,Cabal,Svincolato,Svincolato,Juventus,1,Svincolato,"{B,Ds,E}",2,1,686965.0,2001-01-08,2029-06-30
-418,Zanoli,FC Sovescio,FC Sovescio,Udinese,4,Indeterminato,"{Dd,E}",7,1,397225.0,2000-10-03,2029-06-30
+27,Belotti,Svincolato,Svincolato,Cagliari,4,Svincolato,{Pc},0,0,,,
+591,Brorsson,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
 443,Kabasele,Svincolato,Svincolato,Udinese,4,Svincolato,{Dc},0,1,81512.0,1991-02-24,2027-06-30
-426,Kelly L.,CyberDucks,CyberDucks,Juventus,6,Indeterminato,"{Ds,Dc}",1,1,480116.0,1998-10-06,2029-06-30
-437,Buongiorno,Diaolo Porco,Diaolo Porco,Napoli,6,Indeterminato,{Dc},31,1,386446.0,1999-06-06,2029-06-30
-408,Valle,Al-Colizzati,Al-Colizzati,Como,6,Indeterminato,"{Ds,E}",0,1,709957.0,2004-04-25,2029-06-30
-415,Valeri,Al-Colizzati,Al-Colizzati,Parma,8,Indeterminato,"{Ds,E}",5,1,445126.0,1998-12-07,2028-06-30
-453,Bartesaghi,FC Sovescio,FC Sovescio,Milan,8,Indeterminato,"{Ds,E}",0,1,887638.0,2005-12-29,2030-06-30
-438,Cambiaso,Al-Colizzati,Al-Colizzati,Juventus,9,Indeterminato,"{Dd,Ds,E}",17,1,459658.0,2000-02-20,2029-06-30
-710,Perisan,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0,,,
-419,Romagnoli,Svincolato,Svincolato,Lazio,6,Svincolato,{Dc},6,0,197747.0,1995-01-12,2027-06-30
+418,Zanoli,FC Sovescio,FC Sovescio,Udinese,4,Indeterminato,"{Dd,E}",7,1,397225.0,2000-10-03,2029-06-30
 842,Hateboer,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0,,,
-300,Darmian,Svincolato,Svincolato,Inter,3,Svincolato,"{B,Dd,E}",0,0,,,
-440,Miranda J.,Diablitos FC,Diablitos FC,Bologna,8,Indeterminato,"{Ds,E}",23,1,341227.0,2000-01-19,2028-06-30
-445,Vojvoda,FC Sovescio,FC Sovescio,Udinese,9,Indeterminato,"{Dd,E}",4,1,336125.0,1995-02-01,2028-06-30
-429,Vasquez,ZeroDayz FC,ZeroDayz FC,Genoa,10,Indeterminato,"{Ds,Dc}",9,1,532937.0,1998-10-22,2028-06-30
-446,Ramon,Diaolo Porco,Diaolo Porco,Como,10,Indeterminato,{Dc},0,1,948278.0,2005-01-06,2030-06-30
-434,Hermoso,Diablitos FC,Diablitos FC,Roma,11,Indeterminato,{Dc},1,1,281769.0,1995-06-18,2027-06-30
-435,Di Lorenzo,FC Pontos,FC Pontos,Napoli,12,Indeterminato,"{Dd,E}",33,1,169880.0,1993-08-04,2030-06-30
-439,Bisseck,Sborada,Sborada,Inter,12,Indeterminato,{Dc},8,1,441986.0,2000-11-29,2031-06-30
-444,Kalulu,AC Ciaccati,AC Ciaccati,Juventus,14,Indeterminato,"{Dd,Dc}",1,1,585949.0,2000-06-05,2029-06-30
-436,Rrahmani,AC Ciaccati,AC Ciaccati,Napoli,15,Indeterminato,{Dc},25,1,257732.0,1994-02-24,2027-06-30
-431,Akanji,CyberDucks,CyberDucks,Inter,15,Indeterminato,{Dc},14,1,284730.0,1995-07-19,2028-06-30
-424,Mancini,FC Sovescio,FC Sovescio,Roma,16,Indeterminato,{Dc},18,1,256448.0,1996-04-17,2029-06-30
-833,Verdi,Svincolato,Svincolato,Como,0,Svincolato,"{W,T}",0,0,,,
+426,Kelly L.,CyberDucks,CyberDucks,Juventus,6,Indeterminato,"{Ds,Dc}",1,1,480116.0,1998-10-06,2029-06-30
+419,Romagnoli,Svincolato,Svincolato,Lazio,6,Svincolato,{Dc},6,0,197747.0,1995-01-12,2027-06-30
+437,Buongiorno,Diaolo Porco,Diaolo Porco,Napoli,6,Indeterminato,{Dc},31,1,386446.0,1999-06-06,2029-06-30
+710,Perisan,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0,,,
+618,Billing,Svincolato,Svincolato,Napoli,0,Svincolato,"{C,T}",0,0,,,
 170,Vecino,Svincolato,Svincolato,Lazio,6,Svincolato,"{M,C}",0,0,,,
-451,Martin,Svincolato,Svincolato,Genoa,5,Svincolato,"{Ds,E}",9,0,,,
-610,Pedrola,Svincolato,Svincolato,Bologna,0,Svincolato,"{W,A}",0,0,,,
-479,Nicolas,Svincolato,Svincolato,Pisa,1,Svincolato,{Por},0,0,,,
-874,Lirola,Svincolato,Svincolato,Verona,2,Svincolato,"{B,Dd,E}",0,0,,,
-742,Brenner,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0,,,
-127,Vural,Svincolato,Svincolato,Pisa,3,Svincolato,{C},0,0,,,
-274,Lamptey,Svincolato,Svincolato,Fiorentina,1,Svincolato,"{Dd,Ds,E}",0,0,,,
-495,Ciocci,Svincolato,Svincolato,Cagliari,1,Svincolato,{Por},0,0,,,
-110,Kastanos,Svincolato,Svincolato,Verona,1,Svincolato,"{C,T}",1,0,,,
+833,Verdi,Svincolato,Svincolato,Como,0,Svincolato,"{W,T}",0,0,,,
+300,Darmian,Svincolato,Svincolato,Inter,3,Svincolato,"{B,Dd,E}",0,0,,,
+408,Valle,Al-Colizzati,Al-Colizzati,Como,6,Indeterminato,"{Ds,E}",0,1,709957.0,2004-04-25,2029-06-30
+446,Ramon,Diaolo Porco,Diaolo Porco,Como,10,Indeterminato,{Dc},0,1,948278.0,2005-01-06,2030-06-30
+429,Vasquez,ZeroDayz FC,ZeroDayz FC,Genoa,10,Indeterminato,"{Ds,Dc}",9,1,532937.0,1998-10-22,2028-06-30
+445,Vojvoda,FC Sovescio,FC Sovescio,Udinese,9,Indeterminato,"{Dd,E}",4,1,336125.0,1995-02-01,2028-06-30
+440,Miranda J.,Diablitos FC,Diablitos FC,Bologna,8,Indeterminato,"{Ds,E}",23,1,341227.0,2000-01-19,2028-06-30
+438,Cambiaso,Al-Colizzati,Al-Colizzati,Juventus,9,Indeterminato,"{Dd,Ds,E}",17,1,459658.0,2000-02-20,2029-06-30
+453,Bartesaghi,FC Sovescio,FC Sovescio,Milan,8,Indeterminato,"{Ds,E}",0,1,887638.0,2005-12-29,2030-06-30
+415,Valeri,Al-Colizzati,Al-Colizzati,Parma,8,Indeterminato,"{Ds,E}",5,1,445126.0,1998-12-07,2028-06-30
+424,Mancini,FC Sovescio,FC Sovescio,Roma,16,Indeterminato,{Dc},18,1,256448.0,1996-04-17,2029-06-30
+431,Akanji,CyberDucks,CyberDucks,Inter,15,Indeterminato,{Dc},14,1,284730.0,1995-07-19,2028-06-30
+436,Rrahmani,AC Ciaccati,AC Ciaccati,Napoli,15,Indeterminato,{Dc},25,1,257732.0,1994-02-24,2027-06-30
+444,Kalulu,AC Ciaccati,AC Ciaccati,Juventus,14,Indeterminato,"{Dd,Dc}",1,1,585949.0,2000-06-05,2029-06-30
+439,Bisseck,Sborada,Sborada,Inter,12,Indeterminato,{Dc},8,1,441986.0,2000-11-29,2031-06-30
+435,Di Lorenzo,FC Pontos,FC Pontos,Napoli,12,Indeterminato,"{Dd,E}",33,1,169880.0,1993-08-04,2030-06-30
+434,Hermoso,Diablitos FC,Diablitos FC,Roma,11,Indeterminato,{Dc},1,1,281769.0,1995-06-18,2027-06-30
+750,Arthur Melo,Svincolato,Svincolato,Juventus,0,Svincolato,"{M,C}",0,0,,,
+454,Baschirotto,Svincolato,Svincolato,Cremonese,9,Svincolato,{Dc},11,0,,,
 452,Kempf,Diaolo Porco,Diaolo Porco,Como,5,Indeterminato,{Dc},1,1,160938.0,1995-01-28,2029-06-30
-121,Sergi Roberto,Svincolato,Svincolato,Como,3,Svincolato,"{M,C}",0,0,,,
 455,Carlos Augusto,Metodo Monchi FC,Metodo Monchi FC,Inter,7,Indeterminato,"{B,Ds,E}",5,1,585982.0,1999-01-07,2028-06-30
 461,Spinazzola,Sborada,Sborada,Napoli,8,Indeterminato,"{Ds,E}",0,1,118689.0,1993-03-25,2028-06-30
-447,Ostigard,Metodo Monchi FC,Metodo Monchi FC,Genoa,11,Indeterminato,{Dc},2,1,367284.0,1999-11-28,2030-06-30
 460,Bastoni,Diaolo Porco,Diaolo Porco,Inter,14,Indeterminato,{Dc},27,1,315853.0,1999-04-13,2028-06-30
-457,Wesley,Metodo Monchi FC,Metodo Monchi FC,Roma,17,Indeterminato,{E},40,1,964580.0,2003-09-06,2030-06-30
-462,Dimarco,Metodo Monchi FC,Metodo Monchi FC,Inter,29,Indeterminato,"{E,W}",31,1,198116.0,1997-11-10,2027-06-30
+447,Ostigard,Metodo Monchi FC,Metodo Monchi FC,Genoa,11,Indeterminato,{Dc},2,1,367284.0,1999-11-28,2030-06-30
 475,Satalino,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Por},0,1,323255.0,1999-05-20,2027-06-30
-474,Turati,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Por},1,1,543666.0,2001-09-05,2028-06-30
-476,Gollini,ZeroDayz FC,ZeroDayz FC,Roma,1,Indeterminato,{Por},3,1,244192.0,1995-03-18,2027-06-30
-481,Contini,Svincolato,Svincolato,Napoli,1,Svincolato,{Por},0,1,250683.0,1996-05-21,2031-06-30
+462,Dimarco,Metodo Monchi FC,Metodo Monchi FC,Inter,29,Indeterminato,"{E,W}",31,1,198116.0,1997-11-10,2027-06-30
+457,Wesley,Metodo Monchi FC,Metodo Monchi FC,Roma,17,Indeterminato,{E},40,1,964580.0,2003-09-06,2030-06-30
 881,Motta,Al-Colizzati,Al-Colizzati,Lazio,1,Indeterminato,{Por},1,1,916430.0,2005-01-13,2030-06-30
-469,Lezzerini,Sborada,Sborada,Fiorentina,1,Indeterminato,{Por},1,1,135747.0,1995-03-24,2028-06-30
-494,Vigorito,Svincolato,Svincolato,Como,1,Svincolato,{Por},0,1,88595.0,1990-05-22,2027-06-30
-464,Tornqvist,Svincolato,Svincolato,Monza,1,Svincolato,{Por},0,1,730531.0,2002-02-01,2027-06-30
-503,Pessina Mas.,Svincolato,Svincolato,Bologna,1,Svincolato,{Por},0,1,992569.0,2007-12-25,2029-06-30
-496,Sportiello,Diablitos FC,Diablitos FC,Atalanta,1,Indeterminato,{Por},1,1,199976.0,1992-05-10,2028-06-30
-499,Sava,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},1,0,,,
-420,Barbieri,Svincolato,Svincolato,Cremonese,5,Svincolato,"{Dd,Ds,E}",1,0,,,
+127,Vural,Svincolato,Svincolato,Pisa,3,Svincolato,{C},0,0,,,
 101,Onana J.,Svincolato,Svincolato,Genoa,1,Svincolato,"{M,C}",0,0,,,
+420,Barbieri,Svincolato,Svincolato,Cremonese,5,Svincolato,"{Dd,Ds,E}",1,0,,,
+499,Sava,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},1,0,,,
+610,Pedrola,Svincolato,Svincolato,Bologna,0,Svincolato,"{W,A}",0,0,,,
+451,Martin,Svincolato,Svincolato,Genoa,5,Svincolato,"{Ds,E}",9,0,,,
+481,Contini,Svincolato,Svincolato,Napoli,1,Svincolato,{Por},0,1,250683.0,1996-05-21,2031-06-30
+742,Brenner,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0,,,
+874,Lirola,Svincolato,Svincolato,Verona,2,Svincolato,"{B,Dd,E}",0,0,,,
+479,Nicolas,Svincolato,Svincolato,Pisa,1,Svincolato,{Por},0,0,,,
 388,Angelino,Svincolato,AC Ciaccati,Roma,3,Prestito Reale,{E},8,0,,,
+476,Gollini,ZeroDayz FC,ZeroDayz FC,Roma,1,Indeterminato,{Por},3,1,244192.0,1995-03-18,2027-06-30
+474,Turati,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Por},1,1,543666.0,2001-09-05,2028-06-30
+496,Sportiello,Diablitos FC,Diablitos FC,Atalanta,1,Indeterminato,{Por},1,1,199976.0,1992-05-10,2028-06-30
+503,Pessina Mas.,Svincolato,Svincolato,Bologna,1,Svincolato,{Por},0,1,992569.0,2007-12-25,2029-06-30
+464,Tornqvist,Svincolato,Svincolato,Monza,1,Svincolato,{Por},0,1,730531.0,2002-02-01,2027-06-30
+494,Vigorito,Svincolato,Svincolato,Como,1,Svincolato,{Por},0,1,88595.0,1990-05-22,2027-06-30
+469,Lezzerini,Sborada,Sborada,Fiorentina,1,Indeterminato,{Por},1,1,135747.0,1995-03-24,2028-06-30
+121,Sergi Roberto,Svincolato,Svincolato,Como,3,Svincolato,"{M,C}",0,0,,,
+110,Kastanos,Svincolato,Svincolato,Verona,1,Svincolato,"{C,T}",1,0,,,
+495,Ciocci,Svincolato,Svincolato,Cagliari,1,Svincolato,{Por},0,0,,,
+274,Lamptey,Svincolato,Svincolato,Fiorentina,1,Svincolato,"{Dd,Ds,E}",0,0,,,
 760,Carboni F.,Svincolato,Svincolato,Parma,1,Svincolato,"{Ds,E}",0,1,731491.0,2003-04-04,2030-06-30
-466,Ferrante,Svincolato,Svincolato,Napoli,1,Svincolato,{Por},0,0,,,
-866,Walker,Svincolato,Svincolato,Milan,0,Svincolato,"{B,Dd,E}",0,0,,,
-467,Cavlina,Svincolato,Svincolato,Como,1,Svincolato,{Por},0,0,,,
-497,Rossi F.,Svincolato,Svincolato,Atalanta,1,Svincolato,{Por},0,0,,,
-465,Calligaris,Svincolato,Svincolato,Inter,1,Svincolato,{Por},0,0,,,
-498,Silvestri,Svincolato,Svincolato,Cremonese,1,Svincolato,{Por},0,0,,,
-505,Padelli,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},0,1,27807.0,1985-10-25,2027-06-30
-514,Paleari,FC Sovescio,FC Sovescio,Torino,1,Indeterminato,{Por},1,1,163048.0,1992-08-29,2027-06-30
-482,Torriani,FC Pontos,FC Pontos,Milan,1,Indeterminato,{Por},1,1,939745.0,2005-01-31,2030-06-30
-22,Pedro,Svincolato,Svincolato,Lazio,16,Svincolato,{A},0,0,,,
-491,Siegrist,Svincolato,Svincolato,Genoa,1,Svincolato,{Por},0,0,,,
-483,Terracciano,Svincolato,Svincolato,Milan,1,Svincolato,{Por},0,1,96254.0,1990-03-08,2027-06-30
 488,Pinsoglio,CyberDucks,CyberDucks,Juventus,1,Indeterminato,{Por},1,1,75411.0,1990-03-16,2027-06-30
-489,Di Gennaro,AC Ciaccati,AC Ciaccati,Inter,1,Indeterminato,{Por},1,1,70580.0,1993-10-03,2027-06-30
-490,Sommariva,Svincolato,Svincolato,Genoa,1,Svincolato,{Por},0,1,312773.0,1997-07-18,
-492,Christensen O.,Svincolato,Svincolato,Fiorentina,1,Svincolato,{Por},0,1,471936.0,1999-03-22,2028-06-30
-878,Bijlow,Sborada,Sborada,Genoa,8,Indeterminato,{Por},1,1,315121.0,1998-01-22,2029-06-30
-518,Skorupski,Diaolo Porco,Diaolo Porco,Bologna,10,Indeterminato,{Por},5,1,80894.0,1991-05-05,2027-06-30
-506,Meret,Metodo Monchi FC,Metodo Monchi FC,Napoli,11,Indeterminato,{Por},29,1,240414.0,1997-03-22,2027-06-30
-528,Maignan,FC Pontos,FC Pontos,Milan,15,Indeterminato,{Por},35,1,182906.0,1995-07-03,2031-06-30
-502,Martinez Jo.,AC Ciaccati,AC Ciaccati,Inter,17,Indeterminato,{Por},8,1,388516.0,1998-05-27,2029-06-30
-527,Svilar,ZeroDayz FC,ZeroDayz FC,Roma,19,Indeterminato,{Por},21,1,338670.0,1999-08-27,2030-06-30
-531,Gueye,ZeroDayz FC,ZeroDayz FC,Udinese,4,Primavera,{Pc},0,1,1178488.0,2006-09-16,2030-06-30
-583,Strefezza,Svincolato,Svincolato,Parma,13,Svincolato,"{W,A}",4,0,,,
-501,Perin,Svincolato,Svincolato,Juventus,6,Svincolato,{Por},1,0,,,
-504,Guaita,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0,,,
-471,Vasquez D.,Svincolato,Svincolato,Roma,1,Svincolato,{Por},0,0,,,
-827,Jovic,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0,,,
+483,Terracciano,Svincolato,Svincolato,Milan,1,Svincolato,{Por},0,1,96254.0,1990-03-08,2027-06-30
+482,Torriani,FC Pontos,FC Pontos,Milan,1,Indeterminato,{Por},1,1,939745.0,2005-01-31,2030-06-30
+514,Paleari,FC Sovescio,FC Sovescio,Torino,1,Indeterminato,{Por},1,1,163048.0,1992-08-29,2027-06-30
+505,Padelli,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},0,1,27807.0,1985-10-25,2027-06-30
 394,Moreno Alb.,Svincolato,Svincolato,Como,9,Svincolato,"{Ds,E}",7,0,,,
+583,Strefezza,Svincolato,Svincolato,Parma,13,Svincolato,"{W,A}",4,0,,,
 480,Rinaldi,Svincolato,Svincolato,Parma,1,Svincolato,{Por},0,0,,,
-904,Balbo,Svincolato,Svincolato,Fiorentina,2,Svincolato,"{Ds,E}",0,0,,,
-470,Nunziante,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},0,0,,,
+492,Christensen O.,Svincolato,Svincolato,Fiorentina,1,Svincolato,{Por},0,1,471936.0,1999-03-22,2028-06-30
+490,Sommariva,Svincolato,Svincolato,Genoa,1,Svincolato,{Por},0,1,312773.0,1997-07-18,
+491,Siegrist,Svincolato,Svincolato,Genoa,1,Svincolato,{Por},0,0,,,
+827,Jovic,Svincolato,Svincolato,Milan,0,Svincolato,{Pc},0,0,,,
+471,Vasquez D.,Svincolato,Svincolato,Roma,1,Svincolato,{Por},0,0,,,
+504,Guaita,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0,,,
+501,Perin,Svincolato,Svincolato,Juventus,6,Svincolato,{Por},1,0,,,
+489,Di Gennaro,AC Ciaccati,AC Ciaccati,Inter,1,Indeterminato,{Por},1,1,70580.0,1993-10-03,2027-06-30
+528,Maignan,FC Pontos,FC Pontos,Milan,15,Indeterminato,{Por},35,1,182906.0,1995-07-03,2031-06-30
+506,Meret,Metodo Monchi FC,Metodo Monchi FC,Napoli,11,Indeterminato,{Por},29,1,240414.0,1997-03-22,2027-06-30
+518,Skorupski,Diaolo Porco,Diaolo Porco,Bologna,10,Indeterminato,{Por},5,1,80894.0,1991-05-05,2027-06-30
+878,Bijlow,Sborada,Sborada,Genoa,8,Indeterminato,{Por},1,1,315121.0,1998-01-22,2029-06-30
+527,Svilar,ZeroDayz FC,ZeroDayz FC,Roma,19,Indeterminato,{Por},21,1,338670.0,1999-08-27,2030-06-30
+502,Martinez Jo.,AC Ciaccati,AC Ciaccati,Inter,17,Indeterminato,{Por},8,1,388516.0,1998-05-27,2029-06-30
+531,Gueye,ZeroDayz FC,ZeroDayz FC,Udinese,4,Primavera,{Pc},0,1,1178488.0,2006-09-16,2030-06-30
+22,Pedro,Svincolato,Svincolato,Lazio,16,Svincolato,{A},0,0,,,
+465,Calligaris,Svincolato,Svincolato,Inter,1,Svincolato,{Por},0,0,,,
+497,Rossi F.,Svincolato,Svincolato,Atalanta,1,Svincolato,{Por},0,0,,,
+467,Cavlina,Svincolato,Svincolato,Como,1,Svincolato,{Por},0,0,,,
+866,Walker,Svincolato,Svincolato,Milan,0,Svincolato,"{B,Dd,E}",0,0,,,
+466,Ferrante,Svincolato,Svincolato,Napoli,1,Svincolato,{Por},0,0,,,
+498,Silvestri,Svincolato,Svincolato,Cremonese,1,Svincolato,{Por},0,0,,,
 347,Juan Jesus,Svincolato,Svincolato,Venezia,5,Svincolato,"{Ds,Dc}",1,1,121985.0,1991-06-10,2027-06-30
-512,Corvi,Al-Colizzati,Al-Colizzati,Parma,2,Indeterminato,{Por},1,1,528181.0,2001-03-23,2029-06-30
 523,Provedel,AC Ciaccati,AC Ciaccati,Inter,2,Indeterminato,{Por},30,1,197929.0,1994-03-17,2029-06-30
-525,Milinkovic-Savic V.,Metodo Monchi FC,Diaolo Porco,Napoli,5,Fanta-Prestito,{Por},19,1,257474.0,1997-02-20,2030-06-30
-516,Muric,Diaolo Porco,Diaolo Porco,Sassuolo,7,Indeterminato,{Por},1,1,371021.0,1998-11-07,
-520,Falcone,ZeroDayz FC,ZeroDayz FC,Lecce,8,Indeterminato,{Por},11,1,238537.0,1995-04-12,2028-06-30
-509,Okoye,FC Sovescio,FC Sovescio,Udinese,9,Indeterminato,{Por},2,1,340353.0,1999-08-28,2028-06-30
-517,Caprile,Diaolo Porco,Metodo Monchi FC,Cagliari,10,Fanta-Prestito,{Por},8,1,421873.0,2001-08-25,2029-06-30
+212,Sottil,Svincolato,Svincolato,Lecce,8,Svincolato,"{W,A}",0,0,,,
+17,Bayo V.,Svincolato,Svincolato,Udinese,1,Svincolato,{Pc},0,1,375877.0,1997-01-10,2028-06-30
+512,Corvi,Al-Colizzati,Al-Colizzati,Parma,2,Indeterminato,{Por},1,1,528181.0,2001-03-23,2029-06-30
 515,De Gea,Sborada,Sborada,Fiorentina,11,Indeterminato,{Por},35,1,59377.0,1990-11-07,2028-06-30
+1006,De Martis,Svincolato,Svincolato,Parma,1,Svincolato,{Pc},0,1,1231230.0,2008-06-26,2027-06-30
+517,Caprile,Diaolo Porco,Metodo Monchi FC,Cagliari,10,Fanta-Prestito,{Por},8,1,421873.0,2001-08-25,2029-06-30
+509,Okoye,FC Sovescio,FC Sovescio,Udinese,9,Indeterminato,{Por},2,1,340353.0,1999-08-28,2028-06-30
+520,Falcone,ZeroDayz FC,ZeroDayz FC,Lecce,8,Indeterminato,{Por},11,1,238537.0,1995-04-12,2028-06-30
+516,Muric,Diaolo Porco,Diaolo Porco,Sassuolo,7,Indeterminato,{Por},1,1,371021.0,1998-11-07,
+525,Milinkovic-Savic V.,Metodo Monchi FC,Diaolo Porco,Napoli,5,Fanta-Prestito,{Por},19,1,257474.0,1997-02-20,2030-06-30
 526,Butez,Metodo Monchi FC,Metodo Monchi FC,Como,15,Indeterminato,{Por},7,1,290537.0,1995-06-08,2030-06-30
 539,Camarda,Diablitos FC,Diablitos FC,Milan,4,Primavera,{Pc},0,1,1058368.0,2008-03-10,2031-06-30
-25,Zapata D.,Svincolato,Svincolato,Torino,6,Svincolato,{Pc},53,1,73794.0,1991-04-01,2028-06-30
-17,Bayo V.,Svincolato,Svincolato,Udinese,1,Svincolato,{Pc},0,1,375877.0,1997-01-10,2028-06-30
-212,Sottil,Svincolato,Svincolato,Lecce,8,Svincolato,"{W,A}",0,0,,,
-567,Ferreira J.,Svincolato,Svincolato,Udinese,0,Svincolato,"{B,Dd,E}",0,0,,,
-839,Kovacik,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0,,,
-21,Dia,Svincolato,CyberDucks,Lazio,11,Prestito Reale,{A},6,0,,,
-521,Di Gregorio,Svincolato,CyberDucks,Juventus,9,Prestito Reale,{Por},49,0,,,
 888,Kulenovic,Sborada,Sborada,Torino,3,Indeterminato,{Pc},1,1,357778.0,1999-12-04,2029-06-30
-1006,De Martis,Svincolato,Svincolato,Parma,1,Svincolato,{Pc},0,1,1231230.0,2008-06-26,2027-06-30
+540,Kuhn,Svincolato,Diaolo Porco,Como,4,Prestito Reale,"{W,A}",27,0,,,
+723,Baselli,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
+511,Suzuki,Svincolato,Svincolato,Parma,7,Svincolato,{Por},4,0,,,
+25,Zapata D.,Svincolato,Svincolato,Torino,6,Svincolato,{Pc},53,1,73794.0,1991-04-01,2028-06-30
 14,Diao,CyberDucks,CyberDucks,Como,13,Indeterminato,"{W,A}",0,1,1061282.0,2005-09-07,2029-06-30
 546,Aboukhlal,Svincolato,Svincolato,Torino,2,Svincolato,"{W,A}",1,1,393238.0,2000-02-18,2029-06-30
-543,Njie,Svincolato,Svincolato,Fiorentina,4,Svincolato,"{W,A}",0,1,934527.0,2005-05-14,2027-06-30
 532,Almqvist,Svincolato,Svincolato,Parma,3,Svincolato,"{W,A}",0,1,300532.0,1999-07-10,2027-06-30
+543,Njie,Svincolato,Svincolato,Fiorentina,4,Svincolato,"{W,A}",0,1,934527.0,2005-05-14,2027-06-30
 535,Dominguez B.,Sborada,ZeroDayz FC,Sassuolo,3,Fanta-Prestito,"{W,A}",31,1,961022.0,2003-09-19,2027-06-30
 102,Stengs,Svincolato,Svincolato,Pisa,1,Svincolato,"{W,T}",0,0,,,
-511,Suzuki,Svincolato,Svincolato,Parma,7,Svincolato,{Por},4,0,,,
-723,Baselli,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
-540,Kuhn,Svincolato,Diaolo Porco,Como,4,Prestito Reale,"{W,A}",27,0,,,
-632,Maric,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0,,,
-675,Sanchez,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0,,,
-686,Tourè E.,FC Sovescio,FC Sovescio,Parma,10,Indeterminato,{Pc},0,1,649016.0,2001-10-03,2027-06-30
-847,Le Fee,Svincolato,Svincolato,Roma,0,Svincolato,"{C,T}",0,0,,,
+521,Di Gregorio,Svincolato,CyberDucks,Juventus,9,Prestito Reale,{Por},49,0,,,
+21,Dia,Svincolato,CyberDucks,Lazio,11,Prestito Reale,{A},6,0,,,
+839,Kovacik,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,E}",0,0,,,
+567,Ferreira J.,Svincolato,Svincolato,Udinese,0,Svincolato,"{B,Dd,E}",0,0,,,
+470,Nunziante,Svincolato,Svincolato,Udinese,1,Svincolato,{Por},0,0,,,
+904,Balbo,Svincolato,Svincolato,Fiorentina,2,Svincolato,"{Ds,E}",0,0,,,
 603,Birindelli,Diablitos FC,Diablitos FC,Monza,5,Indeterminato,"{Dd,Ds,E}",1,1,461019.0,1999-07-19,2028-06-30
-643,Godfrey,Svincolato,CyberDucks,Atalanta,1,Prestito Reale,"{B,Dd,Ds}",0,0,,,
-726,Haps,Svincolato,Svincolato,Venezia,5,Svincolato,"{Ds,E}",0,1,228444.0,1993-06-12,2028-06-30
-30,Ngonge,Svincolato,Svincolato,Monza,5,Svincolato,{A},3,1,358032.0,2000-05-26,2027-06-30
-500,Israel,Svincolato,Svincolato,Torino,1,Svincolato,{Por},21,0,,,
-124,Vranckx,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{M,C}",1,0,,,
-623,Chiesa,Svincolato,Svincolato,Juventus,0,Svincolato,{A},0,0,,,
-787,Vlahovic V.,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0,,,
-95,Pierret,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",0,0,,,
-519,Sommer,Svincolato,Svincolato,Inter,13,Svincolato,{Por},47,0,,,
-387,Muharemovic,Svincolato,Svincolato,Sassuolo,8,Svincolato,{Dc},12,0,,,
-836,Di Chiara,Svincolato,Svincolato,Parma,0,Svincolato,"{Ds,E}",0,0,,,
 472,Perilli,Svincolato,Svincolato,Verona,1,Svincolato,{Por},0,0,,,
-776,Okafor,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0,,,
-694,Gytkjaer,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0,,,
-707,Cassandro,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,Ds,E}",0,0,,,
-753,Daniliuc,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,Dc}",0,0,,,
-613,Byar,Svincolato,Svincolato,Bologna,0,Svincolato,"{C,T}",0,0,,,
-13,Johnsen,Svincolato,Svincolato,Cremonese,7,Svincolato,{A},0,0,,,
-763,Rebic,Svincolato,Svincolato,Lecce,0,Svincolato,{A},0,0,,,
-818,Joao Costa,Svincolato,Svincolato,Roma,0,Svincolato,{A},0,0,,,
-767,Martins K.,Svincolato,Svincolato,Monza,0,Svincolato,"{E,W}",0,0,,,
+836,Di Chiara,Svincolato,Svincolato,Parma,0,Svincolato,"{Ds,E}",0,0,,,
+30,Ngonge,Svincolato,Svincolato,Monza,5,Svincolato,{A},3,1,358032.0,2000-05-26,2027-06-30
+387,Muharemovic,Svincolato,Svincolato,Sassuolo,8,Svincolato,{Dc},12,0,,,
+686,Tourè E.,FC Sovescio,FC Sovescio,Parma,10,Indeterminato,{Pc},0,1,649016.0,2001-10-03,2027-06-30
+726,Haps,Svincolato,Svincolato,Venezia,5,Svincolato,"{Ds,E}",0,1,228444.0,1993-06-12,2028-06-30
 542,Cheddira,Svincolato,Svincolato,Lecce,11,Svincolato,{Pc},0,0,,,
-738,Palomino,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0,,,
-298,Gigot,Svincolato,Svincolato,Lazio,1,Svincolato,{Dc},0,0,,,
+767,Martins K.,Svincolato,Svincolato,Monza,0,Svincolato,"{E,W}",0,0,,,
+818,Joao Costa,Svincolato,Svincolato,Roma,0,Svincolato,{A},0,0,,,
+763,Rebic,Svincolato,Svincolato,Lecce,0,Svincolato,{A},0,0,,,
+13,Johnsen,Svincolato,Svincolato,Cremonese,7,Svincolato,{A},0,0,,,
+613,Byar,Svincolato,Svincolato,Bologna,0,Svincolato,"{C,T}",0,0,,,
+753,Daniliuc,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,Dc}",0,0,,,
+707,Cassandro,Svincolato,Svincolato,Como,0,Svincolato,"{Dd,Ds,E}",0,0,,,
+519,Sommer,Svincolato,Svincolato,Inter,13,Svincolato,{Por},47,0,,,
+95,Pierret,Svincolato,Svincolato,Lecce,1,Svincolato,"{M,C}",0,0,,,
+787,Vlahovic V.,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0,,,
+623,Chiesa,Svincolato,Svincolato,Juventus,0,Svincolato,{A},0,0,,,
+124,Vranckx,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{M,C}",1,0,,,
+500,Israel,Svincolato,Svincolato,Torino,1,Svincolato,{Por},21,0,,,
+776,Okafor,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0,,,
 850,Bonfanti N.,Svincolato,Svincolato,Pisa,0,Svincolato,{Pc},0,0,,,
 841,Buchanan T.,Svincolato,Svincolato,Inter,0,Svincolato,"{E,W}",0,0,,,
-668,Mitrovic S.,Svincolato,Svincolato,Verona,2,Svincolato,{W},0,0,,,
-484,Samooja,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,0,,,
-700,Duncan,Svincolato,Svincolato,Venezia,2,Svincolato,{C},0,1,184894.0,1993-03-10,2027-06-30
-288,Odenthal,Svincolato,Svincolato,Sassuolo,3,Svincolato,{Dc},0,1,406632.0,2000-09-26,2027-06-30
-486,Mandas,Al-Colizzati,Al-Colizzati,Lazio,10,Indeterminato,{Por},1,1,481675.0,2001-09-17,2029-06-30
-607,Giannetti L.,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0,,,
+643,Godfrey,Svincolato,CyberDucks,Atalanta,1,Prestito Reale,"{B,Dd,Ds}",0,0,,,
+847,Le Fee,Svincolato,Svincolato,Roma,0,Svincolato,"{C,T}",0,0,,,
+675,Sanchez,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0,,,
+632,Maric,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0,,,
+298,Gigot,Svincolato,Svincolato,Lazio,1,Svincolato,{Dc},0,0,,,
+738,Palomino,Svincolato,Svincolato,Cagliari,0,Svincolato,{Dc},0,0,,,
+694,Gytkjaer,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0,,,
 166,El Shaarawy,Svincolato,Svincolato,Genoa,6,Svincolato,{W},0,1,94529.0,1992-10-27,
-104,Sala A.,Svincolato,Svincolato,Lecce,1,Svincolato,{C},0,0,,,
-831,Tengstedt,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0,,,
-809,Pelmard,Svincolato,Svincolato,Lecce,0,Svincolato,"{Dd,Ds,Dc}",0,0,,,
-600,Scott,Svincolato,Svincolato,Lecce,0,Svincolato,{Dc},0,0,,,
-780,Urbanski,Svincolato,Svincolato,Monza,0,Svincolato,"{C,W,T}",0,0,,,
-245,Vazquez,Svincolato,Svincolato,Cremonese,0,Svincolato,"{T,A}",0,0,,,
-752,Zeroli,FC Sovescio,FC Sovescio,Monza,3,Primavera,"{C,T}",0,0,,,
-794,Martinez Quarta,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0,,,
-609,Retegui,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0,,,
-880,Tchoca,Svincolato,Svincolato,Torino,2,Svincolato,{Dc},0,0,,,
-864,Lambourde,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0,,,
-689,Bianco,Svincolato,Svincolato,Fiorentina,1,Svincolato,"{M,C}",1,0,,,
-4,Skjellerup,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Pc},0,0,,,
+288,Odenthal,Svincolato,Svincolato,Sassuolo,3,Svincolato,{Dc},0,1,406632.0,2000-09-26,2027-06-30
 281,Slotsager,Svincolato,Svincolato,Verona,2,Svincolato,{Dc},0,0,,,
-590,Abildgaard,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
 133,Asllani,Svincolato,Sborada,Torino,2,Prestito Reale,"{M,C}",4,0,,,
-550,Castellanos,Svincolato,Svincolato,Lazio,0,Svincolato,{Pc},36,0,,,
+486,Mandas,Al-Colizzati,Al-Colizzati,Lazio,10,Indeterminato,{Por},1,1,481675.0,2001-09-17,2029-06-30
+689,Bianco,Svincolato,Svincolato,Fiorentina,1,Svincolato,"{M,C}",1,0,,,
+864,Lambourde,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0,,,
+4,Skjellerup,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Pc},0,0,,,
+880,Tchoca,Svincolato,Svincolato,Torino,2,Svincolato,{Dc},0,0,,,
 314,Mateus Lusuardi,Svincolato,Svincolato,Pisa,2,Svincolato,{Dc},0,0,,,
 777,Mario Rui,Svincolato,Svincolato,Napoli,0,Svincolato,{E},0,0,,,
 747,De Luca,Svincolato,Svincolato,Cremonese,0,Svincolato,{Pc},0,0,,,
@@ -819,85 +804,103 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 761,Varane,Svincolato,Svincolato,Como,0,Svincolato,{Dc},0,0,,,
 93,Suslov,Svincolato,Svincolato,Verona,4,Svincolato,"{W,T}",0,0,,,
 555,Haas,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0,,,
+550,Castellanos,Svincolato,Svincolato,Lazio,0,Svincolato,{Pc},36,0,,,
+609,Retegui,Svincolato,Svincolato,Atalanta,0,Svincolato,{Pc},0,0,,,
+794,Martinez Quarta,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0,,,
+752,Zeroli,FC Sovescio,FC Sovescio,Monza,3,Primavera,"{C,T}",0,0,,,
+245,Vazquez,Svincolato,Svincolato,Cremonese,0,Svincolato,"{T,A}",0,0,,,
+780,Urbanski,Svincolato,Svincolato,Monza,0,Svincolato,"{C,W,T}",0,0,,,
+809,Pelmard,Svincolato,Svincolato,Lecce,0,Svincolato,"{Dd,Ds,Dc}",0,0,,,
+831,Tengstedt,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0,,,
+700,Duncan,Svincolato,Svincolato,Venezia,2,Svincolato,{C},0,1,184894.0,1993-03-10,2027-06-30
+104,Sala A.,Svincolato,Svincolato,Lecce,1,Svincolato,{C},0,0,,,
+484,Samooja,Svincolato,Svincolato,Lecce,1,Svincolato,{Por},0,0,,,
+668,Mitrovic S.,Svincolato,Svincolato,Verona,2,Svincolato,{W},0,0,,,
+600,Scott,Svincolato,Svincolato,Lecce,0,Svincolato,{Dc},0,0,,,
+607,Giannetti L.,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0,,,
+590,Abildgaard,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
+612,Ryan,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0,,,
+180,Gagliardini,Svincolato,Svincolato,Cagliari,4,Svincolato,"{M,C}",0,1,197471.0,1994-04-07,2027-06-30
+800,Erlic,Svincolato,Svincolato,Bologna,0,Svincolato,{Dc},0,0,,,
 1009,Omar Fayed,Svincolato,Svincolato,Frosinone,1,Svincolato,{Dc},0,1,1036405.0,2003-07-04,2030-06-30
-629,Bettella,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
-657,Chiorra,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0,,,
 786,Perez K.,Svincolato,Svincolato,Venezia,5,Svincolato,"{C,T}",0,1,527698.0,1997-02-14,2027-06-30
+775,Cissè A.,Svincolato,Svincolato,Milan,5,Svincolato,"{W,T}",0,1,964087.0,2006-10-22,2030-06-30
 721,Marin R.,ZeroDayz FC,ZeroDayz FC,Napoli,2,Indeterminato,{Dc},6,1,662261.0,2002-05-19,2029-06-30
 755,Moreno M.,Svincolato,Svincolato,Venezia,4,Svincolato,{Dc},0,1,1144700.0,2003-09-24,2027-06-30
 46,Lang,FC Pontos,FC Pontos,Napoli,4,Indeterminato,{A},66,1,339332.0,1999-06-17,2030-06-30
-826,Marcone,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0,,,
-725,Lapadula,Svincolato,Svincolato,Cagliari,0,Svincolato,{Pc},0,0,,,
 664,Dahl,Svincolato,Svincolato,Roma,0,Svincolato,"{Ds,E}",0,0,,,
-319,Viti,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0,,,
+877,Loyola,Svincolato,Svincolato,Pisa,6,Svincolato,"{M,C}",0,0,,,
+592,Cragno,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0,,,
+734,Vogliacco,Svincolato,Svincolato,Genoa,1,Svincolato,"{Dd,Dc}",0,0,,,
+10,Moumbagna,Svincolato,Svincolato,Cremonese,2,Svincolato,{Pc},0,0,,,
 789,Pizzignacco,Svincolato,Svincolato,Monza,1,Svincolato,{Por},0,0,,,
 626,Mutandwa,Svincolato,Svincolato,Cagliari,6,Svincolato,{Pc},0,0,,,
 855,Solbakken,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0,,,
 608,Sansone,Svincolato,Svincolato,Lecce,0,Svincolato,{A},0,0,,,
-284,Schuurs,Svincolato,Svincolato,Torino,1,Svincolato,{Dc},2,0,,,
-624,Donnarumma An.,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0,,,
-612,Ryan,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0,,,
-770,Cyprien,Svincolato,Svincolato,Parma,0,Svincolato,"{M,C}",0,0,,,
-800,Erlic,Svincolato,Svincolato,Bologna,0,Svincolato,{Dc},0,0,,,
 672,Iling Junior,Svincolato,Svincolato,Pisa,3,Svincolato,"{E,W}",0,0,,,
 634,Bertinato,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0,,,
 573,Lella,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0,,,
 92,Rog,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0,,,
 286,Paz Y.,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{Dd,E}",0,0,,,
-877,Loyola,Svincolato,Svincolato,Pisa,6,Svincolato,"{M,C}",0,0,,,
-592,Cragno,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0,,,
-180,Gagliardini,Svincolato,Svincolato,Cagliari,4,Svincolato,"{M,C}",0,1,197471.0,1994-04-07,2027-06-30
-734,Vogliacco,Svincolato,Svincolato,Genoa,1,Svincolato,"{Dd,Dc}",0,0,,,
-10,Moumbagna,Svincolato,Svincolato,Cremonese,2,Svincolato,{Pc},0,0,,,
-775,Cissè A.,Svincolato,Svincolato,Milan,5,Svincolato,"{W,T}",0,1,964087.0,2006-10-22,2030-06-30
-891,Edmundsson,Svincolato,Svincolato,Verona,6,Svincolato,{Dc},0,0,,,
-562,Joao Felix,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0,,,
-808,Pessina,Al-Colizzati,Al-Colizzati,Monza,7,Indeterminato,"{M,C}",3,1,332179.0,1997-04-21,2027-06-30
-615,Liberali,FC Pontos,FC Pontos,Como,5,Indeterminato,{T},0,1,988964.0,2007-04-06,2031-06-30
-859,Osimhen,Svincolato,Svincolato,Napoli,0,Svincolato,{Pc},0,0,,,
-554,Lucchesi,Svincolato,Svincolato,Monza,3,Svincolato,{Dc},0,1,567454.0,2003-05-09,2030-06-30
-825,Stolz,Svincolato,Svincolato,Genoa,1,Svincolato,{Por},0,1,462699.0,2001-02-14,2027-06-30
-641,Okou,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
-741,Reina,Svincolato,Svincolato,Como,0,Svincolato,{Por},0,0,,,
-621,Sala M.,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0,,,
+770,Cyprien,Svincolato,Svincolato,Parma,0,Svincolato,"{M,C}",0,0,,,
+319,Viti,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Dc},0,0,,,
+657,Chiorra,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0,,,
+826,Marcone,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0,,,
+725,Lapadula,Svincolato,Svincolato,Cagliari,0,Svincolato,{Pc},0,0,,,
+629,Bettella,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
+284,Schuurs,Svincolato,Svincolato,Torino,1,Svincolato,{Dc},2,0,,,
+624,Donnarumma An.,Svincolato,Svincolato,Torino,0,Svincolato,{Por},0,0,,,
 677,Jajalo,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
 588,Gourna-Douath,Svincolato,Svincolato,Roma,0,Svincolato,"{M,C}",0,0,,,
 690,Bove,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0,,,
-858,Jack,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0,,,
+615,Liberali,FC Pontos,FC Pontos,Como,5,Indeterminato,{T},0,1,988964.0,2007-04-06,2031-06-30
+808,Pessina,Al-Colizzati,Al-Colizzati,Monza,7,Indeterminato,"{M,C}",3,1,332179.0,1997-04-21,2027-06-30
+554,Lucchesi,Svincolato,Svincolato,Monza,3,Svincolato,{Dc},0,1,567454.0,2003-05-09,2030-06-30
+843,Guendouzi,Svincolato,Svincolato,Lazio,0,Svincolato,{C},8,0,,,
+825,Stolz,Svincolato,Svincolato,Genoa,1,Svincolato,{Por},0,1,462699.0,2001-02-14,2027-06-30
+641,Okou,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
+741,Reina,Svincolato,Svincolato,Como,0,Svincolato,{Por},0,0,,,
+859,Osimhen,Svincolato,Svincolato,Napoli,0,Svincolato,{Pc},0,0,,,
+635,Lind,Svincolato,Svincolato,Pisa,0,Svincolato,{Pc},0,0,,,
+653,Andersen M.K.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
+587,Engelhardt,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
+604,Abraham,Svincolato,Svincolato,Milan,10,Svincolato,{Pc},8,0,,,
+574,Vos,Svincolato,Svincolato,Milan,0,Svincolato,"{M,C}",0,0,,,
 507,Leali,Svincolato,Svincolato,Genoa,9,Svincolato,{Por},1,0,,,
 824,Gabrielloni,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0,,,
 671,Bijol,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0,,,
 599,Arnautovic,Svincolato,Svincolato,Inter,0,Svincolato,{Pc},0,0,,,
 879,Zatterstrom,Svincolato,Svincolato,Genoa,3,Svincolato,{Dc},0,0,,,
-843,Guendouzi,Svincolato,Svincolato,Lazio,0,Svincolato,{C},8,0,,,
-635,Lind,Svincolato,Svincolato,Pisa,0,Svincolato,{Pc},0,0,,,
-656,Lazovic,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0,,,
-587,Engelhardt,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
-604,Abraham,Svincolato,Svincolato,Milan,10,Svincolato,{Pc},8,0,,,
 156,Marin M.,Svincolato,Svincolato,Pisa,2,Svincolato,"{M,C}",0,0,,,
 720,Perez N.,Svincolato,Svincolato,Udinese,0,Svincolato,{Dc},0,0,,,
 89,Cornet,Svincolato,Svincolato,Genoa,2,Svincolato,{W},0,0,,,
 735,Chichizola,Svincolato,Svincolato,Parma,0,Svincolato,{Por},0,0,,,
 659,Tchaouna,Svincolato,Svincolato,Lazio,0,Svincolato,{W},0,0,,,
 797,Sazonov,Svincolato,Svincolato,Empoli,0,Svincolato,{Dc},0,0,,,
-653,Andersen M.K.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
-574,Vos,Svincolato,Svincolato,Milan,0,Svincolato,"{M,C}",0,0,,,
+656,Lazovic,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0,,,
+891,Edmundsson,Svincolato,Svincolato,Verona,6,Svincolato,{Dc},0,0,,,
+562,Joao Felix,Svincolato,Svincolato,Milan,0,Svincolato,{A},0,0,,,
+858,Jack,Svincolato,Svincolato,Como,0,Svincolato,"{Ds,Dc}",0,0,,,
+621,Sala M.,Svincolato,Svincolato,Lecce,0,Svincolato,"{Ds,E}",0,0,,,
+766,Missori,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{Dd,E}",0,0,,,
+658,Cassa,Svincolato,Svincolato,Atalanta,0,Svincolato,{C},0,0,,,
+665,Brancolini,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0,,,
+290,Mbambi,Svincolato,Svincolato,Pisa,0,Svincolato,{Dc},0,0,,,
+1000,Romero D.,Svincolato,Svincolato,Parma,10,Svincolato,{Pc},0,1,668512.0,2003-03-25,2031-06-30
+551,Yeboah J.,Svincolato,Svincolato,Venezia,9,Svincolato,{A},0,1,439914.0,2000-06-23,2028-06-30
 652,Sagrado,Svincolato,Svincolato,Venezia,2,Svincolato,"{Dd,E}",0,1,655009.0,2004-01-30,2028-06-30
+764,Hainaut,Svincolato,Svincolato,Venezia,4,Svincolato,"{Dd,E}",0,1,917375.0,2002-02-18,2028-06-30
+1001,Terzic,Svincolato,Svincolato,Frosinone,4,Svincolato,"{Ds,E}",0,1,404260.0,1999-08-17,2029-06-30
+642,Ruggeri,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0,,,
+832,Duda,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0,,,
+29,Benedyczak,Svincolato,Svincolato,Parma,8,Svincolato,{A},0,0,,,
+11,Ambrosino,Svincolato,Svincolato,Napoli,2,Svincolato,{Pc},0,0,,,
 792,Balogh,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0,,,
 611,Joronen,Svincolato,Svincolato,Venezia,0,Svincolato,{Por},0,0,,,
 737,Seghetti,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0,,,
 557,Castrovilli,Svincolato,Svincolato,Monza,0,Svincolato,"{C,T}",0,0,,,
-551,Yeboah J.,Svincolato,Svincolato,Venezia,9,Svincolato,{A},0,1,439914.0,2000-06-23,2028-06-30
-1000,Romero D.,Svincolato,Svincolato,Parma,10,Svincolato,{Pc},0,1,668512.0,2003-03-25,2031-06-30
-1001,Terzic,Svincolato,Svincolato,Frosinone,4,Svincolato,"{Ds,E}",0,1,404260.0,1999-08-17,2029-06-30
-764,Hainaut,Svincolato,Svincolato,Venezia,4,Svincolato,"{Dd,E}",0,1,917375.0,2002-02-18,2028-06-30
 781,Martinelli T.,Svincolato,Sborada,Fiorentina,1,Prestito Reale,{Por},1,0,,,
 289,Esteves T.,Svincolato,Svincolato,Pisa,0,Svincolato,"{Dd,E}",0,0,,,
-766,Missori,Svincolato,Svincolato,Sassuolo,1,Svincolato,"{Dd,E}",0,0,,,
-658,Cassa,Svincolato,Svincolato,Atalanta,0,Svincolato,{C},0,0,,,
-665,Brancolini,Svincolato,Svincolato,Empoli,0,Svincolato,{Por},0,0,,,
-29,Benedyczak,Svincolato,Svincolato,Parma,8,Svincolato,{A},0,0,,,
-290,Mbambi,Svincolato,Svincolato,Pisa,0,Svincolato,{Dc},0,0,,,
 853,Rocha Livramento,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0,,,
 123,Sarmiento J.,Svincolato,Svincolato,Cremonese,0,Svincolato,"{W,T}",0,0,,,
 862,Ghion,Svincolato,Svincolato,Sassuolo,0,Svincolato,"{M,C}",0,0,,,
@@ -907,32 +910,21 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 730,Leoni,Svincolato,Svincolato,Parma,0,Svincolato,{Dc},0,0,,,
 711,Taremi,Svincolato,Svincolato,Inter,0,Svincolato,{Pc},0,0,,,
 762,Ekong,Svincolato,Svincolato,Empoli,0,Svincolato,{A},0,0,,,
-642,Ruggeri,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0,,,
-832,Duda,Svincolato,Svincolato,Verona,0,Svincolato,"{M,C}",0,0,,,
 716,Balotelli,Svincolato,Svincolato,Genoa,0,Svincolato,{Pc},0,0,,,
 669,Altare,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0,,,
 852,Tchatchoua,Svincolato,Svincolato,Verona,0,Svincolato,"{Dd,E}",0,0,,,
-11,Ambrosino,Svincolato,Svincolato,Napoli,2,Svincolato,{Pc},0,0,,,
-695,Pohjanpalo,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0,,,
-746,Jasim,Svincolato,Svincolato,Como,0,Svincolato,"{W,A}",0,0,,,
+627,Bakker,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0,,,
+844,Cajuste,Svincolato,Svincolato,Napoli,0,Svincolato,"{M,C}",0,0,,,
 713,Marin Re.,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0,,,
 158,Ramadani,Svincolato,Svincolato,Lecce,8,Svincolato,"{M,C}",0,0,,,
 368,Frese,Svincolato,Svincolato,Verona,7,Svincolato,"{Ds,E}",0,0,,,
 282,Palma,Diablitos FC,Diablitos FC,Udinese,3,Primavera,{Dc},0,1,1058354.0,2008-03-13,2031-06-30
 876,Obrador,FC Sovescio,FC Sovescio,Sassuolo,6,Indeterminato,"{Ds,E}",9,1,646747.0,2004-02-24,2027-06-30
-857,Alidou,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0,,,
-805,Zanimacchia,Svincolato,Svincolato,Cremonese,0,Svincolato,{W},0,0,,,
-620,Svoboda,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0,,,
-627,Bakker,Svincolato,Svincolato,Atalanta,0,Svincolato,{E},0,0,,,
-559,Partipilo,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0,,,
-109,Harroui,Svincolato,Svincolato,Verona,4,Svincolato,"{W,T}",3,0,,,
-614,Zampano,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,Ds,E}",0,0,,,
-644,Danilo,Svincolato,Svincolato,Juventus,0,Svincolato,"{B,Dd,Ds}",0,0,,,
 793,Gioacchini,Svincolato,Svincolato,Como,0,Svincolato,{Pc},0,0,,,
 829,Thauvin,Svincolato,Svincolato,Udinese,0,Svincolato,{A},0,0,,,
 709,Nasti,Svincolato,Svincolato,Cremonese,0,Svincolato,{Pc},0,0,,,
-757,Henderson L.,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0,,,
-840,Coman F.,Svincolato,Svincolato,Cagliari,0,Svincolato,{A},0,0,,,
+746,Jasim,Svincolato,Svincolato,Como,0,Svincolato,"{W,A}",0,0,,,
+695,Pohjanpalo,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0,,,
 622,Caprari,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0,,,
 97,Stanciu,Svincolato,Svincolato,Genoa,2,Svincolato,"{C,T}",8,0,,,
 2,Kouamè,Svincolato,Svincolato,Fiorentina,1,Svincolato,{A},0,0,,,
@@ -940,50 +932,64 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 564,Belardinelli,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0,,,
 692,Magnani,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
 335,Lykogiannis,Svincolato,Svincolato,Bologna,2,Svincolato,"{Ds,E}",0,0,,,
-844,Cajuste,Svincolato,Svincolato,Napoli,0,Svincolato,"{M,C}",0,0,,,
 680,Messi,Svincolato,Svincolato,Udinese,0,Svincolato,{Pc},0,0,,,
 765,Keita B.,Svincolato,Svincolato,Monza,0,Svincolato,{A},0,0,,,
 493,Nava,Svincolato,Svincolato,Cremonese,1,Svincolato,{Por},0,0,,,
-1,Balentien,Svincolato,Svincolato,Milan,1,Svincolato,{A},0,0,,,
-589,Karlsson,FC Pontos,FC Pontos,Bologna,3,Indeterminato,"{W,A}",2,0,,,
-584,Ebuehi,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0,,,
-748,Condè,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
-705,Salama,Svincolato,Svincolato,Torino,0,Svincolato,{Pc},0,0,,,
-52,Nzola,Svincolato,Svincolato,Cagliari,4,Svincolato,{Pc},0,1,354814.0,1996-08-18,2027-06-30
+857,Alidou,Svincolato,Svincolato,Verona,0,Svincolato,{W},0,0,,,
+805,Zanimacchia,Svincolato,Svincolato,Cremonese,0,Svincolato,{W},0,0,,,
+620,Svoboda,Svincolato,Svincolato,Venezia,0,Svincolato,{Dc},0,0,,,
+840,Coman F.,Svincolato,Svincolato,Cagliari,0,Svincolato,{A},0,0,,,
+559,Partipilo,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0,,,
+109,Harroui,Svincolato,Svincolato,Verona,4,Svincolato,"{W,T}",3,0,,,
+614,Zampano,Svincolato,Svincolato,Venezia,0,Svincolato,"{Dd,Ds,E}",0,0,,,
+644,Danilo,Svincolato,Svincolato,Juventus,0,Svincolato,"{B,Dd,Ds}",0,0,,,
+757,Henderson L.,Svincolato,Svincolato,Empoli,0,Svincolato,"{C,T}",0,0,,,
+778,Mbappe,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0,,,
+569,Camara D.,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0,,,
+538,Meister,Svincolato,Svincolato,Pisa,5,Svincolato,{Pc},0,0,,,
+870,Bozhinov,Svincolato,Svincolato,Pisa,1,Svincolato,{Dc},0,0,,,
 7,Milik,Svincolato,Svincolato,Juventus,4,Svincolato,{Pc},0,1,191891.0,1994-02-28,2027-06-30
 343,Unai Nunez,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},5,0,,,
 54,Lookman,Svincolato,Svincolato,Atalanta,15,Svincolato,{A},107,0,,,
 724,Pereira P.,Svincolato,Svincolato,Monza,0,Svincolato,"{Dd,E}",0,0,,,
 633,Haj Mohamed,Svincolato,Svincolato,Parma,0,Svincolato,{A},0,0,,,
-637,Braunoder,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
-846,Cruz,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0,,,
 40,Banda,Svincolato,Svincolato,Lecce,15,Svincolato,"{W,A}",6,0,,,
-799,Ganvoula,Svincolato,Svincolato,Monza,0,Svincolato,{Pc},0,0,,,
-783,Man,Svincolato,Svincolato,Parma,0,Svincolato,"{W,A}",0,0,,,
-715,Calabria,Svincolato,Svincolato,Bologna,0,Svincolato,"{Dd,E}",0,0,,,
-778,Mbappe,Svincolato,Svincolato,Verona,0,Svincolato,{A},0,0,,,
-569,Camara D.,Svincolato,Svincolato,Parma,0,Svincolato,"{C,T}",0,0,,,
-538,Meister,Svincolato,Svincolato,Pisa,5,Svincolato,{Pc},0,0,,,
-580,Boer,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0,,,
-548,Manzoni,Svincolato,Svincolato,Atalanta,0,Svincolato,"{C,T}",0,0,,,
-856,Doumbia I.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
-654,Machin,Svincolato,Svincolato,Monza,0,Svincolato,{C},0,0,,,
+1,Balentien,Svincolato,Svincolato,Milan,1,Svincolato,{A},0,0,,,
+589,Karlsson,FC Pontos,FC Pontos,Bologna,3,Indeterminato,"{W,A}",2,0,,,
+584,Ebuehi,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0,,,
+748,Condè,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
+705,Salama,Svincolato,Svincolato,Torino,0,Svincolato,{Pc},0,0,,,
 717,Ankeye,Svincolato,Svincolato,Genoa,0,Svincolato,{Pc},0,0,,,
 8,Okereke,Svincolato,Svincolato,Cremonese,10,Svincolato,{A},0,0,,,
 704,Savona,Svincolato,Svincolato,Juventus,0,Svincolato,"{B,Dd,E}",0,0,,,
-870,Bozhinov,Svincolato,Svincolato,Pisa,1,Svincolato,{Dc},0,0,,,
+654,Machin,Svincolato,Svincolato,Monza,0,Svincolato,{C},0,0,,,
+783,Man,Svincolato,Svincolato,Parma,0,Svincolato,"{W,A}",0,0,,,
+715,Calabria,Svincolato,Svincolato,Bologna,0,Svincolato,"{Dd,E}",0,0,,,
+580,Boer,Svincolato,Svincolato,Roma,0,Svincolato,{Por},0,0,,,
+52,Nzola,Svincolato,Svincolato,Cagliari,4,Svincolato,{Pc},0,1,354814.0,1996-08-18,2027-06-30
 733,Pafundi,Svincolato,Svincolato,Udinese,0,Svincolato,"{T,A}",0,0,,,
 701,Crnigoj,Svincolato,Svincolato,Venezia,0,Svincolato,{C},0,0,,,
 639,Gendrey,Svincolato,Svincolato,Lecce,0,Svincolato,"{Dd,E}",0,0,,,
-106,Fini,Svincolato,Svincolato,Genoa,0,Svincolato,"{E,W}",0,0,,,
-822,Arena,Svincolato,Svincolato,Pisa,0,Svincolato,"{W,T}",0,0,,,
-673,Sambia,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0,,,
+548,Manzoni,Svincolato,Svincolato,Atalanta,0,Svincolato,"{C,T}",0,0,,,
+856,Doumbia I.,Svincolato,Svincolato,Venezia,0,Svincolato,"{M,C}",0,0,,,
+799,Ganvoula,Svincolato,Svincolato,Monza,0,Svincolato,{Pc},0,0,,,
+637,Braunoder,Svincolato,Svincolato,Como,0,Svincolato,"{M,C}",0,0,,,
+846,Cruz,Svincolato,Svincolato,Verona,0,Svincolato,{Pc},0,0,,,
 241,Pellegrini Lo.,FC Sovescio,FC Sovescio,Roma,9,Indeterminato,"{C,T}",0,1,286297.0,1996-06-19,2027-06-30
-820,Kayode,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{Dd,Ds,E}",0,0,,,
+673,Sambia,Svincolato,Svincolato,Empoli,0,Svincolato,"{Dd,E}",0,0,,,
+278,Denoon,Svincolato,Svincolato,Pisa,1,Svincolato,{Dc},0,0,,,
+670,Sorrentino A.,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0,,,
+771,Thiaw,Svincolato,Svincolato,Milan,0,Svincolato,{Dc},0,0,,,
+380,Bianchetti,Svincolato,Svincolato,Cremonese,4,Svincolato,{Dc},0,0,,,
 378,Fortini,Metodo Monchi FC,ZeroDayz FC,Torino,5,Fanta-Prestito,{E},0,1,984964.0,2006-02-13,2027-06-30
 201,Bernede,Svincolato,Svincolato,Verona,7,Svincolato,{C},0,0,,,
 616,Rus,Svincolato,Svincolato,Pisa,0,Svincolato,"{Dd,Dc}",0,0,,,
 9,Pavoletti,Svincolato,Svincolato,Cagliari,3,Svincolato,{Pc},0,0,,,
+106,Fini,Svincolato,Svincolato,Genoa,0,Svincolato,"{E,W}",0,0,,,
+628,Hatzidiakos,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Dd,Dc}",0,0,,,
+820,Kayode,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{Dd,Ds,E}",0,0,,,
+837,Dawidowicz,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
+666,Marin,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0,,,
 821,Rui Patricio,Svincolato,Svincolato,Atalanta,0,Svincolato,{Por},0,0,,,
 323,Bonfanti,Svincolato,Svincolato,Pisa,0,Svincolato,{Dc},0,0,,,
 324,Albiol,Svincolato,Svincolato,Pisa,1,Svincolato,{Dc},0,0,,,
@@ -993,59 +999,51 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 585,Degli Innocenti,Svincolato,Svincolato,Empoli,0,Svincolato,"{M,C}",0,0,,,
 838,Linetty,Svincolato,Svincolato,Torino,0,Svincolato,"{M,C}",0,0,,,
 153,Niasse,Svincolato,Svincolato,Verona,2,Svincolato,"{M,C}",0,0,,,
-223,Leris,Svincolato,Svincolato,Pisa,10,Svincolato,{W},0,0,,,
-670,Sorrentino A.,Svincolato,Svincolato,Monza,0,Svincolato,{Por},0,0,,,
-771,Thiaw,Svincolato,Svincolato,Milan,0,Svincolato,{Dc},0,0,,,
-380,Bianchetti,Svincolato,Svincolato,Cremonese,4,Svincolato,{Dc},0,0,,,
 15,Immobile,Svincolato,Svincolato,Bologna,4,Svincolato,{Pc},8,0,,,
 287,Romagna,Svincolato,Svincolato,Sassuolo,1,Svincolato,{Dc},0,0,,,
 698,Emerson Royal,Svincolato,Svincolato,Milan,0,Svincolato,"{B,Dd,Ds}",0,0,,,
 598,Berardi A.,Svincolato,Svincolato,Verona,0,Svincolato,{Por},0,0,,,
 579,Mihaila,Svincolato,Svincolato,Parma,0,Svincolato,"{W,A}",0,0,,,
-278,Denoon,Svincolato,Svincolato,Pisa,1,Svincolato,{Dc},0,0,,,
-628,Hatzidiakos,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Dd,Dc}",0,0,,,
-837,Dawidowicz,Svincolato,Svincolato,Verona,0,Svincolato,{Dc},0,0,,,
-666,Marin,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0,,,
+223,Leris,Svincolato,Svincolato,Pisa,10,Svincolato,{W},0,0,,,
+822,Arena,Svincolato,Svincolato,Pisa,0,Svincolato,"{W,T}",0,0,,,
+596,Amrabat,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0,,,
 754,Colpani,Sborada,Sborada,Monza,8,Indeterminato,{T},1,1,392959.0,1999-05-11,2028-06-30
 625,Gonzalez N.,FC Sovescio,FC Sovescio,Juventus,11,Indeterminato,"{W,A}",27,1,486031.0,1998-04-06,2029-06-30
 801,Abankwah,Svincolato,Svincolato,Udinese,2,Svincolato,"{Dd,Dc}",0,1,648032.0,2004-01-16,2029-06-30
 442,Belghali,FC Pontos,FC Pontos,Torino,7,Indeterminato,"{Dd,E}",6,1,864306.0,2002-06-07,2027-06-30
-646,Veroli,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,Dc}",0,0,,,
 645,Radunovic,Svincolato,Svincolato,Cagliari,1,Svincolato,{Por},0,1,258482.0,1996-05-26,2029-06-30
-684,Kyriakopoulos,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,E}",0,0,,,
-749,Forson O.,Svincolato,Svincolato,Monza,2,Svincolato,"{W,T}",0,1,670845.0,2004-07-20,2028-06-30
 796,Ciurria,Svincolato,Svincolato,Monza,2,Svincolato,"{E,W}",0,1,255838.0,1995-02-09,2028-06-30
+749,Forson O.,Svincolato,Svincolato,Monza,2,Svincolato,"{W,T}",0,1,670845.0,2004-07-20,2028-06-30
 845,Douglas Luiz,Diaolo Porco,AC Ciaccati,Juventus,4,Fanta-Prestito,{C},20,1,447661.0,1998-05-09,2029-06-30
+684,Kyriakopoulos,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,E}",0,0,,,
 566,Santiago,Svincolato,Svincolato,Verona,0,Svincolato,{C},0,0,,,
 687,Caputo,Svincolato,Svincolato,Empoli,0,Svincolato,{Pc},0,0,,,
 561,Sosa B.,Svincolato,Svincolato,Torino,0,Svincolato,{E},0,0,,,
-617,Izzo,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
 18,Bravo,Svincolato,Svincolato,Udinese,4,Svincolato,{A},0,0,,,
 293,Kouassi,Svincolato,Svincolato,Lecce,1,Svincolato,"{Dd,Dc}",0,0,,,
 24,Mosquera,Svincolato,Svincolato,Verona,4,Svincolato,{Pc},0,0,,,
 732,Vignato S.,Svincolato,Svincolato,Monza,1,Svincolato,"{T,A}",0,0,,,
+646,Veroli,Svincolato,Svincolato,Cagliari,0,Svincolato,"{Ds,Dc}",0,0,,,
 636,Tavsan,Svincolato,Svincolato,Verona,4,Svincolato,"{W,A}",0,0,,,
 865,Esteves G.,Svincolato,Svincolato,Udinese,2,Svincolato,"{Dd,Ds,E}",0,0,,,
 6,Buffon L.,Svincolato,Svincolato,Pisa,1,Svincolato,{A},0,0,,,
 810,Shomurodov,Svincolato,Svincolato,Roma,0,Svincolato,{Pc},0,0,,,
-647,Beltran L.,Svincolato,FC Pontos,Fiorentina,7,Prestito Reale,{A},0,0,,,
 565,Fila,Svincolato,Svincolato,Venezia,0,Svincolato,{Pc},0,0,,,
+430,Gosens,Svincolato,Metodo Monchi FC,Fiorentina,11,Prestito Reale,{E},7,0,,,
+647,Beltran L.,Svincolato,FC Pontos,Fiorentina,7,Prestito Reale,{A},0,0,,,
+617,Izzo,Svincolato,Svincolato,Monza,0,Svincolato,{Dc},0,0,,,
+606,Bjarkason,Svincolato,Svincolato,Venezia,1,Svincolato,"{E,W}",0,0,,,
 320,Ceccherini,Svincolato,Svincolato,Cremonese,1,Svincolato,"{Dd,Dc}",0,0,,,
 572,Bohinen,Svincolato,Svincolato,Genoa,0,Svincolato,"{M,C}",0,0,,,
 325,Tsimikas,Svincolato,Svincolato,Roma,3,Svincolato,"{Ds,E}",0,0,,,
-596,Amrabat,Svincolato,Svincolato,Fiorentina,0,Svincolato,"{M,C}",0,0,,,
-606,Bjarkason,Svincolato,Svincolato,Venezia,1,Svincolato,"{E,W}",0,0,,,
-430,Gosens,Svincolato,Metodo Monchi FC,Fiorentina,11,Prestito Reale,{E},7,0,,,
-676,Bani,Svincolato,Svincolato,Genoa,0,Svincolato,{Dc},0,0,,,
-848,Ibrahimovic A.,Svincolato,Svincolato,Lazio,0,Svincolato,"{W,T}",0,0,,,
 651,Viola,Svincolato,Svincolato,Cagliari,0,Svincolato,"{C,T}",0,0,,,
+207,Tourè I.,Svincolato,Svincolato,Monza,7,Svincolato,"{E,M}",1,1,335516.0,1998-04-29,2028-06-30
 533,Dzeko,Svincolato,Svincolato,Fiorentina,0,Svincolato,{Pc},7,0,,,
 571,Caldirola,Svincolato,Svincolato,Monza,0,Svincolato,"{Ds,Dc}",0,0,,,
 631,Salah-Eddine,Svincolato,Svincolato,Roma,0,Svincolato,{E},0,0,,,
 98,Valoti,Svincolato,Svincolato,Cremonese,0,Svincolato,"{C,T}",0,0,,,
 16,Djuric,Svincolato,Svincolato,Cremonese,5,Svincolato,{Pc},2,0,,,
 433,Maripan,Svincolato,Svincolato,Torino,8,Svincolato,{Dc},2,0,,,
-706,Pellegri,Svincolato,Svincolato,Empoli,0,Svincolato,{Pc},0,0,,,
 422,Posch,Svincolato,Svincolato,Como,10,Svincolato,"{Dd,Dc}",15,0,,,
 901,Giacomone,Svincolato,Svincolato,Lazio,1,Svincolato,{Por},0,0,,,
 549,Guilbert,Svincolato,Svincolato,Lecce,0,Svincolato,"{B,Dd,Ds}",0,0,,,
@@ -1054,4 +1052,6 @@ id,nome,squadra_att,detentore_cartellino,club,quot_att_mantra,tipo_contratto,ruo
 791,Veiga R.,Svincolato,Svincolato,Juventus,0,Svincolato,"{M,C}",0,0,,,
 679,Makoumbou,Svincolato,Svincolato,Cagliari,0,Svincolato,"{M,C}",0,0,,,
 115,Hojholt,Svincolato,Svincolato,Pisa,3,Svincolato,"{M,C}",0,0,,,
-207,Tourè I.,Svincolato,Svincolato,Monza,7,Svincolato,"{E,M}",1,1,335516.0,1998-04-29,2028-06-30
+706,Pellegri,Svincolato,Svincolato,Empoli,0,Svincolato,{Pc},0,0,,,
+848,Ibrahimovic A.,Svincolato,Svincolato,Lazio,0,Svincolato,"{W,T}",0,0,,,
+676,Bani,Svincolato,Svincolato,Genoa,0,Svincolato,{Dc},0,0,,,

@@ -6,7 +6,6 @@ id_giocatore,stato,note,data_inserimento
 262,vendibile,,2026-08-18
 520,cedibile,,2026-08-09
 363,cedibile,,2026-08-24
-375,cedibile,,2026-08-24
 337,cedibile,,2026-08-09
 49,cedibile,,2026-08-09
 45,cedibile,,2026-08-09
@@ -26,7 +25,6 @@ id_giocatore,stato,note,data_inserimento
 83,cedibile,Possibile scambio con una Pc semi top + cash,2026-08-09
 66,cedibile,,2026-08-09
 390,vendibile,,2026-08-09
-1008,prestabile,,2026-09-02
 199,cedibile,,2026-08-09
 151,cedibile,,2026-08-09
 403,cedibile,,2026-08-18
