@@ -181,6 +181,10 @@ def _accept_cookie_banner_if_present(driver: webdriver.Chrome, max_layers: int =
         (By.CSS_SELECTOR, "button.qc-cmp2-summary-buttons button[mode='primary']"),
         # OneTrust, nel caso venga usato in futuro
         (By.ID, "onetrust-accept-btn-handler"),
+        # Popup PushEngage "Non rischiare di sbagliare la formazione!" (iscrizione
+        # alle notifiche push) sulla pagina quotazioni: intercetta i click sul link
+        # di download se non viene chiuso. Si clicca il pulsante di rifiuto.
+        (By.CSS_SELECTOR, "div.pushengage-opt-in__large-safari-style__button__close"),
         # Fallback testuale generico (varie lingue/varianti)
         (By.XPATH, "//button[contains(translate(., 'ACEPT', 'acept'), 'accett')]"),
         (By.XPATH, "//button[contains(translate(., 'ACONSENTO', 'aconsento'), 'consent')]"),
