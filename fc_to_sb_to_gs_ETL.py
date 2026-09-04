@@ -23,6 +23,7 @@ import gspread
 import pandas as pd
 import psycopg2
 from gspread_dataframe import set_with_dataframe
+from psycopg2.extras import execute_batch
 from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.chrome.service import Service
@@ -188,6 +189,10 @@ def _accept_cookie_banner_if_present(driver: webdriver.Chrome, max_layers: int =
     for _ in range(max_layers):
         closed_something = False
         for by, selector in selectors:
+            # Probe non bloccante: se il selettore non e' nel DOM, costa ~0ms invece
+            # dei 2s pieni di una WebDriverWait su un elemento che non arrivera' mai.
+            if not driver.find_elements(by, selector):
+                continue
             try:
                 btn = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((by, selector)))
                 btn.click()
@@ -456,61 +461,75 @@ def _parse_ruoli(raw_value) -> Optional[list]:
     return ruoli or None
 
 
+UPDATE_GIOCATORE_QUERY = """
+    UPDATE giocatore SET
+        squadra_att = COALESCE(%s, squadra_att),
+        detentore_cartellino = COALESCE(%s, detentore_cartellino),
+        club = COALESCE(%s, club),
+        quot_att_mantra = COALESCE(%s, quot_att_mantra),
+        tipo_contratto = COALESCE(%s, tipo_contratto),
+        costo = COALESCE(%s, costo),
+        priorita = COALESCE(%s, priorita),
+        ruolo = COALESCE(%s::ruolo_mantra[], ruolo)
+    WHERE nome = %s;
+"""
+
+INSERT_GIOCATORE_QUERY = """
+    INSERT INTO giocatore (
+        nome, squadra_att, detentore_cartellino, club,
+        quot_att_mantra, tipo_contratto, ruolo, costo, priorita
+    )
+    VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s);
+"""
+
+
+def _clean_value(row: pd.Series, col: str):
+    value = row.get(col)
+    return None if value is None or pd.isna(value) else value
+
+
+def _update_params(row: pd.Series) -> tuple:
+    return (
+        _clean_value(row, "squadra_att"),
+        _clean_value(row, "detentore_cartellino"),
+        _clean_value(row, "club"),
+        _clean_value(row, "quot_att_mantra"),
+        _clean_value(row, "tipo_contratto"),
+        _clean_value(row, "costo"),
+        _clean_value(row, "priorita"),
+        _parse_ruoli(row.get("ruolo")),
+        row.get("nome"),
+    )
+
+
+def _insert_params(row: pd.Series) -> tuple:
+    return (
+        row.get("nome"),
+        _clean_value(row, "squadra_att"),
+        _clean_value(row, "detentore_cartellino"),
+        _clean_value(row, "club"),
+        _clean_value(row, "quot_att_mantra"),
+        _clean_value(row, "tipo_contratto"),
+        _parse_ruoli(row.get("ruolo")),
+        _clean_value(row, "costo"),
+        _clean_value(row, "priorita"),
+    )
+
+
 def upsert_giocatore(cur, row: pd.Series) -> None:
-    """Aggiorna il giocatore se esiste (per nome), altrimenti lo inserisce."""
-    ruoli = _parse_ruoli(row.get("ruolo"))
+    """Aggiorna il giocatore se esiste (per nome), altrimenti lo inserisce.
 
-    field_map = [
-        ("squadra_att", "squadra_att = %s"),
-        ("detentore_cartellino", "detentore_cartellino = %s"),
-        ("club", "club = %s"),
-        ("quot_att_mantra", "quot_att_mantra = %s"),
-        ("tipo_contratto", "tipo_contratto = %s"),
-        ("costo", "costo = %s"),
-        ("priorita", "priorita = %s"),
-    ]
-
-    update_fields, update_values = [], []
-    for col, clause in field_map:
-        value = row.get(col)
-        if value is not None and not pd.isna(value):
-            update_fields.append(clause)
-            update_values.append(value)
-
-    if ruoli is not None:
-        update_fields.append("ruolo = %s::ruolo_mantra[]")
-        update_values.append(ruoli)
-
-    updated = False
-    if update_fields:
-        query = "UPDATE giocatore SET " + ", ".join(update_fields) + " WHERE nome = %s;"
-        cur.execute(query, update_values + [row.get("nome")])
-        updated = cur.rowcount > 0
-
-    if not updated:
-        cur.execute(
-            """
-            INSERT INTO giocatore (
-                nome, squadra_att, detentore_cartellino, club,
-                quot_att_mantra, tipo_contratto, ruolo, costo, priorita
-            )
-            VALUES (%s, %s, %s, %s, %s, %s, %s::ruolo_mantra[], %s, %s);
-            """,
-            (
-                row.get("nome"),
-                row.get("squadra_att"),
-                row.get("detentore_cartellino"),
-                row.get("club"),
-                row.get("quot_att_mantra"),
-                row.get("tipo_contratto"),
-                ruoli,
-                row.get("costo"),
-                row.get("priorita"),
-            ),
-        )
+    Usata come fallback riga-per-riga: piu' lenta ma isola gli errori sulla
+    singola riga, invece di far fallire l'intero batch.
+    """
+    cur.execute(UPDATE_GIOCATORE_QUERY, _update_params(row))
+    if cur.rowcount == 0:
+        cur.execute(INSERT_GIOCATORE_QUERY, _insert_params(row))
 
 
-def load_to_supabase(conn, df: pd.DataFrame) -> None:
+def _load_to_supabase_row_by_row(conn, df: pd.DataFrame) -> None:
+    """Percorso lento (una query+commit per riga) usato solo come fallback
+    se l'upsert batched fallisce, per isolare le righe problematiche."""
     cur = conn.cursor()
     errori = 0
     for _, row in df.iterrows():
@@ -524,7 +543,41 @@ def load_to_supabase(conn, df: pd.DataFrame) -> None:
             conn.commit()
     cur.close()
     if errori:
-        logger.warning("Upsert completato con %d riga/e in errore su %d totali.", errori, len(df))
+        logger.warning("Upsert riga-per-riga completato con %d riga/e in errore su %d totali.", errori, len(df))
+
+
+def load_to_supabase(conn, df: pd.DataFrame, existing_names: set) -> None:
+    """Upsert massivo dei giocatori in un'unica passata batched.
+
+    Il nome e' la chiave applicativa (non c'e' un vincolo UNIQUE a DB su
+    giocatore.nome), quindi la scelta UPDATE vs INSERT si fa qui in base
+    all'elenco nomi gia' presenti, letto una sola volta a inizio ETL, invece
+    di affidarsi al rowcount di un UPDATE per ogni singola riga.
+    Le query sono statiche (non costruite dinamicamente riga per riga) cosi'
+    da poter usare execute_batch, che pipeline centinaia di statement in
+    pochi round-trip invece di uno per riga, con un solo commit finale.
+    """
+    to_update, to_insert = [], []
+    for _, row in df.iterrows():
+        if row.get("nome") in existing_names:
+            to_update.append(_update_params(row))
+        else:
+            to_insert.append(_insert_params(row))
+
+    cur = conn.cursor()
+    try:
+        if to_update:
+            execute_batch(cur, UPDATE_GIOCATORE_QUERY, to_update, page_size=200)
+        if to_insert:
+            execute_batch(cur, INSERT_GIOCATORE_QUERY, to_insert, page_size=200)
+        conn.commit()
+        logger.info("Upsert batched completato: %d aggiornati, %d inseriti.", len(to_update), len(to_insert))
+    except Exception as exc:
+        conn.rollback()
+        logger.warning("Upsert batched fallito (%s): rifaccio riga per riga per isolare l'errore.", exc)
+        _load_to_supabase_row_by_row(conn, df)
+    finally:
+        cur.close()
 
 
 # ======================================================================
@@ -595,6 +648,7 @@ def main() -> None:
     try:
         sb = load_table(conn, SUPABASE_TABLE)
         logger.info("Tabella Supabase scaricata (%d record)", len(sb))
+        existing_names = set(sb["nome"].dropna())
 
         new_sb = transform(fc, sb)
         logger.info("Trasformazione completata!")
@@ -606,7 +660,7 @@ def main() -> None:
         df = clean_for_db(new_sb)
 
         logger.info("Caricamento su Supabase in corso...")
-        load_to_supabase(conn, df)
+        load_to_supabase(conn, df, existing_names)
         logger.info("Dati reinseriti con successo. Totale giocatori: %d", len(new_sb))
 
         spreadsheet = get_spreadsheet()
