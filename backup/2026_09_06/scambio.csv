@@ -1,0 +1,39 @@
+id,squadra_proponente,squadra_destinataria,giocatori_offerti,giocatori_richiesti,crediti_offerti,crediti_richiesti,messaggio,stato,data_proposta,data_risposta,prestito_associato,pick_offerta,pick_richiesta
+19,Diablitos FC,Metodo Monchi FC,[],[],13,13,,annullato,2026-01-14 17:01:46.588074+00:00,,,,
+20,Metodo Monchi FC,Sborada,[],[65],20,0,,accettato,2026-01-26 10:56:44.111783+00:00,2026-01-26 12:10:37.200561+00:00,,,
+21,AC Ciaccati,FC Pontos,[213],[260],0,0,,annullato,2026-01-29 23:00:12.653125+00:00,,,,
+23,Diaolo Porco,Sborada,[461],[222],0,0,,annullato,2026-07-03 14:48:57.560404+00:00,,,[],[]
+24,Diaolo Porco,Sborada,[461],[222],0,0,,annullato,2026-07-03 14:56:02.676915+00:00,,,[],[]
+25,Diaolo Porco,Sborada,[461],[222],0,0,,accettato,2026-07-03 14:56:10.309030+00:00,2026-07-03 15:06:13.640681+00:00,,[],[]
+38,AC Ciaccati,Diaolo Porco,[845],[210],0,5,"Quindi ricapitolando (peggio di delaurentis e carnevali siamo😂🙈):
+
+Scambio del cartellino di Tiago Gabriel x 18 crediti + cartellino di Politano con aggiunta del prestito oneroso con diritto di riscatto di douglas luiz di 5 crediti con diritto fissato a 30 crediti dove se non raggiunge il voto nel 75% delle partite (28 totali) restituiamo i 5 crediti per prestito con diritto di riscatto di’ caqueret fissato a 15",annullato,2026-08-11 20:38:06.723553+00:00,,,[],[]
+22,ZeroDayz FC,AC Ciaccati,[],[],3,1,Pagamento bonus vlasic,accettato,2026-07-01 19:29:38.246416+00:00,2026-07-04 11:57:10.278030+00:00,,,
+28,AC Ciaccati,Sborada,[256],[73],0,0,Grazie e ci sentiamo più avanti per altri scambi💪🏼💪🏼,accettato,2026-07-05 21:51:03.351279+00:00,2026-07-05 21:54:05.364908+00:00,,[],[]
+26,Diablitos FC,Al-Colizzati,[176],[266],0,0,,annullato,2026-07-03 15:44:55.735872+00:00,,,[],[]
+27,Diablitos FC,Al-Colizzati,[176],[246],0,0,,annullato,2026-07-03 15:46:31.899734+00:00,,,[],[]
+30,Diablitos FC,AC Ciaccati,[77],[83],60,0,,annullato,2026-07-10 16:51:31.607054+00:00,,,[],[]
+31,Diablitos FC,CyberDucks,"[244, 215]",[265],15,0,,rifiutato,2026-07-10 16:56:16.800300+00:00,2026-07-10 18:01:41.103561+00:00,,[],[]
+32,Metodo Monchi FC,Sborada,[307],[258],10,0,"La società Metodo Monchi conserva i diritti per il riacquisto del calciatore Troilo:
+ Stagione 2026-2027: Diritto di riacquisto fissato a 18 crediti, esercitabile entro il 10 luglio 2027.
+ Stagione 2027-2028: Diritto di riacquisto fissato a 22 crediti, esercitabile entro il 10 luglio 2028",accettato,2026-07-21 17:51:19.460587+00:00,2026-07-21 18:03:43.659794+00:00,,[],[]
+33,Diablitos FC,Metodo Monchi FC,[176],[397],0,0,Accetta per favore,rifiutato,2026-07-21 22:27:41.309342+00:00,2026-07-21 22:29:06.242174+00:00,,[],[]
+29,Diablitos FC,AC Ciaccati,[77],[83],60,0,,annullato,2026-07-10 16:51:28.211905+00:00,,,[],[]
+34,Al-Colizzati,Diablitos FC,[],[79],67,0,,accettato,2026-08-06 14:16:41.723049+00:00,2026-08-07 16:28:09.165633+00:00,,[],[]
+35,AC Ciaccati,Diaolo Porco,[425],[214],0,25,,annullato,2026-08-10 14:28:41.384808+00:00,,,[],[]
+36,Metodo Monchi FC,Diablitos FC,[78],[795],0,0,,annullato,2026-08-11 17:29:09.598691+00:00,,,[],[]
+37,Diaolo Porco,AC Ciaccati,[214],[425],18,0,,accettato,2026-08-11 20:33:20.958047+00:00,2026-08-11 20:57:09.727756+00:00,,[],[]
+39,Diaolo Porco,AC Ciaccati,[395],[890],5,0,prestito oneroso con diritto di riscatto di douglas luiz di 5 crediti con diritto fissato a 30 crediti. Se non raggiunge il voto nel 75% delle partite (28 totali) restituiamo i 5 crediti per prestito,annullato,2026-08-11 20:55:13.707777+00:00,,[21],[],[]
+40,Diablitos FC,FC Pontos,"[244, 77]",[893],0,25,,rifiutato,2026-08-20 17:47:50.484542+00:00,2026-08-20 19:02:42.396150+00:00,,[],[]
+41,Diablitos FC,CyberDucks,[77],[269],35,0,,accettato,2026-08-20 19:04:22.909071+00:00,2026-08-20 19:05:16.973040+00:00,,[],[]
+43,Metodo Monchi FC,ZeroDayz FC,"[397, 68, 401]","[455, 233]",10,0,Clausola rivendita Fortini al 15%,accettato,2026-08-22 13:39:07.653687+00:00,2026-08-22 14:11:09.133156+00:00,[24],[],[]
+42,Sborada,ZeroDayz FC,[194],[],0,30,,accettato,2026-08-22 10:51:28.575181+00:00,2026-08-22 14:11:21.201565+00:00,,[],[]
+44,Diablitos FC,ZeroDayz FC,[],[],1,1,,rifiutato,2026-08-22 14:43:01.099468+00:00,2026-08-22 15:17:44.612564+00:00,[29],[],[]
+45,ZeroDayz FC,Diablitos FC,[],[],10,10,ubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborbubewfobwefobovborb,rifiutato,2026-08-22 15:18:58.995394+00:00,2026-08-22 15:19:20.362804+00:00,[30],[],[]
+46,ZeroDayz FC,CyberDucks,[],[],1,0,,accettato,2026-08-22 16:52:53.868717+00:00,2026-08-22 16:53:08.036759+00:00,,[],[]
+47,ZeroDayz FC,CyberDucks,[],[],0,1,,accettato,2026-08-22 16:53:22.001342+00:00,2026-08-22 16:53:31.423422+00:00,,[],[]
+49,Sborada,ZeroDayz FC,[],[],0,0,,accettato,2026-08-31 00:15:20.347405+00:00,2026-08-31 09:12:05.266170+00:00,"[33, 34]",[],[]
+48,Diaolo Porco,Metodo Monchi FC,[],[],0,0,"Siamo in difficoltà aiutateci per favore. Se volete aspettiamo la fine del mercato, magari vendono Milinkovic.",annullato,2026-08-24 23:21:55.614531+00:00,,"[31, 32]",[],[]
+50,AC Ciaccati,Al-Colizzati,[],[523],0,0,,accettato,2026-09-01 20:22:57.134394+00:00,2026-09-01 22:29:33.717662+00:00,[35],[],[]
+51,Diaolo Porco,Metodo Monchi FC,[],[],0,0,,accettato,2026-09-01 21:12:12.103183+00:00,2026-09-01 22:53:32.669946+00:00,"[36, 37]",[],[]
+52,Diablitos FC,FC Sovescio,[],[],0,0,,accettato,2026-09-04 17:35:01.523131+00:00,2026-09-04 17:52:56.898953+00:00,"[40, 41]",[],[]
