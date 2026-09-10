@@ -7,26 +7,114 @@ from psycopg2.extras import execute_values
 SRC_DSN = os.environ.get("SUPABASE_PASSWORD_PROD")
 DST_DSN = os.environ.get("SUPABASE_PASSWORD_DEV")
 
+if not SRC_DSN or not DST_DSN:
+    raise RuntimeError(
+        "Imposta le variabili d'ambiente SUPABASE_PASSWORD_PROD e SUPABASE_PASSWORD_DEV "
+        "con i DSN completi di prod e dev."
+    )
+
 if "<dest-connection-string>" in DST_DSN:
-    raise RuntimeError("Imposta DST_SUPABASE_DSN o sostituisci il DSN di destinazione nel file.")
+    raise RuntimeError("Imposta SUPABASE_PASSWORD_DEV o sostituisci il DSN di destinazione nel file.")
 
 BATCH_SIZE = 1000
 
-# Ordine più sicuro rispetto alle FK più comuni (es. asta/ scambio puntano a giocatore/squadra).
-TABLES = [
-    "stadio",
-    "giocatore",
-    "squadra",
-    "movimenti_squadra",
-    "admin",
-    "richiesta_modifica_contratto",
-    "asta",
-    "prestito",
-    "scambio",
-    "sessions",
-    "vetrina",
-    "draft"
-]
+# Tabelle da NON sincronizzare (oltre allo schema: solo 'public' viene considerato).
+# Override via env: EXCLUDE_TABLES="tab1,tab2"
+EXCLUDE_TABLES = {
+    t.strip()
+    for t in os.environ.get("EXCLUDE_TABLES", "").split(",")
+    if t.strip()
+}
+
+
+def get_public_tables(conn):
+    """Elenco di tutte le tabelle ordinarie nello schema public."""
+    query = """
+        SELECT c.relname
+        FROM pg_class c
+        JOIN pg_namespace n ON n.oid = c.relnamespace
+        WHERE n.nspname = 'public'
+          AND c.relkind = 'r'
+        ORDER BY c.relname;
+    """
+    with conn.cursor() as cur:
+        cur.execute(query)
+        return [row[0] for row in cur.fetchall()]
+
+
+def get_fk_edges(conn):
+    """Coppie (child, parent): child ha una foreign key che punta a parent."""
+    query = """
+        SELECT c_child.relname AS child, c_parent.relname AS parent
+        FROM pg_constraint con
+        JOIN pg_class c_child  ON c_child.oid  = con.conrelid
+        JOIN pg_class c_parent ON c_parent.oid = con.confrelid
+        JOIN pg_namespace n    ON n.oid = con.connamespace
+        WHERE con.contype = 'f'
+          AND n.nspname = 'public';
+    """
+    with conn.cursor() as cur:
+        cur.execute(query)
+        return cur.fetchall()
+
+
+def topo_sort(tables, edges):
+    """Ordina le tabelle in modo che ogni parent preceda i suoi child.
+
+    Le self-reference vengono ignorate. Eventuali cicli (FK mutue) vengono
+    risolti mettendo le tabelle rimanenti in coda: con
+    session_replication_role = 'replica' i vincoli FK sono comunque disattivati
+    durante la copia.
+    """
+    import heapq
+
+    tset = set(tables)
+    deps = {t: set() for t in tables}      # child -> parents non ancora inseriti
+    children = {t: set() for t in tables}  # parent -> child
+
+    for child, parent in edges:
+        if child == parent:
+            continue
+        if child not in tset or parent not in tset:
+            continue
+        if parent in deps[child]:
+            continue
+        deps[child].add(parent)
+        children[parent].add(child)
+
+    heap = [t for t in tables if not deps[t]]
+    heapq.heapify(heap)
+    order = []
+    seen = set()
+
+    while heap:
+        t = heapq.heappop(heap)
+        if t in seen:
+            continue
+        seen.add(t)
+        order.append(t)
+        for ch in sorted(children[t]):
+            deps[ch].discard(t)
+            if not deps[ch] and ch not in seen:
+                heapq.heappush(heap, ch)
+
+    leftover = [t for t in tables if t not in seen]
+    if leftover:
+        print(f"[WARN] Dipendenze cicliche/irrisolte, sincronizzate comunque in coda: {leftover}")
+        order.extend(sorted(leftover))
+
+    return order
+
+
+def resolve_tables(src_conn):
+    """Tabelle da sincronizzare, in ordine di insert sicuro rispetto alle FK."""
+    tables = [t for t in get_public_tables(src_conn) if t not in EXCLUDE_TABLES]
+    edges = get_fk_edges(src_conn)
+    ordered = topo_sort(tables, edges)
+    print(f"Tabelle da sincronizzare ({len(ordered)}): {ordered}")
+    if EXCLUDE_TABLES:
+        print(f"Escluse: {sorted(EXCLUDE_TABLES)}")
+    return ordered
 
 
 def get_pk_columns(conn, table):
@@ -38,7 +126,7 @@ def get_pk_columns(conn, table):
         ORDER BY a.attnum;
     """
     with conn.cursor() as cur:
-        cur.execute(query, (table,))
+        cur.execute(query, (f'public."{table}"',))
         return [row[0] for row in cur.fetchall()]
 
 
@@ -73,9 +161,9 @@ def upsert_rows(cur, table, cols, rows, pk_cols):
 
 
 def truncate_tables(dst_conn, tables):
-    """Truncate tutte le tabelle nel DB di destinazione."""
+    """Truncate delle tabelle nel DB di destinazione (ordine inverso rispetto alle FK)."""
     with dst_conn.cursor() as cur:
-        for table in reversed(tables):  # Ordine inverso per gestire le FK
+        for table in reversed(tables):
             cur.execute(sql.SQL("TRUNCATE TABLE {} CASCADE").format(sql.Identifier(table)))
             dst_conn.commit()
             print(f"{table}: truncated")
@@ -97,13 +185,15 @@ def copy_table(src_conn, dst_conn, table, batch_size=BATCH_SIZE):
 
 def main():
     with psycopg2.connect(SRC_DSN) as src_conn, psycopg2.connect(DST_DSN) as dst_conn:
+        tables = resolve_tables(src_conn)
+
         with dst_conn.cursor() as cur:
             cur.execute("SET session_replication_role = 'replica';")
         try:
             print("=== Truncating destination tables ===")
-            truncate_tables(dst_conn, TABLES)
+            truncate_tables(dst_conn, tables)
             print("\n=== Copying data from source ===")
-            for table in TABLES:
+            for table in tables:
                 copy_table(src_conn, dst_conn, table)
         finally:
             with dst_conn.cursor() as cur:
