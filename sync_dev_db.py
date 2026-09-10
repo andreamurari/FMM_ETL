@@ -130,6 +130,25 @@ def get_pk_columns(conn, table):
         return [row[0] for row in cur.fetchall()]
 
 
+def has_generated_always_identity(conn, table):
+    """True se la tabella ha almeno una colonna IDENTITY GENERATED ALWAYS.
+
+    In quel caso l'INSERT deve usare OVERRIDING SYSTEM VALUE per poter
+    riscrivere i valori presi da prod (session_replication_role non basta).
+    """
+    query = """
+        SELECT 1
+        FROM pg_attribute a
+        WHERE a.attrelid = %s::regclass
+          AND a.attidentity = 'a'
+          AND NOT a.attisdropped
+        LIMIT 1;
+    """
+    with conn.cursor() as cur:
+        cur.execute(query, (f'public."{table}"',))
+        return cur.fetchone() is not None
+
+
 def fetch_rows(cur, table, offset, limit):
     query = sql.SQL("SELECT * FROM {} OFFSET %s LIMIT %s").format(sql.Identifier(table))
     cur.execute(query, (offset, limit))
@@ -137,25 +156,26 @@ def fetch_rows(cur, table, offset, limit):
     return cols, cur.fetchall()
 
 
-def upsert_rows(cur, table, cols, rows, pk_cols):
+def upsert_rows(cur, table, cols, rows, pk_cols, overriding=False):
     cols_list = ",".join(f'"{c}"' for c in cols)
     placeholders = "(" + ",".join(["%s"] * len(cols)) + ")"
+    override_clause = "OVERRIDING SYSTEM VALUE " if overriding else ""
 
     if pk_cols:
         conflict_cols = "(" + ",".join(f'"{c}"' for c in pk_cols) + ")"
         set_clause = ",".join(f'"{c}" = EXCLUDED."{c}"' for c in cols if c not in pk_cols)
         if set_clause:
             insert_sql = (
-                f'INSERT INTO "{table}" ({cols_list}) VALUES %s '
+                f'INSERT INTO "{table}" ({cols_list}) {override_clause}VALUES %s '
                 f"ON CONFLICT {conflict_cols} DO UPDATE SET {set_clause}"
             )
         else:
             insert_sql = (
-                f'INSERT INTO "{table}" ({cols_list}) VALUES %s '
+                f'INSERT INTO "{table}" ({cols_list}) {override_clause}VALUES %s '
                 "ON CONFLICT " + conflict_cols + " DO NOTHING"
             )
     else:
-        insert_sql = f'INSERT INTO "{table}" ({cols_list}) VALUES %s'
+        insert_sql = f'INSERT INTO "{table}" ({cols_list}) {override_clause}VALUES %s'
 
     execute_values(cur, insert_sql, rows, template=placeholders, page_size=BATCH_SIZE)
 
@@ -171,13 +191,14 @@ def truncate_tables(dst_conn, tables):
 
 def copy_table(src_conn, dst_conn, table, batch_size=BATCH_SIZE):
     pk_cols = get_pk_columns(dst_conn, table)
+    overriding = has_generated_always_identity(dst_conn, table)
     with src_conn.cursor() as src_cur, dst_conn.cursor() as dst_cur:
         offset = 0
         while True:
             cols, rows = fetch_rows(src_cur, table, offset, batch_size)
             if not rows:
                 break
-            upsert_rows(dst_cur, table, cols, rows, pk_cols)
+            upsert_rows(dst_cur, table, cols, rows, pk_cols, overriding)
             dst_conn.commit()
             offset += len(rows)
             print(f"{table}: copiati {len(rows)} record (tot {offset})")
@@ -196,6 +217,9 @@ def main():
             for table in tables:
                 copy_table(src_conn, dst_conn, table)
         finally:
+            # Se una copia e' fallita la transazione e' abortita: sblocchiamola
+            # prima di rimettere a posto session_replication_role.
+            dst_conn.rollback()
             with dst_conn.cursor() as cur:
                 cur.execute("SET session_replication_role = 'origin';")
             dst_conn.commit()
