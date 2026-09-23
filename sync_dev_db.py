@@ -1,7 +1,7 @@
 import os
 import psycopg2
 from psycopg2 import sql
-from psycopg2.extras import execute_values
+from psycopg2.extras import execute_values, register_default_json, register_default_jsonb
 
 # Conn string dirette (sovrascrivibili via env). Metti qui i DSN completi.
 SRC_DSN = os.environ.get("SUPABASE_PASSWORD_PROD")
@@ -117,6 +117,103 @@ def resolve_tables(src_conn):
     return ordered
 
 
+# Firma dello schema public usata per verificare che dev sia allineato a prod
+# prima di toccare i dati. Trigger e cron job sono esclusi di proposito: quelli
+# di prod (webhook verso la webapp, job pg_cron) non devono esistere in dev.
+SCHEMA_QUERIES = {
+    "tabella": """
+        SELECT c.relname, ''
+        FROM pg_class c
+        WHERE c.relnamespace = 'public'::regnamespace AND c.relkind = 'r'
+    """,
+    "colonna": """
+        SELECT c.relname || '.' || a.attname,
+               format_type(a.atttypid, a.atttypmod)
+               || CASE WHEN a.attnotnull THEN ' NOT NULL' ELSE '' END
+               || CASE a.attidentity WHEN 'a' THEN ' IDENTITY ALWAYS'
+                                     WHEN 'd' THEN ' IDENTITY BY DEFAULT' ELSE '' END
+               || COALESCE(' DEFAULT ' || pg_get_expr(d.adbin, d.adrelid), '')
+        FROM pg_attribute a
+        JOIN pg_class c ON c.oid = a.attrelid
+        LEFT JOIN pg_attrdef d ON d.adrelid = a.attrelid AND d.adnum = a.attnum
+        WHERE c.relnamespace = 'public'::regnamespace AND c.relkind = 'r'
+          AND a.attnum > 0 AND NOT a.attisdropped
+    """,
+    "vincolo": """
+        SELECT conrelid::regclass || '.' || conname, pg_get_constraintdef(oid)
+        FROM pg_constraint
+        WHERE connamespace = 'public'::regnamespace AND conrelid <> 0
+    """,
+    "funzione": """
+        SELECT p.proname || '(' || pg_get_function_identity_arguments(p.oid) || ')',
+               md5(replace(pg_get_functiondef(p.oid), chr(13), ''))
+        FROM pg_proc p
+        WHERE p.pronamespace = 'public'::regnamespace AND p.prokind IN ('f', 'p')
+    """,
+}
+
+
+def schema_signature(conn):
+    sig = {}
+    with conn.cursor() as cur:
+        for kind, query in SCHEMA_QUERIES.items():
+            cur.execute(query)
+            sig.update({(kind, name): value for name, value in cur.fetchall()})
+    return sig
+
+
+def check_schema(src_conn, dst_conn):
+    """Interrompe la sync se lo schema di dev differisce da quello di prod.
+
+    Lo script copia solo i dati: tabelle, colonne, vincoli e funzioni nuovi o
+    modificati in prod vanno portati su dev con uno script in sql/, eseguito
+    dal workflow Apply_SQL_to_dev_DB.
+    """
+    src, dst = schema_signature(src_conn), schema_signature(dst_conn)
+    diffs = []
+    for key in sorted(src.keys() | dst.keys()):
+        kind, name = key
+        if key not in dst:
+            diffs.append(f"  manca in dev   {kind} {name}  [{src[key]}]")
+        elif key not in src:
+            diffs.append(f"  solo in dev    {kind} {name}  [{dst[key]}]")
+        elif src[key] != dst[key]:
+            diffs.append(f"  diverso        {kind} {name}\n      prod: {src[key]}\n      dev:  {dst[key]}")
+    if diffs:
+        raise RuntimeError(
+            "Lo schema di dev non e' allineato a prod, sync annullata "
+            "(nessun dato toccato):\n" + "\n".join(diffs)
+        )
+    print("Schema dev allineato a prod.")
+
+
+def reset_sequences(dst_conn, tables):
+    """Porta le sequence di identity/serial oltre il max id copiato da prod.
+
+    Inserendo gli id espliciti le sequence di dev non avanzano, e il primo
+    INSERT della webapp andrebbe in conflitto con una riga esistente.
+    """
+    query = """
+        SELECT a.attname, pg_get_serial_sequence(%s, a.attname)
+        FROM pg_attribute a
+        WHERE a.attrelid = %s::regclass AND a.attnum > 0 AND NOT a.attisdropped
+          AND pg_get_serial_sequence(%s, a.attname) IS NOT NULL;
+    """
+    with dst_conn.cursor() as cur:
+        for table in tables:
+            qualified = f'public."{table}"'
+            cur.execute(query, (qualified, qualified, qualified))
+            for col, seq in cur.fetchall():
+                cur.execute(
+                    sql.SQL("SELECT setval(%s, COALESCE(max({col}), 0) + 1, false) FROM {tab}").format(
+                        col=sql.Identifier(col), tab=sql.Identifier(table)
+                    ),
+                    (seq,),
+                )
+                print(f"{table}.{col}: sequence riallineata")
+    dst_conn.commit()
+
+
 def get_pk_columns(conn, table):
     query = """
         SELECT a.attname
@@ -206,7 +303,13 @@ def copy_table(src_conn, dst_conn, table, batch_size=BATCH_SIZE):
 
 def main():
     with psycopg2.connect(SRC_DSN) as src_conn, psycopg2.connect(DST_DSN) as dst_conn:
+        # Le colonne json/jsonb restano stringhe grezze: psycopg2 non saprebbe
+        # riadattare in INSERT i dict/list decodificati (es. formazione.slot).
+        register_default_json(src_conn, loads=lambda x: x)
+        register_default_jsonb(src_conn, loads=lambda x: x)
+
         tables = resolve_tables(src_conn)
+        check_schema(src_conn, dst_conn)
 
         with dst_conn.cursor() as cur:
             cur.execute("SET session_replication_role = 'replica';")
@@ -216,6 +319,8 @@ def main():
             print("\n=== Copying data from source ===")
             for table in tables:
                 copy_table(src_conn, dst_conn, table)
+            print("\n=== Resetting sequences ===")
+            reset_sequences(dst_conn, tables)
         finally:
             # Se una copia e' fallita la transazione e' abortita: sblocchiamola
             # prima di rimettere a posto session_replication_role.
