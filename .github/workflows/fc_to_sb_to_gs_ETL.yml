@@ -34,6 +34,9 @@ jobs:
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: stable
+          # Chromedriver della stessa versione di Chrome: senza, Selenium usa quello
+          # preinstallato nel runner, che resta indietro quando esce un nuovo stable.
+          install-chromedriver: true
 
       - name: Esegui fc_to_sb_to_gs_ETL
         run: python -u fc_to_sb_to_gs_ETL.py
@@ -42,6 +45,7 @@ jobs:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           FANTACALCIO_PASSWORD: ${{ secrets.FANTACALCIO_PASSWORD }}
           CHROME_BIN: ${{ steps.setup-chrome.outputs.chrome-path }}
+          CHROMEDRIVER_PATH: ${{ steps.setup-chrome.outputs.chromedriver-path }}
 
       # Scarica il LOG (conservato per 3 giorni)
       - name: Upload log artifact
