@@ -1,0 +1,45 @@
+id,stagione,competizione,fase,squadra,posizione,crediti_generati
+1,24-25,Campionato,,ZeroDayz FC,1,110
+2,24-25,Campionato,,Al-Colizzati,2,100
+3,24-25,Campionato,,Metodo Monchi FC,3,90
+4,24-25,Campionato,,Diaolo Porco,4,80
+5,24-25,Campionato,,FC Pontos,5,70
+6,24-25,Campionato,,Diablitos FC,6,65
+7,24-25,Campionato,,CyberDucks,7,55
+8,24-25,Campionato,,Sborada,8,50
+9,24-25,Campionato,,FC Sovescio,9,40
+10,24-25,Campionato,,AC Ciaccati,10,35
+11,24-25,Coppa,Girone A,Metodo Monchi FC,1,1
+12,24-25,Coppa,Girone A,FC Pontos,2,1
+13,24-25,Coppa,Girone A,Sborada,3,0
+14,24-25,Coppa,Girone A,ZeroDayz FC,4,0
+15,24-25,Coppa,Girone A,AC Ciaccati,5,0
+16,24-25,Coppa,Girone B,Diablitos FC,1,1
+17,24-25,Coppa,Girone B,Diaolo Porco,2,1
+18,24-25,Coppa,Girone B,CyberDucks,3,0
+19,24-25,Coppa,Girone B,Al-Colizzati,4,0
+20,24-25,Coppa,Girone B,FC Sovescio,5,0
+21,24-25,Coppa,Final 4,Diablitos FC,1,55
+22,24-25,Coppa,Final 4,Metodo Monchi FC,2,35
+23,25-26,Campionato,,Metodo Monchi FC,1,95
+24,25-26,Campionato,,FC Sovescio,2,85
+25,25-26,Campionato,,Diablitos FC,3,75
+26,25-26,Campionato,,Diaolo Porco,4,65
+27,25-26,Campionato,,AC Ciaccati,5,60
+28,25-26,Campionato,,Sborada,6,55
+29,25-26,Campionato,,FC Pontos,7,50
+30,25-26,Campionato,,ZeroDayz FC,8,45
+31,25-26,Campionato,,Al-Colizzati,9,35
+32,25-26,Campionato,,CyberDucks,10,30
+33,25-26,Coppa,Girone A,ZeroDayz FC,1,0
+34,25-26,Coppa,Girone A,Metodo Monchi FC,2,0
+35,25-26,Coppa,Girone A,FC Sovescio,3,0
+36,25-26,Coppa,Girone A,CyberDucks,4,0
+37,25-26,Coppa,Girone A,Diaolo Porco,5,0
+38,25-26,Coppa,Girone B,Al-Colizzati,1,0
+39,25-26,Coppa,Girone B,FC Pontos,2,0
+40,25-26,Coppa,Girone B,Diablitos FC,3,0
+41,25-26,Coppa,Girone B,Sborada,4,0
+42,25-26,Coppa,Girone B,AC Ciaccati,5,0
+43,25-26,Coppa,Final 4,Metodo Monchi FC,1,45
+44,25-26,Coppa,Final 4,FC Pontos,2,25
