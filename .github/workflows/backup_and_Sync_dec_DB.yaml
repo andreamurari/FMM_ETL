@@ -47,6 +47,8 @@ jobs:
   # ==========================================
   sync-database:
     needs: backup # 🔗 FONDAMENTALE: aspetta che il job "backup" finisca con successo
+    # Solo avvio manuale: la schedule notturna esegue il backup ma non la sync (troppo Disk IO su dev)
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

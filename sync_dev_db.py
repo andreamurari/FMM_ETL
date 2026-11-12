@@ -246,11 +246,22 @@ def has_generated_always_identity(conn, table):
         return cur.fetchone() is not None
 
 
-def fetch_rows(cur, table, offset, limit):
-    query = sql.SQL("SELECT * FROM {} OFFSET %s LIMIT %s").format(sql.Identifier(table))
-    cur.execute(query, (offset, limit))
-    cols = [desc.name for desc in cur.description]
-    return cols, cur.fetchall()
+def iter_rows(src_conn, table, pk_cols, batch_size=BATCH_SIZE):
+    """Legge la tabella con un cursore server-side ordinato per PK.
+
+    Una sola query per tabella (niente OFFSET ripetuti) e ordine stabile:
+    nessuna riga saltata o duplicata tra un batch e l'altro."""
+    query = sql.SQL("SELECT * FROM {}").format(sql.Identifier(table))
+    if pk_cols:
+        query += sql.SQL(" ORDER BY ") + sql.SQL(",").join(sql.Identifier(c) for c in pk_cols)
+    with src_conn.cursor(name="sync_cursor") as cur:
+        cur.itersize = batch_size
+        cur.execute(query)
+        while True:
+            rows = cur.fetchmany(batch_size)
+            if not rows:
+                break
+            yield [desc.name for desc in cur.description], rows
 
 
 def upsert_rows(cur, table, cols, rows, pk_cols, overriding=False):
@@ -260,11 +271,17 @@ def upsert_rows(cur, table, cols, rows, pk_cols, overriding=False):
 
     if pk_cols:
         conflict_cols = "(" + ",".join(f'"{c}"' for c in pk_cols) + ")"
-        set_clause = ",".join(f'"{c}" = EXCLUDED."{c}"' for c in cols if c not in pk_cols)
+        other_cols = [c for c in cols if c not in pk_cols]
+        set_clause = ",".join(f'"{c}" = EXCLUDED."{c}"' for c in other_cols)
         if set_clause:
+            # Aggiorna solo le righe realmente cambiate: evita scritture/WAL inutili.
+            # Confronto via ::text perche' il tipo json non ha operatore di uguaglianza.
+            changed = " OR ".join(
+                f'"{table}"."{c}"::text IS DISTINCT FROM EXCLUDED."{c}"::text' for c in other_cols
+            )
             insert_sql = (
                 f'INSERT INTO "{table}" ({cols_list}) {override_clause}VALUES %s '
-                f"ON CONFLICT {conflict_cols} DO UPDATE SET {set_clause}"
+                f"ON CONFLICT {conflict_cols} DO UPDATE SET {set_clause} WHERE {changed}"
             )
         else:
             insert_sql = (
@@ -277,28 +294,49 @@ def upsert_rows(cur, table, cols, rows, pk_cols, overriding=False):
     execute_values(cur, insert_sql, rows, template=placeholders, page_size=BATCH_SIZE)
 
 
-def truncate_tables(dst_conn, tables):
-    """Truncate delle tabelle nel DB di destinazione (ordine inverso rispetto alle FK)."""
+def delete_missing_rows(dst_conn, table, pk_cols, src_keys):
+    """Elimina da dev le righe che non esistono piu' in prod (confronto per PK)."""
     with dst_conn.cursor() as cur:
-        for table in reversed(tables):
-            cur.execute(sql.SQL("TRUNCATE TABLE {} CASCADE").format(sql.Identifier(table)))
-            dst_conn.commit()
-            print(f"{table}: truncated")
+        cur.execute(
+            sql.SQL("SELECT {} FROM {}").format(
+                sql.SQL(",").join(sql.Identifier(c) for c in pk_cols), sql.Identifier(table)
+            )
+        )
+        stale = [row for row in cur.fetchall() if row not in src_keys]
+        where = sql.SQL("({}) IN %s").format(sql.SQL(",").join(sql.Identifier(c) for c in pk_cols))
+        query = sql.SQL("DELETE FROM {} WHERE ").format(sql.Identifier(table)) + where
+        for i in range(0, len(stale), BATCH_SIZE):
+            cur.execute(query, (tuple(stale[i : i + BATCH_SIZE]),))
+    dst_conn.commit()
+    if stale:
+        print(f"{table}: eliminate {len(stale)} righe non piu' presenti in prod")
 
 
-def copy_table(src_conn, dst_conn, table, batch_size=BATCH_SIZE):
+def copy_table(src_conn, dst_conn, table):
     pk_cols = get_pk_columns(dst_conn, table)
     overriding = has_generated_always_identity(dst_conn, table)
-    with src_conn.cursor() as src_cur, dst_conn.cursor() as dst_cur:
-        offset = 0
-        while True:
-            cols, rows = fetch_rows(src_cur, table, offset, batch_size)
-            if not rows:
-                break
+
+    if not pk_cols:
+        # Senza PK l'upsert non e' possibile: unico caso in cui si svuota e si ricopia.
+        with dst_conn.cursor() as cur:
+            cur.execute(sql.SQL("TRUNCATE TABLE {}").format(sql.Identifier(table)))
+        dst_conn.commit()
+        print(f"{table}: nessuna PK, tabella svuotata e ricopiata")
+
+    src_keys = set()
+    total = 0
+    with dst_conn.cursor() as dst_cur:
+        for cols, rows in iter_rows(src_conn, table, pk_cols):
             upsert_rows(dst_cur, table, cols, rows, pk_cols, overriding)
             dst_conn.commit()
-            offset += len(rows)
-            print(f"{table}: copiati {len(rows)} record (tot {offset})")
+            if pk_cols:
+                idx = [cols.index(c) for c in pk_cols]
+                src_keys.update(tuple(r[i] for i in idx) for r in rows)
+            total += len(rows)
+            print(f"{table}: elaborati {len(rows)} record (tot {total})")
+
+    if pk_cols:
+        delete_missing_rows(dst_conn, table, pk_cols, src_keys)
 
 
 def main():
@@ -314,9 +352,7 @@ def main():
         with dst_conn.cursor() as cur:
             cur.execute("SET session_replication_role = 'replica';")
         try:
-            print("=== Truncating destination tables ===")
-            truncate_tables(dst_conn, tables)
-            print("\n=== Copying data from source ===")
+            print("=== Syncing data from source (upsert, no truncate) ===")
             for table in tables:
                 copy_table(src_conn, dst_conn, table)
             print("\n=== Resetting sequences ===")
