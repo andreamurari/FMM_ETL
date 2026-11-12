@@ -1,10 +1,10 @@
 name: Backup_and_Sync_dev_DB  
 
 on:
-  # BLOCCATO: il DB e' in pausa e risponde lentamente. Il backup notturno ora e' in backup_sb.yml.
+  # Schedule disattivata (DB in pausa e lento): solo avvio manuale. Il backup notturno e' in backup_sb.yml.
   # schedule:
   #   - cron: "0 2 * * *"
-  workflow_dispatch:      # ✅ Avvio manuale possibile (ma i job sono disattivati con if: false)
+  workflow_dispatch:      # ✅ Avvio manuale
 
 permissions:
   contents: write         # 🔐 Permesso per fare push nel repo (serve al job di backup)
@@ -14,7 +14,6 @@ jobs:
   # STEP 1: BACKUP DEI DATI IN CSV
   # ==========================================
   backup:
-    if: false # BLOCCATO (vedi backup_sb.yml)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -49,7 +48,6 @@ jobs:
   # ==========================================
   sync-database:
     needs: backup # 🔗 FONDAMENTALE: aspetta che il job "backup" finisca con successo
-    if: false # BLOCCATO: sync disattivata (DB dev in pausa)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
