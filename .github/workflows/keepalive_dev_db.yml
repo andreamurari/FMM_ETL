@@ -19,7 +19,7 @@ jobs:
           PGCONNECT_TIMEOUT: "60"
         run: |
           for i in 1 2 3; do
-            if psql "$SUPABASE_PASSWORD_DEV" -v ON_ERROR_STOP=1 -tAc "SELECT count(*) FROM (SELECT 1 FROM public.giocatore LIMIT 1) t;"; then
+            if psql "$SUPABASE_PASSWORD_DEV" -v ON_ERROR_STOP=1 -tAc "SELECT current_user AS utente, (SELECT count(*) FROM (SELECT 1 FROM public.giocatore LIMIT 1) t) AS righe;"; then
               exit 0
             fi
             echo "Tentativo $i fallito, riprovo tra 30s..."
