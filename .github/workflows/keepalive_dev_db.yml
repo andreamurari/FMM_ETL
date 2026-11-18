@@ -1,0 +1,29 @@
+name: Keepalive_dev_DB
+
+# Evita che Supabase metta in pausa il DB di sviluppo per inattivita' (>7 giorni).
+# Apre una connessione e legge una riga da una tabella: nessuna scrittura, IO trascurabile.
+# Usa lo stesso secret DSN di dev gia' usato da sync_dev_db.py.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # ogni giorno alle 6:00 UTC
+  workflow_dispatch:      # avvio manuale possibile
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping dev DB
+        env:
+          SUPABASE_PASSWORD_DEV: ${{ secrets.SUPABASE_PASSWORD_DEV }}
+          PGCONNECT_TIMEOUT: "60"
+        run: |
+          for i in 1 2 3; do
+            if psql "$SUPABASE_PASSWORD_DEV" -v ON_ERROR_STOP=1 -tAc "SELECT count(*) FROM (SELECT 1 FROM public.giocatore LIMIT 1) t;"; then
+              exit 0
+            fi
+            echo "Tentativo $i fallito, riprovo tra 30s..."
+            sleep 30
+          done
+          echo "Il DB di dev non risponde dopo 3 tentativi (forse e' gia' in pausa)."
+          exit 1
