@@ -18,7 +18,7 @@ jobs:
           SUPABASE_PASSWORD_DEV: ${{ secrets.SUPABASE_PASSWORD_DEV }}
           PGCONNECT_TIMEOUT: "60"
         run: |
-          echo "Host: $(echo "$SUPABASE_PASSWORD_DEV" | sed -E 's#.*@([^:/?]+).*##')"
+          echo "Host: $(echo "$SUPABASE_PASSWORD_DEV" | sed -E 's#.*@([^:/?]+).*#\1#')"
           for i in 1 2 3; do
             if psql "$SUPABASE_PASSWORD_DEV" -v ON_ERROR_STOP=1 -tAc "SELECT current_user AS utente, (SELECT count(*) FROM (SELECT 1 FROM public.giocatore LIMIT 1) t) AS righe;"; then
               exit 0
